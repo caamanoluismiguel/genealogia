@@ -1,0 +1,2549 @@
+{
+  "persons": [
+    {
+      "id": "p001",
+      "firstName": "José Tomás",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Caamaño, A Coruña, España",
+      "notes": "Patriarca. Emigró desde España a Colombia.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Caamaño, A Coruña, España",
+          "to": "Colombia",
+          "reason": "Emigración familiar"
+        }
+      ]
+    },
+    {
+      "id": "p002",
+      "firstName": "Desconocida",
+      "lastName": "Soto",
+      "gender": "female",
+      "birthPlace": "Caamaño, A Coruña, España",
+      "notes": "Esposa de José Tomás Caamaño. Nombre de pila desconocido.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Caamaño, A Coruña, España",
+          "to": "Colombia",
+          "reason": "Emigración familiar"
+        }
+      ]
+    },
+    {
+      "id": "p003",
+      "firstName": "José María",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Caamaño, A Coruña, España",
+      "notes": "Hermano de José Tomás. Emigró a República Dominicana.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Caamaño, A Coruña, España",
+          "to": "República Dominicana",
+          "reason": "Emigración familiar"
+        }
+      ]
+    },
+    {
+      "id": "p004",
+      "firstName": "Salvador",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Caamaño, A Coruña, España",
+      "notes": "Hermano de José Tomás. Emigró a Ecuador.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Caamaño, A Coruña, España",
+          "to": "Ecuador",
+          "reason": "Emigración familiar"
+        }
+      ]
+    },
+    {
+      "id": "p005",
+      "firstName": "Desconocido",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Caamaño, A Coruña, España",
+      "notes": "Hermano de José Tomás. Emigró a Argentina. Nombre desconocido.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Caamaño, A Coruña, España",
+          "to": "Argentina",
+          "reason": "Emigración familiar"
+        }
+      ]
+    },
+    {
+      "id": "p006",
+      "firstName": "José Tomás",
+      "lastName": "Caamaño Soto",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p007",
+      "firstName": "Faustina",
+      "lastName": "Reales",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de José Tomás Caamaño Soto.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p008",
+      "firstName": "Miguel",
+      "lastName": "Caamaño Soto",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p009",
+      "firstName": "Ruthesinda",
+      "lastName": "Rangel",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Miguel Caamaño Soto.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p010",
+      "firstName": "Faustina",
+      "lastName": "Caamaño Reales",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p011",
+      "firstName": "José Tomás",
+      "lastName": "Caamaño Reales",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p012",
+      "firstName": "Felicia",
+      "lastName": "Caamaño Reales",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p013",
+      "firstName": "Benjamin",
+      "lastName": "Caamaño Reales",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p014",
+      "firstName": "Dominga",
+      "lastName": "Castro",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Benjamin Caamaño Reales.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p015",
+      "firstName": "Benjamin",
+      "lastName": "Caamaño Castro",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p016",
+      "firstName": "Felicia",
+      "lastName": "",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Benjamin Caamaño Castro. Apellido desconocido.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p017",
+      "firstName": "Faustina",
+      "lastName": "Caamaño Castro",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p018",
+      "firstName": "Trinidad",
+      "lastName": "Caamaño Castro",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p019",
+      "firstName": "Manuel Felipe",
+      "lastName": "Caamaño Castro",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p020",
+      "firstName": "Antíope",
+      "lastName": "Bustamante",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Manuel Felipe Caamaño Castro.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p021",
+      "firstName": "Camilo",
+      "lastName": "Caamaño Castro",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p022",
+      "firstName": "Maria Luisa",
+      "lastName": "Villalobos",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Camilo Caamaño Castro.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p023",
+      "firstName": "Nestor",
+      "lastName": "Caamaño Castro",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p024",
+      "firstName": "Exceptación",
+      "lastName": "Garizabal",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Nestor Caamaño Castro.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p025",
+      "firstName": "Emilio",
+      "lastName": "Caamaño Castro",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p026",
+      "firstName": "Emma",
+      "lastName": "Laino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Emilio Caamaño Castro.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p027",
+      "firstName": "Atala",
+      "lastName": "Caamaño Bustamante",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p028",
+      "firstName": "Desconocido",
+      "lastName": "Yxxxx",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Atala Caamaño Bustamante. Nombre y apellido desconocidos.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p029",
+      "firstName": "Beatriz",
+      "lastName": "Caamaño Bustamante",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p030",
+      "firstName": "Maria Elena",
+      "lastName": "Caamaño Bustamante",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p031",
+      "firstName": "Maria Luisa",
+      "lastName": "Caamaño Villalobos",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p032",
+      "firstName": "Vasco",
+      "lastName": "Caamaño Villalobos",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p033",
+      "firstName": "Camilo",
+      "lastName": "Caamaño Villalobos",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p034",
+      "firstName": "Cecilia",
+      "lastName": "Caamaño Villalobos",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p035",
+      "firstName": "Martha",
+      "lastName": "Caamaño Garizabal",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p036",
+      "firstName": "Lucia",
+      "lastName": "Caamaño Garizabal",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p037",
+      "firstName": "Luis",
+      "lastName": "Caamaño Garizabal",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p038",
+      "firstName": "Manuel Felipe",
+      "lastName": "Caamaño Laino",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p039",
+      "firstName": "Benjamin",
+      "lastName": "Caamaño Laino",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p040",
+      "firstName": "Carmela",
+      "lastName": "Caamaño Laino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p041",
+      "firstName": "Emma",
+      "lastName": "Caamaño Laino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p042",
+      "firstName": "Carmelo",
+      "lastName": "Caamaño Laino",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p043",
+      "firstName": "Emilio",
+      "lastName": "Caamaño Laino",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p044",
+      "firstName": "Alma",
+      "lastName": "Caamaño Laino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p045",
+      "firstName": "Brígida",
+      "lastName": "Caamaño Rangel",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Miguel Caamaño Soto y Ruthesinda Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p046",
+      "firstName": "Licerio",
+      "lastName": "Caamaño Rangel",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Miguel Caamaño Soto y Ruthesinda Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p047",
+      "firstName": "Jacob",
+      "lastName": "Caamaño Rangel",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p048",
+      "firstName": "Salvadora",
+      "lastName": "Blanquicet",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Jacob Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p049",
+      "firstName": "Ruth",
+      "lastName": "Caamaño Blanquicet",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p050",
+      "firstName": "Maria Salud",
+      "lastName": "Caamaño Blanquicet",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p051",
+      "firstName": "Nicanor",
+      "lastName": "Pérez Cogollo",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Maria Salud Caamaño Blanquicet.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p052",
+      "firstName": "Elias",
+      "lastName": "Caamaño Blanquicet",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p053",
+      "firstName": "Daniel",
+      "lastName": "Caamaño Blanquicet",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p054",
+      "firstName": "Miguel Gustavo",
+      "lastName": "Caamaño Blanquicet",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p055",
+      "firstName": "Fanny",
+      "lastName": "León Sanchez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Miguel Gustavo Caamaño Blanquicet.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p056",
+      "firstName": "Martha",
+      "lastName": "Pérez Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p057",
+      "firstName": "Luis",
+      "lastName": "Rivera",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Martha Pérez Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p058",
+      "firstName": "Nicanor",
+      "lastName": "Pérez Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p059",
+      "firstName": "Graciela",
+      "lastName": "Pereira",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Nicanor Pérez Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p060",
+      "firstName": "Gloria",
+      "lastName": "Pérez Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p061",
+      "firstName": "José",
+      "lastName": "Diaz",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Gloria Pérez Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p062",
+      "firstName": "Rafael Emiro",
+      "lastName": "Pérez Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p063",
+      "firstName": "Stella Isabel",
+      "lastName": "Jaramillo",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Rafael Emiro Pérez Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p064",
+      "firstName": "Fabio Miguel",
+      "lastName": "Pérez Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p065",
+      "firstName": "Laura Marcela",
+      "lastName": "Pérez Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p066",
+      "firstName": "Luz Stella",
+      "lastName": "Caamaño León",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p067",
+      "firstName": "Janette",
+      "lastName": "Caamaño León",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p068",
+      "firstName": "Byron",
+      "lastName": "Pérez",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Janette Caamaño León.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p069",
+      "firstName": "Gustavo Javier",
+      "lastName": "Caamaño León",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p070",
+      "firstName": "Luz Alba",
+      "lastName": "Benitez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Gustavo Javier Caamaño León.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p071",
+      "firstName": "Beatriz Elena",
+      "lastName": "Caamaño León",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p072",
+      "firstName": "Moises",
+      "lastName": "Juliao",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Beatriz Elena Caamaño León.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p073",
+      "firstName": "Natalia",
+      "lastName": "Caamaño Benitez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p074",
+      "firstName": "David Salomón",
+      "lastName": "Juliao Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p075",
+      "firstName": "Luis Alberto",
+      "lastName": "Rivera Pérez",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p076",
+      "firstName": "Claudia",
+      "lastName": "Ponce",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Luis Alberto Rivera Pérez.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p077",
+      "firstName": "Ricardo",
+      "lastName": "Rivera Pérez",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p078",
+      "firstName": "Liz Mary",
+      "lastName": "Peñalver",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Ricardo Rivera Pérez.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p079",
+      "firstName": "Tania",
+      "lastName": "Pérez Pereira",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p080",
+      "firstName": "Efrain",
+      "lastName": "Posada",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Tania Pérez Pereira.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p081",
+      "firstName": "José Luis",
+      "lastName": "Pérez Pereira",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p082",
+      "firstName": "Yecenia",
+      "lastName": "Alvarez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de José Luis Pérez Pereira.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p083",
+      "firstName": "Miguel",
+      "lastName": "Pérez Pereira",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p084",
+      "firstName": "Doris",
+      "lastName": "Gavanzo",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Miguel Pérez Pereira.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p085",
+      "firstName": "Lizzette",
+      "lastName": "Diaz Pérez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p086",
+      "firstName": "Pedro",
+      "lastName": "Arevalo",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Lizzette Diaz Pérez.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p087",
+      "firstName": "Maria Angélica",
+      "lastName": "Diaz Pérez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p088",
+      "firstName": "Rommel",
+      "lastName": "Cueter",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Maria Angélica Diaz Pérez.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p089",
+      "firstName": "Jose Ignacio",
+      "lastName": "Diaz Pérez",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p090",
+      "firstName": "Claudia",
+      "lastName": "Angulo",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Jose Ignacio Diaz Pérez.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p091",
+      "firstName": "Ana Sofía",
+      "lastName": "Pérez Pisciotti",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Rafael Emiro Pérez Caamaño. Apellido materno diferente (posiblemente otra relación).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p092",
+      "firstName": "Rafael David",
+      "lastName": "Pérez Jaramillo",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p093",
+      "firstName": "Sandra",
+      "lastName": "La Sala",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Rafael David Pérez Jaramillo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p094",
+      "firstName": "Luis Fernando",
+      "lastName": "Pérez Jaramillo",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p095",
+      "firstName": "Elanis",
+      "lastName": "Rivera Ponce",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p096",
+      "firstName": "Sebastian",
+      "lastName": "Rivera Peñalver",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p097",
+      "firstName": "Luis José",
+      "lastName": "Posada Pérez",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p098",
+      "firstName": "Daniela",
+      "lastName": "Palma Diaz",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Lizzette Diaz Pérez. Apellido paterno diferente.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p099",
+      "firstName": "Andrea",
+      "lastName": "Arevalo Diaz",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p100",
+      "firstName": "Maria José",
+      "lastName": "Cuetter Diaz",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p101",
+      "firstName": "Juan Isaac",
+      "lastName": "Cuetter Diaz",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p102",
+      "firstName": "Juan Elias",
+      "lastName": "Cuetter Diaz",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p103",
+      "firstName": "Juan Ignacio",
+      "lastName": "Diaz Angulo",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p104",
+      "firstName": "Maria Juliana",
+      "lastName": "Diaz Angulo",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p105",
+      "firstName": "Andrea Sofia",
+      "lastName": "Diaz Perez",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p106",
+      "firstName": "Josué",
+      "lastName": "Diaz Perez",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p107",
+      "firstName": "Socorro",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Brígida Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p108",
+      "firstName": "César",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Brígida Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p109",
+      "firstName": "Brígida",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Brígida Caamaño Rangel. Mismo nombre que su madre.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p110",
+      "firstName": "Sergio",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Brígida Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p111",
+      "firstName": "Miguel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Brígida Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p112",
+      "firstName": "Celia",
+      "lastName": "Rapalino Blanco",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Miguel Caamaño (hijo de Brígida).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p113",
+      "firstName": "Elisa",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p114",
+      "firstName": "Aristóteles",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p115",
+      "firstName": "Bautista",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p116",
+      "firstName": "Uriel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel (primer Uriel).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p117",
+      "firstName": "Hector",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p118",
+      "firstName": "Carmen Maria",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Licerio Caamaño Rangel (primera Carmen Maria).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p119",
+      "firstName": "Carlos",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p120",
+      "firstName": "Sócrates",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p121",
+      "firstName": "Manuel Felipe",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p122",
+      "firstName": "Uriel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel (segundo Uriel).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p123",
+      "firstName": "Camilo",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p124",
+      "firstName": "Carmen Maria",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Licerio Caamaño Rangel (segunda Carmen Maria).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p125",
+      "firstName": "José Tomás",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p126",
+      "firstName": "Licerio",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel (mismo nombre que su padre).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p127",
+      "firstName": "Catalina",
+      "lastName": "Caamaño Villarreal",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Licerio Caamaño Rangel (con madre Villarreal).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p128",
+      "firstName": "Rafael",
+      "lastName": "Caamaño Villarreal",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel (con madre Villarreal).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p129",
+      "firstName": "Manuel",
+      "lastName": "Caamaño Villarreal",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Licerio Caamaño Rangel (con madre Villarreal).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p130",
+      "firstName": "Ibis",
+      "lastName": "Caamaño Villarreal",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Licerio Caamaño Rangel (con madre Villarreal).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p131",
+      "firstName": "Pabla",
+      "lastName": "Xxxx Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Descendiente de rama Brígida. Padre desconocido.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p132",
+      "firstName": "Julio",
+      "lastName": "Xxxx Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Descendiente de rama Brígida. Padre desconocido.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p133",
+      "firstName": "Felipa",
+      "lastName": "Xxxx Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Descendiente de rama Brígida. Padre desconocido.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p134",
+      "firstName": "Jorge",
+      "lastName": "Caamaño Quintero",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Descendiente de rama Brígida.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p135",
+      "firstName": "Celia Marina",
+      "lastName": "Caamaño Rapalino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p136",
+      "firstName": "Bernabé",
+      "lastName": "Caamaño Rapalino",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p137",
+      "firstName": "Silvia",
+      "lastName": "Perales",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Bernabé Caamaño Rapalino.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p138",
+      "firstName": "Omaira",
+      "lastName": "Caamaño Rapalino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p139",
+      "firstName": "Pedro",
+      "lastName": "Castaño Robles",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Esposo de Omaira Caamaño Rapalino.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p140",
+      "firstName": "Aidee",
+      "lastName": "Caamaño Rapalino",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p141",
+      "firstName": "Pedro",
+      "lastName": "Castaño Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p142",
+      "firstName": "Celia Marina",
+      "lastName": "Castaño Caamaño",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p143",
+      "firstName": "Miguel",
+      "lastName": "Castaño Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p144",
+      "firstName": "Jorge",
+      "lastName": "Castaño Caamaño",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p145",
+      "firstName": "Nohora",
+      "lastName": "Rangel",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Jorge Castaño Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p146",
+      "firstName": "Jorge Andres",
+      "lastName": "Castaño Rangel",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p147",
+      "firstName": "Jorge Mario",
+      "lastName": "Castaño Rangel",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p148",
+      "firstName": "Jorge Enrique",
+      "lastName": "Castaño Rangel",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p149",
+      "firstName": "Desconocida",
+      "lastName": "Villarreal",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Segunda esposa o pareja de Licerio Caamaño Rangel. Nombre desconocido.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p150",
+      "firstName": "Alejandra",
+      "lastName": "Perdomo",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Esposa de Luis Miguel Caamaño Morales.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p151",
+      "firstName": "Luis Miguel",
+      "lastName": "Caamaño Morales",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Luis Caamaño Garizabal. Creador de este árbol genealógico.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p152",
+      "firstName": "Pablo",
+      "lastName": "Caamaño Perdomo",
+      "gender": "male",
+      "birthPlace": "Colombia",
+      "notes": "Hijo de Luis Miguel Caamaño Morales y Alejandra Perdomo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p153",
+      "firstName": "María Lucía",
+      "lastName": "Caamaño Perdomo",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "notes": "Hija de Luis Miguel Caamaño Morales y Alejandra Perdomo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h001",
+      "firstName": "Rodrigo García",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "1100",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO (García Carraffa). Gen 1. Participó en conquista de Cuenca y Baeza (1146). Primer Caamaño documentado.",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1146",
+          "description": "Participó en conquista de Baeza"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h002",
+      "firstName": "Ilduara",
+      "lastName": "Fernández",
+      "gender": "female",
+      "birthPlace": "Galicia, España",
+      "notes": "HISTÓRICO. Esposa de Rodrigo García de Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h003",
+      "firstName": "Sancho García",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "deathDate": "1155",
+      "deathPlace": "Andújar, Jaén, España",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO. Gen 2. Murió en sitio de Andújar.",
+      "events": [
+        {
+          "type": "death",
+          "date": "1155",
+          "place": "Andújar",
+          "description": "Murió en el sitio de Andújar"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h004",
+      "firstName": "Constanza",
+      "lastName": "Fernández de Temes",
+      "gender": "female",
+      "notes": "HISTÓRICO. Primera esposa de Sancho García.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h005",
+      "firstName": "Fernán García",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO. Gen 3. Sucedió en Noya. Participó en Batalla de Las Navas de Tolosa (1212).",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1212",
+          "description": "Batalla de Las Navas de Tolosa"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h006",
+      "firstName": "Aldonza",
+      "lastName": "de Moscoso",
+      "gender": "female",
+      "notes": "HISTÓRICO. Familia Altamira. Esposa de Fernán García.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h007",
+      "firstName": "Garci Fernández",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "1200",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO. Gen 4. Sirvió al Rey Fernando III en conquistas de Córdoba y Sevilla.",
+      "events": [
+        {
+          "type": "custom",
+          "description": "Conquista de Córdoba y Sevilla con Fernando III"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h008",
+      "firstName": "Sancha",
+      "lastName": "de Saavedra",
+      "gender": "female",
+      "notes": "HISTÓRICO. Esposa de Garci Fernández.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h009",
+      "firstName": "Fernán García",
+      "lastName": "de Caamaño (II)",
+      "gender": "male",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO. Gen 5. Su hijo Vasco fundó la línea portuguesa Camões (poeta Luís de Camões).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h010",
+      "firstName": "Constanza Suárez",
+      "lastName": "de Figueroa",
+      "gender": "female",
+      "notes": "HISTÓRICO. Esposa de Fernán García II.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h011",
+      "firstName": "Garci Fernández",
+      "lastName": "de Caamaño (II)",
+      "gender": "male",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO. Gen 6. Siguió a D. Enrique de Trastámara.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h012",
+      "firstName": "María Pardo",
+      "lastName": "de Junqueras",
+      "gender": "female",
+      "notes": "HISTÓRICO. Esposa de Garci Fernández II.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h013",
+      "firstName": "García Rodríguez",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthPlace": "Noya, A Coruña, Galicia, España",
+      "notes": "HISTÓRICO. Gen 7. Recibió tierras de O Salnés del Arzobispo de Santiago (1390). Recuperó Tuy de los portugueses (1379).",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1379",
+          "description": "Recuperó Tuy de los portugueses"
+        },
+        {
+          "type": "custom",
+          "date": "1390",
+          "description": "Recibió tierras de O Salnés del Arzobispo de Santiago"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h014",
+      "firstName": "María Pérez",
+      "lastName": "das Mariñas",
+      "gender": "female",
+      "notes": "HISTÓRICO. Esposa de García Rodríguez.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h015",
+      "firstName": "Rui Fernández",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "deathDate": "1462",
+      "birthPlace": "Galicia, España",
+      "notes": "HISTÓRICO. Gen 8. Señor de la Casa de Caamaño. Alcaide de fortaleza de Barreira.",
+      "events": [
+        {
+          "type": "death",
+          "date": "1462"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h016",
+      "firstName": "Inés Fernández",
+      "lastName": "de Silva y Fajardo",
+      "gender": "female",
+      "notes": "HISTÓRICO. Esposa de Rui Fernández.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h017",
+      "firstName": "García",
+      "lastName": "de Caamaño 'El Hermoso'",
+      "gender": "male",
+      "birthPlace": "Galicia, España",
+      "notes": "HISTÓRICO. Gen 9. Señor de Rubianes, Vista Alegre, Arealonga. FUNDÓ VILLAGARCÍA DE AROUSA (carta puebla 2 mayo 1441). Construyó Pazo de Rubianes (inscripción 1411).",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1411",
+          "description": "Construyó Pazo de Rubianes"
+        },
+        {
+          "type": "custom",
+          "date": "1441-05-02",
+          "description": "Fundó Villagarcía de Arousa (carta puebla)"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h018",
+      "firstName": "Inés",
+      "lastName": "de Mendoza y Sotomayor",
+      "gender": "female",
+      "notes": "HISTÓRICO. Hija del Mariscal Suero Gómez de Sotomayor. Esposa de García 'El Hermoso'.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h019",
+      "firstName": "García",
+      "lastName": "de Caamaño de Mendoza 'El Alto'",
+      "gender": "male",
+      "deathDate": "1540-01",
+      "deathPlace": "Rubianes, Villagarcía de Arousa",
+      "birthPlace": "Galicia, España",
+      "notes": "HISTÓRICO. Gen 10. Sirvió a Reyes Católicos en Granada. Carlos I le nombró Señor de Casa de Rubianes (1535). Mayorazgo (1524). Enterrado en convento franciscano de Noya.",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1508",
+          "description": "Resolvió disputa con monasterio San Martín Pinario"
+        },
+        {
+          "type": "custom",
+          "date": "1524",
+          "description": "Autorización para fundar mayorazgo"
+        },
+        {
+          "type": "custom",
+          "date": "1535-02-04",
+          "description": "Carlos I le nombra Señor de Casa de Rubianes"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h020",
+      "firstName": "Constanza Sánchez",
+      "lastName": "de Bendaña",
+      "gender": "female",
+      "notes": "HISTÓRICO. Hija de Vasco Guillelmes, regidor de Noya. Esposa de García 'El Alto'.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h021",
+      "firstName": "José Antonio",
+      "lastName": "de Mendoza Caamaño y Sotomayor",
+      "gender": "male",
+      "birthDate": "1667",
+      "birthPlace": "Galicia, España",
+      "deathDate": "1746-12-17",
+      "deathPlace": "En el mar, frente a Cabo de Hornos, Chile",
+      "notes": "HISTÓRICO. 3er Marqués de Villagarcía. VIRREY DEL PERÚ (1736-1746). Embajador en Venecia. Virrey de Cataluña. Caballero de Santiago.",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1736-02-04",
+          "description": "Nombrado Virrey del Perú"
+        },
+        {
+          "type": "death",
+          "date": "1746-12-17",
+          "place": "En el mar, Cabo de Hornos",
+          "description": "Murió a los 79 años en viaje de regreso a España"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gap001",
+      "firstName": "⚠ BRECHA",
+      "lastName": "GENEALÓGICA",
+      "gender": "unknown",
+      "notes": "CONEXIÓN NO VERIFICADA. Entre la línea documentada medieval (García Carraffa, hasta ~1700s) y José Tomás Caamaño (emigrante a Colombia, ~1850s). Se necesita investigar: registros parroquiales de Santa María de Caamaño (Porto do Son) en FamilySearch, partida de bautismo de José Tomás, registros de emigración en PARES. La parroquia de Caamaño está en la Comarca de Noya — misma zona que la fortaleza ancestral de Castro Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs001",
+      "firstName": "[Desconocido]",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1770",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "INVESTIGACIÓN. Padre de Pablo Caamaño Villa. Deducido del apellido de Pablo (Caamaño Villa = padre Caamaño, madre Villa). Nacido probablemente en Muros (naturaleza de Pablo).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs002",
+      "firstName": "[Desconocida]",
+      "lastName": "Villa",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "INVESTIGACIÓN. Madre de Pablo Caamaño Villa. Apellido Villa deducido del segundo apellido de Pablo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs003",
+      "firstName": "Pablo",
+      "lastName": "Caamaño Villa",
+      "gender": "male",
+      "birthDate": "1802",
+      "birthPlace": "Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censo 1862 (#319) + censo 1869. Marinero. Viudo en 1862. Naturaleza: Muros. Único 'Caamaño Villa' en toda la base de datos de La Coruña. Vivía en Palmeira, Ribeira. Censo 1869 dice nacido 1798 (discrepancia normal en censos).",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1862",
+          "description": "Censo: Palmeira, Ribeira. Viudo, marinero, 60 años. Entrada #319."
+        },
+        {
+          "type": "custom",
+          "date": "1869",
+          "description": "Censo: Palmeira, Ribeira. Edad indica nacimiento ~1798."
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "fs004",
+      "firstName": "María",
+      "lastName": "Caamaño González",
+      "gender": "female",
+      "birthDate": "1824",
+      "birthPlace": "Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censo 1862. Posible hija mayor de Pablo Caamaño Villa. O hermana de José.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs005",
+      "firstName": "José",
+      "lastName": "Caamaño González",
+      "gender": "male",
+      "birthDate": "1833",
+      "birthPlace": "Lomba, Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censos 1862-1906. Múltiples apariciones. Vivió toda su vida en Lomba, Palmeira, Ribeira. Probable hijo de Pablo Caamaño Villa (misma parroquia, generación correcta). Nacimiento varía 1832-1835 según censo.",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1862",
+          "description": "Censo: Lomba, Palmeira, Ribeira"
+        },
+        {
+          "type": "custom",
+          "date": "1890",
+          "description": "Censo: con esposa Rosa y 3 hijos"
+        },
+        {
+          "type": "custom",
+          "date": "1900",
+          "description": "Censo: Ribeira, con esposa e hijos"
+        },
+        {
+          "type": "custom",
+          "date": "1906",
+          "description": "Censo: Ribeira, edad 74"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "fs006",
+      "firstName": "María Rosa",
+      "lastName": "González Millán",
+      "gender": "female",
+      "birthDate": "1827",
+      "birthPlace": "Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch. Esposa de José Caamaño González.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs007",
+      "firstName": "Juan",
+      "lastName": "Caamaño González",
+      "gender": "male",
+      "birthDate": "1832",
+      "birthPlace": "A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censo 1898. Mismo año de nacimiento que José — ¿gemelo? ¿primo?",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs008",
+      "firstName": "Ramona",
+      "lastName": "Caamaño González",
+      "gender": "female",
+      "birthDate": "1867",
+      "birthPlace": "Lomba, Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censos 1890-1950. Hija de José Caamaño González y Rosa González Millán. Tuvo hijos: José, Manuel, Ramón Caamaño + Rosa (n.1912).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs009",
+      "firstName": "Juan Francisco",
+      "lastName": "Caamaño González",
+      "gender": "male",
+      "birthDate": "1868",
+      "birthPlace": "Lomba, Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censos 1890-1930. Hijo de José y Rosa. Casado con Ramona Piferrer Vilar. Hijos: José, Juan, Vicente, Dolores, Manuel, Antonio Caamaño Piferrer.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs010",
+      "firstName": "Ramona",
+      "lastName": "Piferrer Vilar",
+      "gender": "female",
+      "notes": "FUENTE: FamilySearch. Esposa de Juan Francisco Caamaño González.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs011",
+      "firstName": "Josefa Juana",
+      "lastName": "Caamaño González",
+      "gender": "female",
+      "birthDate": "1870",
+      "birthPlace": "Lomba, Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censos 1890-1940. Hija de José y Rosa. Hijos: José, Enrique, Andrés, Ramón Caamaño Caamaño (padre también Caamaño — ambos padres del mismo apellido).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs012",
+      "firstName": "Manuel",
+      "lastName": "Caamaño González",
+      "gender": "male",
+      "birthDate": "1871",
+      "birthPlace": "Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch. Hijo de José Caamaño González y Rosa González Millán.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs013",
+      "firstName": "Encarnación",
+      "lastName": "Caamaño González",
+      "gender": "female",
+      "birthDate": "1878",
+      "birthPlace": "Lomba, Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censos 1898-1906. Hija menor de José y Rosa.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs014",
+      "firstName": "José",
+      "lastName": "Caamaño Incógnito",
+      "gender": "male",
+      "birthPlace": "Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch. Hijo de José Caamaño González y Rosa González Millán. 'Incógnito' = segundo apellido desconocido. Posible emigrante — registros incompletos porque se fue. ¿Podría ser José Tomás Caamaño (p001)?",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs015",
+      "firstName": "Felipe",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1820",
+      "birthPlace": "Sampedro, Palmeira, Ribeira, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censo 1869. Padre de José (n.1851), Andrés y Ramona Caamaño. Misma parroquia que Pablo Caamaño Villa — posiblemente hermano o hijo de Pablo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "fs016",
+      "firstName": "Pablo",
+      "lastName": "Caamaño Maneiro",
+      "gender": "male",
+      "birthDate": "1816",
+      "birthPlace": "A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch censos 1862-1869. Hermano de Manuel Caamaño Maneiro. Línea paralela — madre Maneiro. Relacionado con (Don) José Caamaño Maneiro (n.1806).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "cm001",
+      "firstName": "Tomás",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1863",
+      "birthPlace": "A Coruña, Galicia, España",
+      "notes": "FUENTE: CEMLA Buenos Aires. Llegó 25/01/1905, barco P. de Satrústegui, puerto embarque VILLAGARCÍA. Edad 42, casado, jornalero. Viajó con Amalia (6) y Manuel (5). NOMBRE COINCIDE CON PATRIARCA p001 (José Tomás Caamaño). ¿Mismo individuo? ¿Pariente?",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1905-01-25",
+          "place": "Buenos Aires, Argentina",
+          "description": "Barco P. de Satrústegui desde Villagarcía. Casado, 42 años, jornalero. Con hijos Amalia (6) y Manuel (5)."
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Villagarcía de Arousa, Pontevedra, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1905,
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "cm002",
+      "firstName": "José María",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1882",
+      "birthPlace": "A Coruña, Galicia, España",
+      "notes": "FUENTE: CEMLA Buenos Aires. Llegó 23/10/1897, barco NILE, puerto embarque VIGO. Edad 15, soltero, labrador. NOMBRE COINCIDE CON HERMANO p003 (José María Caamaño, emigró a RD).",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1897-10-23",
+          "place": "Buenos Aires, Argentina",
+          "description": "Barco Nile desde Vigo. Soltero, 15 años, labrador."
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Vigo, Pontevedra, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1897,
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "cm003",
+      "firstName": "Felipe",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1860",
+      "birthPlace": "A Coruña, Galicia, España",
+      "notes": "FUENTE: CEMLA Buenos Aires. Llegó 07/10/1899, barco ROSARIO, puerto embarque CORUÑA. Edad 39, casado, marinero. ¿Mismo Felipe Caamaño del censo de Palmeira (fs015)?",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1899-10-07",
+          "place": "Buenos Aires, Argentina",
+          "description": "Barco Rosario desde Coruña. Casado, 39 años, marinero."
+        }
+      ],
+      "migrations": [
+        {
+          "from": "A Coruña, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1899,
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "cm004",
+      "firstName": "Salvador",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1900",
+      "birthPlace": "A Coruña, Galicia, España",
+      "notes": "FUENTE: CEMLA Buenos Aires. Llegó 12/12/1906, barco DARMSTADT, puerto embarque VILLAGARCÍA. Edad 6, soltero. Viajó con Víctor (42, padre?), Antonia (12). NOMBRE COINCIDE CON HERMANO p004 (Salvador Caamaño, emigró a Ecuador).",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1906-12-12",
+          "place": "Buenos Aires, Argentina",
+          "description": "Barco Darmstadt desde Villagarcía. 6 años. Con Víctor Caamaño (42) y Antonia (12)."
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Villagarcía de Arousa, Pontevedra, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1906,
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "gn001",
+      "firstName": "José Bernardo",
+      "lastName": "Reino Caamaño",
+      "gender": "male",
+      "birthDate": "1882",
+      "birthPlace": "Mazaricos, A Coruña, Galicia, España",
+      "deathDate": "1964",
+      "deathPlace": "Santiago de Compostela, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (jgomezreinofern). Casado con Elisa Santiso García. Mazaricos es municipio vecino de Porto do Son.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn002",
+      "firstName": "José",
+      "lastName": "Caamaño Freire",
+      "gender": "male",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (raquelcaam). Casado con Adela López París. De NOIA — el pueblo ancestral de los Caamaño nobles.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn003",
+      "firstName": "José",
+      "lastName": "Gesto Caamaño",
+      "gender": "male",
+      "birthDate": "1900",
+      "deathDate": "1991",
+      "birthPlace": "Lugarnovo, Corzón, Mazaricos, A Coruña, Galicia, España",
+      "deathPlace": "Colúns, Mazaricos, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (gessto). Casado con María Lado Rodríguez (1937). Mazaricos — municipio vecino de Porto do Son.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn004",
+      "firstName": "José",
+      "lastName": "Vázquez de Caamaño",
+      "gender": "male",
+      "birthDate": "1517",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (fedegrifo). Nacido 1517 en NOIA. Podría ser eslabón entre la línea noble (h019 García 'El Alto' d.1540) y las generaciones posteriores. INVESTIGAR.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn005",
+      "firstName": "José",
+      "lastName": "Caamaño de Cernadas",
+      "gender": "male",
+      "birthDate": "1699",
+      "deathDate": "1699",
+      "birthPlace": "San Mamed de Carnota, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (mariacaamanofdez). Murió en infancia. De Carnota — municipio con 764 portadores del apellido Caamaño (3er más alto). La familia Caamaño de Cernadas podría conectar con la línea de Porto do Son.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn006",
+      "firstName": "José Benito",
+      "lastName": "Romero de Caamaño y Pereira",
+      "gender": "male",
+      "birthDate": "1761",
+      "deathDate": "1819",
+      "birthPlace": "San Pedro de Bealo, Boiro, A Coruña, Galicia, España",
+      "deathPlace": "Santa Eugenia de Rivera, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (manuelyagoarza). Casado con Josefa Antonia de Sedano y Ochoa. De BOIRO — municipio vecino de Porto do Son al otro lado de la ría. Los Romero de Caamaño son una rama documentada.",
+      "events": [],
+      "migrations": []
+    }
+  ],
+  "families": [
+    {
+      "id": "f001",
+      "parents": ["p001", "p002"],
+      "children": ["p006", "p008"],
+      "marriagePlace": "Colombia",
+      "notes": "José Tomás Caamaño + Desconocida Soto. Rama principal colombiana."
+    },
+    {
+      "id": "f002",
+      "parents": ["p003"],
+      "children": [],
+      "notes": "José María Caamaño — rama dominicana (sin datos de descendencia)."
+    },
+    {
+      "id": "f003",
+      "parents": ["p004"],
+      "children": [],
+      "notes": "Salvador Caamaño — rama ecuatoriana (sin datos de descendencia)."
+    },
+    {
+      "id": "f004",
+      "parents": ["p005"],
+      "children": [],
+      "notes": "Desconocido Caamaño — rama argentina (sin datos de descendencia)."
+    },
+    {
+      "id": "f005",
+      "parents": ["p006", "p007"],
+      "children": ["p010", "p011", "p012", "p013"],
+      "marriagePlace": "Colombia",
+      "notes": "José Tomás Caamaño Soto + Faustina Reales."
+    },
+    {
+      "id": "f006",
+      "parents": ["p008", "p009"],
+      "children": ["p045", "p046", "p047"],
+      "marriagePlace": "Colombia",
+      "notes": "Miguel Caamaño Soto + Ruthesinda Rangel."
+    },
+    {
+      "id": "f007",
+      "parents": ["p013", "p014"],
+      "children": ["p015", "p017", "p018", "p019", "p021", "p023", "p025"],
+      "marriagePlace": "Colombia",
+      "notes": "Benjamin Caamaño Reales + Dominga Castro."
+    },
+    {
+      "id": "f008",
+      "parents": ["p015", "p016"],
+      "children": [],
+      "marriagePlace": "Colombia",
+      "notes": "Benjamin Caamaño Castro + Felicia (apellido desconocido). Sin datos de hijos."
+    },
+    {
+      "id": "f009",
+      "parents": ["p019", "p020"],
+      "children": ["p027", "p029", "p030"],
+      "marriagePlace": "Colombia",
+      "notes": "Manuel Felipe Caamaño Castro + Antíope Bustamante."
+    },
+    {
+      "id": "f010",
+      "parents": ["p021", "p022"],
+      "children": ["p031", "p032", "p033", "p034"],
+      "marriagePlace": "Colombia",
+      "notes": "Camilo Caamaño Castro + Maria Luisa Villalobos."
+    },
+    {
+      "id": "f011",
+      "parents": ["p023", "p024"],
+      "children": ["p035", "p036", "p037"],
+      "marriagePlace": "Colombia",
+      "notes": "Nestor Caamaño Castro + Exceptación Garizabal."
+    },
+    {
+      "id": "f012",
+      "parents": ["p025", "p026"],
+      "children": ["p038", "p039", "p040", "p041", "p042", "p043", "p044"],
+      "marriagePlace": "Colombia",
+      "notes": "Emilio Caamaño Castro + Emma Laino."
+    },
+    {
+      "id": "f013",
+      "parents": ["p027", "p028"],
+      "children": [],
+      "notes": "Atala Caamaño Bustamante + Desconocido Yxxxx. Sin datos de hijos."
+    },
+    {
+      "id": "f014",
+      "parents": ["p047", "p048"],
+      "children": ["p049", "p050", "p052", "p053", "p054"],
+      "marriagePlace": "Colombia",
+      "notes": "Jacob Caamaño Rangel + Salvadora Blanquicet."
+    },
+    {
+      "id": "f015",
+      "parents": ["p050", "p051"],
+      "children": ["p056", "p058", "p060", "p062", "p064", "p065"],
+      "marriagePlace": "Colombia",
+      "notes": "Maria Salud Caamaño Blanquicet + Nicanor Pérez Cogollo."
+    },
+    {
+      "id": "f016",
+      "parents": ["p054", "p055"],
+      "children": ["p066", "p067", "p069", "p071"],
+      "marriagePlace": "Colombia",
+      "notes": "Miguel Gustavo Caamaño Blanquicet + Fanny León Sanchez."
+    },
+    {
+      "id": "f017",
+      "parents": ["p067", "p068"],
+      "children": [],
+      "notes": "Janette Caamaño León + Byron Pérez. Sin datos de hijos."
+    },
+    {
+      "id": "f018",
+      "parents": ["p069", "p070"],
+      "children": ["p073"],
+      "marriagePlace": "Colombia",
+      "notes": "Gustavo Javier Caamaño León + Luz Alba Benitez."
+    },
+    {
+      "id": "f019",
+      "parents": ["p071", "p072"],
+      "children": ["p074"],
+      "marriagePlace": "Colombia",
+      "notes": "Beatriz Elena Caamaño León + Moises Juliao."
+    },
+    {
+      "id": "f020",
+      "parents": ["p056", "p057"],
+      "children": ["p075", "p077"],
+      "marriagePlace": "Colombia",
+      "notes": "Martha Pérez Caamaño + Luis Rivera."
+    },
+    {
+      "id": "f021",
+      "parents": ["p058", "p059"],
+      "children": ["p079", "p081", "p083"],
+      "marriagePlace": "Colombia",
+      "notes": "Nicanor Pérez Caamaño + Graciela Pereira."
+    },
+    {
+      "id": "f022",
+      "parents": ["p060", "p061"],
+      "children": ["p085", "p087", "p089", "p105", "p106"],
+      "marriagePlace": "Colombia",
+      "notes": "Gloria Pérez Caamaño + José Diaz."
+    },
+    {
+      "id": "f023",
+      "parents": ["p062", "p063"],
+      "children": ["p091", "p092", "p094"],
+      "marriagePlace": "Colombia",
+      "notes": "Rafael Emiro Pérez Caamaño + Stella Isabel Jaramillo."
+    },
+    {
+      "id": "f024",
+      "parents": ["p075", "p076"],
+      "children": ["p095"],
+      "marriagePlace": "Colombia",
+      "notes": "Luis Alberto Rivera Pérez + Claudia Ponce."
+    },
+    {
+      "id": "f025",
+      "parents": ["p077", "p078"],
+      "children": ["p096"],
+      "marriagePlace": "Colombia",
+      "notes": "Ricardo Rivera Pérez + Liz Mary Peñalver."
+    },
+    {
+      "id": "f026",
+      "parents": ["p079", "p080"],
+      "children": ["p097"],
+      "marriagePlace": "Colombia",
+      "notes": "Tania Pérez Pereira + Efrain Posada."
+    },
+    {
+      "id": "f027",
+      "parents": ["p081", "p082"],
+      "children": [],
+      "notes": "José Luis Pérez Pereira + Yecenia Alvarez. Sin datos de hijos."
+    },
+    {
+      "id": "f028",
+      "parents": ["p083", "p084"],
+      "children": [],
+      "notes": "Miguel Pérez Pereira + Doris Gavanzo. Sin datos de hijos."
+    },
+    {
+      "id": "f029",
+      "parents": ["p085", "p086"],
+      "children": ["p098", "p099"],
+      "marriagePlace": "Colombia",
+      "notes": "Lizzette Diaz Pérez + Pedro Arevalo."
+    },
+    {
+      "id": "f030",
+      "parents": ["p087", "p088"],
+      "children": ["p100", "p101", "p102"],
+      "marriagePlace": "Colombia",
+      "notes": "Maria Angélica Diaz Pérez + Rommel Cueter."
+    },
+    {
+      "id": "f031",
+      "parents": ["p089", "p090"],
+      "children": ["p103", "p104"],
+      "marriagePlace": "Colombia",
+      "notes": "Jose Ignacio Diaz Pérez + Claudia Angulo."
+    },
+    {
+      "id": "f032",
+      "parents": ["p092", "p093"],
+      "children": [],
+      "notes": "Rafael David Pérez Jaramillo + Sandra La Sala. Sin datos de hijos."
+    },
+    {
+      "id": "f033",
+      "parents": ["p045"],
+      "children": [
+        "p107",
+        "p108",
+        "p109",
+        "p110",
+        "p111",
+        "p131",
+        "p132",
+        "p133",
+        "p134"
+      ],
+      "notes": "Hijos de Brígida Caamaño Rangel. Padres de los hijos desconocidos."
+    },
+    {
+      "id": "f034",
+      "parents": ["p111", "p112"],
+      "children": ["p135", "p136", "p138", "p140"],
+      "marriagePlace": "Colombia",
+      "notes": "Miguel Caamaño (hijo de Brígida) + Celia Rapalino Blanco."
+    },
+    {
+      "id": "f035",
+      "parents": ["p046"],
+      "children": [
+        "p113",
+        "p114",
+        "p115",
+        "p116",
+        "p117",
+        "p118",
+        "p119",
+        "p120",
+        "p121",
+        "p122",
+        "p123",
+        "p124",
+        "p125",
+        "p126"
+      ],
+      "notes": "Hijos de Licerio Caamaño Rangel (primera pareja desconocida)."
+    },
+    {
+      "id": "f036",
+      "parents": ["p046", "p149"],
+      "children": ["p127", "p128", "p129", "p130"],
+      "notes": "Licerio Caamaño Rangel + Desconocida Villarreal. Hijos con apellido Villarreal."
+    },
+    {
+      "id": "f037",
+      "parents": ["p136", "p137"],
+      "children": [],
+      "notes": "Bernabé Caamaño Rapalino + Silvia Perales. Sin datos de hijos."
+    },
+    {
+      "id": "f038",
+      "parents": ["p138", "p139"],
+      "children": ["p141", "p142", "p143", "p144"],
+      "marriagePlace": "Colombia",
+      "notes": "Omaira Caamaño Rapalino + Pedro Castaño Robles."
+    },
+    {
+      "id": "f039",
+      "parents": ["p144", "p145"],
+      "children": ["p146", "p147", "p148"],
+      "marriagePlace": "Colombia",
+      "notes": "Jorge Castaño Caamaño + Nohora Rangel."
+    },
+    {
+      "id": "f040",
+      "parents": ["p037"],
+      "children": ["p151"],
+      "notes": "Luis Caamaño Garizabal. Madre desconocida."
+    },
+    {
+      "id": "f041",
+      "parents": ["p151", "p150"],
+      "children": ["p152", "p153"],
+      "notes": "Luis Miguel Caamaño Morales + Alejandra Perdomo."
+    },
+    {
+      "id": "hf01",
+      "parents": ["h001", "h002"],
+      "children": ["h003"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf02",
+      "parents": ["h003", "h004"],
+      "children": ["h005"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf03",
+      "parents": ["h005", "h006"],
+      "children": ["h007"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf04",
+      "parents": ["h007", "h008"],
+      "children": ["h009"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf05",
+      "parents": ["h009", "h010"],
+      "children": ["h011"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf06",
+      "parents": ["h011", "h012"],
+      "children": ["h013"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf07",
+      "parents": ["h013", "h014"],
+      "children": ["h015"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf08",
+      "parents": ["h015", "h016"],
+      "children": ["h017"],
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf09",
+      "parents": ["h017", "h018"],
+      "children": ["h019"],
+      "marriageDate": "1458",
+      "marriagePlace": "Galicia, España"
+    },
+    {
+      "id": "hf10",
+      "parents": ["h019", "h020"],
+      "children": [],
+      "marriagePlace": "Noya, A Coruña, Galicia, España",
+      "notes": "7 hijos incluyendo García Rodríguez (heredero), Álvaro de Sotomayor, Rodrigo de Mendoza"
+    },
+    {
+      "id": "fsf01",
+      "parents": ["fs001", "fs002"],
+      "children": ["fs003"],
+      "marriagePlace": "Muros, A Coruña, Galicia, España"
+    },
+    {
+      "id": "fsf02",
+      "parents": ["fs003"],
+      "children": ["fs004", "fs005", "fs007"],
+      "notes": "Conexión probable basada en misma parroquia (Palmeira) y generación. Pablo viudo = esposa González (apellido de los hijos)."
+    },
+    {
+      "id": "fsf03",
+      "parents": ["fs005", "fs006"],
+      "children": ["fs008", "fs009", "fs011", "fs012", "fs013", "fs014"],
+      "marriagePlace": "Palmeira, Ribeira, A Coruña, Galicia, España"
+    },
+    {
+      "id": "fsf04",
+      "parents": ["fs009", "fs010"],
+      "children": [],
+      "marriagePlace": "Ribeira, A Coruña, Galicia, España"
+    }
+  ],
+  "meta": {
+    "lastUpdated": "2026-04-03T13:00:00Z",
+    "version": 5
+  }
+}
