@@ -3,6 +3,7 @@
  * Manages selected person, highlighted path, zoom level, and search query.
  */
 import { create } from "zustand";
+import type { PersonSource } from "@/lib/genealogy/types";
 
 interface TreeState {
   /** Currently selected person ID */
@@ -21,6 +22,9 @@ interface TreeState {
   comparePersonA: string | null;
   comparePersonB: string | null;
 
+  /** Which data sources are visible in the tree */
+  visibleSources: Set<PersonSource>;
+
   // Actions
   selectPerson: (id: string | null) => void;
   setComparisonPerson: (id: string | null) => void;
@@ -28,6 +32,9 @@ interface TreeState {
   setSearchQuery: (query: string) => void;
   toggleSidebar: () => void;
   reset: () => void;
+
+  // Source layer actions
+  toggleSource: (source: PersonSource) => void;
 
   // Path Finder actions
   enterCompareMode: () => void;
@@ -46,6 +53,8 @@ export const useTreeStore = create<TreeState>()((set) => ({
   compareMode: false,
   comparePersonA: null,
   comparePersonB: null,
+
+  visibleSources: new Set<PersonSource>(["modern"]),
 
   selectPerson: (id) => set({ selectedPersonId: id, sidebarOpen: id !== null }),
   setComparisonPerson: (id) => set({ comparisonPersonId: id }),
@@ -70,6 +79,18 @@ export const useTreeStore = create<TreeState>()((set) => ({
       compareMode: false,
       comparePersonA: null,
       comparePersonB: null,
+    }),
+
+  // Source layer actions
+  toggleSource: (source) =>
+    set((s) => {
+      const next = new Set(s.visibleSources);
+      if (next.has(source)) {
+        if (next.size > 1) next.delete(source);
+      } else {
+        next.add(source);
+      }
+      return { visibleSources: next };
     }),
 
   // Path Finder actions

@@ -118,6 +118,8 @@ export function PersonNode({
           style={{
             backgroundColor: bgColor,
             borderLeftColor: borderColor,
+            borderLeftStyle:
+              person.source && person.source !== "modern" ? "dashed" : "solid",
             height: NODE_HEIGHT,
           }}
           onClick={() => onSelect(person.id)}
@@ -140,6 +142,35 @@ export function PersonNode({
               B
             </div>
           )}
+
+          {/* Source badge for non-modern persons */}
+          {person.source &&
+            person.source !== "modern" &&
+            person.source !== "gap" && (
+              <div
+                className={`absolute -top-2 left-1/2 -translate-x-1/2 rounded-full px-1.5 py-0.5 text-[7px] font-bold uppercase leading-none text-white shadow-sm ${
+                  person.source === "historical"
+                    ? "bg-purple-700"
+                    : person.source === "familysearch"
+                      ? "bg-green-700"
+                      : person.source === "cemla"
+                        ? "bg-blue-700"
+                        : person.source === "geneanet"
+                          ? "bg-rose-700"
+                          : "bg-slate-500"
+                }`}
+              >
+                {person.source === "historical"
+                  ? "HIST"
+                  : person.source === "familysearch"
+                    ? "FS"
+                    : person.source === "cemla"
+                      ? "CEMLA"
+                      : person.source === "geneanet"
+                        ? "GEN"
+                        : "?"}
+              </div>
+            )}
 
           {/* Name row with gender indicator */}
           <div className="flex min-w-0 items-start gap-1.5">

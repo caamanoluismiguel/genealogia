@@ -6,6 +6,15 @@
 /** Gender options */
 export type Gender = "male" | "female" | "other" | "unknown";
 
+/** Data source for each person record */
+export type PersonSource =
+  | "modern"
+  | "historical"
+  | "familysearch"
+  | "cemla"
+  | "geneanet"
+  | "gap";
+
 /** Life event types */
 export type EventType =
   | "birth"
@@ -44,6 +53,7 @@ export interface Migration {
 /** A single person in the family tree */
 export interface Person {
   id: string;
+  source?: PersonSource;
   firstName: string;
   lastName: string;
   maidenName?: string;

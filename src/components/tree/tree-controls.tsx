@@ -4,6 +4,8 @@
  */
 "use client";
 
+import type { PersonSource } from "@/lib/genealogy/types";
+
 interface TreeControlsProps {
   onZoomIn: () => void;
   onZoomOut: () => void;
@@ -13,7 +15,53 @@ interface TreeControlsProps {
   onExport?: () => void;
   onCompare?: () => void;
   compareActive?: boolean;
+  visibleSources?: Set<PersonSource>;
+  onToggleSource?: (source: PersonSource) => void;
 }
+
+const SOURCE_TOGGLES: {
+  key: PersonSource;
+  label: string;
+  short: string;
+  activeClass: string;
+  inactiveClass: string;
+}[] = [
+  {
+    key: "modern",
+    label: "Familia moderna",
+    short: "Mod",
+    activeClass: "bg-amber-700 text-white ring-1 ring-amber-800",
+    inactiveClass: "bg-amber-50 text-amber-900 ring-1 ring-amber-300",
+  },
+  {
+    key: "historical",
+    label: "Línea medieval",
+    short: "Hist",
+    activeClass: "bg-purple-700 text-white ring-1 ring-purple-800",
+    inactiveClass: "bg-purple-50 text-purple-900 ring-1 ring-purple-300",
+  },
+  {
+    key: "familysearch",
+    label: "FamilySearch",
+    short: "FS",
+    activeClass: "bg-green-700 text-white ring-1 ring-green-800",
+    inactiveClass: "bg-green-50 text-green-900 ring-1 ring-green-300",
+  },
+  {
+    key: "cemla",
+    label: "CEMLA",
+    short: "CEM",
+    activeClass: "bg-blue-700 text-white ring-1 ring-blue-800",
+    inactiveClass: "bg-blue-50 text-blue-900 ring-1 ring-blue-300",
+  },
+  {
+    key: "geneanet",
+    label: "Geneanet",
+    short: "Gen",
+    activeClass: "bg-rose-700 text-white ring-1 ring-rose-800",
+    inactiveClass: "bg-rose-50 text-rose-900 ring-1 ring-rose-300",
+  },
+];
 
 // ZERO: Inline SVG icons — no icon library, zero bundle cost.
 // All paths are simple geometric shapes that render crisply at 16px.
@@ -179,6 +227,8 @@ export function TreeControls({
   onExport,
   onCompare,
   compareActive = false,
+  visibleSources,
+  onToggleSource,
 }: TreeControlsProps) {
   return (
     // ARIA: Floating glass panel — white/90 + backdrop-blur reads over any background.
@@ -261,6 +311,30 @@ export function TreeControls({
           >
             <IconDownload />
           </button>
+        </>
+      )}
+
+      {onToggleSource && visibleSources && (
+        <>
+          <div className="my-1 h-px w-6 bg-amber-200" aria-hidden="true" />
+          {SOURCE_TOGGLES.map((src) => {
+            const isActive = visibleSources.has(src.key);
+            return (
+              <button
+                key={src.key}
+                type="button"
+                onClick={() => onToggleSource(src.key)}
+                aria-label={`${isActive ? "Ocultar" : "Mostrar"} ${src.label}`}
+                aria-pressed={isActive}
+                title={src.label}
+                className={`flex h-7 w-9 items-center justify-center rounded-lg text-[9px] font-bold transition-all duration-150 ${
+                  isActive ? src.activeClass : src.inactiveClass
+                }`}
+              >
+                {src.short}
+              </button>
+            );
+          })}
         </>
       )}
     </div>

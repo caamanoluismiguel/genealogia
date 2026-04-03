@@ -28,12 +28,23 @@ import {
   addChildToFamily,
 } from "@/lib/genealogy/mutations";
 import { exportData } from "@/lib/data/persistence";
+import { filterIndexBySources } from "@/lib/genealogy/index-builder";
 import type { Person, LayoutNode } from "@/lib/genealogy/types";
 
 export function FamilyTree() {
   const { data, index, mutate } = useGenealogy();
 
-  const layout = useMemo(() => computeTreeLayout(index), [index]);
+  const { visibleSources, toggleSource } = useTreeStore();
+
+  const filteredIndex = useMemo(
+    () => filterIndexBySources(index, visibleSources),
+    [index, visibleSources],
+  );
+
+  const layout = useMemo(
+    () => computeTreeLayout(filteredIndex),
+    [filteredIndex],
+  );
 
   const nodeMap = useMemo(() => {
     const map = new Map<string, LayoutNode>();
@@ -464,6 +475,8 @@ export function FamilyTree() {
         onExport={handleExport}
         onCompare={enterCompareMode}
         compareActive={compareMode}
+        visibleSources={visibleSources}
+        onToggleSource={toggleSource}
       />
 
       <PersonDetailSidebar

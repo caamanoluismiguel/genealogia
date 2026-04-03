@@ -111,49 +111,60 @@ See `docs/ARCHITECTURE.md` for full data model, algorithms, and domain boundarie
 src/
 ├── app/
 │   ├── page.tsx                       # Redirect to /tree
-│   ├── layout.tsx                     # Root layout
+│   ├── layout.tsx                     # Root layout + NavHeader
 │   ├── tree/page.tsx                  # Main tree visualization
 │   ├── person/[id]/page.tsx           # Person detail (deep link)
 │   ├── map/page.tsx                   # Migration map
+│   ├── historia/page.tsx              # Surname history + research
+│   ├── research/page.tsx              # API integration dashboard
 │   └── add/page.tsx                   # Add family member form
 ├── components/
 │   ├── tree/                          # Tree visualization (SVG + d3-zoom)
-│   │   ├── family-tree.tsx            # SVG container + pan/zoom
-│   │   ├── person-node.tsx            # Person card (foreignObject)
-│   │   ├── family-link.tsx            # SVG connector paths
-│   │   ├── relationship-path.tsx      # Kinship path highlight
-│   │   ├── tree-controls.tsx          # Zoom/reset floating controls
-│   │   └── tree-search.tsx            # Search autocomplete
+│   │   ├── family-tree.tsx            # SVG container + pan/zoom + orchestrator
+│   │   ├── person-node.tsx            # Person card (foreignObject, gender-coded)
+│   │   ├── family-link.tsx            # SVG connector paths (bezier curves)
+│   │   ├── relationship-path.tsx      # Animated kinship path highlight
+│   │   ├── tree-controls.tsx          # Zoom/reset/export/compare floating controls
+│   │   ├── tree-search.tsx            # Search autocomplete with gender indicators
+│   │   ├── reference-chip.tsx         # "Yo soy: [Name]" identity chip + share button
+│   │   ├── welcome-modal.tsx          # First-visit "¿Quién eres?" person picker
+│   │   └── path-finder-banner.tsx     # Compare two people banner UI
 │   ├── person/
-│   │   ├── person-detail-sidebar.tsx  # Slide-in detail panel
-│   │   └── person-form.tsx            # Add/edit form
+│   │   ├── person-detail-sidebar.tsx  # Slide-in panel + inline editing + research links
+│   │   └── person-form.tsx            # Add family member form
 │   ├── map/
-│   │   └── migration-map.tsx          # Leaflet migration lines
+│   │   ├── migration-map.tsx          # Dynamic import wrapper (SSR-safe)
+│   │   └── map-content.tsx            # Leaflet map with colored migration routes
+│   ├── research/
+│   │   ├── historia-page.tsx          # Surname history editorial page (7 sections)
+│   │   └── research-dashboard.tsx     # 4-API integration cards
 │   ├── layout/
-│   │   ├── nav-header.tsx             # App navigation
+│   │   ├── nav-header.tsx             # App nav with family crest + 6 links
 │   │   └── sidebar.tsx                # Optional sidebar
-│   └── ui/                            # Shadcn primitives
+│   └── ui/                            # Shadcn primitives (button)
 ├── lib/
 │   ├── genealogy/                     # Core domain (pure, no React)
 │   │   ├── types.ts                   # All TypeScript interfaces
-│   │   ├── kinship.ts                 # LCA algorithm + relationship labels
-│   │   ├── layout.ts                  # Tree layout computation (x,y)
-│   │   ├── mutations.ts               # Immutable CRUD transforms
+│   │   ├── kinship.ts                 # LCA algorithm (BFS, swapped genA/genB for correct labels)
+│   │   ├── labels.ts                  # ES/EN kinship term lookup tables (formal + colloquial)
+│   │   ├── layout.ts                  # Tree layout computation (recursive pre-order)
+│   │   ├── mutations.ts               # Immutable CRUD: addPerson, updatePerson, addFamily, etc.
 │   │   ├── index-builder.ts           # Adjacency index from JSON (O(1) lookups)
-│   │   ├── search.ts                  # Fuzzy name search
-│   │   ├── slugs.ts                   # URL slug generation
-│   │   └── labels.ts                  # ES/EN kinship term lookup tables
+│   │   ├── search.ts                  # Accent-insensitive fuzzy name search
+│   │   ├── slugs.ts                   # Bidirectional URL slug map (person ↔ slug)
+│   │   └── research-links.ts          # Deep link generator for FamilySearch/INE/PARES/CEMLA
 │   ├── data/
-│   │   └── loader.ts                  # Load JSON from filesystem
+│   │   ├── loader.ts                  # Static JSON import (server components)
+│   │   └── persistence.ts             # localStorage persistence + JSON export + reset
 │   └── utils.ts                       # Shadcn cn() utility
 ├── hooks/
-│   ├── use-genealogy.ts               # Data loading hook
+│   ├── use-genealogy.ts               # Data loading + mutate (localStorage-backed)
 │   ├── use-tree-zoom.ts               # d3-zoom state management
 │   └── use-kinship.ts                 # Kinship computation hook
 ├── stores/
-│   └── tree-store.ts                  # Zustand: selected person, sidebar, search
+│   └── tree-store.ts                  # Zustand: selection, reference, compare mode, sidebar
 └── data/
-    └── caamano-family.json            # 201 persons, 55 families, ~20 generations (v5)
+    └── caamano-family.json            # Family tree data (JSON)
 ```
 
 ## Data Model
@@ -231,11 +242,16 @@ interface PersonIndex {
 
 ## Features
 
-- **"Yo soy" identity:** `?yo=slug` shareable URLs → welcome modal → localStorage
-- **Kinship calculator:** Click any person → "tu abuela", "tu primo segundo"
-- **Migration map:** Leaflet with Spain→Americas routes
-- **Inline editing:** Add spouse/child, edit dates/notes from sidebar
-- **WhatsApp share:** Share your position in the tree
+- **"Yo soy" identity:** `?yo=slug` shareable URLs → welcome modal → localStorage → WhatsApp share
+- **Kinship calculator:** Click any person → "tu abuela", "tu primo segundo" (colloquial Spanish labels)
+- **Path Finder:** Compare any two people — click compare button, pick A and B, see animated relationship path + label
+- **Migration map:** Leaflet with Spain→Americas colored routes (Colombia blue, DR amber, Ecuador green, Argentina purple)
+- **Inline editing:** Add spouse/child, edit dates/places/notes directly from sidebar. Persists to localStorage.
+- **Data persistence:** localStorage-backed with JSON export button (download icon in controls)
+- **Historia page:** 7-section editorial page — etymology, INE distribution bar chart, worldwide distribution, heraldry (CSS shield), 4 notable Caamaños, 3 migration waves, research links
+- **Research page:** 4 API integration cards (FamilySearch, INE, PARES, CEMLA) with deep links + search
+- **Person detail:** Rich sidebar with info sections, research links (FamilySearch + PARES per person), inline editing
+- **Warm parchment UI:** Family crest, serif headings, gender-coded nodes, WCAG AA contrast compliance
 
 ## Free Genealogy APIs (For Future Integration)
 
@@ -307,12 +323,14 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v4, 2026-04-03)
+## Current State (v5, 2026-04-03)
 
-- **Data:** 191 persons, 55 families. Medieval lineage (h001-h021) + FamilySearch census finds (fs001-fs016) + modern family (p001-p153) + gap marker (gap001).
-- **Code:** Scaffolding complete. All core files have type signatures and implementations.
-- **Research:** Deep surname research + FamilySearch census analysis done. García Carraffa Tomo XX read. 3 historical branches documented. Ribeira/Palmeira Caamaño clan mapped from census records 1862-1950. Key ancestor candidate: **Pablo Caamaño Villa (born 1802, Palmeira/Muros)**.
-- **App strategy:** Differentiated from Ancestry/MyHeritage by "yo soy" identity + WhatsApp-first sharing + migration narrative. See `docs/COMPETITIVE-LANDSCAPE.md`.
+- **Data:** Modern family tree with 153 persons, 41 families in committed JSON. Historical/research persons (h001-h021, fs001-fs016, cm001-cm004, gn001-gn006) documented in `docs/` but not yet in app JSON.
+- **Code:** Fully functional app — 51 source files, 8 routes, 10,087 lines. All features implemented and working. TypeScript strict, zero errors. Production build passes.
+- **UI:** Warm parchment theme (amber palette), family crest shield, gender-coded person nodes, WCAG AA contrast. Responsive.
+- **Research:** Deep surname research completed across FamilySearch, INE, PARES, CEMLA, Forebears, García Carraffa, Geneanet. All findings in Historia page + docs/.
+- **App strategy:** Differentiated from Ancestry/MyHeritage by "yo soy" identity + WhatsApp-first sharing + migration narrative + path finder. See `docs/COMPETITIVE-LANDSCAPE.md`.
+- **Key routes:** `/tree` (main), `/map` (migration), `/historia` (surname research), `/research` (API links), `/add` (form), `/person/[id]` (detail)
 
 ### FamilySearch Findings (2026-04-03)
 
