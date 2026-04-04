@@ -5,6 +5,7 @@
 "use client";
 
 import type { Person, LayoutNode } from "@/lib/genealogy/types";
+import { detectCountry } from "@/data/migration-routes";
 
 const NODE_WIDTH = 200;
 const NODE_HEIGHT = 80;
@@ -29,25 +30,49 @@ function extractYear(date?: string): string | null {
 
 // ARIA: Left border accent creates a clear gender signal without icon clutter.
 // The 4px left border is a classic genealogy software pattern — familiar to users.
+/** Country → left border color + card background */
+const COUNTRY_ACCENT: Record<string, { border: string; bg: string }> = {
+  colombia: { border: "#10b981", bg: "#f0fdf4" }, // emerald
+  "república dominicana": { border: "#f59e0b", bg: "#fffbeb" }, // amber
+  ecuador: { border: "#0ea5e9", bg: "#f0f9ff" }, // sky
+  argentina: { border: "#8b5cf6", bg: "#f5f3ff" }, // violet
+  uruguay: { border: "#ec4899", bg: "#fdf2f8" }, // pink
+  "estados unidos": { border: "#ef4444", bg: "#fef2f2" }, // red
+  españa: { border: "#475569", bg: "#f8fafc" }, // slate
+};
+
 function getAccentStyle(
-  gender: Person["gender"],
+  person: Person,
   isSelected: boolean,
   isHighlighted: boolean,
 ): { borderColor: string; bgColor: string } {
   if (isSelected) {
-    return { borderColor: "#0d9488", bgColor: "#f0fdfa" }; // teal
+    return { borderColor: "#0d9488", bgColor: "#f0fdfa" };
   }
   if (isHighlighted) {
-    return { borderColor: "#0d9488", bgColor: "#f0fdfa" }; // amber/gold
+    return { borderColor: "#0d9488", bgColor: "#f0fdfa" };
   }
-  switch (gender) {
-    case "male":
-      return { borderColor: "#60a5fa", bgColor: "#fefce8" }; // soft blue + warm cream
-    case "female":
-      return { borderColor: "#f472b6", bgColor: "#fefce8" }; // soft pink + warm cream
-    default:
-      return { borderColor: "#94a3b8", bgColor: "#fefce8" }; // slate + warm cream
+
+  // Country-based coloring from birthPlace or migration destination
+  const country =
+    detectCountry(person.birthPlace) ??
+    (person.migrations?.[0]
+      ? detectCountry(
+          typeof person.migrations[0].to === "string"
+            ? person.migrations[0].to
+            : person.migrations[0].to.label,
+        )
+      : null);
+
+  if (country && COUNTRY_ACCENT[country]) {
+    return {
+      borderColor: COUNTRY_ACCENT[country].border,
+      bgColor: COUNTRY_ACCENT[country].bg,
+    };
   }
+
+  // Fallback: neutral
+  return { borderColor: "#94a3b8", bgColor: "#f8fafc" };
 }
 
 // ARIA: Subtle person silhouette icon by gender.
@@ -81,7 +106,7 @@ export function PersonNode({
   const deathYear = extractYear(person.deathDate);
 
   const { borderColor, bgColor } = getAccentStyle(
-    person.gender,
+    person,
     isSelected,
     isHighlighted,
   );
@@ -149,26 +174,28 @@ export function PersonNode({
             person.source !== "gap" && (
               <div
                 className={`absolute -top-2 left-1/2 -translate-x-1/2 rounded-full px-1.5 py-0.5 text-[7px] font-bold uppercase leading-none text-white shadow-sm ${
-                  person.source === "historical"
-                    ? "bg-purple-700"
-                    : person.source === "familysearch"
-                      ? "bg-green-700"
-                      : person.source === "cemla"
-                        ? "bg-blue-700"
-                        : person.source === "geneanet"
-                          ? "bg-rose-700"
-                          : "bg-slate-500"
+                  {
+                    historical: "bg-purple-700",
+                    familysearch: "bg-green-700",
+                    cemla: "bg-blue-700",
+                    geneanet: "bg-rose-700",
+                    genco: "bg-teal-700",
+                    ellisisland: "bg-red-700",
+                    uruguay: "bg-pink-700",
+                    pares: "bg-indigo-700",
+                  }[person.source] ?? "bg-slate-500"
                 }`}
               >
-                {person.source === "historical"
-                  ? "HIST"
-                  : person.source === "familysearch"
-                    ? "FS"
-                    : person.source === "cemla"
-                      ? "CEMLA"
-                      : person.source === "geneanet"
-                        ? "GEN"
-                        : "?"}
+                {{
+                  historical: "Medieval",
+                  familysearch: "Censo",
+                  cemla: "Emigrante",
+                  geneanet: "Archivo",
+                  genco: "Colombia",
+                  ellisisland: "Ellis Is.",
+                  uruguay: "Uruguay",
+                  pares: "PARES",
+                }[person.source] ?? "?"}
               </div>
             )}
 
