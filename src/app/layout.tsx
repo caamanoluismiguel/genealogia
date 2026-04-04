@@ -28,10 +28,10 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      {/* ARIA: bg-amber-50/30 gives the entire app a faint warm tint —
+      {/* ARIA: bg-slate-50/50 gives the entire app a faint warm tint —
           pages that use their own bg will override this naturally.
           This ensures even "bare" routes never show cold white. */}
-      <body className="min-h-full flex flex-col bg-amber-50/30">
+      <body className="min-h-full flex flex-col bg-slate-50/50">
         <NavHeader />
         {children}
       </body>

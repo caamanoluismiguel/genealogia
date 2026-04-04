@@ -64,7 +64,7 @@ export function NavHeader() {
     // ARIA: Warm parchment background establishes the heritage tone immediately.
     // The amber-200 bottom border acts as a subtle divider without hard contrast.
     // shadow-sm adds just enough lift to separate nav from content without heaviness.
-    <header className="sticky top-0 z-50 h-14 border-b border-amber-200 bg-amber-50 shadow-sm">
+    <header className="sticky top-0 z-50 h-14 border-b border-slate-300 bg-slate-50 shadow-sm">
       <nav className="flex h-full items-center gap-4 px-6">
         {/* ARIA: Crest + serif title together form the identity mark */}
         <Link
@@ -73,13 +73,13 @@ export function NavHeader() {
         >
           <FamilyCrest />
           {/* NOVA: Slight letter-spacing on the serif title mimics engraved text */}
-          <span className="font-serif text-base font-semibold tracking-wide text-amber-950">
+          <span className="font-serif text-base font-semibold tracking-wide text-slate-950">
             Genealogía Caamaño
           </span>
         </Link>
 
         {/* Divider */}
-        <div className="h-5 w-px bg-amber-200" aria-hidden="true" />
+        <div className="h-5 w-px bg-slate-200" aria-hidden="true" />
 
         <div className="flex items-center gap-1">
           {NAV_LINKS.map(({ href, label }) => {
@@ -93,8 +93,8 @@ export function NavHeader() {
                 // Hover uses amber-100 for tactile pre-selection feedback at 150ms.
                 className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors duration-150 ${
                   isActive
-                    ? "bg-amber-200 text-amber-900"
-                    : "text-amber-800 hover:bg-amber-100 hover:text-amber-950"
+                    ? "bg-slate-200 text-slate-800"
+                    : "text-slate-700 hover:bg-slate-100 hover:text-slate-950"
                 }`}
               >
                 {label}

@@ -40,7 +40,7 @@ function IconSearch() {
       viewBox="0 0 15 15"
       fill="none"
       aria-hidden="true"
-      className="shrink-0 text-amber-600"
+      className="shrink-0 text-slate-500"
     >
       <circle cx="6.5" cy="6.5" r="4" stroke="currentColor" strokeWidth="1.4" />
       <path
@@ -105,8 +105,8 @@ export function TreeSearch({ persons, onSelect }: TreeSearchProps) {
           onFocus={() => setIsOpen(true)}
           placeholder="Buscar familiar..."
           // ARIA: bg-white/90 + backdrop-blur matches the controls panel glass style.
-          // border-amber-200 ties into the warm palette; focus shifts to teal (action color).
-          className="w-full rounded-xl border border-amber-200 bg-white/90 py-2 pr-3 pl-9 text-sm text-amber-950 shadow-lg backdrop-blur-sm outline-none placeholder:text-amber-600/50 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20"
+          // border-slate-300 ties into the warm palette; focus shifts to teal (action color).
+          className="w-full rounded-xl border border-slate-300 bg-white/90 py-2 pr-3 pl-9 text-sm text-slate-950 shadow-lg backdrop-blur-sm outline-none placeholder:text-slate-400 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20"
         />
       </div>
 
@@ -114,14 +114,14 @@ export function TreeSearch({ persons, onSelect }: TreeSearchProps) {
       {isOpen && results.length > 0 && (
         // NOVA: mt-1 gap creates clear separation between input and results.
         // rounded-xl + shadow-lg matches the search input's elevation.
-        <ul className="mt-1.5 max-h-60 overflow-y-auto rounded-xl border border-amber-100 bg-white/95 shadow-lg backdrop-blur-sm">
+        <ul className="mt-1.5 max-h-60 overflow-y-auto rounded-xl border border-slate-200 bg-white/95 shadow-lg backdrop-blur-sm">
           {results.map(({ person }) => (
             <li key={person.id}>
               <button
                 type="button"
                 // ARIA: Each result has a left border accent by gender — same visual
                 // language as PersonNode. Users instantly know what they're selecting.
-                className="flex w-full items-center gap-2.5 border-l-2 px-3 py-2.5 text-left text-sm transition-colors duration-100 hover:bg-amber-50"
+                className="flex w-full items-center gap-2.5 border-l-2 px-3 py-2.5 text-left text-sm transition-colors duration-100 hover:bg-slate-50"
                 style={{
                   borderLeftColor:
                     person.gender === "male"
@@ -134,15 +134,15 @@ export function TreeSearch({ persons, onSelect }: TreeSearchProps) {
               >
                 <GenderDot gender={person.gender} />
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate font-serif font-medium text-amber-950">
+                  <span className="block truncate font-serif font-medium text-slate-950">
                     {person.firstName}{" "}
-                    <span className="font-sans font-normal text-amber-800">
+                    <span className="font-sans font-normal text-slate-700">
                       {person.lastName}
                     </span>
                   </span>
                 </span>
                 {extractYear(person.birthDate) && (
-                  <span className="shrink-0 text-xs tabular-nums text-amber-600">
+                  <span className="shrink-0 text-xs tabular-nums text-slate-500">
                     {extractYear(person.birthDate)}
                   </span>
                 )}
@@ -153,7 +153,7 @@ export function TreeSearch({ persons, onSelect }: TreeSearchProps) {
       )}
 
       {isOpen && query.length >= 2 && results.length === 0 && (
-        <div className="mt-1.5 rounded-xl border border-amber-100 bg-white/95 px-3 py-2.5 text-sm italic text-amber-600 shadow-lg backdrop-blur-sm">
+        <div className="mt-1.5 rounded-xl border border-slate-200 bg-white/95 px-3 py-2.5 text-sm italic text-slate-500 shadow-lg backdrop-blur-sm">
           Sin resultados
         </div>
       )}

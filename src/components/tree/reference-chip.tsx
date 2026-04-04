@@ -34,7 +34,7 @@ function IconChevronDown() {
       viewBox="0 0 12 12"
       fill="none"
       aria-hidden="true"
-      className="shrink-0 text-amber-600"
+      className="shrink-0 text-slate-500"
     >
       <path
         d="M3 4.5l3 3 3-3"
@@ -155,10 +155,10 @@ export function ReferenceChip({
         <button
           type="button"
           onClick={() => setIsOpen((prev) => !prev)}
-          className="flex items-center gap-2 rounded-full border border-amber-200 bg-white/95 px-4 py-2 shadow-lg backdrop-blur-sm transition-colors duration-150 hover:border-amber-300"
+          className="flex items-center gap-2 rounded-full border border-slate-300 bg-white/95 px-4 py-2 shadow-lg backdrop-blur-sm transition-colors duration-150 hover:border-slate-300"
         >
-          <span className="text-xs font-medium text-amber-600">Yo soy:</span>
-          <span className="max-w-40 truncate font-serif text-sm font-bold text-amber-950">
+          <span className="text-xs font-medium text-slate-500">Yo soy:</span>
+          <span className="max-w-40 truncate font-serif text-sm font-bold text-slate-950">
             {currentPersonName}
           </span>
           <IconChevronDown />
@@ -184,7 +184,7 @@ export function ReferenceChip({
 
       {/* Combobox dropdown */}
       {isOpen && (
-        <div className="mt-2 w-72 rounded-xl border border-amber-100 bg-white/95 shadow-xl backdrop-blur-sm">
+        <div className="mt-2 w-72 rounded-xl border border-slate-200 bg-white/95 shadow-xl backdrop-blur-sm">
           <div className="p-2">
             <input
               ref={inputRef}
@@ -192,7 +192,7 @@ export function ReferenceChip({
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Buscar tu nombre..."
-              className="w-full rounded-lg border border-amber-200 px-3 py-2 text-sm text-amber-950 outline-none placeholder:text-amber-500/50 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20"
+              className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-950 outline-none placeholder:text-slate-400 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20"
             />
           </div>
           {results.length > 0 && (
@@ -201,15 +201,15 @@ export function ReferenceChip({
                 <li key={person.id}>
                   <button
                     type="button"
-                    className={`flex w-full items-center gap-2.5 px-3 py-2 text-left text-sm transition-colors duration-100 hover:bg-amber-50 ${person.id === currentPersonId ? "bg-teal-50" : ""}`}
+                    className={`flex w-full items-center gap-2.5 px-3 py-2 text-left text-sm transition-colors duration-100 hover:bg-slate-50 ${person.id === currentPersonId ? "bg-teal-50" : ""}`}
                     onClick={() => handleSelect(person.id)}
                   >
                     <GenderDot gender={person.gender} />
                     <span className="min-w-0 flex-1 truncate">
-                      <span className="font-serif font-medium text-amber-950">
+                      <span className="font-serif font-medium text-slate-950">
                         {person.firstName}
                       </span>{" "}
-                      <span className="text-amber-800">{person.lastName}</span>
+                      <span className="text-slate-700">{person.lastName}</span>
                     </span>
                   </button>
                 </li>
@@ -217,7 +217,7 @@ export function ReferenceChip({
             </ul>
           )}
           {query.length >= 1 && results.length === 0 && (
-            <p className="px-3 pb-3 text-sm italic text-amber-600">
+            <p className="px-3 pb-3 text-sm italic text-slate-500">
               Sin resultados
             </p>
           )}

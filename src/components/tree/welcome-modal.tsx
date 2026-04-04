@@ -122,12 +122,12 @@ export function WelcomeModal({ persons, onSelect, onSkip }: WelcomeModalProps) {
 
         <h2
           id="welcome-heading"
-          className="mt-4 text-center font-serif text-xl font-semibold text-amber-950"
+          className="mt-4 text-center font-serif text-xl font-semibold text-slate-950"
         >
           Bienvenido al Arbol Familiar Caamano!
         </h2>
 
-        <p className="mt-2 text-center text-sm text-amber-800">
+        <p className="mt-2 text-center text-sm text-slate-700">
           Quien eres? Selecciona tu nombre para ver tus relaciones familiares.
         </p>
 
@@ -139,26 +139,26 @@ export function WelcomeModal({ persons, onSelect, onSkip }: WelcomeModalProps) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar tu nombre..."
-            className="w-full rounded-xl border border-amber-200 px-4 py-3 text-sm text-amber-950 outline-none placeholder:text-amber-500/50 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20"
+            className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm text-slate-950 outline-none placeholder:text-slate-400 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20"
           />
         </div>
 
         {/* Results */}
         {results.length > 0 && (
-          <ul className="mt-2 max-h-48 overflow-y-auto rounded-xl border border-amber-100">
+          <ul className="mt-2 max-h-48 overflow-y-auto rounded-xl border border-slate-200">
             {results.map(({ person }) => (
               <li key={person.id}>
                 <button
                   type="button"
-                  className="flex w-full items-center gap-2.5 px-4 py-2.5 text-left text-sm transition-colors duration-100 hover:bg-amber-50"
+                  className="flex w-full items-center gap-2.5 px-4 py-2.5 text-left text-sm transition-colors duration-100 hover:bg-slate-50"
                   onClick={() => handleSelect(person.id)}
                 >
                   <GenderDot gender={person.gender} />
                   <span className="min-w-0 flex-1 truncate">
-                    <span className="font-serif font-medium text-amber-950">
+                    <span className="font-serif font-medium text-slate-950">
                       {person.firstName}
                     </span>{" "}
-                    <span className="text-amber-800">{person.lastName}</span>
+                    <span className="text-slate-700">{person.lastName}</span>
                   </span>
                 </button>
               </li>
@@ -167,7 +167,7 @@ export function WelcomeModal({ persons, onSelect, onSkip }: WelcomeModalProps) {
         )}
 
         {query.length >= 1 && results.length === 0 && (
-          <p className="mt-2 text-center text-sm italic text-amber-600">
+          <p className="mt-2 text-center text-sm italic text-slate-500">
             Sin resultados
           </p>
         )}
@@ -176,7 +176,7 @@ export function WelcomeModal({ persons, onSelect, onSkip }: WelcomeModalProps) {
         <button
           type="button"
           onClick={onSkip}
-          className="mt-6 block w-full text-center text-sm font-medium text-amber-600 transition-colors duration-150 hover:text-amber-800"
+          className="mt-6 block w-full text-center text-sm font-medium text-slate-500 transition-colors duration-150 hover:text-slate-700"
         >
           Solo quiero explorar &rarr;
         </button>

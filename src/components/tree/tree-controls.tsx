@@ -28,8 +28,8 @@ const SOURCE_TOGGLES: {
   {
     key: "modern",
     label: "Familia",
-    activeClass: "bg-amber-700 text-white ring-1 ring-amber-800",
-    inactiveClass: "bg-amber-50 text-amber-900 ring-1 ring-amber-300",
+    activeClass: "bg-slate-700 text-white ring-1 ring-slate-800",
+    inactiveClass: "bg-slate-50 text-slate-800 ring-1 ring-slate-300",
   },
   {
     key: "historical",
@@ -154,7 +154,7 @@ function IconMaximize() {
 
 // Shared button style — 44px touch target, 150ms hover feedback.
 const btnClass =
-  "flex h-9 min-w-9 items-center justify-center gap-1.5 rounded-lg px-2 text-amber-800 transition-colors duration-150 hover:bg-amber-100 hover:text-amber-950 active:scale-95 active:bg-amber-200";
+  "flex h-9 min-w-9 items-center justify-center gap-1.5 rounded-lg px-2 text-slate-700 transition-colors duration-150 hover:bg-slate-100 hover:text-slate-950 active:scale-95 active:bg-slate-200";
 const btnLabelClass = "text-[10px] font-medium leading-none";
 
 // PATH FINDER: Two-person link icon — signals "compare two people".
@@ -233,7 +233,7 @@ export function TreeControls({
   return (
     // ARIA: Floating glass panel — white/90 + backdrop-blur reads over any background.
     // rounded-xl + shadow-lg gives the panel its own elevation layer (z-axis depth).
-    <div className="absolute right-4 bottom-4 flex flex-col items-center gap-0.5 rounded-xl border border-amber-200 bg-white/90 p-1.5 shadow-lg backdrop-blur-sm">
+    <div className="absolute right-4 bottom-4 flex flex-col items-center gap-0.5 rounded-xl border border-slate-300 bg-white/90 p-1.5 shadow-lg backdrop-blur-sm">
       <button
         type="button"
         onClick={onZoomIn}
@@ -244,7 +244,7 @@ export function TreeControls({
       </button>
 
       {/* ARIA: Zoom % acts as a subtle state indicator between the zoom buttons */}
-      <span className="py-0.5 text-xs font-medium tabular-nums text-amber-700">
+      <span className="py-0.5 text-xs font-medium tabular-nums text-slate-600">
         {Math.round(zoomLevel * 100)}%
       </span>
 
@@ -258,7 +258,7 @@ export function TreeControls({
       </button>
 
       {/* Divider between zoom group and action group */}
-      <div className="my-1 h-px w-6 bg-amber-200" aria-hidden="true" />
+      <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
 
       <button
         type="button"
@@ -285,7 +285,7 @@ export function TreeControls({
       {onCompare && (
         <>
           {/* Divider between action group and compare */}
-          <div className="my-1 h-px w-6 bg-amber-200" aria-hidden="true" />
+          <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
 
           <button
             type="button"
@@ -309,7 +309,7 @@ export function TreeControls({
       {onExport && (
         <>
           {/* Divider between compare/action group and export */}
-          <div className="my-1 h-px w-6 bg-amber-200" aria-hidden="true" />
+          <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
 
           <button
             type="button"
@@ -326,7 +326,7 @@ export function TreeControls({
 
       {onToggleSource && visibleSources && (
         <>
-          <div className="my-1 h-px w-6 bg-amber-200" aria-hidden="true" />
+          <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
           {SOURCE_TOGGLES.map((src) => {
             const isActive = visibleSources.has(src.key);
             return (

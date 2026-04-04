@@ -12,15 +12,15 @@ export default function AddPage() {
       {/* ARIA: Page header with serif title and descriptive subtitle.
           The amber accent bar under the heading echoes the form section markers. */}
       <div className="mb-6">
-        <h1 className="font-serif text-2xl font-semibold text-amber-950">
+        <h1 className="font-serif text-2xl font-semibold text-slate-950">
           Agregar Familiar
         </h1>
-        <p className="mt-1 text-sm text-amber-700">
+        <p className="mt-1 text-sm text-slate-600">
           Registra un nuevo miembro de la familia Caamaño en el árbol.
         </p>
         {/* NOVA: Thin decorative line under the heading — same amber gradient
             used on the map page hero, creating a consistent page header pattern. */}
-        <div className="mt-4 h-px bg-gradient-to-r from-amber-300 via-amber-200 to-transparent" />
+        <div className="mt-4 h-px bg-gradient-to-r from-teal-300 via-amber-200 to-transparent" />
       </div>
 
       <PersonForm />

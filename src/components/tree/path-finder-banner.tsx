@@ -31,18 +31,18 @@ export function PathFinderBanner({
 
   return (
     <div className="absolute top-28 left-1/2 z-30 -translate-x-1/2">
-      <div className="flex items-center gap-3 rounded-xl border border-amber-200 border-l-4 border-l-amber-400 bg-white/95 px-4 py-2.5 shadow-lg backdrop-blur-sm">
+      <div className="flex items-center gap-3 rounded-xl border border-slate-300 border-l-4 border-l-teal-500 bg-white/95 px-4 py-2.5 shadow-lg backdrop-blur-sm">
         {/* State: no selections */}
         {!hasA && (
           <>
-            <span className="text-sm text-amber-800">
+            <span className="text-sm text-slate-700">
               <span className="mr-1.5">🔍</span>
               Selecciona la primera persona en el arbol
             </span>
             <button
               type="button"
               onClick={onClose}
-              className="ml-2 flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium text-amber-700 transition-colors hover:bg-amber-100"
+              className="ml-2 flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-100"
             >
               <span aria-hidden="true">✕</span> Cancelar
             </button>
@@ -52,18 +52,18 @@ export function PathFinderBanner({
         {/* State: person A selected, waiting for B */}
         {hasA && !hasB && (
           <>
-            <span className="text-sm text-amber-800">
+            <span className="text-sm text-slate-700">
               <span className="mr-1.5">🔍</span>
-              <span className="font-serif font-bold text-amber-950">
+              <span className="font-serif font-bold text-slate-950">
                 {personName(personA)}
               </span>
-              <span className="mx-2 text-amber-400">→</span>
+              <span className="mx-2 text-slate-400">→</span>
               Selecciona la segunda persona
             </span>
             <button
               type="button"
               onClick={onClose}
-              className="ml-2 flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium text-amber-700 transition-colors hover:bg-amber-100"
+              className="ml-2 flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-100"
             >
               <span aria-hidden="true">✕</span> Cancelar
             </button>
@@ -73,13 +73,13 @@ export function PathFinderBanner({
         {/* State: both selected, show result */}
         {hasResult && (
           <>
-            <span className="font-serif text-sm font-bold text-amber-950">
+            <span className="font-serif text-sm font-bold text-slate-950">
               {personName(personA)}
             </span>
-            <span className="text-amber-400" aria-hidden="true">
+            <span className="text-slate-400" aria-hidden="true">
               ←→
             </span>
-            <span className="font-serif text-sm font-bold text-amber-950">
+            <span className="font-serif text-sm font-bold text-slate-950">
               {personName(personB)}
             </span>
 
@@ -103,7 +103,7 @@ export function PathFinderBanner({
             <button
               type="button"
               onClick={onClose}
-              className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium text-amber-700 transition-colors hover:bg-amber-100"
+              className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-100"
             >
               <span aria-hidden="true">✕</span> Cerrar
             </button>

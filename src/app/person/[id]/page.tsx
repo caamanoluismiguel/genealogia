@@ -43,7 +43,7 @@ function IconCalendar() {
       viewBox="0 0 14 14"
       fill="none"
       aria-hidden="true"
-      className="mt-0.5 shrink-0 text-amber-500"
+      className="mt-0.5 shrink-0 text-teal-600"
     >
       <rect
         x="1"
@@ -113,7 +113,7 @@ function IconNote() {
       viewBox="0 0 14 14"
       fill="none"
       aria-hidden="true"
-      className="mt-0.5 shrink-0 text-amber-500"
+      className="mt-0.5 shrink-0 text-teal-600"
     >
       <rect
         x="1.5"
@@ -143,8 +143,8 @@ function SectionCard({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-xl border border-amber-100 bg-amber-50/40 p-5">
-      <h2 className="mb-3 font-serif text-base font-semibold text-amber-900">
+    <section className="rounded-xl border border-slate-200 bg-slate-50/60 p-5">
+      <h2 className="mb-3 font-serif text-base font-semibold text-slate-800">
         {title}
       </h2>
       {children}
@@ -166,11 +166,11 @@ export default async function PersonPage({ params }: PersonPageProps) {
   if (!person) {
     return (
       <div className="mx-auto max-w-2xl p-6">
-        <div className="rounded-xl border border-amber-100 bg-amber-50 p-8 text-center">
-          <p className="font-serif text-xl text-amber-900">
+        <div className="rounded-xl border border-slate-200 bg-slate-50 p-8 text-center">
+          <p className="font-serif text-xl text-slate-800">
             Persona no encontrada
           </p>
-          <p className="mt-2 text-sm text-amber-700">
+          <p className="mt-2 text-sm text-slate-600">
             No se encontró a ningún familiar con el ID &quot;{id}&quot;.
           </p>
           <Link
@@ -227,7 +227,7 @@ export default async function PersonPage({ params }: PersonPageProps) {
       {/* Back link */}
       <Link
         href="/tree"
-        className="mb-6 inline-flex items-center gap-1.5 text-sm text-amber-700 transition-colors hover:text-amber-950"
+        className="mb-6 inline-flex items-center gap-1.5 text-sm text-slate-600 transition-colors hover:text-slate-950"
       >
         <svg
           width="14"
@@ -250,33 +250,33 @@ export default async function PersonPage({ params }: PersonPageProps) {
       {/* Hero card — parchment gradient background */}
       {/* ARIA: The 4px top gender stripe is the same pattern used in the sidebar
           and search dropdown — a consistent visual language across all person surfaces. */}
-      <div className="overflow-hidden rounded-2xl border border-amber-200 shadow-md">
+      <div className="overflow-hidden rounded-2xl border border-slate-300 shadow-md">
         <div className={`h-1.5 w-full ${genderStripe}`} />
-        <div className="bg-gradient-to-b from-amber-50 to-white px-6 py-6">
+        <div className="bg-gradient-to-b from-slate-50 to-white px-6 py-6">
           {/* ARIA: Large serif name is the page hero — family records are name-first */}
-          <h1 className="font-serif text-3xl font-semibold text-amber-950">
+          <h1 className="font-serif text-3xl font-semibold text-slate-950">
             {person.firstName}{" "}
-            <span className="text-2xl font-normal text-amber-800">
+            <span className="text-2xl font-normal text-slate-700">
               {person.lastName}
             </span>
           </h1>
-          <p className="mt-1 text-sm text-amber-700">
+          <p className="mt-1 text-sm text-slate-600">
             {getGenderLabel(person.gender)}
           </p>
 
           {/* Key dates row */}
           {(person.birthDate || person.deathDate) && (
-            <div className="mt-4 flex flex-wrap gap-4 border-t border-amber-100 pt-4">
+            <div className="mt-4 flex flex-wrap gap-4 border-t border-slate-200 pt-4">
               {person.birthDate && (
                 <div className="flex items-start gap-2">
                   <IconCalendar />
                   <div>
-                    <p className="text-xs text-amber-700">Nacimiento</p>
-                    <p className="text-sm font-medium text-amber-950">
+                    <p className="text-xs text-slate-600">Nacimiento</p>
+                    <p className="text-sm font-medium text-slate-950">
                       {person.birthDate}
                     </p>
                     {person.birthPlace && (
-                      <p className="mt-0.5 flex items-center gap-1 text-xs text-amber-700">
+                      <p className="mt-0.5 flex items-center gap-1 text-xs text-slate-600">
                         <IconMapPin />
                         {person.birthPlace}
                       </p>
@@ -288,10 +288,10 @@ export default async function PersonPage({ params }: PersonPageProps) {
                 <div className="flex items-start gap-2">
                   <IconMapPin />
                   <div>
-                    <p className="text-xs text-amber-700">
+                    <p className="text-xs text-slate-600">
                       Lugar de nacimiento
                     </p>
-                    <p className="text-sm font-medium text-amber-950">
+                    <p className="text-sm font-medium text-slate-950">
                       {person.birthPlace}
                     </p>
                   </div>
@@ -301,12 +301,12 @@ export default async function PersonPage({ params }: PersonPageProps) {
                 <div className="flex items-start gap-2">
                   <IconCalendar />
                   <div>
-                    <p className="text-xs text-amber-700">Fallecimiento</p>
-                    <p className="text-sm font-medium text-amber-950">
+                    <p className="text-xs text-slate-600">Fallecimiento</p>
+                    <p className="text-sm font-medium text-slate-950">
                       {person.deathDate}
                     </p>
                     {person.deathPlace && (
-                      <p className="mt-0.5 flex items-center gap-1 text-xs text-amber-700">
+                      <p className="mt-0.5 flex items-center gap-1 text-xs text-slate-600">
                         <IconMapPin />
                         {person.deathPlace}
                       </p>
@@ -319,9 +319,9 @@ export default async function PersonPage({ params }: PersonPageProps) {
 
           {/* Notes */}
           {person.notes && (
-            <div className="mt-4 flex items-start gap-2 border-t border-amber-100 pt-4">
+            <div className="mt-4 flex items-start gap-2 border-t border-slate-200 pt-4">
               <IconNote />
-              <p className="text-sm leading-relaxed text-amber-900 italic">
+              <p className="text-sm leading-relaxed text-slate-800 italic">
                 {person.notes}
               </p>
             </div>
@@ -338,7 +338,7 @@ export default async function PersonPage({ params }: PersonPageProps) {
                 <li key={p!.id}>
                   <Link
                     href={`/person/${p!.id}`}
-                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-amber-950 underline-offset-2 hover:text-teal-700 hover:underline"
+                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-slate-950 underline-offset-2 hover:text-teal-700 hover:underline"
                   >
                     {p!.firstName} {p!.lastName}
                   </Link>
@@ -355,7 +355,7 @@ export default async function PersonPage({ params }: PersonPageProps) {
                 <li key={s!.id}>
                   <Link
                     href={`/person/${s!.id}`}
-                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-amber-950 underline-offset-2 hover:text-teal-700 hover:underline"
+                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-slate-950 underline-offset-2 hover:text-teal-700 hover:underline"
                   >
                     {s!.firstName} {s!.lastName}
                   </Link>
@@ -372,7 +372,7 @@ export default async function PersonPage({ params }: PersonPageProps) {
                 <li key={c!.id}>
                   <Link
                     href={`/person/${c!.id}`}
-                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-amber-950 underline-offset-2 hover:text-teal-700 hover:underline"
+                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-slate-950 underline-offset-2 hover:text-teal-700 hover:underline"
                   >
                     {c!.firstName} {c!.lastName}
                   </Link>
@@ -389,7 +389,7 @@ export default async function PersonPage({ params }: PersonPageProps) {
                 <li key={s!.id}>
                   <Link
                     href={`/person/${s!.id}`}
-                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-amber-950 underline-offset-2 hover:text-teal-700 hover:underline"
+                    className="inline-flex items-center gap-1.5 font-serif text-sm font-medium text-slate-950 underline-offset-2 hover:text-teal-700 hover:underline"
                   >
                     {s!.firstName} {s!.lastName}
                   </Link>
@@ -405,9 +405,9 @@ export default async function PersonPage({ params }: PersonPageProps) {
             <ul className="space-y-3">
               {person.migrations.map((m, i) => (
                 <li key={i} className="flex items-center gap-2 text-sm">
-                  <div className="flex items-center gap-1.5 rounded-lg border border-amber-100 bg-white px-3 py-1.5">
+                  <div className="flex items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-1.5">
                     <IconMapPin />
-                    <span className="font-medium text-amber-950">
+                    <span className="font-medium text-slate-950">
                       {typeof m.from === "string" ? m.from : m.from.label}
                     </span>
                   </div>
@@ -419,7 +419,7 @@ export default async function PersonPage({ params }: PersonPageProps) {
                     </span>
                   </div>
                   {m.reason && (
-                    <span className="text-xs text-amber-700 italic">
+                    <span className="text-xs text-slate-600 italic">
                       ({m.reason})
                     </span>
                   )}

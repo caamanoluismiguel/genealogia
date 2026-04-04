@@ -55,8 +55,8 @@ const NOTABLES = [
     name: "José María Plácido Caamaño",
     years: "1837–1900",
     role: "12° Presidente del Ecuador",
-    accent: "border-l-amber-500",
-    badge: "bg-amber-500",
+    accent: "border-l-teal-500",
+    badge: "bg-slate-500",
     icon: "🏛️",
     description:
       "Nieto del navegante Jacinto Caamaño. Abogado, terrateniente y político guayaquileño. Presidente Constitucional de Ecuador de 1883 a 1888, período conocido como el inicio del 'Progresismo'. Su padre, José María Caamaño y Arteta, fue candidato presidencial en 1865. Murió exiliado en Sevilla, España, en la pobreza.",
@@ -112,7 +112,7 @@ const MIGRATIONS = [
 
 function SectionDivider() {
   return (
-    <div className="mx-auto my-12 h-0.5 w-24 rounded-full bg-gradient-to-r from-transparent via-amber-300 to-transparent" />
+    <div className="mx-auto my-12 h-0.5 w-24 rounded-full bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
   );
 }
 
@@ -121,16 +121,16 @@ function BarChart({ data }: { data: typeof COMARCAS }) {
     <div className="space-y-2">
       {data.map((item) => (
         <div key={item.name} className="flex items-center gap-3">
-          <span className="w-40 shrink-0 text-right text-sm text-amber-800">
+          <span className="w-40 shrink-0 text-right text-sm text-slate-700">
             {item.name}
           </span>
           <div className="flex-1">
             <div
-              className="h-6 rounded-r bg-gradient-to-r from-amber-400 to-amber-300 transition-all duration-500"
+              className="h-6 rounded-r bg-gradient-to-r from-teal-400 to-teal-300 transition-all duration-500"
               style={{ width: `${item.pct}%` }}
             />
           </div>
-          <span className="w-14 shrink-0 text-sm font-medium tabular-nums text-amber-900">
+          <span className="w-14 shrink-0 text-sm font-medium tabular-nums text-slate-800">
             {item.count.toLocaleString()}
           </span>
         </div>
@@ -145,26 +145,26 @@ export function HistoriaPage() {
       <div className="mx-auto max-w-3xl px-6 py-12">
         {/* Hero */}
         <header className="mb-16 text-center">
-          <p className="mb-2 text-sm font-medium uppercase tracking-widest text-amber-600">
+          <p className="mb-2 text-sm font-medium uppercase tracking-widest text-slate-500">
             Historia y Genealogía
           </p>
-          <h1 className="font-serif text-4xl font-bold text-amber-950 sm:text-5xl">
+          <h1 className="font-serif text-4xl font-bold text-slate-950 sm:text-5xl">
             El Apellido Caamaño
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-amber-800">
+          <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-slate-700">
             Desde las costas de Galicia hasta tres continentes — la historia de
             un linaje que ha dejado su marca en exploración, política y
             revolución.
           </p>
-          <div className="mx-auto mt-6 h-0.5 w-32 rounded-full bg-gradient-to-r from-transparent via-amber-400 to-transparent" />
+          <div className="mx-auto mt-6 h-0.5 w-32 rounded-full bg-gradient-to-r from-transparent via-teal-400 to-transparent" />
         </header>
 
         {/* 1. Etymology */}
         <section>
-          <h2 className="mb-6 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-6 font-serif text-2xl font-semibold text-slate-950">
             Origen y Etimología
           </h2>
-          <p className="mb-4 leading-relaxed text-amber-900">
+          <p className="mb-4 leading-relaxed text-slate-800">
             <strong>Caamaño</strong> es un apellido de origen{" "}
             <strong>gallego</strong> — no castellano — con raíces que se
             remontan al menos al siglo V. La primera mención documentada es un{" "}
@@ -173,32 +173,32 @@ export function HistoriaPage() {
           </p>
 
           <div className="grid gap-4 sm:grid-cols-3">
-            <div className="rounded-xl border border-amber-200 bg-white/60 p-4">
-              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-amber-600">
+            <div className="rounded-xl border border-slate-300 bg-white/60 p-4">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-slate-500">
                 Teoría 1
               </p>
-              <p className="text-sm text-amber-900">
+              <p className="text-sm text-slate-800">
                 Del <strong>latín Camanius</strong>, con raíz celta{" "}
                 <em>cam-</em> = &quot;curvo, torcido&quot;. Común en toponimia
                 gallega. La doble &quot;a&quot; refleja evolución fonética
                 gallega.
               </p>
             </div>
-            <div className="rounded-xl border border-amber-200 bg-white/60 p-4">
-              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-amber-600">
+            <div className="rounded-xl border border-slate-300 bg-white/60 p-4">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-slate-500">
                 Teoría 2
               </p>
-              <p className="text-sm text-amber-900">
+              <p className="text-sm text-slate-800">
                 <strong>&quot;Ca&quot;</strong> (conjunción antigua =
                 &quot;porque&quot;) + <strong>&quot;amanar&quot;</strong> (forma
                 dialectal gallega de &quot;maña&quot; = destreza, habilidad).
               </p>
             </div>
-            <div className="rounded-xl border border-amber-200 bg-white/60 p-4">
-              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-amber-600">
+            <div className="rounded-xl border border-slate-300 bg-white/60 p-4">
+              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-slate-500">
                 Teoría 3
               </p>
-              <p className="text-sm text-amber-900">
+              <p className="text-sm text-slate-800">
                 Del latín <strong>&quot;campus magnus&quot;</strong> =
                 &quot;campo grande&quot;. Clasificación: apellido{" "}
                 <strong>toponímico</strong> (derivado de un lugar).
@@ -206,7 +206,7 @@ export function HistoriaPage() {
             </div>
           </div>
 
-          <p className="mt-4 text-sm text-amber-700">
+          <p className="mt-4 text-sm text-slate-600">
             Origen geográfico: <strong>Tierra de Betanzos</strong>, Ría de
             Betanzos, valle del río Mandeo, provincia de A Coruña, Galicia.
             Solar ancestral: <strong>Torre de Caamaño</strong>.
@@ -217,22 +217,22 @@ export function HistoriaPage() {
 
         {/* 2. Distribution in Spain */}
         <section>
-          <h2 className="mb-2 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-2 font-serif text-2xl font-semibold text-slate-950">
             Distribución en España
           </h2>
-          <p className="mb-6 text-amber-800">
+          <p className="mb-6 text-slate-700">
             <strong>5,017 personas</strong> llevan el apellido Caamaño en
             Galicia. La mayor concentración está en las comarcas costeras de A
             Coruña.
           </p>
           <BarChart data={COMARCAS} />
-          <p className="mt-3 text-right text-xs text-amber-600">
+          <p className="mt-3 text-right text-xs text-slate-500">
             Fuente: INE, Padrón Continuo •{" "}
             <a
               href="https://www.ine.es/apellidos/formGeneralresult.do?vista=3&orig=ine&cmb3=99&cmb6=Caamano&L=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-amber-800"
+              className="underline hover:text-slate-700"
             >
               Ver mapa en INE →
             </a>
@@ -243,10 +243,10 @@ export function HistoriaPage() {
 
         {/* 3. Worldwide Distribution */}
         <section>
-          <h2 className="mb-2 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-2 font-serif text-2xl font-semibold text-slate-950">
             Distribución Mundial
           </h2>
-          <p className="mb-6 text-amber-800">
+          <p className="mb-6 text-slate-700">
             Presente en <strong>36+ países</strong>. El 67% de los Caamaño del
             mundo viven en las Américas.
           </p>
@@ -254,28 +254,28 @@ export function HistoriaPage() {
             {COUNTRIES.map((c) => (
               <div
                 key={c.name}
-                className="flex items-center gap-3 rounded-xl border border-amber-200 bg-white/60 px-4 py-3"
+                className="flex items-center gap-3 rounded-xl border border-slate-300 bg-white/60 px-4 py-3"
               >
                 <span className="text-2xl">{c.flag}</span>
                 <div className="min-w-0 flex-1">
-                  <p className="text-sm font-semibold text-amber-950">
+                  <p className="text-sm font-semibold text-slate-950">
                     {c.name}
                   </p>
-                  <p className="text-xs text-amber-700">{c.note}</p>
+                  <p className="text-xs text-slate-600">{c.note}</p>
                 </div>
-                <span className="shrink-0 font-serif text-lg font-bold text-amber-800">
+                <span className="shrink-0 font-serif text-lg font-bold text-slate-700">
                   {c.count}
                 </span>
               </div>
             ))}
           </div>
-          <p className="mt-3 text-right text-xs text-amber-600">
+          <p className="mt-3 text-right text-xs text-slate-500">
             Fuente:{" "}
             <a
               href="https://forebears.io/surnames/caama%C3%B1o"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-amber-800"
+              className="underline hover:text-slate-700"
             >
               Forebears.io →
             </a>
@@ -286,13 +286,13 @@ export function HistoriaPage() {
 
         {/* 4. Heraldry */}
         <section>
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-4 font-serif text-2xl font-semibold text-slate-950">
             Heráldica
           </h2>
           <div className="flex flex-col gap-6 sm:flex-row">
             {/* Simple CSS shield */}
             <div className="flex shrink-0 items-center justify-center">
-              <div className="relative flex h-36 w-28 items-center justify-center overflow-hidden rounded-b-[50%] border-2 border-amber-400 bg-blue-700">
+              <div className="relative flex h-36 w-28 items-center justify-center overflow-hidden rounded-b-[50%] border-2 border-teal-500 bg-blue-700">
                 <div className="space-y-1.5">
                   <div className="h-1.5 w-16 rounded bg-gray-200" />
                   <div className="h-1.5 w-16 rounded bg-gray-200" />
@@ -301,21 +301,21 @@ export function HistoriaPage() {
               </div>
             </div>
             <div className="flex-1">
-              <p className="mb-2 text-sm leading-relaxed text-amber-900">
+              <p className="mb-2 text-sm leading-relaxed text-slate-800">
                 <strong>Escudo principal:</strong> En campo de{" "}
                 <strong>azur</strong> (azul), tres <strong>barras</strong> de{" "}
                 <strong>plata</strong> (blanco/plateado).
               </p>
-              <p className="mb-2 text-sm leading-relaxed text-amber-900">
+              <p className="mb-2 text-sm leading-relaxed text-slate-800">
                 <strong>Variante 1:</strong> Bordura de gules (rojo) con ocho
                 sotueres de oro.
               </p>
-              <p className="mb-2 text-sm leading-relaxed text-amber-900">
+              <p className="mb-2 text-sm leading-relaxed text-slate-800">
                 <strong>Variante 2:</strong> En campo de oro, un brazo alado
                 vestido de sinople (verde), moviente del flanco siniestro, con
                 las alas de plata y sosteniendo en la mano una corona de azur.
               </p>
-              <p className="mt-3 rounded-lg bg-amber-100/50 px-3 py-2 text-xs italic text-amber-700">
+              <p className="mt-3 rounded-lg bg-slate-100/60 px-3 py-2 text-xs italic text-slate-600">
                 Nota: Los escudos de armas pertenecen a líneas familiares
                 específicas, no a todos los portadores del apellido. Fuente:
                 García Carraffa, <em>Diccionario Heráldico y Genealógico</em>.
@@ -328,14 +328,14 @@ export function HistoriaPage() {
 
         {/* 5. Notable Caamaños */}
         <section>
-          <h2 className="mb-6 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-6 font-serif text-2xl font-semibold text-slate-950">
             Caamaños Ilustres
           </h2>
           <div className="space-y-6">
             {NOTABLES.map((person) => (
               <div
                 key={person.name}
-                className={`rounded-xl border border-amber-200 bg-white/60 ${person.accent} border-l-4 p-5`}
+                className={`rounded-xl border border-slate-300 bg-white/60 ${person.accent} border-l-4 p-5`}
               >
                 <div className="mb-2 flex items-start gap-3">
                   <span
@@ -344,15 +344,15 @@ export function HistoriaPage() {
                     {person.icon}
                   </span>
                   <div>
-                    <h3 className="font-serif text-lg font-semibold text-amber-950">
+                    <h3 className="font-serif text-lg font-semibold text-slate-950">
                       {person.name}
                     </h3>
-                    <p className="text-sm text-amber-700">
+                    <p className="text-sm text-slate-600">
                       {person.years} · {person.role}
                     </p>
                   </div>
                 </div>
-                <p className="text-sm leading-relaxed text-amber-900">
+                <p className="text-sm leading-relaxed text-slate-800">
                   {person.description}
                 </p>
               </div>
@@ -364,30 +364,30 @@ export function HistoriaPage() {
 
         {/* 6. Migration Waves */}
         <section>
-          <h2 className="mb-6 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-6 font-serif text-2xl font-semibold text-slate-950">
             Olas Migratorias
           </h2>
           <div className="space-y-5">
             {MIGRATIONS.map((wave) => (
               <div
                 key={wave.era}
-                className="rounded-xl border border-amber-200 bg-white/60 p-5"
+                className="rounded-xl border border-slate-300 bg-white/60 p-5"
               >
                 <div className="mb-2 flex items-baseline gap-3">
-                  <span className="rounded-full bg-amber-200 px-3 py-0.5 text-xs font-bold text-amber-900">
+                  <span className="rounded-full bg-slate-200 px-3 py-0.5 text-xs font-bold text-slate-800">
                     {wave.era}
                   </span>
-                  <span className="text-sm font-medium text-amber-700">
+                  <span className="text-sm font-medium text-slate-600">
                     {wave.years}
                   </span>
                 </div>
-                <p className="mb-1 text-sm text-amber-900">
+                <p className="mb-1 text-sm text-slate-800">
                   <strong>Causas:</strong> {wave.push}
                 </p>
-                <p className="mb-2 text-sm text-amber-900">
+                <p className="mb-2 text-sm text-slate-800">
                   <strong>Destinos:</strong> {wave.destinations}
                 </p>
-                <p className="text-sm italic text-amber-700">{wave.detail}</p>
+                <p className="text-sm italic text-slate-600">{wave.detail}</p>
               </div>
             ))}
           </div>
@@ -405,10 +405,10 @@ export function HistoriaPage() {
 
         {/* 7. Research Links */}
         <section>
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-amber-950">
+          <h2 className="mb-4 font-serif text-2xl font-semibold text-slate-950">
             Investiga tu Historia
           </h2>
-          <p className="mb-6 text-amber-800">
+          <p className="mb-6 text-slate-700">
             Explora estos archivos y bases de datos para descubrir más sobre tus
             antepasados Caamaño.
           </p>
@@ -426,7 +426,7 @@ export function HistoriaPage() {
               href="https://www.ine.es/apellidos/formGeneralresult.do?vista=1&orig=ine&cmb6=CAAMANO&L=0"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-xl border border-amber-200 bg-amber-50/50 px-4 py-3 text-sm font-medium text-amber-800 transition-colors hover:bg-amber-100"
+              className="flex items-center gap-3 rounded-xl border border-slate-300 bg-slate-50/70 px-4 py-3 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100"
             >
               <span className="text-lg">📊</span>
               INE — Frecuencia del apellido
@@ -454,8 +454,8 @@ export function HistoriaPage() {
 
         {/* Footer quote */}
         <div className="mt-16 mb-8 text-center">
-          <div className="mx-auto h-0.5 w-16 rounded-full bg-amber-300" />
-          <p className="mt-6 font-serif text-lg italic text-amber-700">
+          <div className="mx-auto h-0.5 w-16 rounded-full bg-slate-300" />
+          <p className="mt-6 font-serif text-lg italic text-slate-600">
             &quot;Un apellido que ha dejado su marca en tres continentes — desde
             las costas de Alaska hasta los palacios de Quito, desde las
             barricadas de Santo Domingo hasta las tierras de Colombia.&quot;

@@ -38,7 +38,7 @@ function getAccentStyle(
     return { borderColor: "#0d9488", bgColor: "#f0fdfa" }; // teal
   }
   if (isHighlighted) {
-    return { borderColor: "#d97706", bgColor: "#fffbeb" }; // amber/gold
+    return { borderColor: "#0d9488", bgColor: "#f0fdfa" }; // amber/gold
   }
   switch (gender) {
     case "male":
@@ -90,7 +90,7 @@ export function PersonNode({
   // without layout shift (ring is an outline, doesn't affect box model)
   // Compare A/B rings take priority when in compare mode
   const ringStyle = isCompareA
-    ? "ring-2 ring-amber-500 ring-offset-1 shadow-amber-100"
+    ? "ring-2 ring-teal-500 ring-offset-1 shadow-slate-200"
     : isCompareB
       ? "ring-2 ring-teal-500 ring-offset-1 shadow-teal-100"
       : isSelected
@@ -98,7 +98,7 @@ export function PersonNode({
         : isReference
           ? "ring-2 ring-emerald-400 ring-offset-1 shadow-emerald-100"
           : isHighlighted
-            ? "ring-2 ring-amber-400 ring-offset-1 shadow-amber-100"
+            ? "ring-2 ring-teal-400 ring-offset-1 shadow-slate-200"
             : "";
 
   // Extra height for the relationship label badge below the card
@@ -114,7 +114,7 @@ export function PersonNode({
     >
       <div className="flex flex-col items-center">
         <div
-          className={`relative flex w-full cursor-pointer flex-col justify-center rounded-lg border border-amber-100 border-l-[3px] px-3 py-2 transition-shadow duration-200 hover:shadow-lg ${ringStyle}`}
+          className={`relative flex w-full cursor-pointer flex-col justify-center rounded-lg border border-slate-200 border-l-[3px] px-3 py-2 transition-shadow duration-200 hover:shadow-lg ${ringStyle}`}
           style={{
             backgroundColor: bgColor,
             borderLeftColor: borderColor,
@@ -133,7 +133,7 @@ export function PersonNode({
 
           {/* Compare mode A/B badges */}
           {isCompareA && (
-            <div className="absolute -top-2 -left-2 rounded-full bg-amber-500 px-1.5 py-0.5 text-[8px] font-bold leading-none text-white shadow-sm">
+            <div className="absolute -top-2 -left-2 rounded-full bg-slate-500 px-1.5 py-0.5 text-[8px] font-bold leading-none text-white shadow-sm">
               A
             </div>
           )}
@@ -176,11 +176,11 @@ export function PersonNode({
           <div className="flex min-w-0 items-start gap-1.5">
             <GenderIcon gender={person.gender} />
             <div className="min-w-0 flex-1">
-              <p className="truncate font-serif text-sm font-semibold leading-tight text-amber-950">
+              <p className="truncate font-serif text-sm font-semibold leading-tight text-slate-950">
                 {person.firstName}
               </p>
               {/* ARIA: Removed /70 opacity — amber-800 on cream bg meets WCAG AA */}
-              <p className="truncate text-xs text-amber-800">
+              <p className="truncate text-xs text-slate-700">
                 {person.lastName}
               </p>
             </div>
@@ -190,7 +190,7 @@ export function PersonNode({
           {(birthYear || deathYear) && (
             <div className="mt-1 flex items-center justify-end gap-0.5">
               {/* ARIA: amber-700 without opacity — years are data, must be legible */}
-              <span className="text-[10px] tabular-nums text-amber-700">
+              <span className="text-[10px] tabular-nums text-slate-600">
                 {birthYear ?? "?"}
                 {deathYear ? `–${deathYear}` : ""}
               </span>

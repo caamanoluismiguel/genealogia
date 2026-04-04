@@ -178,7 +178,7 @@ function ResearchCard({
 }) {
   return (
     <div
-      className={`rounded-xl border border-amber-200 bg-white shadow-sm overflow-hidden`}
+      className={`rounded-xl border border-slate-300 bg-white shadow-sm overflow-hidden`}
     >
       <div className={`h-1.5 ${accent}`} />
       <div className="p-5">
@@ -188,11 +188,11 @@ function ResearchCard({
           >
             {icon}
           </div>
-          <h3 className="font-serif text-lg font-semibold text-amber-950">
+          <h3 className="font-serif text-lg font-semibold text-slate-950">
             {title}
           </h3>
         </div>
-        <p className="mb-4 text-sm leading-relaxed text-amber-800">
+        <p className="mb-4 text-sm leading-relaxed text-slate-700">
           {description}
         </p>
         {children}
@@ -216,8 +216,8 @@ function ExtLink({
     "inline-flex items-center gap-1.5 rounded-lg px-3.5 py-2 text-sm font-medium transition-colors duration-150";
   const styles =
     variant === "primary"
-      ? "bg-amber-100 text-amber-900 hover:bg-amber-200"
-      : "border border-amber-200 text-amber-700 hover:bg-amber-50";
+      ? "bg-slate-100 text-slate-800 hover:bg-slate-200"
+      : "border border-slate-300 text-slate-600 hover:bg-slate-50";
 
   return (
     <a
@@ -250,26 +250,26 @@ function FamilySearchCard() {
       <div className="space-y-3">
         <div className="grid grid-cols-2 gap-2">
           <div>
-            <label className="mb-1 block text-xs font-medium text-amber-700">
+            <label className="mb-1 block text-xs font-medium text-slate-600">
               Apellido
             </label>
             <input
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="flex h-9 w-full rounded-lg border border-amber-200 bg-white px-2.5 py-1.5 text-sm text-amber-950 shadow-xs transition-colors duration-150 placeholder:text-amber-600/40 focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 focus:outline-none"
+              className="flex h-9 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-sm text-slate-950 shadow-xs transition-colors duration-150 placeholder:text-slate-400 focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 focus:outline-none"
               placeholder="Apellido"
             />
           </div>
           <div>
-            <label className="mb-1 block text-xs font-medium text-amber-700">
+            <label className="mb-1 block text-xs font-medium text-slate-600">
               Lugar
             </label>
             <input
               type="text"
               value={place}
               onChange={(e) => setPlace(e.target.value)}
-              className="flex h-9 w-full rounded-lg border border-amber-200 bg-white px-2.5 py-1.5 text-sm text-amber-950 shadow-xs transition-colors duration-150 placeholder:text-amber-600/40 focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 focus:outline-none"
+              className="flex h-9 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-sm text-slate-950 shadow-xs transition-colors duration-150 placeholder:text-slate-400 focus:border-blue-400 focus:ring-2 focus:ring-blue-500/20 focus:outline-none"
               placeholder="Lugar de origen"
             />
           </div>
@@ -309,7 +309,7 @@ function FamilySearchCard() {
 function INECard() {
   return (
     <ResearchCard
-      accent="bg-amber-500"
+      accent="bg-slate-500"
       icon={<IconChart />}
       title="INE — Distribución en España"
       description="Frecuencia y distribución geográfica del apellido Caamaño en España según el Instituto Nacional de Estadística."
@@ -320,17 +320,17 @@ function INECard() {
           {INE_DATA.map(({ province, width, label }) => (
             <div key={province} className="space-y-1">
               <div className="flex items-baseline justify-between text-xs">
-                <span className="font-medium text-amber-900">{province}</span>
-                {label && <span className="text-amber-600">{label}</span>}
+                <span className="font-medium text-slate-800">{province}</span>
+                {label && <span className="text-slate-500">{label}</span>}
               </div>
-              <div className="h-3 w-full rounded-full bg-amber-100">
-                <div className={`h-3 rounded-full bg-amber-400 ${width}`} />
+              <div className="h-3 w-full rounded-full bg-slate-100">
+                <div className={`h-3 rounded-full bg-teal-500 ${width}`} />
               </div>
             </div>
           ))}
         </div>
 
-        <p className="text-xs text-amber-600 italic">
+        <p className="text-xs text-slate-500 italic">
           Datos: INE, Padrón Continuo 2024
         </p>
 
@@ -366,14 +366,14 @@ function PARESCard() {
     >
       <div className="space-y-3">
         <div>
-          <label className="mb-1 block text-xs font-medium text-amber-700">
+          <label className="mb-1 block text-xs font-medium text-slate-600">
             Buscar en archivos
           </label>
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="flex h-9 w-full rounded-lg border border-amber-200 bg-white px-2.5 py-1.5 text-sm text-amber-950 shadow-xs transition-colors duration-150 placeholder:text-amber-600/40 focus:border-red-400 focus:ring-2 focus:ring-red-500/20 focus:outline-none"
+            className="flex h-9 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-sm text-slate-950 shadow-xs transition-colors duration-150 placeholder:text-slate-400 focus:border-red-400 focus:ring-2 focus:ring-red-500/20 focus:outline-none"
             placeholder="Nombre o apellido"
           />
         </div>
@@ -403,7 +403,7 @@ function PARESCard() {
           </ExtLink>
         </div>
 
-        <p className="text-xs text-amber-600 italic">
+        <p className="text-xs text-slate-500 italic">
           PARES contiene más de 20 millones de documentos digitalizados de los
           archivos españoles.
         </p>
@@ -426,14 +426,14 @@ function CEMLACard() {
     >
       <div className="space-y-3">
         <div>
-          <label className="mb-1 block text-xs font-medium text-amber-700">
+          <label className="mb-1 block text-xs font-medium text-slate-600">
             Apellido del pasajero
           </label>
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            className="flex h-9 w-full rounded-lg border border-amber-200 bg-white px-2.5 py-1.5 text-sm text-amber-950 shadow-xs transition-colors duration-150 placeholder:text-amber-600/40 focus:border-green-400 focus:ring-2 focus:ring-green-500/20 focus:outline-none"
+            className="flex h-9 w-full rounded-lg border border-slate-300 bg-white px-2.5 py-1.5 text-sm text-slate-950 shadow-xs transition-colors duration-150 placeholder:text-slate-400 focus:border-green-400 focus:ring-2 focus:ring-green-500/20 focus:outline-none"
             placeholder="Apellido"
           />
         </div>
@@ -466,7 +466,7 @@ function CEMLACard() {
           </div>
         </div>
 
-        <p className="text-xs text-amber-600 italic">
+        <p className="text-xs text-slate-500 italic">
           Busca los Caamaño que llegaron de Galicia al puerto de Buenos Aires.
           Incluye nombre del barco, fecha de llegada y profesión.
         </p>
@@ -479,14 +479,14 @@ function CEMLACard() {
 
 export function ResearchDashboard() {
   return (
-    <div className="min-h-screen bg-amber-50/50">
+    <div className="min-h-screen bg-slate-50/70">
       <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-8 text-center">
-          <h1 className="font-serif text-3xl font-bold text-amber-950 sm:text-4xl">
+          <h1 className="font-serif text-3xl font-bold text-slate-950 sm:text-4xl">
             Investigación Genealógica
           </h1>
-          <p className="mt-2 text-sm leading-relaxed text-amber-800 sm:text-base">
+          <p className="mt-2 text-sm leading-relaxed text-slate-700 sm:text-base">
             Busca registros históricos de la familia Caamaño en archivos de
             España y América
           </p>

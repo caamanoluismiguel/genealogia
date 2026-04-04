@@ -9,10 +9,10 @@ const data = loadFamilyData();
 // ARIA: Warm input style — amber border at rest, teal on focus (action color).
 // ring-teal-500/20 creates a soft glow that guides the eye without harsh contrast.
 const inputClass =
-  "flex h-10 w-full rounded-lg border border-amber-200 bg-white px-3 py-2 text-sm text-amber-950 shadow-xs transition-colors duration-150 placeholder:text-amber-600/40 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20 focus:outline-none";
+  "flex h-10 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-950 shadow-xs transition-colors duration-150 placeholder:text-slate-400 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20 focus:outline-none";
 
 const selectClass =
-  "flex h-10 w-full rounded-lg border border-amber-200 bg-white px-3 py-2 text-sm text-amber-950 shadow-xs transition-colors duration-150 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20 focus:outline-none";
+  "flex h-10 w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-950 shadow-xs transition-colors duration-150 focus:border-teal-400 focus:ring-2 focus:ring-teal-500/20 focus:outline-none";
 
 // ARIA: Section header with decorative left bar — creates visual grouping that
 // reads as "chapters" in the form. Breaks the flat list into a narrative structure.
@@ -28,10 +28,10 @@ function FormSection({
       <legend className="mb-4 flex items-center gap-2.5">
         {/* ARIA: 3px amber bar echoes the left border accent on person nodes */}
         <div
-          className="h-5 w-0.5 rounded-full bg-amber-400"
+          className="h-5 w-0.5 rounded-full bg-teal-500"
           aria-hidden="true"
         />
-        <span className="font-serif text-base font-semibold text-amber-900">
+        <span className="font-serif text-base font-semibold text-slate-800">
           {title}
         </span>
       </legend>
@@ -55,7 +55,7 @@ function FormField({
     <div>
       <label
         htmlFor={htmlFor}
-        className="mb-1.5 block text-sm font-medium text-amber-800"
+        className="mb-1.5 block text-sm font-medium text-slate-700"
       >
         {label}{" "}
         {required && (
@@ -107,7 +107,7 @@ export function PersonForm() {
     return (
       // NOVA: Success state — warm card with a centered confirmation message.
       // The amber-400 checkmark circle echoes the form's accent color.
-      <div className="rounded-2xl border border-amber-200 bg-amber-50 p-8 text-center shadow-sm">
+      <div className="rounded-2xl border border-slate-300 bg-slate-50 p-8 text-center shadow-sm">
         <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-teal-100">
           <svg
             width="22"
@@ -125,10 +125,10 @@ export function PersonForm() {
             />
           </svg>
         </div>
-        <p className="font-serif text-xl font-semibold text-amber-950">
+        <p className="font-serif text-xl font-semibold text-slate-950">
           Familiar registrado
         </p>
-        <p className="mt-2 text-sm text-amber-700">
+        <p className="mt-2 text-sm text-slate-600">
           {firstName} {lastName} se guardó correctamente. (La persistencia
           completa se implementará en la Fase 2.)
         </p>
@@ -147,7 +147,7 @@ export function PersonForm() {
     // The form is visually contained — a "document" being filled out.
     <form
       onSubmit={handleSubmit}
-      className="rounded-2xl border border-amber-200 bg-white p-6 shadow-sm"
+      className="rounded-2xl border border-slate-300 bg-white p-6 shadow-sm"
     >
       <div className="space-y-8">
         {/* Section 1 — Información Personal */}
@@ -192,7 +192,7 @@ export function PersonForm() {
         </FormSection>
 
         {/* Divider */}
-        <div className="h-px bg-amber-100" />
+        <div className="h-px bg-slate-100" />
 
         {/* Section 2 — Fechas y Lugares */}
         <FormSection title="Fechas y Lugares">
@@ -255,7 +255,7 @@ export function PersonForm() {
         </FormSection>
 
         {/* Divider */}
-        <div className="h-px bg-amber-100" />
+        <div className="h-px bg-slate-100" />
 
         {/* Section 3 — Relaciones Familiares */}
         <FormSection title="Relaciones Familiares">
