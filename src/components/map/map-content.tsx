@@ -17,6 +17,7 @@ import {
 } from "@/data/migration-routes";
 import familyData from "@/data/caamano-family.json";
 import type { Person } from "@/lib/genealogy/types";
+import { PLACES_OF_INTEREST, POI_ICONS } from "@/data/places-of-interest";
 
 // Fix default marker icons (broken in webpack/Next.js)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -307,6 +308,56 @@ export default function MapContent() {
         );
       })}
 
+      {/* Places of interest — real locations with photos */}
+      {PLACES_OF_INTEREST.map((poi) => {
+        const iconInfo = POI_ICONS[poi.type];
+        const poiIcon = L.divIcon({
+          className: "",
+          html: `<div style="
+            width: 28px; height: 28px; border-radius: 6px;
+            background: ${iconInfo.color}; border: 2px solid white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 14px;
+          ">${iconInfo.emoji}</div>`,
+          iconSize: [28, 28],
+          iconAnchor: [14, 14],
+          popupAnchor: [0, -16],
+        });
+
+        return (
+          <Marker key={poi.id} position={[poi.lat, poi.lng]} icon={poiIcon}>
+            <Popup maxWidth={320} minWidth={260}>
+              <div className="text-sm">
+                {/* Photo */}
+                <div className="relative -mx-[20px] -mt-[10px] mb-3 overflow-hidden">
+                  <img
+                    src={poi.photo}
+                    alt={poi.name}
+                    className="h-40 w-full object-cover"
+                    loading="lazy"
+                  />
+                  <span className="absolute bottom-1 right-1 rounded bg-black/60 px-1.5 py-0.5 text-[9px] text-white">
+                    {poi.photoCredit}
+                  </span>
+                </div>
+
+                {/* Content */}
+                <p className="font-bold text-slate-800">{poi.name}</p>
+                {poi.year && (
+                  <p className="text-xs font-semibold text-teal-600">
+                    {poi.year}
+                  </p>
+                )}
+                <p className="mt-1.5 text-xs leading-relaxed text-slate-600">
+                  {poi.description}
+                </p>
+              </div>
+            </Popup>
+          </Marker>
+        );
+      })}
+
       {/* Map legend */}
       <div className="leaflet-bottom leaflet-left">
         <div className="leaflet-control m-3 rounded-lg border border-slate-200 bg-white/95 p-3 text-xs shadow-md backdrop-blur-sm">
@@ -342,6 +393,31 @@ export default function MapContent() {
           <p className="mt-2 text-[10px] text-slate-400">
             ── continua &nbsp; - - colonial
           </p>
+          <div className="mt-2 border-t border-slate-200 pt-2">
+            <p className="mb-1 font-semibold text-slate-700">Lugares</p>
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <span>⛪</span>
+                <span className="text-slate-600">Iglesia / Capilla</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span>🏰</span>
+                <span className="text-slate-600">Castillo / Fortaleza</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span>🏘️</span>
+                <span className="text-slate-600">Ciudad</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span>⚓</span>
+                <span className="text-slate-600">Puerto</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span>📍</span>
+                <span className="text-slate-600">Lugar histórico</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </MapContainer>

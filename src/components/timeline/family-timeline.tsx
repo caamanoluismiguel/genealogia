@@ -46,6 +46,10 @@ interface EraTheme {
   centuryActiveText: string;
   /** Progress bar fill color */
   progressFill: string;
+  /** Optional background photo URL (Wikimedia Commons) — shown as subtle overlay */
+  photoUrl?: string;
+  /** Photo overlay opacity (0-1) */
+  photoOpacity?: number;
 }
 
 function getEraTheme(year: number): EraTheme {
@@ -64,6 +68,9 @@ function getEraTheme(year: number): EraTheme {
       centuryActiveBg: "#ca8a04",
       centuryActiveText: "#1c1917",
       progressFill: "#ca8a04",
+      photoUrl:
+        "https://commons.wikimedia.org/w/thumb.php?f=Iglesia_de_Santa_Mar%C3%ADa_de_Caama%C3%B1o_%288187571099%29.jpg&w=800",
+      photoOpacity: 0.08,
     };
   }
   // Renaissance / Founding era (1400–1550) — rich burgundy, heraldic gold
@@ -81,6 +88,9 @@ function getEraTheme(year: number): EraTheme {
       centuryActiveBg: "#b45309",
       centuryActiveText: "#fff7ed",
       progressFill: "#d97706",
+      photoUrl:
+        "https://commons.wikimedia.org/w/thumb.php?f=Caama%C3%B1o%2C_Porto_do_Son.jpg&w=800",
+      photoOpacity: 0.06,
     };
   }
   // The Gap era (1550–1770) — deep indigo, mystery, near black
@@ -115,6 +125,9 @@ function getEraTheme(year: number): EraTheme {
       centuryActiveBg: "#92400e",
       centuryActiveText: "#fffbeb",
       progressFill: "#b45309",
+      photoUrl:
+        "https://commons.wikimedia.org/w/thumb.php?f=2014_Santa_Mar%C3%ADa_de_Caama%C3%B1o_Porto_do_Son._Galiza-C6.jpg&w=800",
+      photoOpacity: 0.07,
     };
   }
   // Great Emigration (1850–1920) — deep ocean blue, crossing the Atlantic
@@ -1208,11 +1221,22 @@ export function FamilyTimeline() {
     // ZERO: background-color transition on the wrapper — single compositor property,
     // no layout reflow. The full-bleed era shift happens here.
     <div
-      className="flex h-full flex-col transition-colors duration-700"
+      className="relative flex h-full flex-col transition-colors duration-700"
       style={{ background: dark ? theme.bg : undefined }}
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
     >
+      {/* Era background photo — subtle overlay */}
+      {theme.photoUrl && (
+        <div
+          className="pointer-events-none absolute inset-0 z-0 bg-cover bg-center transition-opacity duration-1000"
+          style={{
+            backgroundImage: `url(${theme.photoUrl})`,
+            opacity: theme.photoOpacity ?? 0.06,
+          }}
+          aria-hidden="true"
+        />
+      )}
       {/* Story progress bar — 2px, GPU scaleX */}
       <StoryProgress current={currentIndex} total={total} theme={theme} />
 
