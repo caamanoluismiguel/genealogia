@@ -28,7 +28,10 @@ export default function TimelinePage() {
       </div>
 
       {/* Timeline fills remaining height */}
-      <div className="flex-1" style={{ minHeight: "calc(100vh - 56px - 100px)" }}>
+      <div
+        className="flex-1"
+        style={{ minHeight: "calc(100vh - 56px - 100px)" }}
+      >
         <FamilyTimeline />
       </div>
     </div>
