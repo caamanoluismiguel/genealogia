@@ -22,42 +22,42 @@ interface TreeControlsProps {
 const SOURCE_TOGGLES: {
   key: PersonSource;
   label: string;
-  short: string;
   activeClass: string;
   inactiveClass: string;
 }[] = [
   {
     key: "modern",
-    label: "Familia moderna",
-    short: "Mod",
+    label: "Familia",
     activeClass: "bg-amber-700 text-white ring-1 ring-amber-800",
     inactiveClass: "bg-amber-50 text-amber-900 ring-1 ring-amber-300",
   },
   {
     key: "historical",
-    label: "Línea medieval",
-    short: "Hist",
+    label: "Medieval",
     activeClass: "bg-purple-700 text-white ring-1 ring-purple-800",
     inactiveClass: "bg-purple-50 text-purple-900 ring-1 ring-purple-300",
   },
   {
     key: "familysearch",
-    label: "FamilySearch",
-    short: "FS",
+    label: "Censos",
     activeClass: "bg-green-700 text-white ring-1 ring-green-800",
     inactiveClass: "bg-green-50 text-green-900 ring-1 ring-green-300",
   },
   {
     key: "cemla",
-    label: "CEMLA",
-    short: "CEM",
+    label: "Emigrantes",
     activeClass: "bg-blue-700 text-white ring-1 ring-blue-800",
     inactiveClass: "bg-blue-50 text-blue-900 ring-1 ring-blue-300",
   },
   {
+    key: "genco",
+    label: "Colombia",
+    activeClass: "bg-teal-700 text-white ring-1 ring-teal-800",
+    inactiveClass: "bg-teal-50 text-teal-900 ring-1 ring-teal-300",
+  },
+  {
     key: "geneanet",
-    label: "Geneanet",
-    short: "Gen",
+    label: "Archivos",
     activeClass: "bg-rose-700 text-white ring-1 ring-rose-800",
     inactiveClass: "bg-rose-50 text-rose-900 ring-1 ring-rose-300",
   },
@@ -152,10 +152,10 @@ function IconMaximize() {
   );
 }
 
-// Shared button style — KAI: 36px touch target, 150ms hover feedback.
-// bg-white/90 + backdrop-blur keeps the panel legible over the warm dot pattern.
+// Shared button style — 44px touch target, 150ms hover feedback.
 const btnClass =
-  "flex h-9 w-9 items-center justify-center rounded-lg text-amber-800 transition-colors duration-150 hover:bg-amber-100 hover:text-amber-950 active:scale-95 active:bg-amber-200";
+  "flex h-9 min-w-9 items-center justify-center gap-1.5 rounded-lg px-2 text-amber-800 transition-colors duration-150 hover:bg-amber-100 hover:text-amber-950 active:scale-95 active:bg-amber-200";
+const btnLabelClass = "text-[10px] font-medium leading-none";
 
 // PATH FINDER: Two-person link icon — signals "compare two people".
 function IconCompare() {
@@ -264,18 +264,22 @@ export function TreeControls({
         type="button"
         onClick={onReset}
         aria-label="Restablecer zoom"
+        title="Restablecer zoom"
         className={btnClass}
       >
         <IconRotateCcw />
+        <span className={btnLabelClass}>Reset</span>
       </button>
 
       <button
         type="button"
         onClick={onFitAll}
-        aria-label="Ajustar todo"
+        aria-label="Ver todo el árbol"
+        title="Ver todo el árbol"
         className={btnClass}
       >
         <IconMaximize />
+        <span className={btnLabelClass}>Ver todo</span>
       </button>
 
       {onCompare && (
@@ -286,14 +290,18 @@ export function TreeControls({
           <button
             type="button"
             onClick={onCompare}
-            aria-label="Comparar dos personas"
+            aria-label="Comparar parentesco entre dos personas"
+            title="Comparar parentesco"
             className={
               compareActive
-                ? "flex h-9 w-9 items-center justify-center rounded-lg bg-teal-600 text-white transition-colors duration-150 hover:bg-teal-700 active:scale-95"
+                ? "flex h-9 min-w-9 items-center justify-center gap-1.5 rounded-lg bg-teal-600 px-2 text-white transition-colors duration-150 hover:bg-teal-700 active:scale-95"
                 : btnClass
             }
           >
             <IconCompare />
+            <span className={btnLabelClass}>
+              {compareActive ? "Cancelar" : "Parentesco"}
+            </span>
           </button>
         </>
       )}
@@ -306,10 +314,12 @@ export function TreeControls({
           <button
             type="button"
             onClick={onExport}
-            aria-label="Exportar datos"
+            aria-label="Descargar datos JSON"
+            title="Descargar datos JSON"
             className={btnClass}
           >
             <IconDownload />
+            <span className={btnLabelClass}>Exportar</span>
           </button>
         </>
       )}
@@ -327,11 +337,11 @@ export function TreeControls({
                 aria-label={`${isActive ? "Ocultar" : "Mostrar"} ${src.label}`}
                 aria-pressed={isActive}
                 title={src.label}
-                className={`flex h-7 w-9 items-center justify-center rounded-lg text-[9px] font-bold transition-all duration-150 ${
+                className={`flex h-7 items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
                   isActive ? src.activeClass : src.inactiveClass
                 }`}
               >
-                {src.short}
+                {src.label}
               </button>
             );
           })}
