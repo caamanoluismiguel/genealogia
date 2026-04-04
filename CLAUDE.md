@@ -47,16 +47,17 @@ h001: Rodrigo García de Caamaño (1100s, conquest of Baeza)
 
 **CORRECTED TIMELINE (2026-04-03):** Luis Miguel born Dec 1983, father born 1949, grandfather Néstor born 1901. This means José Tomás Sr (p001) was born ~1810-1825, NOT ~1850s. **Pablo Caamaño Villa (fs003, born 1802) is now a CONTEMPORARY** — possibly father, brother, or uncle. Gap 2 is a proof gap, not a time gap. One baptism record from AHDS would close it.
 
-### Pinned Research Actions (2026-04-03)
+### Pinned Research Actions (2026-04-04)
 
-1. **SEND AHDS EMAIL** — `docs/AHDS-EMAIL-DRAFT.md` → arquivo@archicompostela.es — request parish records for Sta María de Caamaño (baptisms 1780-1860). AHDS = San Martín Pinario, Santiago. Tel: +34 981 58 38 84.
-2. **PAY GenCo 24h ($5)** — genealogiasdecolombia.co/Individuo/Buscar.aspx — search "Caamaño", "Bernardo Martínez Perrúa", "Prieto Caamaño" in 583K database
-3. **EMAIL Archivo de Simancas** — archivo.simancas@cultura.gob.es — request Catastro de Ensenada (1752) for "Santa María de Caamaño, Noia" (loc=904). Images NOT digitized online.
-4. **BROWSE FamilySearch** — familysearch.org/search/catalog → "Puerto del Son" → look for parish microfilms with camera icon (collection 1784529)
-5. **CONTACT Concello de Porto do Son** — portodoson.gal — ask about historical municipal archive (padrones)
-6. **Spanish civil registry** — sede.mjusticia.gob.es → "Certificado de Nacimiento sin CL@VE" — only covers post-1870. Useful for Benjamín (p013, born ~1870) if born in Spain.
-7. **PARES CONTRATACIÓN** — check digital viewer for Salvador Varela Caamaño (1687, CONTRATACION,5449,N.16) — AGI records often digitized
-8. **Xenealoxia.org** — register and post asking about Porto do Son/Caamaño parish — active Galician genealogy community
+1. **✅ AHDS EMAIL SENT** — arquivo@archicompostela.es — requested parish records for Sta María de Caamaño (baptisms 1780-1860). AHDS = San Martín Pinario, Santiago. Tel: +34 981 58 38 84. **AWAITING RESPONSE — follow up if no reply by mid-April.**
+2. **🔑 REGISTER FAMILYSEARCH API** — developers.familysearch.org — get OAuth 2.0 key → build automated search script to chain baptism records backwards through the gap. Free access with existing account.
+3. **ACCESS JUAN BEZERRA CAMANO PRE-MARRIAGE FILE** — FamilySearch "Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899" — would name his parents (a Camaño from Noya, ~1710-1720) + exact parish of origin
+4. **ACCESS DOLORES + SALVADOR CAAMANO MARRIAGE (1640)** — FamilySearch Argentina, Buenos Aires — colonial-era Caamaño, may name Spanish parish
+5. **EMAIL Archivo de Simancas** — archivo.simancas@cultura.gob.es — request Catastro de Ensenada (1752) for "Santa María de Caamaño, Noia" (loc=904). Would list every Caamaño household head in the parish + occupations.
+6. **PARES CONTRATACIÓN** — check digital viewer for Salvador Varela Caamaño (1687, CONTRATACION,5449,N.16) — AGI records often digitized
+7. **PAY GenCo 24h ($5)** — genealogiasdecolombia.co — search "Caamaño" in 583K database
+8. **CONTACT Concello de Porto do Son** — portodoson.gal — historical municipal archive (padrones)
+9. **Xenealoxia.org** — register and post asking about Porto do Son/Caamaño parish
 
 ### Research Data Files
 
@@ -345,26 +346,41 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v5, 2026-04-03)
+## Current State (v6, 2026-04-04)
 
 - **Data:** Modern family tree with 153 persons, 41 families in committed JSON. Historical/research persons (h001-h021, fs001-fs016, cm001-cm004, gn001-gn006) documented in `docs/` but not yet in app JSON.
 - **Code:** Fully functional app — 51 source files, 8 routes, 10,087 lines. All features implemented and working. TypeScript strict, zero errors. Production build passes.
 - **UI:** Warm parchment theme (amber palette), family crest shield, gender-coded person nodes, WCAG AA contrast. Responsive.
-- **Research:** Deep surname research completed across FamilySearch, INE, PARES, CEMLA, Forebears, García Carraffa, Geneanet. All findings in Historia page + docs/.
+- **Research:** Deep surname research completed across FamilySearch, INE, PARES, CEMLA, Forebears, García Carraffa, Geneanet. **New (2026-04-04):** Granada Caamaño cluster discovered — Juan Becerra Camaño (~1745, from Noya) + Mariana Camano (d. 1730, born Galicia). All findings in `docs/FAMILYSEARCH-FINDINGS.md`.
+- **AHDS email SENT** — awaiting response from Archivo Histórico Diocesano de Santiago for Santa María de Caamaño parish records.
+- **Next technical step:** Register FamilySearch API key → build automated search/chaining script.
 - **App strategy:** Differentiated from Ancestry/MyHeritage by "yo soy" identity + WhatsApp-first sharing + migration narrative + path finder. See `docs/COMPETITIVE-LANDSCAPE.md`.
 - **Key routes:** `/tree` (main), `/map` (migration), `/historia` (surname research), `/research` (API links), `/add` (form), `/person/[id]` (detail)
 
-### FamilySearch Findings (2026-04-03)
+### FamilySearch Findings (updated 2026-04-04)
 
-See `docs/FAMILYSEARCH-FINDINGS.md` for full details. Key discovery:
+See `docs/FAMILYSEARCH-FINDINGS.md` for full details.
 
-**Pablo Caamaño Villa** (fs003, born 1802, Palmeira, Ribeira — naturaleza: Muros) is the earliest documented Caamaño in the Palmeira/Ribeira area. Marinero, widower. The ONLY "Caamaño Villa" in the entire La Coruña database. His probable son **José Caamaño González** (fs005, born 1833, Lomba, Palmeira) has a fully documented family spanning 6 children across 8+ censuses.
+**Ribeira/Palmeira Clan (2026-04-03):**
 
-One child is listed as **"José Caamaño Incógnito"** (fs014) — "Incógnito" means unknown second surname, typical of someone who emigrated and whose records were incomplete.
+- **Pablo Caamaño Villa** (fs003, born 1802, Palmeira/Muros) — earliest documented Caamaño in area. Marinero, widower.
+- **José Caamaño González** (fs005, born 1833, Lomba, Palmeira) — probable son of Pablo, fully documented family.
+- **Felipe Caamaño** (fs015, born ~1820, Sampedro, Palmeira) — parallel line, possibly Pablo's brother or son.
+- **ID scheme:** `fs001`-`fs016` for FamilySearch-sourced persons, `fsf01`-`fsf04` for families.
 
-**Parallel line:** Felipe Caamaño (fs015, born ~1820, Sampedro, Palmeira) — same parish as Pablo, possibly brother or son.
+**Granada Caamaño Cluster (2026-04-04) — NEW:**
 
-**ID scheme:** `fs001`-`fs016` for FamilySearch-sourced persons, `fsf01`-`fsf04` for families.
+- **Juan Becerra Camaño** (~1745, born **Noya, Coruña** → lived Granada) — GAP 1 ERA. Full name reveals maternal surname Becerra. Father was a Camaño from Noya (~1710-1720). Married Francisca Vidal y Ochoa (Granada). Two sons baptized San Matías 1773-1778.
+- **Mariana Camano** (d. 1730, Granada, born **Galicia**) — earlier Galician Caamaño in Granada, possibly established the migration pipeline.
+- **Antonio Caamano** (born Sevilla, Ourense — Galicia) — son of Francisco Caamaño + Francisca Caamaño (same-surname marriage). Son Emilio born 1843.
+- **Juan Manuel Caamaño** — daughter María Matilde born 1833. Possibly grandson of Juan Becerra.
+- **Pre-marriage investigation file** for Juan Bezerra Camano exists in Granada diocese — would name his parents + exact Noya parish. **HIGH PRIORITY.**
+
+**Porto do Son Indexed Records (2026-04-04):**
+
+- FamilySearch indexed records for parish of Santa María de Caamaño are **very thin** — mostly poorly transcribed fragments from handwritten registers.
+- Notable: Sebastián Camaño appears as father in multiple records. Camaño+Piñero and Camaño+Vidal surname combinations found.
+- **AHDS parish registers remain the critical path** for this parish.
 
 ### CEMLA Emigrant Records (2026-04-03)
 
@@ -399,20 +415,27 @@ See `memory/genealogia-future-plans.md` for 20-feature roadmap:
 
 - WhatsApp OG cards, path finder, GEDCOM export, AI bios, photo colorization, Vercel Blob, FamilySearch API integration, heraldry display, etc.
 
-### Immediate Next Steps
+### Immediate Next Steps (updated 2026-04-04)
 
-1. **Bridge gap 2** — prove connection between Pablo Caamaño Villa (fs003) / José Caamaño González (fs005) and José Tomás Caamaño (p001). Porto do Son church records (Diocese of Santiago) needed — FamilySearch municipal records don't cover Porto do Son.
-2. **Bridge gap 1** — connect Pablo's father (fs001, ~1770, Muros) to medieval noble lines (h019, d. 1540). Muros church records needed.
-3. **Contact AHDS** — Archivo Histórico Diocesano de Santiago de Compostela for Santa María de Caamaño parish records
-4. **Request civil registration** — Spanish Ministry of Justice (free) for Caamaño births in Porto do Son 1840-1870
-5. **Geneanet larapat tree** — 17,919 people from Porto do Son area, may have Caamaño entries
-6. **Heraldry display** — show Caamaño coat of arms (azure, 3 bars argent) on the app
-7. **Historical branch visualization** — render h001-h021 + fs001-fs016 as "deep roots" in tree
-8. **Migration map** — add Spain→Americas routes with actual historical data
+**Research (blocking on external responses):**
+
+1. **✅ AHDS email sent** — awaiting response. Follow up mid-April if no reply. Tel: +34 981 58 38 84.
+2. **Access Juan Bezerra Camano pre-marriage file** — Granada diocese, FamilySearch. Would name his Noya parents (~1710-1720).
+3. **Access Salvador + Dolores Caamano 1640 marriage** — Buenos Aires colonial record, may name Spanish parish.
+4. **Catastro de Ensenada (1752)** — email Archivo de Simancas for Santa María de Caamaño household census.
+
+**Technical (can do now):** 5. **FamilySearch API integration** — register at developers.familysearch.org → build automated search script to chain baptism records backward through the gap. OAuth 2.0, free. 6. **Historical branch visualization** — render h001-h021 + fs001-fs016 + Granada cluster as "deep roots" in tree 7. **Heraldry display** — show Caamaño coat of arms (azure, 3 bars argent) 8. **Migration map** — add Spain→Americas routes with historical data
+
+### Gap Status (2026-04-04)
+
+- **Gap 2 (Pablo ↔ José Tomás):** ~80% closed. One baptism record away. AHDS response will likely close it.
+- **Gap 1 (Noble → Common, 1540-1770):** ~20%. Scattered data points (Juan Becerra ~1745, Mariana Camano d.1730, Juo Caamaño 1700) but no chain. Best case with AHDS: push back to ~1650. Catastro de Ensenada (1752) is the wildcard.
+- **Verified unbroken chain:** 6 generations, Luis Miguel (1983) → José Tomás Sr (~1815).
+- **Goal:** Extend unbroken chain as far back as parish records allow (~1600-1700 best case).
 
 ### Research Docs
 
 - `docs/COMPLETE-LINEAGE.md` — Full lineage (medieval + FamilySearch + modern + gap analysis)
 - `docs/SURNAME-RESEARCH.md` — All sources, URLs, INE data, worldwide distribution
-- `docs/FAMILYSEARCH-FINDINGS.md` — Census research, Ribeira/Palmeira clan, Pablo Caamaño Villa
+- `docs/FAMILYSEARCH-FINDINGS.md` — Census research, Ribeira/Palmeira clan, Granada cluster, Porto do Son assessment
 - `docs/COMPETITIVE-LANDSCAPE.md` — App strategy and differentiation
