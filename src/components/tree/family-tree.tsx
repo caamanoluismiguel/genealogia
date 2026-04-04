@@ -431,6 +431,7 @@ export function FamilyTree() {
                 isCompareB={compareMode && node.personId === comparePersonB}
                 relationshipLabel={relationshipLabel}
                 onSelect={handleSelectPerson}
+                zoomScale={transform.k}
               />
             );
           })}

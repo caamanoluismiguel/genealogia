@@ -20,6 +20,7 @@ interface PersonNodeProps {
   isCompareB?: boolean;
   relationshipLabel?: string | null;
   onSelect: (id: string) => void;
+  zoomScale?: number;
 }
 
 function extractYear(date?: string): string | null {
@@ -91,6 +92,15 @@ function GenderIcon({ gender }: { gender: Person["gender"] }) {
   return <div className="mt-0.5 h-2 w-2 shrink-0 rounded-full bg-slate-300" />;
 }
 
+/** Semantic zoom levels */
+type ZoomLevel = "dot" | "compact" | "full";
+
+function getZoomLevel(scale: number): ZoomLevel {
+  if (scale < 0.35) return "dot";
+  if (scale < 0.65) return "compact";
+  return "full";
+}
+
 export function PersonNode({
   person,
   layout,
@@ -101,9 +111,11 @@ export function PersonNode({
   isCompareB = false,
   relationshipLabel,
   onSelect,
+  zoomScale = 1,
 }: PersonNodeProps) {
   const birthYear = extractYear(person.birthDate);
   const deathYear = extractYear(person.deathDate);
+  const zoomLevel = getZoomLevel(zoomScale);
 
   const { borderColor, bgColor } = getAccentStyle(
     person,
@@ -127,9 +139,56 @@ export function PersonNode({
             : "";
 
   // Extra height for the relationship label badge below the card
-  const hasLabel = !!relationshipLabel;
+  const hasLabel = !!relationshipLabel && zoomLevel === "full";
   const totalHeight = hasLabel ? NODE_HEIGHT + 24 : NODE_HEIGHT;
 
+  // ── DOT LEVEL: tiny colored circle ──
+  if (zoomLevel === "dot") {
+    return (
+      <foreignObject
+        x={layout.x + NODE_WIDTH / 2 - 8}
+        y={layout.y + NODE_HEIGHT / 2 - 8}
+        width={16}
+        height={16}
+      >
+        <div
+          className="cursor-pointer rounded-full border-2 border-white shadow-sm"
+          style={{ width: 12, height: 12, background: borderColor }}
+          onClick={() => onSelect(person.id)}
+          title={`${person.firstName} ${person.lastName}`}
+        />
+      </foreignObject>
+    );
+  }
+
+  // ── COMPACT LEVEL: name + year only ──
+  if (zoomLevel === "compact") {
+    return (
+      <foreignObject x={layout.x} y={layout.y} width={NODE_WIDTH} height={50}>
+        <div
+          className={`flex cursor-pointer items-center gap-1.5 rounded-md border border-slate-200 border-l-[3px] px-2 py-1 ${ringStyle}`}
+          style={{
+            backgroundColor: bgColor,
+            borderLeftColor: borderColor,
+            height: 40,
+          }}
+          onClick={() => onSelect(person.id)}
+        >
+          <GenderIcon gender={person.gender} />
+          <p className="min-w-0 flex-1 truncate text-xs font-semibold text-slate-950">
+            {person.firstName}
+          </p>
+          {birthYear && (
+            <span className="shrink-0 text-[9px] tabular-nums text-slate-500">
+              {birthYear}
+            </span>
+          )}
+        </div>
+      </foreignObject>
+    );
+  }
+
+  // ── FULL LEVEL: complete card ──
   return (
     <foreignObject
       x={layout.x}
@@ -149,14 +208,14 @@ export function PersonNode({
           }}
           onClick={() => onSelect(person.id)}
         >
-          {/* "Yo" indicator for the reference person */}
+          {/* "Yo" indicator */}
           {isReference && !isCompareA && !isCompareB && (
             <div className="absolute -top-2 -right-2 rounded-full bg-emerald-500 px-1.5 py-0.5 text-[8px] font-bold leading-none text-white shadow-sm">
               YO
             </div>
           )}
 
-          {/* Compare mode A/B badges */}
+          {/* Compare A/B badges */}
           {isCompareA && (
             <div className="absolute -top-2 -left-2 rounded-full bg-slate-500 px-1.5 py-0.5 text-[8px] font-bold leading-none text-white shadow-sm">
               A
@@ -168,7 +227,7 @@ export function PersonNode({
             </div>
           )}
 
-          {/* Source badge for non-modern persons */}
+          {/* Source badge */}
           {person.source &&
             person.source !== "modern" &&
             person.source !== "gap" && (
@@ -206,17 +265,15 @@ export function PersonNode({
               <p className="truncate font-serif text-sm font-semibold leading-tight text-slate-950">
                 {person.firstName}
               </p>
-              {/* ARIA: Removed /70 opacity — amber-800 on cream bg meets WCAG AA */}
               <p className="truncate text-xs text-slate-700">
                 {person.lastName}
               </p>
             </div>
           </div>
 
-          {/* Year span — bottom right, de-emphasized */}
+          {/* Year span */}
           {(birthYear || deathYear) && (
             <div className="mt-1 flex items-center justify-end gap-0.5">
-              {/* ARIA: amber-700 without opacity — years are data, must be legible */}
               <span className="text-[10px] tabular-nums text-slate-600">
                 {birthYear ?? "?"}
                 {deathYear ? `–${deathYear}` : ""}

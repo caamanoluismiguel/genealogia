@@ -106,3 +106,103 @@ The FamilySearch "La Coruña Municipal Records" collection only covers **Betanzo
 - Census image (Pablo #319): https://www.familysearch.org/ark:/61903/3:1:3QS7-89NZ-6SVH?view=index (image 285 of 298)
 - Census image (Josefa household): https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9NJ-DJ2S?view=index (image 149 of 186)
 - Birth register: https://www.familysearch.org/ark:/61903/3:1:3QS7-L9NZ-63XW?view=index (image 275 of 556)
+
+---
+
+## Granada Caamaño Cluster — San Matías Parish (2026-04-04)
+
+Source: Spain, Baptisms, 1502-1940 (FamilySearch Collection)
+Parish: San Matías, Granada, Granada, Andalucía, España
+Microfilm: 1327095, item 1
+Citation: "España, bautismos, 1502-1940", FamilySearch (https://familysearch.org/ark:/61903/1:1:H851-PT2M : 16 February 2020)
+
+Searched surname "Caamaño" within microfilm 1327095 → **16 results**, revealing **3 Galician Caamaño families** who migrated to Granada and **1 local Andalusian branch**.
+
+### Family 1: Juan Becerra Camaño + Francisca Vidal y Ochoa ⭐ KEY LEAD
+
+**Juan Becerra Camaño** (born ~1740-1750, **Noya, Coruña, Spain**)
+
+- Also indexed as "Juan Camaño" (without maternal surname)
+- One record says birthplace "Otero" — possibly a locality/parish within the Noya/Porto do Son area
+- "Becerra" = maternal surname → his father was **[?] Camaño** and his mother was **[?] Becerra**, from Noya
+- Married **Francisca Vidal y Ochoa** (born Granada, Granada, Spain)
+- Living in Granada by 1773
+
+**Children baptized at San Matías, Granada:**
+
+| #   | Name                                           | Born        | Christened | Notes                                      |
+| --- | ---------------------------------------------- | ----------- | ---------- | ------------------------------------------ |
+| 1   | **Vizente Joseph Mariano Antonio Juan Camaño** | 26 Dec 1773 | 6 Jan 1774 | Indexed under father "Juan Camaño"         |
+| 2   | **Joseph Maria Esteban Becerra Camaño**        | 2 Sep 1778  | 4 Sep 1778 | Indexed under father "Juan Becerra Camaño" |
+
+**Why this matters:**
+
+- Juan is from **Noya** — the exact comarca as our family (Porto do Son is in Comarca de Noya)
+- Born ~1740-1750, he falls right inside **Gap 1** (~1540-1770)
+- His father (a Camaño from Noya, born ~1710-1720) is one generation closer to the noble line
+- Confirms Caamaños were dispersing from Noya in the mid-1700s — some south within Spain, others later to Americas
+- **NOT our direct line** (our branch stayed in Porto do Son → Colombia), but same origin area and generation
+
+**Next step:** The FamilySearch "Similar Records" lists **"Juan Bezerra Camano — Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899"**. Pre-marriage files (expedientes matrimoniales) required listing:
+
+- Full names of both spouses
+- **Parents' full names and birthplaces** (would reveal Juan's father = [?] Camaño from Noya)
+- **Parish of origin** (would confirm exact parish within Noya area)
+- Witnesses (often family members from the home parish)
+
+### Family 2: Francisco Caamaño + Francisca Caamaño → Antonio Caamano
+
+- **Francisco Caamaño** married **Francisca Caamaño** (same surname — likely cousins)
+- Their son: **Antonio Caamano** — born in **Sevilla, Orense (Ourense), Spain** — that's GALICIA
+- Antonio married **Mariana Cueto** in Granada
+- Antonio & Mariana's son: **Emilio de la Santisima Trinidad Caamano** (born 15 Apr 1843, christened 22 Apr 1843, San Matías)
+- Pattern: another Galician Caamaño (from Ourense province this time) who migrated south to Andalucía
+
+### Family 3: Juan Manuel Caamaño + Maria del Pino
+
+- Daughter: **Maria Matilde Eustaquia Francisca Caamaño** (born 20 Sep 1833, christened 22 Sep 1833, San Matías)
+- No birthplace listed for Juan Manuel — could be a descendant of Family 1 (grandson of Juan Becerra Camaño?)
+- The name "Juan Manuel" echoes "Juan" from Family 1
+
+### Family 4: Gregorio de la Torre y Camaño + Juana Balero (LOCAL — not Galician)
+
+- **Gregorio de la Torre y Camaño** — born Talara/Mondújar, **Granada** (local Andalusian)
+- Compound surname "de la Torre y Camaño" — established local family
+- Children at San Matías:
+  1. **Manuel Joseph Juan de la Encarnacion de la Torre y Camaño** (born 25 Mar 1772, christened 28 Mar 1772)
+  2. **Maria de la Concepcion Josepha Romana de la Torre y Camano** (born 9 Aug 1773, christened 16 Aug 1773)
+- Less relevant to our Galician line — these are Andalusian Camaños
+
+### Other Records from Initial Search (Comarca de Noya area, ~1700)
+
+From the broader FamilySearch search for "Caamaño" + "Comarca de Noya" + birth year 1700:
+
+| Name                                 | Collection                     | Event                | Date                    | Place                                               | Key Relationships                                              |
+| ------------------------------------ | ------------------------------ | -------------------- | ----------------------- | --------------------------------------------------- | -------------------------------------------------------------- |
+| Manl (son of Juo Caamaño)            | Spain, Catholic Church Records | Birth/Christening    | 14-15 May 1700          | Visantoña, Mesía, La Coruña                         | Father: Juo Caamaño, Mother: Teresa. Witness: Caietano Caamaño |
+| Teresa Isabel Caamaño Alduo          | Diocese of Lugo                | —                    | —                       | —                                                   | Spouse: Adrian de Arijon y Rodriguez                           |
+| Antonia de Arijon y Caamaño          | Diocese of Lugo                | —                    | —                       | —                                                   | Related to Pheliphe Manuel Saavedra                            |
+| Maria Alvarez de la Fuente y Caamaño | Diocese of Lugo                | —                    | —                       | —                                                   | Spouse: Gonzalo Varela y Piñeyro                               |
+| Andres Caamano                       | Spain, Civil Records           | —                    | —                       | —                                                   | Spouse: Teresa Gome                                            |
+| Mr Caamano + Mr Eliseo Caamano       | US Obituaries                  | Death ~31 Mar 1971   | Jersey City/Bayonne, NJ | Born Spain. Father/son Galician emigrants to NJ     |
+| Dolores Caamano                      | Argentina, Catholic Church     | Marriage 23 Dec 1640 | Buenos Aires            | Spouse: Salvador Caamano. Born España. COLONIAL ERA |
+
+### Timeline — All Known Caamaños in Gap 1 Period (~1540-1770)
+
+| ~Year      | Person                                 | Location                    | Source                       | Notes                            |
+| ---------- | -------------------------------------- | --------------------------- | ---------------------------- | -------------------------------- |
+| 1540       | h019: García de Caamaño "El Alto" (d.) | Rubianes, Villagarcía       | García Carraffa              | Last documented noble ancestor   |
+| 1640       | Salvador + Dolores Caamano             | Buenos Aires (from Spain)   | FamilySearch Argentina       | Colonial-era emigration          |
+| 1687       | Salvador Varela Caamaño                | AGI Contratación records    | PARES                        | Emigration file (not yet viewed) |
+| 1700       | Juo Caamaño (father of Manl)           | Visantoña, Mesía, La Coruña | FamilySearch Church Records  | 2 Caamaños at one baptism        |
+| ~1710-1720 | [?] Camaño (father of Juan Becerra)    | Noya, Coruña                | Inferred from Juan's record  | Would be in Gap 1                |
+| ~1740-1750 | **Juan Becerra Camaño**                | Born Noya → lived Granada   | FamilySearch Baptisms        | Pre-marriage file = next lead    |
+| ~1770      | fs001: [Desconocido] Caamaño           | Muros, A Coruña             | Inferred from Pablo's record | Father of Pablo Caamaño Villa    |
+| 1773-1778  | Juan's children Vizente + Joseph Maria | Granada                     | FamilySearch Baptisms        | Galician diaspora in Andalucía   |
+
+### Research Priority Update
+
+**IMMEDIATE:** Access the **pre-marriage investigation file** for Juan Bezerra Camano in the Granada diocese records. This is the single most valuable document for extending the Noya line back to ~1710-1720. Listed in FamilySearch as:
+
+- "Juan Bezerra Camano — Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899"
+- Would contain his parents' names, parish of origin in Noya, and witnesses

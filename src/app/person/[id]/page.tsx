@@ -7,6 +7,7 @@ import { buildPersonIndex } from "@/lib/genealogy/index-builder";
 import Link from "next/link";
 import type { Person } from "@/lib/genealogy/types";
 import { SuggestEditButton } from "@/components/person/suggest-edit";
+import { WhatsAppShareButton } from "@/components/person/whatsapp-share";
 
 interface PersonPageProps {
   params: Promise<{ id: string }>;
@@ -430,8 +431,11 @@ export default async function PersonPage({ params }: PersonPageProps) {
           </SectionCard>
         )}
 
-        {/* Suggest edit — elder-friendly, sends email */}
-        <SuggestEditButton person={person} />
+        {/* Share + Suggest — elder-friendly, big buttons */}
+        <div className="mt-2 space-y-3">
+          <WhatsAppShareButton person={person} />
+          <SuggestEditButton person={person} />
+        </div>
       </div>
     </div>
   );
