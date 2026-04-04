@@ -466,7 +466,59 @@ export function buildTimeline(data: GenealogyData): TimelineEvent[] {
   // Sort by year
   events.sort((a, b) => a.year - b.year);
 
-  return events;
+  // Filter to curated events — keep only historically relevant ones
+  // Direct lineage IDs: José Tomás → José Tomás Jr → Benjamín → Néstor → Luis → Luis Miguel
+  const DIRECT_LINEAGE = new Set([
+    "p001",
+    "p002",
+    "p006",
+    "p013",
+    "p023",
+    "p037",
+    "p151",
+  ]);
+
+  // Non-modern sources are always relevant (historical, cemla, genco, etc)
+  const RESEARCH_SOURCES = new Set([
+    "historical",
+    "familysearch",
+    "cemla",
+    "geneanet",
+    "genco",
+    "ellisisland",
+    "uruguay",
+    "pares",
+  ]);
+
+  const filtered = events.filter((e) => {
+    // Always keep milestones, migrations, gap, marriages, deaths
+    if (
+      e.type === "event" ||
+      e.type === "gap" ||
+      e.type === "migration" ||
+      e.type === "marriage" ||
+      e.type === "death"
+    )
+      return true;
+    // Keep direct lineage births
+    if (e.personId && DIRECT_LINEAGE.has(e.personId)) return true;
+    // Keep research-sourced births (CEMLA, GenCo, etc — these are discoveries)
+    if (e.source && RESEARCH_SOURCES.has(e.source)) return true;
+    // Skip generic modern births (cousins, aunts, etc with no story)
+    if (e.type === "birth" && e.source === "modern" && !e.description)
+      return false;
+    if (
+      e.type === "birth" &&
+      e.source === "modern" &&
+      e.description &&
+      e.description.length < 30
+    )
+      return false;
+    // Keep births with substantial notes
+    return true;
+  });
+
+  return filtered;
 }
 
 /** Build a source note from a source key */

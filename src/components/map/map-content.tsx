@@ -87,15 +87,27 @@ function getTravelersByCountry(): Map<string, Person[]> {
   return groups;
 }
 
+interface RouteInfo {
+  label: string;
+  description?: string;
+  source?: string;
+  sourceNote?: string;
+  year?: number;
+  passengers?: number;
+}
+
 /** Collect unique origin and destination points from routes */
 function getUniquePoints(routes: typeof MIGRATION_ROUTES): {
   origins: RoutePoint[];
-  destinations: Map<string, RoutePoint & { color: string; routes: string[] }>;
+  destinations: Map<
+    string,
+    RoutePoint & { color: string; routes: RouteInfo[] }
+  >;
 } {
   const originMap = new Map<string, RoutePoint>();
   const destMap = new Map<
     string,
-    RoutePoint & { color: string; routes: string[] }
+    RoutePoint & { color: string; routes: RouteInfo[] }
   >();
 
   for (const route of routes) {
@@ -103,14 +115,22 @@ function getUniquePoints(routes: typeof MIGRATION_ROUTES): {
     if (!originMap.has(oKey)) originMap.set(oKey, route.from);
 
     const dKey = `${route.to.lat},${route.to.lng}`;
+    const info: RouteInfo = {
+      label: route.label,
+      description: route.description,
+      source: route.source,
+      sourceNote: route.sourceNote,
+      year: route.year,
+      passengers: route.passengers,
+    };
     if (!destMap.has(dKey)) {
       destMap.set(dKey, {
         ...route.to,
         color: route.color,
-        routes: [route.label],
+        routes: [info],
       });
     } else {
-      destMap.get(dKey)!.routes.push(route.label);
+      destMap.get(dKey)!.routes.push(info);
     }
   }
 
@@ -258,14 +278,29 @@ export default function MapContent() {
                   </div>
                 )}
 
-                {/* Route descriptions */}
-                <ul className="mt-2 space-y-0.5 border-t border-slate-100 pt-2 text-slate-500">
+                {/* Route descriptions with sources */}
+                <div className="mt-2 space-y-2 border-t border-slate-100 pt-2">
                   {dest.routes.map((r, i) => (
-                    <li key={i} className="text-[10px]">
-                      {r}
-                    </li>
+                    <div key={i} className="text-xs">
+                      <p className="font-medium text-slate-700">{r.label}</p>
+                      {r.description && (
+                        <p className="mt-0.5 text-[11px] leading-relaxed text-slate-500">
+                          {r.description}
+                        </p>
+                      )}
+                      {r.source && (
+                        <p className="mt-1 text-[10px] text-teal-600">
+                          📄 {r.source}
+                          {r.sourceNote && (
+                            <span className="block mt-0.5 text-slate-400 italic">
+                              {r.sourceNote}
+                            </span>
+                          )}
+                        </p>
+                      )}
+                    </div>
                   ))}
-                </ul>
+                </div>
               </div>
             </Popup>
           </Marker>

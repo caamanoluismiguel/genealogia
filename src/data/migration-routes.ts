@@ -21,6 +21,8 @@ export interface MigrationRoute {
   year?: number;
   passengers?: number;
   description?: string;
+  source?: string;
+  sourceNote?: string;
 }
 
 // ── ORIGIN POINTS (Galicia, Spain) ──────────────────────────
@@ -62,8 +64,8 @@ export const ORIGINS: Record<string, RoutePoint> = {
 
 export const DESTINATIONS: Record<string, RoutePoint> = {
   colombia: {
-    lat: 7.1195,
-    lng: -73.1198,
+    lat: 4.711,
+    lng: -74.0721,
     label: "Colombia",
   },
   antioquia: {
@@ -111,38 +113,51 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     id: "r01",
     from: ORIGINS.caamano,
     to: DESTINATIONS.colombia,
-    color: "#10B981", // emerald
+    color: "#10B981",
     label: "José Tomás Caamaño → Colombia",
     year: 1845,
-    description: "Patriarca. Emigró ~1845 con esposa Soto.",
+    description:
+      "Patriarca. Emigró ~1845 desde Sta María de Caamaño con esposa de apellido Soto. Fundó la rama colombiana.",
+    source: "Tradición oral familiar",
+    sourceNote:
+      "Relato transmitido por generaciones. José Tomás nació ~1815 en la parroquia de Sta María de Caamaño, Porto do Son. Confirmado por email a AHDS (archivo diocesano) en abril 2026.",
   },
-  // Brothers
   {
     id: "r02",
     from: ORIGINS.caamano,
     to: DESTINATIONS.dominicana,
-    color: "#F59E0B", // amber
+    color: "#F59E0B",
     label: "José María Caamaño → Rep. Dominicana",
     year: 1845,
-    description: "Hermano del patriarca.",
+    description: "Hermano del patriarca. Emigró a República Dominicana.",
+    source: "Tradición oral familiar",
+    sourceNote:
+      "Según tradición familiar, uno de los hermanos de José Tomás emigró a RD. Nombre coincide con registros CEMLA (José María Caamaño, 15 años, barco Nile, 1897, puerto de Vigo).",
   },
   {
     id: "r03",
     from: ORIGINS.caamano,
     to: DESTINATIONS.ecuador,
-    color: "#0EA5E9", // sky
+    color: "#0EA5E9",
     label: "Salvador Caamaño → Ecuador",
     year: 1845,
-    description: "Hermano del patriarca.",
+    description: "Hermano del patriarca. Emigró a Ecuador.",
+    source: "Tradición oral familiar",
+    sourceNote:
+      "Según tradición familiar. Un Salvador Caamaño (6 años) aparece en CEMLA 1906 viajando a Buenos Aires con Víctor Caamaño — posible coincidencia de nombre.",
   },
   {
     id: "r04",
     from: ORIGINS.caamano,
     to: DESTINATIONS.buenosaires,
-    color: "#8B5CF6", // purple
+    color: "#8B5CF6",
     label: "Hermano Caamaño → Argentina",
     year: 1845,
-    description: "Hermano del patriarca. Nombre desconocido.",
+    description:
+      "Hermano del patriarca. Nombre desconocido. Emigró a Argentina.",
+    source: "Tradición oral familiar",
+    sourceNote:
+      "Según tradición familiar. 100 pasajeros Caamaño documentados en CEMLA (Buenos Aires 1884-1907) confirman fuerte emigración gallega a Argentina.",
   },
 
   // Colonial: Bernardo Martínez y Perrúa (1744)
@@ -154,7 +169,10 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     label: "Bernardo Martínez y Perrúa → Antioquia (1744)",
     year: 1744,
     description:
-      "Línea Caamaño documentada más antigua en Colombia. Muros → Santa Fe de Antioquia.",
+      "Nacido en Villa de Muros, 1720. Llegó a Santa Fe de Antioquia en 1744. Murió en Bogotá, 1788. 8 hijos. Línea Caamaño documentada más antigua en Colombia.",
+    source: "Genealogías de Colombia",
+    sourceNote:
+      "Fidel Botero Arango, «Genealogías de Colombia», fascículo Caamaño, versión 11, 2025. Base de datos de 583.000 individuos. www.genealogiasdecolombia.co",
   },
 
   // Colonial: Juana María Caamaño (Bogotá ~1680s)
@@ -166,10 +184,13 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     label: "Caamaños en Bogotá (~1689)",
     year: 1689,
     description:
-      "Juana María Caamaño Y Vega. 5 hijos nacidos en Bogotá 1689-1705.",
+      "Juana María Caamaño Y Vega, casada con Francisco Prieto Pasarón. 5 hijos nacidos en Santa Fe de Bogotá entre 1689 y 1705.",
+    source: "Genealogías de Colombia",
+    sourceNote:
+      "Fidel Botero Arango, «Genealogías de Colombia». Hijos documentados: Francisco Prieto Ortiz (1689), Juan Dionisio (1690), Alejandro (1693), María Josefa (1695), María Teresa (1705).",
   },
 
-  // CEMLA: Villagarcía → Buenos Aires (38% of passengers)
+  // CEMLA: Villagarcía → Buenos Aires
   {
     id: "r07",
     from: ORIGINS.villagarcia,
@@ -179,9 +200,11 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     decade: "1900s",
     passengers: 33,
     description:
-      "Incluye Tomás Caamaño (1905) con hijos Amalia y Manuel. Puerto principal de emigración.",
+      "33 pasajeros Caamaño embarcaron desde Villagarcía de Arousa. Incluye a Tomás Caamaño (42 años, casado, jornalero) con hijos Amalia (6) y Manuel (5), barco P. de Satrústegui, 25 enero 1905.",
+    source: "CEMLA",
+    sourceNote:
+      "Centro de Estudios Migratorios Latinoamericanos (CEMLA). Listas de pasajeros del puerto de Buenos Aires, 1882-1960. 100 registros Caamaño extraídos. cemla.com/buscador",
   },
-  // CEMLA: Coruña → Buenos Aires
   {
     id: "r08",
     from: ORIGINS.coruna,
@@ -190,9 +213,12 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     label: "A Coruña → Buenos Aires (35 pasajeros)",
     decade: "1900s",
     passengers: 35,
-    description: "Puerto más usado. Capital provincial.",
+    description:
+      "35 pasajeros Caamaño embarcaron desde A Coruña, la capital provincial. Puerto más utilizado por los emigrantes gallegos.",
+    source: "CEMLA",
+    sourceNote:
+      "CEMLA — 100 registros totales de apellido Caamaño en listas de pasajeros de Buenos Aires (1884-1907).",
   },
-  // CEMLA: Vigo → Buenos Aires
   {
     id: "r09",
     from: ORIGINS.vigo,
@@ -201,6 +227,11 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     label: "Vigo → Buenos Aires (20 pasajeros)",
     decade: "1890s",
     passengers: 20,
+    description:
+      "20 pasajeros Caamaño embarcaron desde Vigo, principal puerto del sur de Galicia.",
+    source: "CEMLA",
+    sourceNote:
+      "CEMLA — Incluye a José María Caamaño (15 años, barco Nile, 1897).",
   },
 
   // Ellis Island: Muros → New York
@@ -208,11 +239,15 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     id: "r10",
     from: ORIGINS.muros,
     to: DESTINATIONS.newyork,
-    color: "#EF4444", // red
+    color: "#EF4444",
     label: "Muros → Nueva York (Ellis Island)",
     decade: "1890s",
-    passengers: 10,
-    description: "Emigrantes gallegos a EEUU. Juan Caamaño Lago y otros.",
+    passengers: 47,
+    description:
+      "47 Caamaños llegaron a Nueva York vía Ellis Island entre 1892 y 1925. Incluye a Juan Caamaño Lago (Muros, 1890), José Antonio Caamaño (Muros, 1889), y otros.",
+    source: "FamilySearch",
+    sourceNote:
+      "FamilySearch — New York Passenger Arrival Lists (Ellis Island), 1892-1925. 47 registros con apellido Caamaño/Caamano.",
   },
 
   // Uruguay: José Caamano Soto
@@ -220,11 +255,14 @@ export const MIGRATION_ROUTES: MigrationRoute[] = [
     id: "r11",
     from: ORIGINS.caamano,
     to: DESTINATIONS.montevideo,
-    color: "#EC4899", // pink
+    color: "#EC4899",
     label: "Caamaño Soto → Montevideo",
     year: 1889,
     description:
-      "José Caamano Soto (1889). Combinación Caamaño+Soto confirma familia del patriarca.",
+      "José Caamano Soto (nacido 1889). La combinación de apellidos Caamaño + Soto confirma la existencia de la familia del patriarca José Tomás (casado con una Soto).",
+    source: "FamilySearch",
+    sourceNote:
+      "FamilySearch — Uruguay, Passenger Lists, 1888-1980. 28 registros Caamaño totales en listas de pasajeros a Uruguay.",
   },
 ];
 
