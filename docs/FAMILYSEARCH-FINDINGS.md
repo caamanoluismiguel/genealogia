@@ -206,3 +206,67 @@ From the broader FamilySearch search for "Caamaño" + "Comarca de Noya" + birth 
 
 - "Juan Bezerra Camano — Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899"
 - Would contain his parents' names, parish of origin in Noya, and witnesses
+
+### Mariana Camano (d. 1730, Granada) — Earlier Galician in Granada
+
+From the broader search (place: "Son, O Porto do Son"):
+
+**Mariana Camano** — Spain, Deaths, 1600-1920
+
+- Buried: **9 February 1730**, Granada
+- Death parish: **Santa Ana**, Granada
+- Born: **Galicia**
+- Spouse: **Joseph Perez**
+
+This is a Galician Camaño woman who died in Granada **43 years before** Juan Becerra Camaño's first child was baptized there (1773). She could be:
+
+- Juan's **mother or aunt** — a generation older, establishing the Galician foothold in Granada
+- Evidence of a **Caamaño migration pipeline** from Galicia to Granada predating Juan's arrival
+- If she died around age 60, she was born ~1670 — pushing the documented Galician Camaño presence back even further
+
+### Porto do Son / Parish of Caamaño — Indexed Records Assessment (2026-04-04)
+
+Searched FamilySearch for "Caamaño" with place "Caamaño, O Porto do Son, A Coruña, Galicia, Spain" + birth year 1700. Results across 4 pages (240 entries) were **overwhelmingly "Camino/Camiño" noise** from FamilySearch's fuzzy matching.
+
+**Real Camaño/Caamaño entries found** (most are poorly indexed — no dates, no places, just surname fragments):
+
+| Surname              | Father                     | Mother                | Spouse              | Notable Others                                       |
+| -------------------- | -------------------------- | --------------------- | ------------------- | ---------------------------------------------------- |
+| Camaño               | Sebastián Camaño           | González              | Arroyo              | Multiple appearances — possible key figure           |
+| Camaño               | Sebastián Camaño, González | —                     | Martín              | Same Sebastián                                       |
+| Camaño               | Parela                     | Rodríguez             | Varela              | Varela = common Porto do Son surname                 |
+| Camaño Vznos         | —                          | —                     | Vázquez             | —                                                    |
+| Camaño               | González                   | López                 | González            | Classic Galician combo, appears 3x                   |
+| Camaño               | González                   | Pascual               | González            | —                                                    |
+| Camaño               | Eusebio de la Rosa         | Gil                   | Juana de la Rua     | —                                                    |
+| Camaño               | Galán                      | Gordo                 | Galán               | —                                                    |
+| Camaño Hernández     | Pedrosa Martín             | Monteserria Serradera | Pedrosa Montes Urin | Others include "Hernández Vidal" — Vidal connection! |
+| Camaño Rodríguez     | Camaño, Rodríguez          | —                     | Piñero Hidalgo      | Piñero = Porto do Son surname                        |
+| Camaño               | —                          | —                     | Velasco             | Others: Hernández, Méndez, Ávalos Tapia              |
+| Camaño               | —                          | —                     | del Amo             | —                                                    |
+| Camaño               | —                          | —                     | González            | Others: Camaño Benito                                |
+| Camaño               | —                          | —                     | Candel/Candil       | Others: Arias, Manuel Martín                         |
+| Camano               | Camaño, Juan               | —                     | Simón               | Another Juan Camaño as father                        |
+| Camano               | Berlana                    | García                | Berlana             | —                                                    |
+| Camano               | Bonilla                    | Macha García          | —                   | —                                                    |
+| Vicente Camaño       | Bonifacio                  | Manuela Aguirre       | —                   | —                                                    |
+| María Año Año Camaño | —                          | —                     | Candil              | —                                                    |
+
+**Key observations:**
+
+1. **Sebastián Camaño** appears as father in multiple records — possibly a patriarch figure
+2. **Camaño + Piñero** connection — Piñero is a Porto do Son area surname, suggests local marriage
+3. **Camaño + Hernández Vidal** — Vidal is the same surname as Juan Becerra Camaño's wife Francisca Vidal
+4. **"Camano, Juan" as father** — another Juan Camaño in Catholic Church Records
+5. **González/López/Rodríguez** as intermarrying surnames — standard Galician pattern
+
+**Assessment:** The FamilySearch indexed records for the parish of Santa María de Caamaño are very thin. The parish registers exist on microfilm (collection 1784529) but have NOT been properly transcribed/indexed. Most entries are OCR fragments from handwritten documents. **The AHDS email remains the critical path** — only the original parish registers (held at the Archivo Histórico Diocesano de Santiago) will have complete, readable baptism/marriage/death records for this parish.
+
+### Updated Research Priority (2026-04-04)
+
+1. **SEND AHDS EMAIL** — `docs/AHDS-EMAIL-DRAFT.md` → arquivo@archicompostela.es — Santa María de Caamaño parish records (baptisms/marriages 1650-1860). This is THE path to bridging both gaps.
+2. **Access Juan Bezerra Camano pre-marriage file** — Granada diocese, FamilySearch. Would name his Noya-area parents (~1710-1720).
+3. **Access Dolores + Salvador Caamano marriage record** — Buenos Aires, 23 Dec 1640. Colonial-era record may name Spanish parish of origin.
+4. **Check Salvador Varela Caamaño (1687)** — PARES digital viewer for CONTRATACION,5449,N.16. AGI emigration files are very detailed.
+5. **FamilySearch microfilm 1784529** — catalog search for Porto do Son / Santa María de Caamaño parish. Check if browsable images exist (camera icon).
+6. **Mariana Camano death record (1730, Granada)** — pull full record from Santa Ana parish. If it names her Galician parish of origin, that's another data point.

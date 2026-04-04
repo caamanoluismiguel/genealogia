@@ -12,8 +12,11 @@ import "leaflet/dist/leaflet.css";
 import {
   MIGRATION_ROUTES,
   PRIMARY_ORIGIN,
+  detectCountry,
   type RoutePoint,
 } from "@/data/migration-routes";
+import familyData from "@/data/caamano-family.json";
+import type { Person } from "@/lib/genealogy/types";
 
 // Fix default marker icons (broken in webpack/Next.js)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -66,6 +69,24 @@ function originIcon() {
   });
 }
 
+/** Group persons by their migration destination country */
+function getTravelersByCountry(): Map<string, Person[]> {
+  const groups = new Map<string, Person[]>();
+  for (const p of familyData.persons as Person[]) {
+    if (!p.migrations || p.migrations.length === 0) continue;
+    for (const m of p.migrations) {
+      const dest =
+        typeof m.to === "string" ? m.to : (m.to as { label: string }).label;
+      const country = detectCountry(dest);
+      if (country) {
+        if (!groups.has(country)) groups.set(country, []);
+        groups.get(country)!.push(p);
+      }
+    }
+  }
+  return groups;
+}
+
 /** Collect unique origin and destination points from routes */
 function getUniquePoints(routes: typeof MIGRATION_ROUTES): {
   origins: RoutePoint[];
@@ -96,8 +117,14 @@ function getUniquePoints(routes: typeof MIGRATION_ROUTES): {
   return { origins: [...originMap.values()], destinations: destMap };
 }
 
+/** Map a destination label to a country key for traveler lookup */
+function destToCountry(label: string): string | null {
+  return detectCountry(label);
+}
+
 export default function MapContent() {
   const { origins, destinations } = getUniquePoints(MIGRATION_ROUTES);
+  const travelers = getTravelersByCountry();
 
   return (
     <MapContainer
@@ -171,27 +198,79 @@ export default function MapContent() {
         />
       ))}
 
-      {/* Destination markers */}
-      {[...destinations.entries()].map(([key, dest]) => (
-        <Marker
-          key={`d-${key}`}
-          position={[dest.lat, dest.lng]}
-          icon={coloredIcon(dest.color, 18)}
-        >
-          <Popup>
-            <div className="text-sm">
-              <p className="font-bold text-slate-800">{dest.label}</p>
-              <ul className="mt-1 space-y-0.5 text-slate-600">
-                {dest.routes.map((r, i) => (
-                  <li key={i} className="text-xs">
-                    {r}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Popup>
-        </Marker>
-      ))}
+      {/* Destination markers with travelers */}
+      {[...destinations.entries()].map(([key, dest]) => {
+        const country = destToCountry(dest.label);
+        const people = country ? (travelers.get(country) ?? []) : [];
+
+        return (
+          <Marker
+            key={`d-${key}`}
+            position={[dest.lat, dest.lng]}
+            icon={coloredIcon(dest.color, 18)}
+          >
+            <Popup maxWidth={280} minWidth={200}>
+              <div className="text-sm">
+                <p className="font-bold text-slate-800">{dest.label}</p>
+
+                {/* Actual travelers */}
+                {people.length > 0 && (
+                  <div className="mt-2 border-t border-slate-100 pt-2">
+                    <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">
+                      {people.length}{" "}
+                      {people.length === 1 ? "viajero" : "viajeros"}
+                    </p>
+                    <ul className="space-y-1">
+                      {people.slice(0, 12).map((p) => (
+                        <li key={p.id}>
+                          <a
+                            href={`/genealogia/person/${p.id}`}
+                            className="flex items-center gap-1.5 text-xs text-teal-700 hover:text-teal-900 hover:underline"
+                          >
+                            <span
+                              className="inline-block h-2 w-2 shrink-0 rounded-full"
+                              style={{
+                                background:
+                                  p.gender === "male"
+                                    ? "#60a5fa"
+                                    : p.gender === "female"
+                                      ? "#f472b6"
+                                      : "#94a3b8",
+                              }}
+                            />
+                            <span className="font-medium">
+                              {p.firstName} {p.lastName}
+                            </span>
+                            {p.birthDate && (
+                              <span className="text-slate-400">
+                                ({p.birthDate})
+                              </span>
+                            )}
+                          </a>
+                        </li>
+                      ))}
+                      {people.length > 12 && (
+                        <li className="text-[10px] text-slate-400">
+                          +{people.length - 12} más
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                )}
+
+                {/* Route descriptions */}
+                <ul className="mt-2 space-y-0.5 border-t border-slate-100 pt-2 text-slate-500">
+                  {dest.routes.map((r, i) => (
+                    <li key={i} className="text-[10px]">
+                      {r}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Popup>
+          </Marker>
+        );
+      })}
 
       {/* Map legend */}
       <div className="leaflet-bottom leaflet-left">
