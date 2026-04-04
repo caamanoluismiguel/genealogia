@@ -32,18 +32,40 @@ Personal genealogy web app for the Caamaño family. **175 persons, 51 families, 
 h001: Rodrigo García de Caamaño (1100s, conquest of Baeza)
   └→ 10 generations documented (García Carraffa Tomo XX)
       └→ h019: García de Caamaño "El Alto" (d. 1540, Señor de Rubianes)
-          └→ ⚠ BRECHA 1 (~1540s to ~1770s)
+          └→ ⚠ BRECHA 1 (~1540s to ~1770s) — noble → common folk
               └→ fs001: [Desconocido] Caamaño (born ~1770, Muros)
                   └→ fs003: Pablo Caamaño Villa (born 1802, Palmeira/Muros — marinero)
-                      └→ fs005: José Caamaño González (born 1833, Lomba, Palmeira)
-                          └→ fs014: "José Caamaño Incógnito" (¿emigrante?)
-                          └→ ⚠ BRECHA 2: ¿conexión con p001?
-              └→ p001: José Tomás Caamaño (Caamaño, A Coruña → Colombia)
-                  └→ 6 generations
-                      └→ p151: Luis Miguel Caamaño (owner)
+                  └→ p001: José Tomás Caamaño Sr (born ~1815, Sta María de Caamaño → Colombia)
+                      └→ p006: José Tomás Jr (~1840)
+                          └→ p013: Benjamín (~1870)
+                              └→ p023: Néstor (1901) ✓
+                                  └→ p037: Luis (1949) ✓
+                                      └→ p151: Luis Miguel (Dec 1983) ✓
+                  ⚠ BRECHA 2 = PROOF GAP ONLY (Pablo & José Tomás are contemporaries ~1802-1815)
+                  ★ Jose Caamano SOTO (b.1889, Uruguay passenger) = Caamaño+Soto combo confirms family
 ```
 
-**The gap narrowed from ~300 years to ~200 years.** Pablo Caamaño Villa (fs003, born 1802) is the closest documented ancestor candidate to José Tomás (p001, born ~1850s). They are from the same coastal area (Palmeira/Porto do Son, 5km apart). The connection is plausible but not yet proven.
+**CORRECTED TIMELINE (2026-04-03):** Luis Miguel born Dec 1983, father born 1949, grandfather Néstor born 1901. This means José Tomás Sr (p001) was born ~1810-1825, NOT ~1850s. **Pablo Caamaño Villa (fs003, born 1802) is now a CONTEMPORARY** — possibly father, brother, or uncle. Gap 2 is a proof gap, not a time gap. One baptism record from AHDS would close it.
+
+### Pinned Research Actions (2026-04-03)
+
+1. **SEND AHDS EMAIL** — `docs/AHDS-EMAIL-DRAFT.md` → arquivo@archicompostela.es — request parish records for Sta María de Caamaño (baptisms 1780-1860). AHDS = San Martín Pinario, Santiago. Tel: +34 981 58 38 84.
+2. **PAY GenCo 24h ($5)** — genealogiasdecolombia.co/Individuo/Buscar.aspx — search "Caamaño", "Bernardo Martínez Perrúa", "Prieto Caamaño" in 583K database
+3. **EMAIL Archivo de Simancas** — archivo.simancas@cultura.gob.es — request Catastro de Ensenada (1752) for "Santa María de Caamaño, Noia" (loc=904). Images NOT digitized online.
+4. **BROWSE FamilySearch** — familysearch.org/search/catalog → "Puerto del Son" → look for parish microfilms with camera icon (collection 1784529)
+5. **CONTACT Concello de Porto do Son** — portodoson.gal — ask about historical municipal archive (padrones)
+6. **Spanish civil registry** — sede.mjusticia.gob.es → "Certificado de Nacimiento sin CL@VE" — only covers post-1870. Useful for Benjamín (p013, born ~1870) if born in Spain.
+7. **PARES CONTRATACIÓN** — check digital viewer for Salvador Varela Caamaño (1687, CONTRATACION,5449,N.16) — AGI records often digitized
+8. **Xenealoxia.org** — register and post asking about Porto do Son/Caamaño parish — active Galician genealogy community
+
+### Research Data Files
+
+- `docs/CEMLA-PARES-RESEARCH.md` — full analysis of CEMLA (100 passengers), PARES (602 records), Genealogías de Colombia (4 lines), FamilySearch (1,844 records)
+- `docs/AHDS-EMAIL-DRAFT.md` — ready-to-send email to Santiago diocesan archive
+- `research/cemla-caamano-100.json` — 100 CEMLA ship passenger records
+- `research/familysearch-caamano-1844.json` — 1,844 FamilySearch records from 18 XLS exports
+- `~/Downloads/gen/Caamaño.pdf` — Genealogías de Colombia fascicle (Juan de Caamaño → Bernardo → Antioquia 1744)
+- `~/Downloads/gen/*.xls` — 18 FamilySearch XLS exports (raw)
 
 ### Three Historical Branches (all documented)
 

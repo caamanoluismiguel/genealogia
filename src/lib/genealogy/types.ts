@@ -13,6 +13,10 @@ export type PersonSource =
   | "familysearch"
   | "cemla"
   | "geneanet"
+  | "genco"
+  | "ellisisland"
+  | "uruguay"
+  | "pares"
   | "gap";
 
 /** Life event types */

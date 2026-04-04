@@ -152,6 +152,11 @@ function SectionCard({
   );
 }
 
+export function generateStaticParams() {
+  const data = loadFamilyData();
+  return data.persons.map((p) => ({ id: p.id }));
+}
+
 export default async function PersonPage({ params }: PersonPageProps) {
   const { id } = await params;
   const data = loadFamilyData();

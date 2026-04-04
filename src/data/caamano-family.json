@@ -6,7 +6,7 @@
       "lastName": "Caamaño",
       "gender": "male",
       "birthPlace": "Caamaño, A Coruña, España",
-      "notes": "Patriarca. Emigró desde España a Colombia.",
+      "notes": "Patriarca. Nacido ~1815 en Sta María de Caamaño, Porto do Son. Emigró a Colombia. Esposa: Soto.",
       "events": [],
       "migrations": [
         {
@@ -15,7 +15,8 @@
           "reason": "Emigración familiar"
         }
       ],
-      "source": "modern"
+      "source": "modern",
+      "birthDate": "1815"
     },
     {
       "id": "p002",
@@ -269,7 +270,8 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "birthDate": "1901"
     },
     {
       "id": "p024",
@@ -412,7 +414,8 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "birthDate": "1949"
     },
     {
       "id": "p038",
@@ -1609,7 +1612,8 @@
       "notes": "Hijo de Luis Caamaño Garizabal. Creador de este árbol genealógico.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "birthDate": "1983-12"
     },
     {
       "id": "p152",
@@ -2355,6 +2359,265 @@
       "events": [],
       "migrations": [],
       "source": "geneanet"
+    },
+    {
+      "id": "gc001",
+      "source": "genco",
+      "firstName": "Juan",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
+      "notes": "Origen de la línea colombiana. Casado con María Alfonso Martínez (también de Muros). Fuente: Genealogías de Colombia.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc002",
+      "source": "genco",
+      "firstName": "María Alfonso",
+      "lastName": "Martínez",
+      "gender": "female",
+      "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc003",
+      "source": "genco",
+      "firstName": "Luis",
+      "lastName": "de Caamaño Martínez",
+      "gender": "male",
+      "birthDate": "1647-09-11",
+      "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
+      "notes": "Casado 30 Nov 1682 con María Oáñez de Patiño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc004",
+      "source": "genco",
+      "firstName": "María Oáñez",
+      "lastName": "de Patiño",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "Hija de Juan Patiño de Guemes y Catalina Pérez (ambos de Muros).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc005",
+      "source": "genco",
+      "firstName": "Juan Matías",
+      "lastName": "Martínez Perrúa y Caamaño",
+      "gender": "male",
+      "birthDate": "1681-02-21",
+      "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
+      "notes": "Casado 3 Sep 1713 con Antonia de Relova Perrúa y Amúzar.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc006",
+      "source": "genco",
+      "firstName": "Antonia",
+      "lastName": "de Relova Perrúa y Amúzar",
+      "gender": "female",
+      "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
+      "notes": "Hija de Lorenzo Antonio de Perrúa y María Alonso de Amosar.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc007",
+      "source": "genco",
+      "firstName": "Bernardo",
+      "lastName": "Martínez y Perrúa",
+      "gender": "male",
+      "birthDate": "1720-08-19",
+      "birthPlace": "Villa De Muros, Galicia, España",
+      "deathDate": "1788-02-17",
+      "deathPlace": "Santa Fe de Bogotá, Colombia",
+      "notes": "Llegó a Santa Fe de Antioquia en 1744. 8 hijos. Línea Caamaño documentada más antigua en Colombia.",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1744",
+          "place": "Santa Fe de Antioquia, Colombia",
+          "description": "Emigró desde Muros, Galicia a Antioquia"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Villa de Muros, Galicia, España",
+          "to": "Antioquia, Colombia",
+          "year": 1744,
+          "reason": "Emigración colonial"
+        }
+      ]
+    },
+    {
+      "id": "gc008",
+      "source": "genco",
+      "firstName": "Clara",
+      "lastName": "de Caamaño de Mendoza",
+      "gender": "female",
+      "birthDate": "1502",
+      "birthPlace": "Rubianes, Pontevedra, Galicia, España",
+      "notes": "Casada con Marqués De La Sierra De Outes Pedro Álvarez Mariño De Lobeira Y Valladares (Santiago, 1493-1583). Conecta línea noble con Noia.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gc009",
+      "source": "genco",
+      "firstName": "Juana María",
+      "lastName": "Caamaño Y Vega",
+      "gender": "female",
+      "birthPlace": "España",
+      "notes": "Casada con Francisco Prieto Pasarón. 5 hijos nacidos en Santa Fe de Bogotá 1689-1705. Confirma presencia Caamaño en Colombia desde s.XVII.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "España",
+          "to": "Santa Fe de Bogotá, Colombia",
+          "reason": "Emigración colonial"
+        }
+      ]
+    },
+    {
+      "id": "gc010",
+      "source": "genco",
+      "firstName": "Francisco",
+      "lastName": "Prieto Pasarón",
+      "gender": "male",
+      "birthPlace": "España",
+      "notes": "Esposo de Juana María Caamaño. Padre de 5 hijos en Bogotá.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "uy001",
+      "source": "uruguay",
+      "firstName": "José",
+      "lastName": "Caamaño Soto",
+      "gender": "male",
+      "birthDate": "1889",
+      "notes": "Lista de pasajeros Uruguay. Combinación Caamaño+Soto confirma la familia del patriarca José Tomás (esposa apellido Soto).",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1889",
+          "place": "Montevideo, Uruguay",
+          "description": "Emigró a Uruguay"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Galicia, España",
+          "to": "Montevideo, Uruguay",
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "gc011",
+      "source": "genco",
+      "firstName": "Jacinto",
+      "lastName": "Caamaño Moraleja",
+      "gender": "male",
+      "birthDate": "1759",
+      "birthPlace": "Madrid, España",
+      "deathDate": "1820",
+      "notes": "Explorador naval, Caballero de Calatrava. Exploró Alaska y Columbia Británica (1790-92). Camano Island (WA) lleva su nombre.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Madrid, España",
+          "to": "Guayaquil, Ecuador",
+          "reason": "Carrera naval y matrimonio"
+        }
+      ]
+    },
+    {
+      "id": "gc012",
+      "source": "genco",
+      "firstName": "José María Plácido",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1838",
+      "birthPlace": "Guayaquil, Ecuador",
+      "deathDate": "1901",
+      "notes": "Presidente de Ecuador (1884-1888). Nieto de Jacinto Caamaño Moraleja.",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1884",
+          "place": "Quito, Ecuador",
+          "description": "Presidente constitucional de Ecuador"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "cm005",
+      "source": "cemla",
+      "firstName": "Tomás",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1863",
+      "notes": "CEMLA: edad 42, casado, jornalero. Barco P. de Satrústegui, llegó Buenos Aires 25 Ene 1905 desde Villagarcía. Viajó con hijos Amalia(6) y Manuel(5). Mismo nombre que patriarca p001.",
+      "events": [
+        {
+          "type": "immigration",
+          "date": "1905-01-25",
+          "place": "Buenos Aires, Argentina",
+          "description": "Barco P. de Satrústegui desde Villagarcía"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Villagarcía de Arousa, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1905,
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "cm006",
+      "source": "cemla",
+      "firstName": "Amalia",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthDate": "1899",
+      "notes": "CEMLA: hija de Tomás, edad 6. Misma travesía P. de Satrústegui 1905.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Villagarcía de Arousa, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1905,
+          "reason": "Emigración con padre"
+        }
+      ]
+    },
+    {
+      "id": "cm007",
+      "source": "cemla",
+      "firstName": "Manuel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "1900",
+      "notes": "CEMLA: hijo de Tomás, edad 5. Misma travesía P. de Satrústegui 1905.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Villagarcía de Arousa, Galicia, España",
+          "to": "Buenos Aires, Argentina",
+          "year": 1905,
+          "reason": "Emigración con padre"
+        }
+      ]
     }
   ],
   "families": [
@@ -2741,10 +3004,40 @@
       "parents": ["fs009", "fs010"],
       "children": [],
       "marriagePlace": "Ribeira, A Coruña, Galicia, España"
+    },
+    {
+      "id": "gcf01",
+      "parents": ["gc001", "gc002"],
+      "children": ["gc003"]
+    },
+    {
+      "id": "gcf02",
+      "parents": ["gc003", "gc004"],
+      "children": ["gc005"],
+      "marriageDate": "1682-11-30",
+      "marriagePlace": "Muros, A Coruña, Galicia, España"
+    },
+    {
+      "id": "gcf03",
+      "parents": ["gc005", "gc006"],
+      "children": ["gc007"],
+      "marriageDate": "1713-09-03",
+      "marriagePlace": "Muros, A Coruña, Galicia, España"
+    },
+    {
+      "id": "gcf04",
+      "parents": ["gc009", "gc010"],
+      "children": [],
+      "marriagePlace": "España"
+    },
+    {
+      "id": "cmf02",
+      "parents": ["cm005"],
+      "children": ["cm006", "cm007"]
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-03T13:00:00Z",
-    "version": 6
+    "lastUpdated": "2026-04-04T17:00:00Z",
+    "version": 7
   }
 }
