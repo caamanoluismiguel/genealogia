@@ -4,9 +4,12 @@
 
 ## What This Is
 
-Personal genealogy web app for the Caamaño family. **175 persons, 51 families, ~20 generations** (12th century → present). Traces from **Caamaño, A Coruña, Galicia, España** → Colombia (main branch), Dominican Republic, Ecuador, Argentina.
+Personal genealogy web app for the Caamaño family. **217 persons, 60 families, ~20 generations** (12th century → present). Traces from **Caamaño, A Coruña, Galicia, España** → Colombia (main branch), Dominican Republic, Ecuador, Argentina, Uruguay, USA.
 
-**No auth, no database.** Single JSON file is the "database." Personal tool, not a SaaS.
+**Live:** https://caamanoluismiguel.github.io/genealogia/
+**Repo:** https://github.com/caamanoluismiguel/genealogia (public)
+**Deploy:** GitHub Pages via GitHub Actions (auto on push to main)
+**No auth, no database.** Single JSON file is the "database." Static export. Personal tool shared via WhatsApp.
 
 ## The Family
 
@@ -17,14 +20,18 @@ Personal genealogy web app for the Caamaño family. **175 persons, 51 families, 
 - **~20 generations** spanning 12th century to present, across 5 countries
 - **"Yo soy" identity system:** `?yo=slug` shareable URLs, welcome modal, localStorage persistence, WhatsApp share
 
-### Data Structure (v4, 2026-04-03)
+### Data Structure (v7, 2026-04-04)
 
-- **201 persons** (153 modern + 21 historical + 16 FamilySearch + 4 CEMLA + 6 Geneanet + 1 gap)
-- **55 families** (41 modern + 10 historical + 4 FamilySearch)
-- **Historical persons:** IDs `h001`-`h021` (medieval lineage from García Carraffa, Tomo XX)
+- **217 persons**, **60 families** — version 7
+- **Modern persons:** IDs `p001`-`p153` (family)
+- **Historical persons:** IDs `h001`-`h021` (medieval lineage, García Carraffa Tomo XX)
 - **FamilySearch persons:** IDs `fs001`-`fs016` (Ribeira/Palmeira census clan, 1798-1905)
-- **Gap marker:** ID `gap001` — unverified connection between medieval line (~1540) and Colombian line (~1850s)
-- **Modern persons:** IDs `p001`-`p153` (your family)
+- **CEMLA passengers:** IDs `cm001`-`cm007` (Buenos Aires ship manifests — Tomás 1905 family)
+- **Genealogías de Colombia:** IDs `gc001`-`gc012` (Juan de Caamaño → Antioquia 1744, Clara 1502, Juana María Bogotá 1689, Ecuador presidential line)
+- **Uruguay:** ID `uy001` (José Caamaño Soto — Caamaño+Soto combo, smoking gun)
+- **Geneanet:** IDs `gn001`-`gn006`
+- **Gap marker:** ID `gap001` — unverified connection, now reclassified as PROOF GAP (not time gap)
+- **PersonSource types:** `modern | historical | familysearch | cemla | geneanet | genco | ellisisland | uruguay | pares | gap`
 
 ### The Complete Lineage
 
@@ -140,6 +147,7 @@ src/
 │   ├── map/page.tsx                   # Migration map
 │   ├── historia/page.tsx              # Surname history + research
 │   ├── research/page.tsx              # API integration dashboard
+│   ├── timeline/page.tsx              # Interactive slide-based timeline (900 years)
 │   └── add/page.tsx                   # Add family member form
 ├── components/
 │   ├── tree/                          # Tree visualization (SVG + d3-zoom)
@@ -153,16 +161,20 @@ src/
 │   │   ├── welcome-modal.tsx          # First-visit "¿Quién eres?" person picker
 │   │   └── path-finder-banner.tsx     # Compare two people banner UI
 │   ├── person/
-│   │   ├── person-detail-sidebar.tsx  # Slide-in panel + inline editing + research links
-│   │   └── person-form.tsx            # Add family member form
+│   │   ├── person-detail-sidebar.tsx  # Slide-in panel (desktop) / bottom sheet (mobile)
+│   │   ├── person-form.tsx            # Add family member form
+│   │   ├── suggest-edit.tsx           # Elder-friendly "suggest a change" modal → email
+│   │   └── whatsapp-share.tsx         # WhatsApp share button with pre-filled message
+│   ├── timeline/
+│   │   └── family-timeline.tsx        # Slide-based timeline with century jumps + swipe
 │   ├── map/
 │   │   ├── migration-map.tsx          # Dynamic import wrapper (SSR-safe)
-│   │   └── map-content.tsx            # Leaflet map with colored migration routes
+│   │   └── map-content.tsx            # Data-driven Leaflet map with travelers in popups
 │   ├── research/
 │   │   ├── historia-page.tsx          # Surname history editorial page (7 sections)
 │   │   └── research-dashboard.tsx     # 4-API integration cards
 │   ├── layout/
-│   │   ├── nav-header.tsx             # App nav with family crest + 6 links
+│   │   ├── nav-header.tsx             # App nav with family crest + 7 links (incl Timeline)
 │   │   └── sidebar.tsx                # Optional sidebar
 │   └── ui/                            # Shadcn primitives (button)
 ├── lib/
@@ -175,7 +187,8 @@ src/
 │   │   ├── index-builder.ts           # Adjacency index from JSON (O(1) lookups)
 │   │   ├── search.ts                  # Accent-insensitive fuzzy name search
 │   │   ├── slugs.ts                   # Bidirectional URL slug map (person ↔ slug)
-│   │   └── research-links.ts          # Deep link generator for FamilySearch/INE/PARES/CEMLA
+│   │   ├── research-links.ts          # Deep link generator for FamilySearch/INE/PARES/CEMLA
+│   │   └── timeline.ts               # Timeline event extraction from JSON + century helpers
 │   ├── data/
 │   │   ├── loader.ts                  # Static JSON import (server components)
 │   │   └── persistence.ts             # localStorage persistence + JSON export + reset
@@ -187,7 +200,8 @@ src/
 ├── stores/
 │   └── tree-store.ts                  # Zustand: selection, reference, compare mode, sidebar
 └── data/
-    └── caamano-family.json            # Family tree data (JSON)
+    ├── caamano-family.json            # Family tree data (217 persons, 60 families, v7)
+    └── migration-routes.ts            # Route definitions, coordinates, country colors, detectCountry()
 ```
 
 ## Data Model
@@ -346,16 +360,28 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v6, 2026-04-04)
+## Current State (v7, 2026-04-04)
 
-- **Data:** Modern family tree with 153 persons, 41 families in committed JSON. Historical/research persons (h001-h021, fs001-fs016, cm001-cm004, gn001-gn006) documented in `docs/` but not yet in app JSON.
-- **Code:** Fully functional app — 51 source files, 8 routes, 10,087 lines. All features implemented and working. TypeScript strict, zero errors. Production build passes.
-- **UI:** Warm parchment theme (amber palette), family crest shield, gender-coded person nodes, WCAG AA contrast. Responsive.
-- **Research:** Deep surname research completed across FamilySearch, INE, PARES, CEMLA, Forebears, García Carraffa, Geneanet. **New (2026-04-04):** Granada Caamaño cluster discovered — Juan Becerra Camaño (~1745, from Noya) + Mariana Camano (d. 1730, born Galicia). All findings in `docs/FAMILYSEARCH-FINDINGS.md`.
-- **AHDS email SENT** — awaiting response from Archivo Histórico Diocesano de Santiago for Santa María de Caamaño parish records.
-- **Next technical step:** Register FamilySearch API key → build automated search/chaining script.
-- **App strategy:** Differentiated from Ancestry/MyHeritage by "yo soy" identity + WhatsApp-first sharing + migration narrative + path finder. See `docs/COMPETITIVE-LANDSCAPE.md`.
-- **Key routes:** `/tree` (main), `/map` (migration), `/historia` (surname research), `/research` (API links), `/add` (form), `/person/[id]` (detail)
+- **Data:** 217 persons, 60 families in committed JSON (v7). All research data integrated: Colombian lines, CEMLA families, Ecuador presidential line, José Caamaño Soto (Uruguay).
+- **Code:** 60+ source files, 9 routes, TypeScript strict, zero errors. Static export to GitHub Pages.
+- **UI:** High-contrast slate/teal palette (replaced low-contrast amber). Country color-coding on person cards. Semantic zoom (dots → compact → full). Mobile bottom sheet. Elder-friendly suggest-edit + WhatsApp share.
+- **Deploy:** GitHub Pages via Actions. Auto-deploys on push to main. ~1 min.
+- **Research:** Emails SENT to AHDS (parish records) + Archivo de Simancas (1752 Catastro). Awaiting responses.
+- **Key routes:** `/tree` (main), `/timeline` (interactive slide-based), `/map` (migration with travelers), `/historia` (surname), `/research` (API links), `/add` (form), `/person/[id]` (detail with OG metadata)
+
+### UX Features Shipped (2026-04-04)
+
+- **Semantic zoom** — 3 levels: colored dots (far), compact name+year (mid), full cards (close)
+- **Country color-coding** — emerald=Colombia, amber=DR, sky=Ecuador, violet=Argentina, pink=Uruguay, red=EEUU, slate=España
+- **Interactive timeline** — slide-based, 900 years, century jump buttons, swipeable, keyboard arrows
+- **Data-driven map** — 11 routes, 6 origin ports, 8 destinations, travelers in popups with links
+- **Map origin corrected** — actual Santa María de Caamaño coordinates (42.6556, -9.025), was 50km off
+- **Mobile bottom sheet** — person detail slides up from bottom on phones
+- **WhatsApp share** — big green button, pre-filled message with person link
+- **Suggest edit** — elder-friendly modal, sends email to caamano.luismiguel@gmail.com
+- **OG metadata** — per-person title/description for rich WhatsApp previews
+- **Clear button labels** — all Spanish, no cryptic abbreviations
+- **Source badges** — "Medieval", "Censo", "Emigrante", "Colombia", etc.
 
 ### FamilySearch Findings (updated 2026-04-04)
 
