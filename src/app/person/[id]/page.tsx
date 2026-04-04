@@ -6,6 +6,7 @@ import { loadFamilyData } from "@/lib/data/loader";
 import { buildPersonIndex } from "@/lib/genealogy/index-builder";
 import Link from "next/link";
 import type { Person } from "@/lib/genealogy/types";
+import { SuggestEditButton } from "@/components/person/suggest-edit";
 
 interface PersonPageProps {
   params: Promise<{ id: string }>;
@@ -428,6 +429,9 @@ export default async function PersonPage({ params }: PersonPageProps) {
             </ul>
           </SectionCard>
         )}
+
+        {/* Suggest edit — elder-friendly, sends email */}
+        <SuggestEditButton person={person} />
       </div>
     </div>
   );
