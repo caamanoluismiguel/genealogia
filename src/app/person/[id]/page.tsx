@@ -159,6 +159,30 @@ export function generateStaticParams() {
   return data.persons.map((p) => ({ id: p.id }));
 }
 
+export async function generateMetadata({ params }: PersonPageProps) {
+  const { id } = await params;
+  const data = loadFamilyData();
+  const person = data.persons.find((p) => p.id === id);
+  if (!person) return { title: "Persona no encontrada" };
+
+  const name = `${person.firstName} ${person.lastName}`;
+  const dates = [person.birthDate, person.deathDate]
+    .filter(Boolean)
+    .join(" – ");
+  const place = person.birthPlace ?? "";
+
+  return {
+    title: `${name} — Árbol Caamaño`,
+    description: `${name}${dates ? ` (${dates})` : ""}${place ? `. ${place}` : ""}. Árbol genealógico de la familia Caamaño — desde Galicia, España hasta las Américas.`,
+    openGraph: {
+      title: `🌳 ${name}`,
+      description: `${dates ? `${dates}. ` : ""}${place ? `${place}. ` : ""}Árbol genealógico Caamaño — 20 generaciones, 5 países.`,
+      type: "profile",
+      siteName: "Árbol Genealógico Caamaño",
+    },
+  };
+}
+
 export default async function PersonPage({ params }: PersonPageProps) {
   const { id } = await params;
   const data = loadFamilyData();

@@ -542,17 +542,28 @@ export function PersonDetailSidebar({
 
   return (
     <div
-      // NOVA: translate-x transition creates a natural slide-in from the right.
-      // 300ms cubic-bezier matches the "page transition" timing in the design system.
-      className={`absolute top-0 right-0 z-40 h-full w-[340px] border-l border-slate-300 bg-white shadow-2xl transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] ${
-        isOpen && person ? "translate-x-0" : "translate-x-full"
-      }`}
+      // Mobile: bottom sheet (slides up). Desktop: right sidebar (slides in).
+      className={`
+        absolute z-40 bg-white shadow-2xl transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]
+
+        max-md:inset-x-0 max-md:bottom-0 max-md:h-[70vh] max-md:rounded-t-2xl max-md:border-t max-md:border-slate-300
+        ${isOpen && person ? "max-md:translate-y-0" : "max-md:translate-y-full"}
+
+        md:top-0 md:right-0 md:h-full md:w-[340px] md:border-l md:border-slate-300
+        ${isOpen && person ? "md:translate-x-0" : "md:translate-x-full"}
+      `}
     >
       {person && (
         <div className="flex h-full flex-col overflow-y-auto">
-          {/* ARIA: Parchment gradient header — from-slate-50 to-white creates
-              a warm zone that frames the name without harsh contrast breaks.
-              The 4px gender stripe at the top is a subtle identity signal. */}
+          {/* Mobile drag handle — visual cue that this is a bottom sheet */}
+          <div
+            className="flex shrink-0 justify-center py-2 md:hidden"
+            aria-hidden="true"
+          >
+            <div className="h-1 w-10 rounded-full bg-slate-300" />
+          </div>
+
+          {/* Gender stripe */}
           <div
             className={`h-1 w-full shrink-0 ${getGenderAccent(person.gender)}`}
           />
