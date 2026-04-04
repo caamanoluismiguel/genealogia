@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { href: "/map", label: "Mapa" },
   { href: "/historia", label: "Historia" },
   { href: "/research", label: "Investigar" },
-  { href: "/add", label: "Agregar" },
+  { href: "/add", label: "Contribuir" },
 ] as const;
 
 // ARIA: Family crest — a shield outline with "C" monogram.

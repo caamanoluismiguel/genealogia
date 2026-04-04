@@ -1,29 +1,30 @@
 /**
- * Add new family member page.
- * Server Component shell for the PersonForm.
+ * Contribute page — unified "suggest a person or correction" flow.
+ * Everything goes through email approval. No direct writes.
  */
-import { PersonForm } from "@/components/person/person-form";
+import { ContributeForm } from "@/components/person/contribute-form";
 
-export default function AddPage() {
+export const metadata = {
+  title: "Contribuir — Árbol Caamaño",
+  description:
+    "Sugiere agregar un familiar o corregir información en el árbol genealógico Caamaño.",
+};
+
+export default function ContributePage() {
   return (
-    // ARIA: Same parchment page background as the person detail page.
-    // max-w-2xl + centered layout keeps the form document-like and focused.
     <div className="mx-auto max-w-2xl px-6 py-8">
-      {/* ARIA: Page header with serif title and descriptive subtitle.
-          The amber accent bar under the heading echoes the form section markers. */}
-      <div className="mb-6">
+      <div className="mb-8">
         <h1 className="font-serif text-2xl font-semibold text-slate-950">
-          Agregar Familiar
+          Contribuir al Árbol
         </h1>
-        <p className="mt-1 text-sm text-slate-600">
-          Registra un nuevo miembro de la familia Caamaño en el árbol.
+        <p className="mt-2 text-base leading-relaxed text-slate-600">
+          ¿Falta alguien? ¿Hay un dato incorrecto? Tu sugerencia será revisada
+          por Luis Miguel antes de publicarse.
         </p>
-        {/* NOVA: Thin decorative line under the heading — same amber gradient
-            used on the map page hero, creating a consistent page header pattern. */}
-        <div className="mt-4 h-px bg-gradient-to-r from-teal-300 via-amber-200 to-transparent" />
+        <div className="mt-4 h-px bg-gradient-to-r from-teal-300 via-slate-200 to-transparent" />
       </div>
 
-      <PersonForm />
+      <ContributeForm />
     </div>
   );
 }
