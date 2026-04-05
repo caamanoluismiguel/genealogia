@@ -367,6 +367,7 @@ npx tsc --noEmit     # Type check
 - **UI:** High-contrast slate/teal palette (replaced low-contrast amber). Country color-coding on person cards. Semantic zoom (dots → compact → full). Mobile bottom sheet. Elder-friendly suggest-edit + WhatsApp share.
 - **Deploy:** GitHub Pages via Actions. Auto-deploys on push to main. ~1 min.
 - **Research:** Emails SENT to AHDS (parish records) + Archivo de Simancas (1752 Catastro). Awaiting responses.
+- **Colombian parish records FOUND:** FamilySearch Film #004001320 — Santa Iglesia del Carmen, El Banco, Magdalena. 2,531 images. Contains baptism records of Néstor Daniel (partida #1055, 1901) and son of Benjamín + Dominga Castro (partida #424, 1896). MINE THE REMAINING 2,500+ IMAGES for more Caamaño entries.
 - **Key routes:** `/tree` (main), `/timeline` (interactive slide-based), `/map` (migration with travelers), `/historia` (surname), `/research` (API links), `/add` (form), `/person/[id]` (detail with OG metadata)
 
 ### UX Features Shipped (2026-04-04)
