@@ -87,7 +87,10 @@ export function TreeSearch({ persons, onSelect }: TreeSearchProps) {
   return (
     // ARIA: top-4 left-4 positions search in the natural scan path (top-left).
     // Width 72 gives enough room for full names without crowding the tree.
-    <div ref={containerRef} className="absolute top-2 left-1/2 z-30 w-[calc(100vw-5rem)] -translate-x-1/2 md:left-4 md:top-4 md:w-72 md:translate-x-0">
+    <div
+      ref={containerRef}
+      className="absolute top-2 left-1/2 z-30 w-[calc(100vw-5rem)] -translate-x-1/2 md:left-4 md:top-4 md:w-72 md:translate-x-0"
+    >
       {/* KAI: Icon inside input left-side — 4px padding-left leaves room for icon.
           The icon anchors the interaction affordance without redundant placeholder. */}
       <div className="relative">
