@@ -79,7 +79,7 @@ export function BranchIndex({ onJumpToPerson }: BranchIndexProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="absolute left-2 top-2 z-30 md:left-4 md:top-4">
+    <div className="absolute left-2 top-14 z-30 md:left-4 md:top-4">
       <button
         type="button"
         onClick={() => setOpen(!open)}

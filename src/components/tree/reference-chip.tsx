@@ -148,7 +148,7 @@ export function ReferenceChip({
   return (
     <div
       ref={containerRef}
-      className="absolute top-4 left-1/2 z-30 -translate-x-1/2"
+      className="absolute top-28 left-2 z-20 md:top-4 md:left-1/2 md:-translate-x-1/2"
     >
       <div className="flex items-center gap-1.5">
         {/* Main chip */}
