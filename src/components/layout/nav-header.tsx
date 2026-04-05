@@ -103,6 +103,16 @@ export function NavHeader() {
             );
           })}
         </div>
+
+        {/* Donate — pushed to right */}
+        <a
+          href="https://www.paypal.com/donate/?business=caamano.luismiguel%40gmail.com&currency_code=USD&item_name=Apoyo+al+%C3%81rbol+Geneal%C3%B3gico+Caama%C3%B1o"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-auto shrink-0 rounded-lg bg-teal-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-teal-700 active:scale-95"
+        >
+          ☕ Apoyar
+        </a>
       </nav>
     </header>
   );
