@@ -3059,76 +3059,46 @@
   "families": [
     {
       "id": "f001",
-      "parents": [
-        "p001",
-        "p002"
-      ],
-      "children": [
-        "p006",
-        "p008"
-      ],
+      "parents": ["p001", "p002"],
+      "children": ["p006", "p008"],
       "marriagePlace": "Colombia",
       "notes": "José Tomás Caamaño + Desconocida Soto. Rama principal colombiana."
     },
     {
       "id": "f002",
-      "parents": [
-        "p003"
-      ],
+      "parents": ["p003"],
       "children": [],
       "notes": "José María Caamaño — rama dominicana (sin datos de descendencia)."
     },
     {
       "id": "f003",
-      "parents": [
-        "p004"
-      ],
+      "parents": ["p004"],
       "children": [],
       "notes": "Salvador Caamaño — rama ecuatoriana (sin datos de descendencia)."
     },
     {
       "id": "f004",
-      "parents": [
-        "p005"
-      ],
+      "parents": ["p005"],
       "children": [],
       "notes": "Desconocido Caamaño — rama argentina (sin datos de descendencia)."
     },
     {
       "id": "f005",
-      "parents": [
-        "p006",
-        "p007"
-      ],
-      "children": [
-        "p010",
-        "p011",
-        "p012",
-        "p013"
-      ],
+      "parents": ["p006", "p007"],
+      "children": ["p010", "p011", "p012", "p013"],
       "marriagePlace": "Colombia",
       "notes": "José Tomás Caamaño Soto + Faustina Reales."
     },
     {
       "id": "f006",
-      "parents": [
-        "p008",
-        "p009"
-      ],
-      "children": [
-        "p045",
-        "p046",
-        "p047"
-      ],
+      "parents": ["p008", "p009"],
+      "children": ["p045", "p046", "p047"],
       "marriagePlace": "Colombia",
       "notes": "Miguel Caamaño Soto + Ruthesinda Rangel."
     },
     {
       "id": "f007",
-      "parents": [
-        "p013",
-        "p014"
-      ],
+      "parents": ["p013", "p014"],
       "children": [
         "p015",
         "p017",
@@ -3151,330 +3121,177 @@
     },
     {
       "id": "f008",
-      "parents": [
-        "p015",
-        "p016"
-      ],
+      "parents": ["p015", "p016"],
       "children": [],
       "marriagePlace": "Colombia",
       "notes": "Benjamin Caamaño Castro + Felicia (apellido desconocido). Sin datos de hijos."
     },
     {
       "id": "f009",
-      "parents": [
-        "p019",
-        "p020"
-      ],
-      "children": [
-        "p027",
-        "p029",
-        "p030"
-      ],
+      "parents": ["p019", "p020"],
+      "children": ["p027", "p029", "p030"],
       "marriagePlace": "Colombia",
       "notes": "Manuel Felipe Caamaño Castro + Antíope Bustamante."
     },
     {
       "id": "f010",
-      "parents": [
-        "p021",
-        "p022"
-      ],
-      "children": [
-        "p031",
-        "p032",
-        "p033",
-        "p034"
-      ],
+      "parents": ["p021", "p022"],
+      "children": ["p031", "p032", "p033", "p034"],
       "marriagePlace": "Colombia",
       "notes": "Camilo Caamaño Castro + Maria Luisa Villalobos."
     },
     {
       "id": "f011",
-      "parents": [
-        "p023",
-        "p024"
-      ],
-      "children": [
-        "p035",
-        "p036",
-        "p037"
-      ],
+      "parents": ["p023", "p024"],
+      "children": ["p035", "p036", "p037"],
       "marriagePlace": "Colombia",
       "notes": "Nestor Caamaño Castro + Exceptación Garizabal."
     },
     {
       "id": "f012",
-      "parents": [
-        "p025",
-        "p026"
-      ],
-      "children": [
-        "p038",
-        "p039",
-        "p040",
-        "p041",
-        "p042",
-        "p043",
-        "p044"
-      ],
+      "parents": ["p025", "p026"],
+      "children": ["p038", "p039", "p040", "p041", "p042", "p043", "p044"],
       "marriagePlace": "Colombia",
       "notes": "Emilio Caamaño Castro + Emma Laino."
     },
     {
       "id": "f013",
-      "parents": [
-        "p027",
-        "p028"
-      ],
+      "parents": ["p027", "p028"],
       "children": [],
       "notes": "Atala Caamaño Bustamante + Desconocido Yxxxx. Sin datos de hijos."
     },
     {
       "id": "f014",
-      "parents": [
-        "p047",
-        "p048"
-      ],
-      "children": [
-        "p049",
-        "p050",
-        "p052",
-        "p053",
-        "p054"
-      ],
+      "parents": ["p047", "p048"],
+      "children": ["p049", "p050", "p052", "p053", "p054"],
       "marriagePlace": "Colombia",
       "notes": "Jacob Caamaño Rangel + Salvadora Blanquicet."
     },
     {
       "id": "f015",
-      "parents": [
-        "p050",
-        "p051"
-      ],
-      "children": [
-        "p056",
-        "p058",
-        "p060",
-        "p062",
-        "p064",
-        "p065"
-      ],
+      "parents": ["p050", "p051"],
+      "children": ["p056", "p058", "p060", "p062", "p064", "p065"],
       "marriagePlace": "Colombia",
       "notes": "Maria Salud Caamaño Blanquicet + Nicanor Pérez Cogollo."
     },
     {
       "id": "f016",
-      "parents": [
-        "p054",
-        "p055"
-      ],
-      "children": [
-        "p066",
-        "p067",
-        "p069",
-        "p071"
-      ],
+      "parents": ["p054", "p055"],
+      "children": ["p066", "p067", "p069", "p071"],
       "marriagePlace": "Colombia",
       "notes": "Miguel Gustavo Caamaño Blanquicet + Fanny León Sanchez."
     },
     {
       "id": "f017",
-      "parents": [
-        "p067",
-        "p068"
-      ],
+      "parents": ["p067", "p068"],
       "children": [],
       "notes": "Janette Caamaño León + Byron Pérez. Sin datos de hijos."
     },
     {
       "id": "f018",
-      "parents": [
-        "p069",
-        "p070"
-      ],
-      "children": [
-        "p073"
-      ],
+      "parents": ["p069", "p070"],
+      "children": ["p073"],
       "marriagePlace": "Colombia",
       "notes": "Gustavo Javier Caamaño León + Luz Alba Benitez."
     },
     {
       "id": "f019",
-      "parents": [
-        "p071",
-        "p072"
-      ],
-      "children": [
-        "p074"
-      ],
+      "parents": ["p071", "p072"],
+      "children": ["p074"],
       "marriagePlace": "Colombia",
       "notes": "Beatriz Elena Caamaño León + Moises Juliao."
     },
     {
       "id": "f020",
-      "parents": [
-        "p056",
-        "p057"
-      ],
-      "children": [
-        "p075",
-        "p077"
-      ],
+      "parents": ["p056", "p057"],
+      "children": ["p075", "p077"],
       "marriagePlace": "Colombia",
       "notes": "Martha Pérez Caamaño + Luis Rivera."
     },
     {
       "id": "f021",
-      "parents": [
-        "p058",
-        "p059"
-      ],
-      "children": [
-        "p079",
-        "p081",
-        "p083"
-      ],
+      "parents": ["p058", "p059"],
+      "children": ["p079", "p081", "p083"],
       "marriagePlace": "Colombia",
       "notes": "Nicanor Pérez Caamaño + Graciela Pereira."
     },
     {
       "id": "f022",
-      "parents": [
-        "p060",
-        "p061"
-      ],
-      "children": [
-        "p085",
-        "p087",
-        "p089",
-        "p105",
-        "p106"
-      ],
+      "parents": ["p060", "p061"],
+      "children": ["p085", "p087", "p089", "p105", "p106"],
       "marriagePlace": "Colombia",
       "notes": "Gloria Pérez Caamaño + José Diaz."
     },
     {
       "id": "f023",
-      "parents": [
-        "p062",
-        "p063"
-      ],
-      "children": [
-        "p091",
-        "p092",
-        "p094"
-      ],
+      "parents": ["p062", "p063"],
+      "children": ["p091", "p092", "p094"],
       "marriagePlace": "Colombia",
       "notes": "Rafael Emiro Pérez Caamaño + Stella Isabel Jaramillo."
     },
     {
       "id": "f024",
-      "parents": [
-        "p075",
-        "p076"
-      ],
-      "children": [
-        "p095"
-      ],
+      "parents": ["p075", "p076"],
+      "children": ["p095"],
       "marriagePlace": "Colombia",
       "notes": "Luis Alberto Rivera Pérez + Claudia Ponce."
     },
     {
       "id": "f025",
-      "parents": [
-        "p077",
-        "p078"
-      ],
-      "children": [
-        "p096"
-      ],
+      "parents": ["p077", "p078"],
+      "children": ["p096"],
       "marriagePlace": "Colombia",
       "notes": "Ricardo Rivera Pérez + Liz Mary Peñalver."
     },
     {
       "id": "f026",
-      "parents": [
-        "p079",
-        "p080"
-      ],
-      "children": [
-        "p097"
-      ],
+      "parents": ["p079", "p080"],
+      "children": ["p097"],
       "marriagePlace": "Colombia",
       "notes": "Tania Pérez Pereira + Efrain Posada."
     },
     {
       "id": "f027",
-      "parents": [
-        "p081",
-        "p082"
-      ],
+      "parents": ["p081", "p082"],
       "children": [],
       "notes": "José Luis Pérez Pereira + Yecenia Alvarez. Sin datos de hijos."
     },
     {
       "id": "f028",
-      "parents": [
-        "p083",
-        "p084"
-      ],
+      "parents": ["p083", "p084"],
       "children": [],
       "notes": "Miguel Pérez Pereira + Doris Gavanzo. Sin datos de hijos."
     },
     {
       "id": "f029",
-      "parents": [
-        "p085",
-        "p086"
-      ],
-      "children": [
-        "p098",
-        "p099"
-      ],
+      "parents": ["p085", "p086"],
+      "children": ["p098", "p099"],
       "marriagePlace": "Colombia",
       "notes": "Lizzette Diaz Pérez + Pedro Arevalo."
     },
     {
       "id": "f030",
-      "parents": [
-        "p087",
-        "p088"
-      ],
-      "children": [
-        "p100",
-        "p101",
-        "p102"
-      ],
+      "parents": ["p087", "p088"],
+      "children": ["p100", "p101", "p102"],
       "marriagePlace": "Colombia",
       "notes": "Maria Angélica Diaz Pérez + Rommel Cueter."
     },
     {
       "id": "f031",
-      "parents": [
-        "p089",
-        "p090"
-      ],
-      "children": [
-        "p103",
-        "p104"
-      ],
+      "parents": ["p089", "p090"],
+      "children": ["p103", "p104"],
       "marriagePlace": "Colombia",
       "notes": "Jose Ignacio Diaz Pérez + Claudia Angulo."
     },
     {
       "id": "f032",
-      "parents": [
-        "p092",
-        "p093"
-      ],
+      "parents": ["p092", "p093"],
       "children": [],
       "notes": "Rafael David Pérez Jaramillo + Sandra La Sala. Sin datos de hijos."
     },
     {
       "id": "f033",
-      "parents": [
-        "p045"
-      ],
+      "parents": ["p045"],
       "children": [
         "p107",
         "p108",
@@ -3490,24 +3307,14 @@
     },
     {
       "id": "f034",
-      "parents": [
-        "p111",
-        "p112"
-      ],
-      "children": [
-        "p135",
-        "p136",
-        "p138",
-        "p140"
-      ],
+      "parents": ["p111", "p112"],
+      "children": ["p135", "p136", "p138", "p140"],
       "marriagePlace": "Colombia",
       "notes": "Miguel Caamaño (hijo de Brígida) + Celia Rapalino Blanco."
     },
     {
       "id": "f035",
-      "parents": [
-        "p046"
-      ],
+      "parents": ["p046"],
       "children": [
         "p113",
         "p114",
@@ -3528,389 +3335,220 @@
     },
     {
       "id": "f036",
-      "parents": [
-        "p046",
-        "p149"
-      ],
-      "children": [
-        "p127",
-        "p128",
-        "p129",
-        "p130"
-      ],
+      "parents": ["p046", "p149"],
+      "children": ["p127", "p128", "p129", "p130"],
       "notes": "Licerio Caamaño Rangel + Desconocida Villarreal. Hijos con apellido Villarreal."
     },
     {
       "id": "f037",
-      "parents": [
-        "p136",
-        "p137"
-      ],
+      "parents": ["p136", "p137"],
       "children": [],
       "notes": "Bernabé Caamaño Rapalino + Silvia Perales. Sin datos de hijos."
     },
     {
       "id": "f038",
-      "parents": [
-        "p138",
-        "p139"
-      ],
-      "children": [
-        "p141",
-        "p142",
-        "p143",
-        "p144"
-      ],
+      "parents": ["p138", "p139"],
+      "children": ["p141", "p142", "p143", "p144"],
       "marriagePlace": "Colombia",
       "notes": "Omaira Caamaño Rapalino + Pedro Castaño Robles."
     },
     {
       "id": "f039",
-      "parents": [
-        "p144",
-        "p145"
-      ],
-      "children": [
-        "p146",
-        "p147",
-        "p148"
-      ],
+      "parents": ["p144", "p145"],
+      "children": ["p146", "p147", "p148"],
       "marriagePlace": "Colombia",
       "notes": "Jorge Castaño Caamaño + Nohora Rangel."
     },
     {
       "id": "f040",
-      "parents": [
-        "p037"
-      ],
-      "children": [
-        "p151"
-      ],
+      "parents": ["p037"],
+      "children": ["p151"],
       "notes": "Luis Caamaño Garizabal. Madre desconocida."
     },
     {
       "id": "f041",
-      "parents": [
-        "p151",
-        "p150"
-      ],
-      "children": [
-        "p152",
-        "p153"
-      ],
+      "parents": ["p151", "p150"],
+      "children": ["p152", "p153"],
       "notes": "Luis Miguel Caamaño Morales + Alejandra Perdomo."
     },
     {
       "id": "hf01",
-      "parents": [
-        "h001",
-        "h002"
-      ],
-      "children": [
-        "h003"
-      ],
+      "parents": ["h001", "h002"],
+      "children": ["h003"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf02",
-      "parents": [
-        "h003",
-        "h004"
-      ],
-      "children": [
-        "h005"
-      ],
+      "parents": ["h003", "h004"],
+      "children": ["h005"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf03",
-      "parents": [
-        "h005",
-        "h006"
-      ],
-      "children": [
-        "h007"
-      ],
+      "parents": ["h005", "h006"],
+      "children": ["h007"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf04",
-      "parents": [
-        "h007",
-        "h008"
-      ],
-      "children": [
-        "h009"
-      ],
+      "parents": ["h007", "h008"],
+      "children": ["h009"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf05",
-      "parents": [
-        "h009",
-        "h010"
-      ],
-      "children": [
-        "h011"
-      ],
+      "parents": ["h009", "h010"],
+      "children": ["h011"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf06",
-      "parents": [
-        "h011",
-        "h012"
-      ],
-      "children": [
-        "h013"
-      ],
+      "parents": ["h011", "h012"],
+      "children": ["h013"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf07",
-      "parents": [
-        "h013",
-        "h014"
-      ],
-      "children": [
-        "h015"
-      ],
+      "parents": ["h013", "h014"],
+      "children": ["h015"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf08",
-      "parents": [
-        "h015",
-        "h016"
-      ],
-      "children": [
-        "h017"
-      ],
+      "parents": ["h015", "h016"],
+      "children": ["h017"],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf09",
-      "parents": [
-        "h017",
-        "h018"
-      ],
-      "children": [
-        "h019"
-      ],
+      "parents": ["h017", "h018"],
+      "children": ["h019"],
       "marriageDate": "1458",
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf10",
-      "parents": [
-        "h019",
-        "h020"
-      ],
+      "parents": ["h019", "h020"],
       "children": [],
       "marriagePlace": "Noya, A Coruña, Galicia, España",
       "notes": "7 hijos incluyendo García Rodríguez (heredero), Álvaro de Sotomayor, Rodrigo de Mendoza"
     },
     {
       "id": "fsf01",
-      "parents": [
-        "fs001",
-        "fs002"
-      ],
-      "children": [
-        "fs003"
-      ],
+      "parents": ["fs001", "fs002"],
+      "children": ["fs003"],
       "marriagePlace": "Muros, A Coruña, Galicia, España"
     },
     {
       "id": "fsf02",
-      "parents": [
-        "fs003"
-      ],
-      "children": [
-        "fs004",
-        "fs005",
-        "fs007"
-      ],
+      "parents": ["fs003"],
+      "children": ["fs004", "fs005", "fs007"],
       "notes": "Conexión probable basada en misma parroquia (Palmeira) y generación. Pablo viudo = esposa González (apellido de los hijos)."
     },
     {
       "id": "fsf03",
-      "parents": [
-        "fs005",
-        "fs006"
-      ],
-      "children": [
-        "fs008",
-        "fs009",
-        "fs011",
-        "fs012",
-        "fs013",
-        "fs014"
-      ],
+      "parents": ["fs005", "fs006"],
+      "children": ["fs008", "fs009", "fs011", "fs012", "fs013", "fs014"],
       "marriagePlace": "Palmeira, Ribeira, A Coruña, Galicia, España"
     },
     {
       "id": "fsf04",
-      "parents": [
-        "fs009",
-        "fs010"
-      ],
+      "parents": ["fs009", "fs010"],
       "children": [],
       "marriagePlace": "Ribeira, A Coruña, Galicia, España"
     },
     {
       "id": "gcf01",
-      "parents": [
-        "gc001",
-        "gc002"
-      ],
-      "children": [
-        "gc003"
-      ]
+      "parents": ["gc001", "gc002"],
+      "children": ["gc003"]
     },
     {
       "id": "gcf02",
-      "parents": [
-        "gc003",
-        "gc004"
-      ],
-      "children": [
-        "gc005"
-      ],
+      "parents": ["gc003", "gc004"],
+      "children": ["gc005"],
       "marriageDate": "1682-11-30",
       "marriagePlace": "Muros, A Coruña, Galicia, España"
     },
     {
       "id": "gcf03",
-      "parents": [
-        "gc005",
-        "gc006"
-      ],
-      "children": [
-        "gc007"
-      ],
+      "parents": ["gc005", "gc006"],
+      "children": ["gc007"],
       "marriageDate": "1713-09-03",
       "marriagePlace": "Muros, A Coruña, Galicia, España"
     },
     {
       "id": "gcf04",
-      "parents": [
-        "gc009",
-        "gc010"
-      ],
+      "parents": ["gc009", "gc010"],
       "children": [],
       "marriagePlace": "España"
     },
     {
       "id": "cmf02",
-      "parents": [
-        "cm005"
-      ],
-      "children": [
-        "cm006",
-        "cm007"
-      ]
+      "parents": ["cm005"],
+      "children": ["cm006", "cm007"]
     },
     {
       "id": "f100",
-      "parents": [
-        "p100",
-        "p104"
-      ],
+      "parents": ["p100", "p104"],
       "children": [],
       "marriageDate": "1928-08-04",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f101",
-      "parents": [
-        "p102",
-        "p105"
-      ],
+      "parents": ["p102", "p105"],
       "children": [],
       "marriageDate": "1930-02-23",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f102",
-      "parents": [
-        "p103",
-        "p106"
-      ],
+      "parents": ["p103", "p106"],
       "children": [],
       "marriageDate": "1920-01-09",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f160",
-      "parents": [
-        "p160",
-        "p164"
-      ],
-      "children": [
-        "p170"
-      ],
+      "parents": ["p160", "p164"],
+      "children": ["p170"],
       "marriageDate": "1928-08-04",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f161",
-      "parents": [
-        "p162",
-        "p165"
-      ],
+      "parents": ["p162", "p165"],
       "children": [],
       "marriageDate": "1930-02-23",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f162",
-      "parents": [
-        "p163",
-        "p166"
-      ],
+      "parents": ["p163", "p166"],
       "children": [],
       "marriageDate": "1920-01-09",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f171",
-      "parents": [
-        "p171",
-        "p172"
-      ],
-      "children": [
-        "p173",
-        "p174",
-        "p175"
-      ]
+      "parents": ["p171", "p172"],
+      "children": ["p173", "p174", "p175"]
     },
     {
       "id": "f172",
-      "parents": [
-        "p176",
-        "p177"
-      ],
-      "children": [
-        "p178"
-      ]
+      "parents": ["p176", "p177"],
+      "children": ["p178"]
     },
     {
       "id": "f173",
-      "parents": [
-        "p178",
-        "p179"
-      ],
+      "parents": ["p178", "p179"],
       "children": [],
       "marriageDate": "1909-04-28",
       "marriagePlace": "El Banco, Magdalena"
     },
     {
       "id": "f174",
-      "parents": [
-        "p180",
-        "p181"
-      ],
+      "parents": ["p180", "p181"],
       "children": []
     }
   ],

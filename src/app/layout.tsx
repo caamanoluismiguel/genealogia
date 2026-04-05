@@ -41,7 +41,7 @@ export default function RootLayout({
           </p>
           <div className="mt-2 flex items-center justify-center gap-4">
             <a
-              href="https://www.paypal.com/donate/?hosted_button_id=&business=caamano.luismiguel%40gmail.com&currency_code=USD"
+              href="https://www.paypal.com/donate/?business=caamano.luismiguel%40gmail.com&currency_code=USD&item_name=Apoyo+al+%C3%81rbol+Geneal%C3%B3gico+Caama%C3%B1o"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition-colors hover:border-teal-300 hover:bg-teal-50 hover:text-teal-700"
