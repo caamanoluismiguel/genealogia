@@ -82,7 +82,10 @@ export function NavHeader() {
         {/* Divider */}
         <div className="h-5 w-px bg-slate-200" aria-hidden="true" />
 
-        <div className="flex items-center gap-1">
+        <div
+          className="flex items-center gap-1 overflow-x-auto max-md:max-w-[40vw]"
+          style={{ scrollbarWidth: "none" }}
+        >
           {NAV_LINKS.map(({ href, label }) => {
             const isActive =
               pathname === href || pathname.startsWith(`${href}/`);
@@ -109,10 +112,13 @@ export function NavHeader() {
           href="https://www.paypal.com/donate/?business=caamano.luismiguel%40gmail.com&currency_code=USD&item_name=Apoyo+al+%C3%81rbol+Geneal%C3%B3gico+Caama%C3%B1o"
           target="_blank"
           rel="noopener noreferrer"
-          className="group ml-auto shrink-0 rounded-xl bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-teal-700 active:scale-95"
+          className="group ml-auto shrink-0 rounded-xl bg-teal-600 px-3 py-2 text-xs font-semibold text-white shadow-sm transition-colors hover:bg-teal-700 active:scale-95 md:px-4 md:text-sm"
           title="Tu donación financia la búsqueda de registros históricos en archivos de España y Colombia"
         >
-          🔍 Ayúdanos a encontrar más registros
+          <span className="hidden md:inline">
+            🔍 Ayúdanos a encontrar más registros
+          </span>
+          <span className="md:hidden">🔍 Apoyar</span>
         </a>
       </nav>
     </header>

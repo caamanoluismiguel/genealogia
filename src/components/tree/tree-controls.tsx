@@ -237,7 +237,7 @@ export function TreeControls({
   return (
     // ARIA: Floating glass panel — white/90 + backdrop-blur reads over any background.
     // rounded-xl + shadow-lg gives the panel its own elevation layer (z-axis depth).
-    <div className="absolute right-4 bottom-4 flex flex-col items-center gap-0.5 rounded-xl border border-slate-300 bg-white/90 p-1.5 shadow-lg backdrop-blur-sm">
+    <div className="absolute right-2 bottom-2 flex flex-col items-center gap-0.5 rounded-xl border border-slate-300 bg-white/90 p-1.5 shadow-lg backdrop-blur-sm max-md:max-h-[60vh] max-md:overflow-y-auto md:right-4 md:bottom-4">
       <button
         type="button"
         onClick={onZoomIn}

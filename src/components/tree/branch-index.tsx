@@ -79,18 +79,21 @@ export function BranchIndex({ onJumpToPerson }: BranchIndexProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="absolute left-4 top-4 z-30">
+    <div className="absolute left-2 top-2 z-30 md:left-4 md:top-4">
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 rounded-xl border border-slate-300 bg-white/95 px-3 py-2 text-sm font-semibold text-slate-700 shadow-lg backdrop-blur-sm transition-colors hover:bg-slate-50"
+        className="flex min-h-[44px] items-center gap-2 rounded-xl border border-slate-300 bg-white/95 px-3 py-2 text-sm font-semibold text-slate-700 shadow-lg backdrop-blur-sm transition-colors hover:bg-slate-50"
       >
         <span className="text-base">🌿</span>
-        {open ? "Cerrar" : "Ramas familiares"}
+        <span className="max-md:sr-only">
+          {open ? "Cerrar" : "Ramas familiares"}
+        </span>
+        <span className="md:hidden">{open ? "✕" : "Ramas"}</span>
       </button>
 
       {open && (
-        <div className="mt-2 w-72 rounded-xl border border-slate-200 bg-white/95 p-2 shadow-xl backdrop-blur-sm">
+        <div className="mt-2 max-h-[70vh] w-[calc(100vw-1rem)] overflow-y-auto rounded-xl border border-slate-200 bg-white/95 p-2 shadow-xl backdrop-blur-sm md:w-72">
           <p className="px-2 py-1 text-xs font-bold uppercase tracking-wide text-slate-400">
             Ir a una rama
           </p>
@@ -103,7 +106,7 @@ export function BranchIndex({ onJumpToPerson }: BranchIndexProps) {
                   onJumpToPerson(b.personId);
                   setOpen(false);
                 }}
-                className="flex w-full items-start gap-2.5 rounded-lg px-2 py-2 text-left transition-colors hover:bg-teal-50"
+                className="flex w-full min-h-[44px] items-start gap-2.5 rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-teal-50 active:bg-teal-100"
               >
                 <span className="mt-0.5 text-lg">{b.flag}</span>
                 <div className="min-w-0 flex-1">
