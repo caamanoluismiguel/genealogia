@@ -52,7 +52,7 @@ interface TreeState {
 export const useTreeStore = create<TreeState>()((set) => ({
   selectedPersonId: null,
   comparisonPersonId: null,
-  referencePersonId: "p151",
+  referencePersonId: null,
   searchQuery: "",
   sidebarOpen: false,
 

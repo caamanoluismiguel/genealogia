@@ -5,7 +5,12 @@ import { usePathname } from "next/navigation";
 
 const NAV_LINKS = [
   { href: "/tree", label: "Árbol", icon: "🌳" },
-  { href: "/timeline", label: "Línea del Tiempo", icon: "📅", mobileLabel: "Tiempo" },
+  {
+    href: "/timeline",
+    label: "Línea del Tiempo",
+    icon: "📅",
+    mobileLabel: "Tiempo",
+  },
   { href: "/map", label: "Mapa", icon: "🗺️" },
   { href: "/historia", label: "Historia", icon: "📖" },
   { href: "/research", label: "Investigar", icon: "🔬", mobileHide: true },
@@ -129,9 +134,7 @@ export function NavHeader() {
                 key={href}
                 href={href}
                 className={`flex flex-1 flex-col items-center justify-center gap-0.5 py-2 text-center transition-colors ${
-                  isActive
-                    ? "text-teal-600"
-                    : "text-slate-500"
+                  isActive ? "text-teal-600" : "text-slate-500"
                 }`}
               >
                 <span className="text-lg leading-none">{icon}</span>
