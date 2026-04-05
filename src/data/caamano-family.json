@@ -3077,6 +3077,141 @@
       "notes": "Esposa de Tomás Caamaño. Registro de bautismo de nieta (1917) la nombra como abuela materna. FamilySearch.",
       "events": [],
       "migrations": []
+    },
+    {
+      "id": "p197",
+      "source": "modern",
+      "firstName": "Diego José",
+      "lastName": "Caamaño y Posé",
+      "gender": "male",
+      "birthPlace": "Galicia, España (según blog Mariela Caamaño)",
+      "notes": "Padre de Ramón Caamaño García. Abuelo de los hermanos que emigraron a RD. Fuente: marielacaamano.blogspot.com (2015). Sin verificación documental independiente.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p198",
+      "source": "modern",
+      "firstName": "Ramón",
+      "lastName": "Caamaño García",
+      "gender": "male",
+      "birthPlace": "Santiago de Compostela, Galicia, España (según blog)",
+      "notes": "Padre de Pedro, Alejandro, Álvaro y Ramiro. De Santiago de Compostela. Casado con Rita Sanjurjo. ¿Conexión con la rama de Porto do Son (p001)? Santiago está a ~35km de Porto do Son. Fuente: blog Mariela Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p199",
+      "source": "modern",
+      "firstName": "Rita",
+      "lastName": "Sanjurjo",
+      "gender": "female",
+      "birthPlace": "Galicia, España (según blog)",
+      "notes": "Esposa de Ramón Caamaño García. Madre de los hermanos que emigraron a RD.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p200",
+      "source": "modern",
+      "firstName": "Álvaro",
+      "lastName": "Caamaño Sanjurjo",
+      "gender": "male",
+      "birthPlace": "Galicia, España (según blog)",
+      "notes": "Hijo de Ramón y Rita. Emigró a República Dominicana. Se estableció en Banileja, Juan Barón, luego Sombrero, luego Mogollón (San Juan de la Maguana). Casado con Josefa Medina Báez. Padre del General Fausto Caamaño Medina (Secretario de Guerra bajo Trujillo) y abuelo del revolucionario Francisco Alberto Caamaño Deñó. Fuente: blog Mariela Caamaño.",
+      "events": [
+        {
+          "type": "immigration",
+          "place": "República Dominicana",
+          "description": "Emigró desde Galicia. Se estableció en San Juan de la Maguana."
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Galicia, España",
+          "to": "San Juan de la Maguana, República Dominicana",
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "p201",
+      "source": "modern",
+      "firstName": "Josefa",
+      "lastName": "Medina Báez",
+      "gender": "female",
+      "birthPlace": "República Dominicana",
+      "notes": "Esposa de Álvaro Caamaño Sanjurjo. Hermana de Vicenta Medina Báez (esposa de Ramiro).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p202",
+      "source": "modern",
+      "firstName": "Ramiro",
+      "lastName": "Caamaño Sanjurjo",
+      "gender": "male",
+      "birthDate": "1863-01-21",
+      "deathDate": "1931-08-18",
+      "birthPlace": "Galicia, España (según blog)",
+      "notes": "Hijo de Ramón y Rita. Nacido 21 enero 1863, fallecido 18 agosto 1931. Emigró a RD. Casado con Vicenta Medina Báez (hermana de Josefa). Se estableció en Mogollón. Nacido mismo año que Tomás Caamaño de CEMLA (~1863). Fuente: blog Mariela Caamaño.",
+      "events": [
+        {
+          "type": "immigration",
+          "place": "República Dominicana",
+          "description": "Emigró desde Galicia a Mogollón, San Juan de la Maguana"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Galicia, España",
+          "to": "Mogollón, San Juan de la Maguana, República Dominicana",
+          "reason": "Emigración"
+        }
+      ]
+    },
+    {
+      "id": "p203",
+      "source": "modern",
+      "firstName": "Vicenta",
+      "lastName": "Medina Báez",
+      "gender": "female",
+      "birthPlace": "República Dominicana",
+      "notes": "Esposa de Ramiro Caamaño Sanjurjo. Hermana de Josefa (esposa de Álvaro).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p204",
+      "source": "modern",
+      "firstName": "Fausto",
+      "lastName": "Caamaño Medina",
+      "gender": "male",
+      "birthPlace": "República Dominicana",
+      "deathDate": "1986",
+      "notes": "General. Secretario de las Fuerzas Armadas bajo Trujillo (1952-1953). Hijo de Álvaro Caamaño Sanjurjo y Josefa Medina Báez. Padre de Francisco Alberto Caamaño Deñó (revolucionario 1965). Fuente: blog + Wikipedia.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p205",
+      "source": "modern",
+      "firstName": "Francisco Alberto",
+      "lastName": "Caamaño Deñó",
+      "gender": "male",
+      "birthDate": "1932",
+      "deathDate": "1973",
+      "birthPlace": "República Dominicana",
+      "notes": "Líder de la revuelta constitucionalista de 1965 en RD. Presidente durante el conflicto. EEUU invadió la RD en respuesta. Hijo del General Fausto Caamaño Medina. Nieto de Álvaro Caamaño Sanjurjo (emigrante gallego). Ejecutado en 1973. Fuente: blog Mariela Caamaño + Wikipedia.",
+      "events": [
+        {
+          "type": "custom",
+          "date": "1965",
+          "place": "Santo Domingo, República Dominicana",
+          "description": "Presidente constitucionalista durante la revolución de 1965"
+        }
+      ],
+      "migrations": []
     }
   ],
   "families": [
@@ -3947,10 +4082,63 @@
       ],
       "marriagePlace": "El Banco, Magdalena, Colombia",
       "notes": "Tomás Caamaño (Caamaño?) + Eusebia Romero. Confirmado por registro de bautismo de nieta María García Caamaño (1917). Posible conexión con patriarca p001 sin confirmar."
+    },
+    {
+      "id": "f197",
+      "parents": [
+        "p197"
+      ],
+      "children": [
+        "p198"
+      ]
+    },
+    {
+      "id": "f198",
+      "parents": [
+        "p198",
+        "p199"
+      ],
+      "children": [
+        "p200",
+        "p202"
+      ],
+      "marriagePlace": "Galicia, España (según blog)",
+      "notes": "También tuvieron a Pedro y Alejandro (no agregados al árbol). Fuente: blog Mariela Caamaño."
+    },
+    {
+      "id": "f199",
+      "parents": [
+        "p200",
+        "p201"
+      ],
+      "children": [
+        "p204"
+      ],
+      "marriagePlace": "República Dominicana",
+      "notes": "Otros hijos: César, Pedro Plutarco (1889-1983), Marina, Adela, Luis Ángel, Rosaura, Isabel. Fuente: blog."
+    },
+    {
+      "id": "f200",
+      "parents": [
+        "p202",
+        "p203"
+      ],
+      "children": [],
+      "marriagePlace": "Mogollón, San Juan de la Maguana, RD",
+      "notes": "Hijos: Virgilio (1898-1930), Gustavo (1900-1929), Romélio, Rita Elena, Ernesto, Carmelita, Ramiro Jr. Fuente: blog."
+    },
+    {
+      "id": "f201",
+      "parents": [
+        "p204"
+      ],
+      "children": [
+        "p205"
+      ]
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-05T01:00:00Z",
-    "version": 12
+    "lastUpdated": "2026-04-05T01:30:00Z",
+    "version": 13
   }
 }
