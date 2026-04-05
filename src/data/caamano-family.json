@@ -2783,6 +2783,277 @@
       "notes": "DAS record. Hija de Emilio Camaño y Emma Laino. Confirma descendencia de Emilio. FamilySearch DAS.",
       "events": [],
       "migrations": []
+    },
+    {
+      "id": "p171",
+      "source": "modern",
+      "firstName": "Licerio",
+      "lastName": "Caamaño Rangel",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Cabeza de rama importante en El Banco. Padres: Caamaño + Rangel (según registro de Jacob). Casado con Ana María Benavides. Hijos: Emilio, Tito, Néstor, Aida, Elisa, otros. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p172",
+      "source": "modern",
+      "firstName": "Ana María",
+      "lastName": "Benavides",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Esposa de Licerio Caamaño. Múltiples hijos confirmados en registros de iglesia.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p173",
+      "source": "modern",
+      "firstName": "Tito",
+      "lastName": "Caamaño Benavides",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hijo de Licerio Caamaño y Ana María Benavides. Casado con Ester Ardila. Hijos: Carmen, José Antonio, Ana María. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p174",
+      "source": "modern",
+      "firstName": "Emilio",
+      "lastName": "Caamaño Benavides",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hijo de Licerio Caamaño y Ana María Benavides. Casado con Filadelfina Genez Núñez. Hijo: Jorge. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p175",
+      "source": "modern",
+      "firstName": "Néstor",
+      "lastName": "Caamaño Benavides",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hijo de Licerio Caamaño y Ana María Benavides. DIFERENTE del Néstor Caamaño Castro (p023). Hijos: Cisca, Tito, Temilson. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p176",
+      "source": "modern",
+      "firstName": "Miguel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p177",
+      "source": "modern",
+      "firstName": "Rudecinda",
+      "lastName": "Rangel",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Esposa de Miguel Caamaño. Madre de Jacob. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p178",
+      "source": "modern",
+      "firstName": "Jacob",
+      "lastName": "Caamaño Rangel",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hijo de Miguel Caamaño y Rudecinda Rangel. Casado con Salvadora Blanquicet, matrimonio 28 abril 1909. Hijos: Daniel Enrique (1910, 1915), Ruth María (1912), Salud, Elías José, Miguel Gustavo. FamilySearch.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1909-04-28",
+          "place": "El Banco, Magdalena",
+          "description": "Casado con Salvadora Blanquicet"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "p179",
+      "source": "modern",
+      "firstName": "Salvadora",
+      "lastName": "Blanquicet",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Esposa de Jacob Caamaño. Matrimonio 1909. Múltiples hijos. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p180",
+      "source": "modern",
+      "firstName": "Otoniel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Ofelia Beleño (Amaris). Hijos: Astolfo, Hernando José, Myriam, Fernando José. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p181",
+      "source": "modern",
+      "firstName": "Ofelia",
+      "lastName": "Beleño Amaris",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Esposa de Otoniel Caamaño. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p182",
+      "source": "modern",
+      "firstName": "Nelson",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Dilia Sarmiento. Hijos: Augusto, Delia, Ilse. Padre de Donaciano Caamaño Nieto (segunda B. Nieto). FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p183",
+      "source": "modern",
+      "firstName": "Eduvigis",
+      "lastName": "Caamaño Romero",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hija de Tomás Caamaño y Eusebia Romero. Casada con Arcadio García. ¿Tomás = el patriarca con otra pareja? FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p184",
+      "source": "modern",
+      "firstName": "Silvana",
+      "lastName": "Caamaño Contreras",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hija de Tomás Caamaño y Eusebia Contreras. Hijo: Juan. Romero/Contreras = ¿misma Eusebia? FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p185",
+      "source": "modern",
+      "firstName": "Joaquín",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Herminia Lima. Hijo: Joaquín Jr (1903). FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p186",
+      "source": "modern",
+      "firstName": "Felipa",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Madre soltera de muchos hijos: Esperanza (1913), Desiderio Antonio (1907), María de Jesús (1911), Francisca (1909), Toribio (1886), Plácido (1904). Prolífica rama Caamaño en El Banco. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p187",
+      "source": "modern",
+      "firstName": "Martina",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Madre de: Sixto (1902), Marina de la Concepción (1912), Manuel Dolores (1905), Andrés (1909), Silvia María (1907), Aristóbulo (1915). Otra rama prolífica. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p188",
+      "source": "modern",
+      "firstName": "Francisca",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Madre de: Manuel Esteban (1896), Silverio (1892), María Raquel (1873), Manuela (1875). Registros desde 1873 — generación más antigua de Caamaños documentada en El Banco. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p189",
+      "source": "modern",
+      "firstName": "Manuela",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Madre de: Ana Ceferina (1877), Angelina (1892). FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p190",
+      "source": "modern",
+      "firstName": "Isidro",
+      "lastName": "Camaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Catalina Beleño. Hija: María Lucía (1875). Una de las familias más antiguas documentadas. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p191",
+      "source": "modern",
+      "firstName": "Fiburcio",
+      "lastName": "Camaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con María de la Cruz Montero. Hijo: José Nemecio (1874). Generación anterior a Benjamín. FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p192",
+      "source": "modern",
+      "firstName": "Cesario",
+      "lastName": "Camaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Petrona Arcea. Hija: Juana Clemencia (1877). FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p193",
+      "source": "modern",
+      "firstName": "Joaquín (antiguo)",
+      "lastName": "Camaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Cayetana León Cuyo. Hijo: José Encarnación Dimas (1874). También Benedicta (1866, con Felicia Rocha). Generación más antigua (~1840s). FamilySearch.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "p194",
+      "source": "modern",
+      "firstName": "Carlos",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Casado con Dominga Villarreal. Hijo: Luís Enrique Caamaño Villarreal (nacido 1854, Palomino, Magdalena). DAS record. Uno de los Caamaños más antiguos — sugiere presencia en Magdalena desde ~1830s. FamilySearch DAS.",
+      "events": [],
+      "migrations": []
     }
   ],
   "families": [
@@ -3601,10 +3872,50 @@
       "children": [],
       "marriageDate": "1920-01-09",
       "marriagePlace": "El Banco, Magdalena, Colombia"
+    },
+    {
+      "id": "f171",
+      "parents": [
+        "p171",
+        "p172"
+      ],
+      "children": [
+        "p173",
+        "p174",
+        "p175"
+      ]
+    },
+    {
+      "id": "f172",
+      "parents": [
+        "p176",
+        "p177"
+      ],
+      "children": [
+        "p178"
+      ]
+    },
+    {
+      "id": "f173",
+      "parents": [
+        "p178",
+        "p179"
+      ],
+      "children": [],
+      "marriageDate": "1909-04-28",
+      "marriagePlace": "El Banco, Magdalena"
+    },
+    {
+      "id": "f174",
+      "parents": [
+        "p180",
+        "p181"
+      ],
+      "children": []
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-04T23:30:00Z",
-    "version": 9
+    "lastUpdated": "2026-04-05T00:00:00Z",
+    "version": 10
   }
 }
