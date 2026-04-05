@@ -37,7 +37,7 @@ export function PathFinderBanner({
           <>
             <span className="text-sm text-slate-700">
               <span className="mr-1.5">🔍</span>
-              Selecciona la primera persona en el arbol
+              Selecciona la primera persona en el árbol
             </span>
             <button
               type="button"

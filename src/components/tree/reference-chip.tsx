@@ -99,11 +99,11 @@ export function ReferenceChip({
   );
 
   const handleShare = useCallback(async () => {
-    const text = `Explora nuestro arbol familiar Caamano! Tu enlace personal: ${shareUrl}`;
+    const text = `¡Explora nuestro árbol familiar Caamaño! Tu enlace personal: ${shareUrl}`;
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
         await navigator.share({
-          title: "Arbol Familiar Caamano",
+          title: "Árbol Familiar Caamaño",
           url: shareUrl,
           text,
         });

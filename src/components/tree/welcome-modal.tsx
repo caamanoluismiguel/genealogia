@@ -124,7 +124,7 @@ export function WelcomeModal({ persons, onSelect, onSkip }: WelcomeModalProps) {
           id="welcome-heading"
           className="mt-4 text-center font-serif text-xl font-semibold text-slate-950"
         >
-          Bienvenido al Arbol Familiar Caamano!
+          ¡Bienvenido al Árbol Familiar Caamaño!
         </h2>
 
         <p className="mt-2 text-center text-sm text-slate-700">
