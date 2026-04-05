@@ -33,6 +33,14 @@ export default function RootLayout({
       lang="es"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* GoatCounter — privacy-friendly analytics, no cookies */}
+        <script
+          data-goatcounter="https://caamano.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        />
+      </head>
       {/* ARIA: bg-slate-50/50 gives the entire app a faint warm tint —
           pages that use their own bg will override this naturally.
           This ensures even "bare" routes never show cold white. */}
