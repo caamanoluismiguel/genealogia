@@ -20,6 +20,7 @@ import { TreeSearch } from "./tree-search";
 import { ReferenceChip } from "./reference-chip";
 import { WelcomeModal } from "./welcome-modal";
 import { PathFinderBanner } from "./path-finder-banner";
+import { BranchIndex } from "./branch-index";
 import { PersonDetailSidebar } from "@/components/person/person-detail-sidebar";
 import {
   updatePerson,
@@ -28,18 +29,22 @@ import {
   addChildToFamily,
 } from "@/lib/genealogy/mutations";
 import { exportData } from "@/lib/data/persistence";
-import { filterIndexBySources } from "@/lib/genealogy/index-builder";
+import {
+  filterIndexBySources,
+  filterIndexByCountry,
+} from "@/lib/genealogy/index-builder";
 import type { Person, LayoutNode } from "@/lib/genealogy/types";
 
 export function FamilyTree() {
   const { data, index, mutate } = useGenealogy();
 
-  const { visibleSources, toggleSource } = useTreeStore();
+  const { visibleSources, toggleSource, activeCountry, setCountry } =
+    useTreeStore();
 
-  const filteredIndex = useMemo(
-    () => filterIndexBySources(index, visibleSources),
-    [index, visibleSources],
-  );
+  const filteredIndex = useMemo(() => {
+    const bySource = filterIndexBySources(index, visibleSources);
+    return filterIndexByCountry(bySource, activeCountry);
+  }, [index, visibleSources, activeCountry]);
 
   const layout = useMemo(
     () => computeTreeLayout(filteredIndex),
@@ -440,6 +445,8 @@ export function FamilyTree() {
 
       <TreeSearch persons={data.persons} onSelect={handleSearchSelect} />
 
+      <BranchIndex onJumpToPerson={handleSearchSelect} />
+
       {referencePersonId && (
         <ReferenceChip
           persons={data.persons}
@@ -478,6 +485,8 @@ export function FamilyTree() {
         compareActive={compareMode}
         visibleSources={visibleSources}
         onToggleSource={toggleSource}
+        activeCountry={activeCountry}
+        onSetCountry={setCountry}
       />
 
       <PersonDetailSidebar

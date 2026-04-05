@@ -360,29 +360,34 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v7, 2026-04-04)
+## Current State (v13, 2026-04-05)
 
-- **Data:** 217 persons, 60 families in committed JSON (v7). All research data integrated: Colombian lines, CEMLA families, Ecuador presidential line, José Caamaño Soto (Uruguay).
-- **Code:** 60+ source files, 9 routes, TypeScript strict, zero errors. Static export to GitHub Pages.
-- **UI:** High-contrast slate/teal palette (replaced low-contrast amber). Country color-coding on person cards. Semantic zoom (dots → compact → full). Mobile bottom sheet. Elder-friendly suggest-edit + WhatsApp share.
+- **Data:** 263 persons, 76 families in committed JSON (v13). El Banco, Magdalena confirmed. DR line added. Data integrity: estimates flagged with ~, traditions marked.
+- **Code:** 70+ source files, 9 routes, TypeScript strict, zero errors. Static export to GitHub Pages.
+- **UI:** Slate/teal palette. Country color-coding + country filter (🇨🇴🇩🇴🇪🇨🇦🇷🇪🇸). Semantic zoom. Cinematic timeline with 7 era moods. Branch index for quick-jump. Mobile bottom sheet. Elder-friendly contribute/suggest flows.
 - **Deploy:** GitHub Pages via Actions. Auto-deploys on push to main. ~1 min.
-- **Research:** Emails SENT to AHDS (parish records) + Archivo de Simancas (1752 Catastro). Awaiting responses.
-- **Colombian parish records FOUND:** FamilySearch Film #004001320 — Santa Iglesia del Carmen, El Banco, Magdalena. 2,531 images. Contains baptism records of Néstor Daniel (partida #1055, 1901) and son of Benjamín + Dominga Castro (partida #424, 1896). MINE THE REMAINING 2,500+ IMAGES for more Caamaño entries.
-- **Key routes:** `/tree` (main), `/timeline` (interactive slide-based), `/map` (migration with travelers), `/historia` (surname), `/research` (API links), `/add` (form), `/person/[id]` (detail with OG metadata)
+- **Research:** Emails SENT to AHDS (arquivo@ahds.es) + Archivo de Simancas (referencias.ags@cultura.gob.es). Awaiting responses.
+- **Colombian parish records:** FamilySearch Film #004001320 — Santa Iglesia del Carmen + Nuestra Señora de la Candelaria, El Banco, Magdalena. 2,531 images, 888 indexed records. Néstor Daniel confirmed (partida #1055, born Jan 2, 1901). Benjamín + Dominga Castro confirmed. 6+ Caamaño branches documented in El Banco.
+- **DR line:** Diego José Caamaño y Posé → Ramón (Santiago de Compostela) → Álvaro + Ramiro → DR. Source: marielacaamano.blogspot.com. Connection to p001 unconfirmed.
+- **Key routes:** `/tree` (main + country filter + branch index), `/timeline` (cinematic, 7 eras), `/map` (photos + sources), `/historia` (complete rewrite), `/add` (contribute flow with approval), `/person/[id]` (OG + suggest + WhatsApp)
 
-### UX Features Shipped (2026-04-04)
+### UX Features Shipped
 
+- **Country filter** — 🇨🇴🇩🇴🇪🇨🇦🇷🇪🇸 flag toggles in tree controls. Tap a country = show only that branch.
+- **Branch index** — "🌿 Ramas familiares" panel listing all branches with quick-jump zoom.
 - **Semantic zoom** — 3 levels: colored dots (far), compact name+year (mid), full cards (close)
-- **Country color-coding** — emerald=Colombia, amber=DR, sky=Ecuador, violet=Argentina, pink=Uruguay, red=EEUU, slate=España
-- **Interactive timeline** — slide-based, 900 years, century jump buttons, swipeable, keyboard arrows
-- **Data-driven map** — 11 routes, 6 origin ports, 8 destinations, travelers in popups with links
-- **Map origin corrected** — actual Santa María de Caamaño coordinates (42.6556, -9.025), was 50km off
+- **Country color-coding** — emerald=Colombia, amber=DR, sky=Ecuador, violet=Argentina, slate=España
+- **Cinematic timeline** — 7 era moods (medieval→emigration→modern), watermark years, source badges, collaborative credits footer, gap as mystery
+- **Data-driven map** — 11 routes, 6 origin ports, 8 destinations, travelers in popups, real photos of places (church, castle, Pazo, ports), source citations
+- **Map origin corrected** — Santa María de Caamaño (42.6556, -9.025)
 - **Mobile bottom sheet** — person detail slides up from bottom on phones
 - **WhatsApp share** — big green button, pre-filled message with person link
-- **Suggest edit** — elder-friendly modal, sends email to caamano.luismiguel@gmail.com
-- **OG metadata** — per-person title/description for rich WhatsApp previews
-- **Clear button labels** — all Spanish, no cryptic abbreviations
-- **Source badges** — "Medieval", "Censo", "Emigrante", "Colombia", etc.
+- **Suggest edit** — elder-friendly modal, sends email
+- **Contribute flow** — unified "add person / fix info / other" with email approval. No direct writes.
+- **PayPal donate** — "🔍 Ayúdanos a encontrar más registros" in nav header
+- **OG metadata** — per-person title/description for WhatsApp previews
+- **Data integrity** — estimates flagged (~), traditions marked, unverified facts noted
+- **Source attribution** — every timeline event shows its archive source
 
 ### FamilySearch Findings (updated 2026-04-04)
 

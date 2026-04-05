@@ -25,6 +25,9 @@ interface TreeState {
   /** Which data sources are visible in the tree */
   visibleSources: Set<PersonSource>;
 
+  /** Country filter — null = show all, Set = show only these */
+  activeCountry: string | null;
+
   // Actions
   selectPerson: (id: string | null) => void;
   setComparisonPerson: (id: string | null) => void;
@@ -35,6 +38,9 @@ interface TreeState {
 
   // Source layer actions
   toggleSource: (source: PersonSource) => void;
+
+  // Country filter actions
+  setCountry: (country: string | null) => void;
 
   // Path Finder actions
   enterCompareMode: () => void;
@@ -55,6 +61,7 @@ export const useTreeStore = create<TreeState>()((set) => ({
   comparePersonB: null,
 
   visibleSources: new Set<PersonSource>(["modern"]),
+  activeCountry: null,
 
   selectPerson: (id) => set({ selectedPersonId: id, sidebarOpen: id !== null }),
   setComparisonPerson: (id) => set({ comparisonPersonId: id }),
@@ -92,6 +99,12 @@ export const useTreeStore = create<TreeState>()((set) => ({
       }
       return { visibleSources: next };
     }),
+
+  // Country filter — tap to select, tap again to deselect (show all)
+  setCountry: (country) =>
+    set((s) => ({
+      activeCountry: s.activeCountry === country ? null : country,
+    })),
 
   // Path Finder actions
   enterCompareMode: () =>

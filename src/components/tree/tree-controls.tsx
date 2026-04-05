@@ -15,6 +15,8 @@ interface TreeControlsProps {
   onExport?: () => void;
   onCompare?: () => void;
   compareActive?: boolean;
+  activeCountry?: string | null;
+  onSetCountry?: (country: string | null) => void;
   visibleSources?: Set<PersonSource>;
   onToggleSource?: (source: PersonSource) => void;
 }
@@ -229,6 +231,8 @@ export function TreeControls({
   compareActive = false,
   visibleSources,
   onToggleSource,
+  activeCountry,
+  onSetCountry,
 }: TreeControlsProps) {
   return (
     // ARIA: Floating glass panel — white/90 + backdrop-blur reads over any background.
@@ -345,6 +349,48 @@ export function TreeControls({
               </button>
             );
           })}
+        </>
+      )}
+
+      {onSetCountry && (
+        <>
+          <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
+          <p className="text-[8px] font-bold uppercase tracking-wide text-slate-400">
+            País
+          </p>
+          <button
+            type="button"
+            onClick={() => onSetCountry(null)}
+            className={`flex h-7 items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+              !activeCountry
+                ? "bg-slate-700 text-white ring-1 ring-slate-800"
+                : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
+            }`}
+          >
+            Todos
+          </button>
+          {[
+            { key: "colombia", flag: "🇨🇴", label: "Colombia" },
+            { key: "república dominicana", flag: "🇩🇴", label: "RD" },
+            { key: "ecuador", flag: "🇪🇨", label: "Ecuador" },
+            { key: "argentina", flag: "🇦🇷", label: "Argentina" },
+            { key: "españa", flag: "🇪🇸", label: "España" },
+          ].map((c) => (
+            <button
+              key={c.key}
+              type="button"
+              onClick={() => onSetCountry(c.key)}
+              title={c.label}
+              className={`flex h-7 items-center justify-center gap-1 rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                activeCountry === c.key
+                  ? "bg-teal-600 text-white ring-1 ring-teal-700"
+                  : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
+              }`}
+            >
+              <span className="text-sm">{c.flag}</span>
+              {c.label}
+            </button>
+          ))}
         </>
       )}
     </div>
