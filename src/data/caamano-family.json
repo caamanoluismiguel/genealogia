@@ -163,18 +163,19 @@
       "firstName": "Benjamin",
       "lastName": "Caamaño Reales",
       "gender": "male",
-      "birthPlace": "Colombia",
+      "birthPlace": "El Banco, Magdalena, Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Registros de bautismo de sus hijos en la Santa Iglesia del Carmen, El Banco, Magdalena. FamilySearch ark:/61903/3:1:3QS7-89ZR."
     },
     {
       "id": "p014",
       "firstName": "Dominga",
       "lastName": "Castro",
       "gender": "female",
-      "birthPlace": "Colombia",
-      "notes": "Esposa de Benjamin Caamaño Reales.",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Esposa de Benjamín Caamaño. Confirmada en registros de bautismo de la Santa Iglesia del Carmen, El Banco, Magdalena (1896, 1901). FamilySearch ark:/61903/3:1:3QS7-89ZR.",
       "events": [],
       "migrations": [],
       "source": "modern"
@@ -264,14 +265,22 @@
     },
     {
       "id": "p023",
-      "firstName": "Nestor",
+      "firstName": "Néstor Daniel",
       "lastName": "Caamaño Castro",
       "gender": "male",
-      "birthPlace": "Colombia",
-      "events": [],
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "events": [
+        {
+          "type": "baptism",
+          "place": "Santa Iglesia del Carmen, El Banco, Magdalena, Colombia",
+          "date": "1901",
+          "description": "Partida de bautismo #1055. Padrinos registrados."
+        }
+      ],
       "migrations": [],
       "source": "modern",
-      "birthDate": "1901"
+      "birthDate": "1901-01-02",
+      "notes": "Bautizado en la Santa Iglesia del Carmen, El Banco, Magdalena. Partida #1055: \"bautizé solemnemente a Néstor Daniel, que nació el dos de enero... hijo de Benjamín Caamaño y Dominga Castro.\" FamilySearch ark:/61903/3:1:3QS7-89ZR."
     },
     {
       "id": "p024",
@@ -2664,8 +2673,8 @@
       "id": "f007",
       "parents": ["p013", "p014"],
       "children": ["p015", "p017", "p018", "p019", "p021", "p023", "p025"],
-      "marriagePlace": "Colombia",
-      "notes": "Benjamin Caamaño Reales + Dominga Castro."
+      "marriagePlace": "El Banco, Magdalena, Colombia",
+      "notes": "Benjamín Caamaño + Dominga Castro. Hijos bautizados en Santa Iglesia del Carmen, El Banco. Confirmado: partida #424 (Benjamín hijo, 1896) y partida #1055 (Néstor Daniel, 1901)."
     },
     {
       "id": "f008",
@@ -3037,7 +3046,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-04T17:00:00Z",
-    "version": 7
+    "lastUpdated": "2026-04-04T23:00:00Z",
+    "version": 8
   }
 }

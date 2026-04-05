@@ -34,6 +34,30 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-slate-50/50">
         <NavHeader />
         {children}
+        <footer className="shrink-0 border-t border-slate-200 bg-white px-4 py-4 text-center text-xs text-slate-400">
+          <p>
+            Árbol Genealógico Caamaño · Construido con datos de 9 archivos
+            internacionales
+          </p>
+          <div className="mt-2 flex items-center justify-center gap-4">
+            <a
+              href="https://www.paypal.com/donate/?hosted_button_id=&business=caamano.luismiguel%40gmail.com&currency_code=USD"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition-colors hover:border-teal-300 hover:bg-teal-50 hover:text-teal-700"
+            >
+              ☕ Apoyar este proyecto
+            </a>
+            <a
+              href="https://github.com/caamanoluismiguel/genealogia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-slate-600"
+            >
+              GitHub
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
