@@ -31,7 +31,7 @@ export default function RootLayout({
       {/* ARIA: bg-slate-50/50 gives the entire app a faint warm tint —
           pages that use their own bg will override this naturally.
           This ensures even "bare" routes never show cold white. */}
-      <body className="min-h-full flex flex-col bg-slate-50/50">
+      <body className="min-h-full flex flex-col bg-slate-50/50 pb-14 md:pb-0">
         <NavHeader />
         {children}
         <footer className="shrink-0 border-t border-slate-200 bg-white px-4 py-4 text-center text-xs text-slate-400">
