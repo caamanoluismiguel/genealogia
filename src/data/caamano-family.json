@@ -4564,9 +4564,9 @@
       "firstName": "José Tomás",
       "lastName": "Caamaño",
       "gender": "male",
-      "birthDate": "~1885",
-      "birthPlace": "Bolívar, Colombia",
-      "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida bautismo N°955 nieto Glicerio Caamaño Fambrant (06-ene-1955, Margarita, Bolívar). Listado como abuelo paterno. Cónyuge: Virginia Benavides. Probable nieto o bisnieto de p001 José Tomás Caamaño Sr. — nombre heredado como tradición onomástica en la rama colombiana del Caribe. Generación calculada ~1880-1900 (abuelo de niño nacido 1954).",
+      "birthDate": "1890",
+      "birthPlace": "Morales, Bolívar, Colombia",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 1:1:XS68-BK5D (Colombia registros parroquiales 1576-2019) — bautismo/matrimonio 24-oct-1891, San Sebastián de Las Palmas, Morales, Bolívar (Parroquia de Rodriguez), christening 22-nov-1891 Rioviejo. FS Tree PID P96P-C6R (listado como José Tomás Caamaño Soto). PADRES: Trinidad Caamaño (fs022) + Damiana Muñoz (fs023). FUENTE SECUNDARIA: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955 Margarita 06-ene-1955 listado como abuelo paterno. Cónyuges: (1) posible primera esposa Suzana Mu- indexada en 1891 [requiere verificación], (2) Virginia Benavides (fs018) — madre de Glicerio Sr. (fs019) y Ruth (fs024). Probable nieto o bisnieto de p001 José Tomás Caamaño Sr. (tradición onomástica).",
       "events": [],
       "migrations": [],
       "source": "familysearch"
@@ -4620,6 +4620,66 @@
           "type": "baptism",
           "date": "1955-01-06",
           "place": "San Francisco Javier de Margarita, Bolívar, Colombia"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs022",
+      "firstName": "Trinidad",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1860",
+      "birthPlace": "Bolívar, Colombia",
+      "notes": "FUENTE: FamilySearch ark 1:1:XS68-BK5D — listado como padre de José Tomás Caamaño (fs017) en registro 24-oct-1891 San Sebastián de Las Palmas, Morales, Bolívar (Parroquia de Rodriguez). Cónyuge: Damiana Muñoz (fs023). ESLABÓN CLAVE: generación intermedia entre p001 José Tomás Caamaño Sr. (~1815 Porto do Son) y la rama colombiana s.XX — probable hijo o nieto de p001.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs023",
+      "firstName": "Damiana",
+      "lastName": "Muñoz",
+      "gender": "female",
+      "birthDate": "~1865",
+      "birthPlace": "Bolívar, Colombia",
+      "notes": "FUENTE: FamilySearch ark 1:1:XS68-BK5D. Esposa de Trinidad Caamaño (fs022), madre de José Tomás Caamaño II (fs017). Registro 24-oct-1891 San Sebastián de Las Palmas, Morales, Bolívar.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs024",
+      "firstName": "Ruth",
+      "lastName": "Caamaño Benavides",
+      "gender": "female",
+      "birthDate": "1935",
+      "birthPlace": "Barranca, Bolívar, Colombia",
+      "notes": "FUENTE: FamilySearch ark 1:1:XS6D-JNV2 — matrimonio 09-may-1954 con Ezequiel Benavides (fs025), a los 19 años de edad. Hija de José Tomás Caamaño II (fs017) + Virginia Benavides (fs018). Hermana de Glicerio Caamaño Benavides (fs019). Residencia: Barranca, Bolívar.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1954-05-09",
+          "place": "Bolívar, Colombia"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs025",
+      "firstName": "Ezequiel",
+      "lastName": "Benavides",
+      "gender": "male",
+      "birthDate": "1926",
+      "birthPlace": "Puvillos, Colombia",
+      "notes": "FUENTE: FamilySearch ark 1:1:XS6D-JNV2 — matrimonio 09-may-1954 con Ruth Caamaño (fs024), a los 28 años. Posibles padres en el mismo registro: Alberto Benavides y Magdalena Nieto. Residencia: Puvillos. NOTA: el apellido Benavides coincide con el de la suegra Virginia Benavides (fs018) — posible endogamia familiar local.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1954-05-09",
+          "place": "Bolívar, Colombia"
         }
       ],
       "migrations": [],
@@ -5801,7 +5861,8 @@
         "fs018"
       ],
       "children": [
-        "fs019"
+        "fs019",
+        "fs024"
       ],
       "marriagePlace": "Bolívar, Colombia"
     },
@@ -5815,10 +5876,30 @@
         "fs021"
       ],
       "marriagePlace": "Margarita, Bolívar, Colombia (unión natural)"
+    },
+    {
+      "id": "fsf07",
+      "parents": [
+        "fs022",
+        "fs023"
+      ],
+      "children": [
+        "fs017"
+      ],
+      "marriagePlace": "Morales, Bolívar, Colombia"
+    },
+    {
+      "id": "fsf08",
+      "parents": [
+        "fs025",
+        "fs024"
+      ],
+      "children": [],
+      "marriagePlace": "Bolívar, Colombia"
     }
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 25
+    "version": 26
   }
 }
