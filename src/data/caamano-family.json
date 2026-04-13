@@ -4235,6 +4235,151 @@
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hermano de gn020. Hijo menor documentado.",
       "events": [],
       "migrations": []
+    },
+    {
+      "id": "gn042",
+      "source": "geneanet",
+      "firstName": "Tomás",
+      "lastName": "Caamaño Listón",
+      "gender": "male",
+      "birthDate": "1848",
+      "birthPlace": "Muros, Pontevedra, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'fjcobasseoane' (búsqueda 2026-04-13, 591 resultados). Casado con Benita González Sisto. ⭐ **Muros limita con Porto do Son** — misma comarca de Noia. Vive a ~20km de la parroquia ancestral de Santa María de Caamaño. Posible pariente distante (contemporáneo de 3ª generación después de p001 por cronología).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn043",
+      "source": "geneanet",
+      "firstName": "José Mariano",
+      "lastName": "Caamaño Conde",
+      "gender": "male",
+      "birthDate": "1766",
+      "birthPlace": "Tlaxcala, Tlaxcala, México",
+      "deathPlace": "Sagrario de Puebla, Puebla, México",
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Casado el 1815 en Puebla de Zaragoza con Ana Josefa González Mata. Rama colonial mexicana del apellido Caamaño — colateral a nuestra rama colombiana. Cronológicamente una generación antes de p001. Documentado también en árbol 'sanchiz' como José Mariano.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1815",
+          "place": "Puebla de Zaragoza, Puebla, México",
+          "description": "Matrimonio con Ana Josefa González Mata"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn044",
+      "source": "geneanet",
+      "firstName": "José María",
+      "lastName": "Caamaño Tresgallo",
+      "gender": "male",
+      "birthDate": "1844",
+      "deathDate": "1915",
+      "birthPlace": "San Fernando, Cádiz, Andalucía, España",
+      "deathPlace": "Madrid, Madrid, España",
+      "notes": "FUENTE: Geneanet árbol 'evagarj1' + Censo electoral de Madrid 1894. Casado con Amalia Verdi Dolagaray. Rama andaluza-madrileña del apellido Caamaño — probablemente descendiente de emigración del s. XVIII a Cádiz (puerto de Indias). No vinculado directamente a Porto do Son.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn045",
+      "source": "geneanet",
+      "firstName": "Tomás Raimundo Agapito",
+      "lastName": "Caamaño López",
+      "gender": "male",
+      "birthDate": "1811",
+      "deathDate": "1858",
+      "birthPlace": "San Juan, Puerto Rico, Estados Unidos",
+      "deathPlace": "Dominguito, Arecibo, Puerto Rico, Estados Unidos",
+      "notes": "⭐ FUENTE: Geneanet (múltiples árboles: panchovilla2018, princesa3, enater, songlana88, haymanjoshua, wguindinsantiago, rochysanchez, pablogy74). Casado 1832 con Juana De Federico Santa. **'TOMÁS' en el nombre + nacido 1811 (4 años antes que p001 ~1815)** — llama la atención por la coincidencia del nombre Tomás y la cronología exacta. Rama puertorriqueña del apellido Caamaño, hermana de la colombiana (emigración Galicia → Caribe ~1800-1820). Su descendencia continuó en Arecibo (CAAMAÑO COLÓN Tomás 1874-1928, CAAMAÑO MALDONADO José Bernardo 1878). La hipótesis de que Tomás (1811 San Juan) y José Tomás (~1815 Porto do Son) sean primos hermanos emigrantes simultáneos a distintos destinos americanos es plausible.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1832",
+          "place": "San Juan, Puerto Rico, Estados Unidos",
+          "description": "Matrimonio con Juana De Federico Santa"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn046",
+      "source": "geneanet",
+      "firstName": "Caamaño",
+      "lastName": "Colón Tomás",
+      "gender": "male",
+      "birthDate": "1874",
+      "deathDate": "1928",
+      "birthPlace": "Arecibo, Puerto Rico, Estados Unidos",
+      "deathPlace": "Arecibo, Puerto Rico, Estados Unidos",
+      "notes": "FUENTE: Geneanet (árboles pgarcias, wguindinsantiago, princesa3). Casado con María Luisa Firpi Negro (1902). Descendiente de gn045 Tomás Raimundo Agapito Caamaño López por línea paterna o paterna-materna. Continúa la rama Caamaño en Arecibo, PR.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn047",
+      "source": "geneanet",
+      "firstName": "José",
+      "lastName": "Caamaño Bournacell",
+      "gender": "male",
+      "birthDate": "1909",
+      "deathDate": "1975",
+      "notes": "⭐ FUENTE: Geneanet árbol 'sperezdominguez'. **GENEALOGISTA** — autor del artículo 'El linaje de Rosalía de Castro' publicado en el Boletín de la Real Academia Galega. Citado en la Guía del Investigador del Arquivo do Reino de Galicia (ARG) como referencia para el linaje Caamaño. Su trabajo establece conexiones entre las familias Caamaño, Castro y Rosalía de Castro. Valor investigativo: **buscar sus publicaciones** podría dar acceso a documentación original de archivos gallegos que ya no está disponible.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn048",
+      "source": "geneanet",
+      "firstName": "José Valentín",
+      "lastName": "Jarpa Caamaño",
+      "gender": "male",
+      "birthDate": "1802",
+      "birthPlace": "Chillán, Ñuble, Biobío, Chile",
+      "notes": "FUENTE: Geneanet (árboles adevesadevesa, grosselotiriart, antonio2012, cbarriga). Casado con Mercedes Ramos (1818). **Contemporáneo exacto de Pablo Caamaño Villa (fs003, n.1802) y próximo a p001 (~1815)**. Rama chilena del apellido Caamaño. Posible pariente directo (primo hermano) de la rama colombiana si los Caamaño de América del Sur comparten origen gallego del XVIII. Apellido compuesto Jarpa+Caamaño = madre Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn049",
+      "source": "geneanet",
+      "firstName": "José Cipriano Luis",
+      "lastName": "Pueyrredón Caamaño",
+      "gender": "male",
+      "birthDate": "1803",
+      "deathDate": "1803",
+      "birthPlace": "Baradero, Buenos Aires, Argentina",
+      "deathPlace": "Baradero, Buenos Aires, Argentina",
+      "notes": "FUENTE: Geneanet (árboles martintxu, enriquealberto). Murió en infancia (mismo año de nacimiento). **Apellido doble Pueyrredón+Caamaño en Argentina en 1803** — la familia Pueyrredón es una de las grandes casas porteñas (Juan Martín de Pueyrredón fue Director Supremo de las Provincias Unidas 1816-1819). Que un Pueyrredón tuviera madre Caamaño en 1803 indica **presencia Caamaño documentada en Buenos Aires colonial antes de la independencia**. Rama argentina muy temprana.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn050",
+      "source": "geneanet",
+      "firstName": "José Antonio Andrés",
+      "lastName": "de Caamaño y Sotomayor",
+      "gender": "male",
+      "birthDate": "1691",
+      "birthPlace": "Xora, San Miguel de Treos, Vimianzo, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'mimonero'. Casado con Doña Antonia Díaz de Aza y Díaz-Gallego. Nacido 1691 en Xora (aldea de Vimianzo, MUY cerca de Romelle — Casa de Romelle está en la misma jurisdicción). **Contemporáneo exacto a h039 Antonio de Caamaño y Quintana (~1640-1702) y a h026 Antonio de Caamaño Ribadeneira (†1657)**. Posible bisnieto o sobrino nieto de la bisagra Rubianes↔Romelle. Rama Caamaño-Sotomayor del XVII-XVIII documentada en Vimianzo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn051",
+      "source": "geneanet",
+      "firstName": "José",
+      "lastName": "de Caamaño y Figueroa",
+      "gender": "male",
+      "birthDate": "1583",
+      "deathDate": "1630",
+      "birthPlace": "Madrid, Madrid, España",
+      "deathPlace": "Madrid, Madrid, España",
+      "notes": "⭐ FUENTE: Geneanet árbol 'jmfigueroa'. Casado con Ana María de Mendoza. **Uno de los Caamaños más tempranos del XVII documentado** (pre-h026 Antonio Ribadeneira †1657). Presencia Caamaño en Madrid en 1583-1630 sugiere que algunos hidalgos del linaje ya residían en la Corte, no solo en Galicia. Apellido compuesto Caamaño+Figueroa — conecta con la casa Pardo de Figueroa (h043 Juan José Caamaño y Pardo se casó con Ramona Pardo de Figueroa en 1780s). Posible ancestro lejano de la línea Pardo.",
+      "events": [],
+      "migrations": []
     }
   ],
   "families": [
@@ -4877,7 +5022,7 @@
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-13T22:30:00Z",
-    "version": 21
+    "lastUpdated": "2026-04-13T23:00:00Z",
+    "version": 22
   }
 }
