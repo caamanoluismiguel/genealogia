@@ -4254,10 +4254,10 @@
       "firstName": "José Mariano",
       "lastName": "Caamaño Conde",
       "gender": "male",
-      "birthDate": "1766",
+      "birthDate": "~1766",
       "birthPlace": "Tlaxcala, Tlaxcala, México",
       "deathPlace": "Sagrario de Puebla, Puebla, México",
-      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Casado el 1815 en Puebla de Zaragoza con Ana Josefa González Mata. Rama colonial mexicana del apellido Caamaño — colateral a nuestra rama colombiana. Cronológicamente una generación antes de p001. Documentado también en árbol 'sanchiz' como José Mariano.",
+      "notes": "⭐ FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha verificada 2026-04-13). **Hijo de gn056 Domingo Antonio Caamaño (†<1815) + gn057 Ana Micaela Conde (†<1815)**. Casado 1815 en Puebla (Sagrario) con gn058 Ana Josefa González Mata (~1788). Padre de gn059 José Luis Caamaño González (~1822 Puebla) + otros hijos documentados en el árbol. Rama colonial mexicana establecida por su padre Domingo Antonio (probable emigrante gallego del XVIII). FamilySearch source: https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB (imagen de acta). Árbol complementario: 'sanchiz'.",
       "events": [
         {
           "type": "marriage",
@@ -4458,6 +4458,104 @@
       "birthDate": "~1850",
       "birthPlace": "Puerto Rico",
       "notes": "FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVJ3-WYSB, documento 22-sep-1927 Arecibo PR). Hija de gn045 Tomás Raimundo Agapito + gn052 Juana de Federico. Nótese ortografía 'Camaño' en documento civil (variante sin doble 'a').",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn056",
+      "source": "geneanet",
+      "firstName": "Domingo Antonio",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1735",
+      "deathDate": "<1815",
+      "birthPlace": "Galicia, España (presunto)",
+      "deathPlace": "México (Puebla / Tlaxcala, presunto)",
+      "notes": "⭐⭐⭐ EMIGRANTE GALLEGO DOCUMENTADO. FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha de José Luis Caamaño González 1822, verificada 2026-04-13). **Cabeza de la rama Caamaño colonial mexicana**. Casado con gn057 Ana Micaela Conde. Padre de gn043 José Mariano Caamaño Conde (~1766, Tlaxcala). Muerto antes de 1815 (referencia en acta de matrimonio de su hijo). Si su hijo nació ~1766 y él murió antes de 1815, cronología compatible con nacimiento gallego ~1730-1745. **POSIBLE CONEXIÓN CON NUESTRA LÍNEA:** Domingo Antonio es contemporáneo de h039 Antonio Caamaño Quintana (~1640-1702, Casa Romelle), de h041 Vicente Caamaño Gayoso (1723 Ferrol) y de los Caamaño del Catastro de Ensenada 1760 (pa001-pa013, Santa María de Caamaño). Podría ser hermano o sobrino de Pedro Bazarra Caamaño (gn007, 1712-1767). La identificación del origen gallego exacto de Domingo Antonio es el siguiente gran objetivo: podría ser el mismo 'solar' que los Caamaño de Porto do Son del que descendió p001 José Tomás Sr (~1815 → Colombia). Buscar en registros mexicanos del XVIII si su origen se menciona.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Galicia, España",
+          "to": "Puebla/Tlaxcala, Nueva España (México)",
+          "reason": "Emigración colonial (XVIII) — probable vía Cádiz o Veracruz"
+        }
+      ]
+    },
+    {
+      "id": "gn057",
+      "source": "geneanet",
+      "firstName": "Ana Micaela",
+      "lastName": "Conde",
+      "maidenName": "Conde",
+      "gender": "female",
+      "birthDate": "~1740",
+      "deathDate": "<1815",
+      "birthPlace": "México (presunto)",
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn056 Domingo Antonio Caamaño. Madre de gn043 José Mariano Caamaño Conde. Aporta a la línea el apellido Conde que llevó su hijo. Probablemente criolla mexicana (Puebla/Tlaxcala). Muerta antes de 1815.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn058",
+      "source": "geneanet",
+      "firstName": "Ana Josefa",
+      "lastName": "González Mata",
+      "maidenName": "González Mata",
+      "gender": "female",
+      "birthDate": "~1788",
+      "birthPlace": "Puebla, Puebla, México",
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn043 José Mariano Caamaño Conde desde 1815 (Sagrario de Puebla). Madre de gn059 José Luis Caamaño González (~1822). Hija de Joseph Mariano González (†<1815) + María Gertrudis Mata (†<1815). Sus padres muertos antes del matrimonio de la hija indican que era huérfana al casarse.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn059",
+      "source": "geneanet",
+      "firstName": "José Luis",
+      "lastName": "Caamaño González",
+      "gender": "male",
+      "birthDate": "~1822",
+      "birthPlace": "Puebla, Puebla, México",
+      "notes": "⭐ FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha completa verificada 2026-04-13). **COMERCIANTE** en Puebla. Casado 23-sept-1848 en el Sagrario de Puebla con gn060 Florencia Antonia Machado Vidal (1820-<1872). Hijo de gn043 José Mariano Caamaño Conde + gn058 Ana Josefa González Mata. Padre de gn061 María Luisa Antonia Caamaño y Machado (1849). **Fue residente por algún tiempo de Acatlán** (nota personal del árbol). Fuente primaria: FamilySearch https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB (imagen de acta matrimonial i=398).",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1848-09-23",
+          "place": "Sagrario de Puebla, Puebla, México",
+          "description": "Matrimonio con Florencia Antonia Machado Vidal"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn060",
+      "source": "geneanet",
+      "firstName": "Florencia Antonia",
+      "lastName": "Machado Vidal",
+      "maidenName": "Machado Vidal",
+      "gender": "female",
+      "birthDate": "1820",
+      "deathDate": "<1872",
+      "birthPlace": "Puebla, Puebla, México",
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn059 José Luis Caamaño González desde 23-sept-1848 en Sagrario de Puebla. Madre de gn061 María Luisa Antonia Caamaño y Machado (1849). Muerta antes de 1872.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1848-09-23",
+          "place": "Sagrario de Puebla, Puebla, México"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn061",
+      "source": "geneanet",
+      "firstName": "María Luisa Antonia",
+      "lastName": "Caamaño y Machado",
+      "gender": "female",
+      "birthDate": "1849",
+      "birthPlace": "Puebla, Puebla, México",
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Hija de gn059 José Luis Caamaño González + gn060 Florencia Antonia Machado Vidal. Nieta de Domingo Antonio Caamaño (gn056, emigrante gallego). Bisnieta del ancestro gallego no identificado (padre de gn056). 4ª generación mexicana del linaje Caamaño.",
       "events": [],
       "migrations": []
     }
@@ -5107,10 +5205,33 @@
       "marriageDate": "1832-01-30",
       "marriagePlace": "Arecibo, Puerto Rico",
       "notes": "⭐ Matrimonio LUNES 30-ene-1832 Arecibo, Puerto Rico: Tomás Raimundo Agapito Caamaño López (1811-1858) + Juana Petrona del Carmen de Federico Santa (1815-1890) → 3 hijos documentados (Pablo, Dolores, Isolina Caamaño Federico). Rama Caamaño Puerto Rico — establecida por inmigrante gallego anónimo (padre de Tomás, no documentado en larapat) antes de 1811. FamilySearch Family Tree PID 9Z6C-LBK para Tomás."
+    },
+    {
+      "id": "gnf11",
+      "parents": ["gn056", "gn057"],
+      "children": ["gn043"],
+      "marriagePlace": "Tlaxcala / Puebla, México",
+      "notes": "⭐ Domingo Antonio Caamaño (†<1815) + Ana Micaela Conde (†<1815) → José Mariano Caamaño Conde (~1766 Tlaxcala). **Pareja original de la rama mexicana del linaje Caamaño.** Domingo Antonio es casi con seguridad emigrante gallego (primer Caamaño del árbol en suelo americano para esta rama). Su origen exacto en Galicia no está documentado — buscar en registros mexicanos del XVIII (Archivo General de la Nación de México) por 'Domingo Antonio Caamaño' peninsular."
+    },
+    {
+      "id": "gnf12",
+      "parents": ["gn043", "gn058"],
+      "children": ["gn059"],
+      "marriageDate": "1815",
+      "marriagePlace": "Sagrario de Puebla, Puebla, México",
+      "notes": "José Mariano Caamaño Conde + Ana Josefa González Mata (m.1815 Sagrario de Puebla) → José Luis Caamaño González (~1822). Probablemente otros hijos documentados en el árbol 'gilbertodelatorrem' no integrados aquí."
+    },
+    {
+      "id": "gnf13",
+      "parents": ["gn059", "gn060"],
+      "children": ["gn061"],
+      "marriageDate": "1848-09-23",
+      "marriagePlace": "Sagrario de Puebla, Puebla, México",
+      "notes": "José Luis Caamaño González (comerciante, ~1822) + Florencia Antonia Machado Vidal (1820-<1872), matrimonio 23-sept-1848 Sagrario de Puebla → María Luisa Antonia Caamaño y Machado (1849)."
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-13T23:30:00Z",
-    "version": 23
+    "lastUpdated": "2026-04-14T00:00:00Z",
+    "version": 24
   }
 }
