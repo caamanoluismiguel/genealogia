@@ -116,7 +116,8 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "notes": " [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.]"
     },
     {
       "id": "p009",
@@ -124,7 +125,7 @@
       "lastName": "Rangel",
       "gender": "female",
       "birthPlace": "Colombia",
-      "notes": "Esposa de Miguel Caamaño Soto.",
+      "notes": "Esposa de Miguel Caamaño Soto. [MERGE 2026-04-13: unified with duplicate p177 from bridging analysis. Original notes from p177: Esposa de Miguel Caamaño. Madre de Jacob. FamilySearch.]",
       "events": [],
       "migrations": [],
       "source": "modern"
@@ -515,7 +516,7 @@
       "lastName": "Caamaño Rangel",
       "gender": "male",
       "birthPlace": "Colombia",
-      "notes": "Hijo de Miguel Caamaño Soto y Ruthesinda Rangel.",
+      "notes": "Hijo de Miguel Caamaño Soto y Ruthesinda Rangel. [MERGE 2026-04-13: unified with duplicate p171 from bridging analysis. Original notes from p171: Cabeza de rama importante en El Banco. Padres: Caamaño + Rangel (según registro de Jacob). Casado con Ana María Benavides. Hijos: Emilio, Tito, Néstor, Aida, Elisa, otros. FamilySearch.]",
       "events": [],
       "migrations": [],
       "source": "modern"
@@ -526,9 +527,17 @@
       "lastName": "Caamaño Rangel",
       "gender": "male",
       "birthPlace": "Colombia",
-      "events": [],
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1909-04-28",
+          "place": "El Banco, Magdalena",
+          "description": "Casado con Salvadora Blanquicet"
+        }
+      ],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "notes": " [MERGE 2026-04-13: unified with duplicate p178 from bridging analysis. Original notes from p178: Hijo de Miguel Caamaño y Rudecinda Rangel. Casado con Salvadora Blanquicet, matrimonio 28 abril 1909. Hijos: Daniel Enrique (1910, 1915), Ruth María (1912), Salud, Elías José, Miguel Gustavo. FamilySearch.]"
     },
     {
       "id": "p048",
@@ -536,7 +545,7 @@
       "lastName": "Blanquicet",
       "gender": "female",
       "birthPlace": "Colombia",
-      "notes": "Esposa de Jacob Caamaño Rangel.",
+      "notes": "Esposa de Jacob Caamaño Rangel. [MERGE 2026-04-13: unified with duplicate p179 from bridging analysis. Original notes from p179: Esposa de Jacob Caamaño. Matrimonio 1909. Múltiples hijos. FamilySearch.]",
       "events": [],
       "migrations": [],
       "source": "modern"
@@ -2423,9 +2432,22 @@
       "gender": "male",
       "birthDate": "1681-02-21",
       "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
-      "notes": "Casado 3 Sep 1713 con Antonia de Relova Perrúa y Amúzar.",
-      "events": [],
-      "migrations": []
+      "notes": "Casado 3 Sep 1713 con Antonia de Relova Perrúa y Amúzar. [MERGE 2026-04-13: unified with duplicate fs051 from bridging analysis. Original notes from fs051: FUENTE: FamilySearch Pedigree Resource File 2024 (PID 2:2:7RCY-CKY), submitted 18-jul-2024 por Carlos Mauricio Otálvaro (genealogista colombiano). Casado 03-sep-1713 en La Coruña con Antonia Benita Revola Porrúa Amazur (fs052). Hijo documentado: Bernardo Benito Martínez Porrúa. Apellido compuesto Martínez-Porrúa-Caamaño sugiere ascendencia Caamaño por línea paterna o materna. MIGRACIÓN DOCUMENTADA: ambos fallecieron en Colombia tras el matrimonio. CAVEAT EPISTEMOLÓGICO: esta pareja es la migración Caamaño→Colombia más temprana documentada en nuestra investigación, pero **NO hay evidencia primaria que los conecte con p001, Trinidad Caamaño (fs022), ni con nuestra línea familiar**. Es una migración Caamaño al territorio correcto en la época correcta — podrían ser antepasados, primos, o Caamaños completamente distintos de la misma parroquia. La hipótesis de que son nuestros ancestros es plausible pero NO probada. Pendiente: obtener el GEDCOM completo de Otálvaro para ver si hay descendencia continua 1713→1815 que conecte con Trinidad.]",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1713-09-03",
+          "place": "La Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "A Coruña, Galicia, España",
+          "to": "Colombia",
+          "date": "c.1713-1740"
+        }
+      ],
+      "deathPlace": "Colombia"
     },
     {
       "id": "gc006",
@@ -2434,9 +2456,23 @@
       "lastName": "de Relova Perrúa y Amúzar",
       "gender": "female",
       "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
-      "notes": "Hija de Lorenzo Antonio de Perrúa y María Alonso de Amosar.",
-      "events": [],
-      "migrations": []
+      "notes": "Hija de Lorenzo Antonio de Perrúa y María Alonso de Amosar. [MERGE 2026-04-13: unified with duplicate fs052 from bridging analysis. Original notes from fs052: FUENTE: FamilySearch Pedigree Resource File 2024 (PID 2:2:7RCY-FHB), submitted 18-jul-2024 por Carlos Mauricio Otálvaro. Nacida 1695 en Villa de Muros (costa Barbanza, zona del apellido). Casada 03-sep-1713 La Coruña con Juan Matías Martínez Porrúa Caamaño (fs051). Murió en Colombia. Hijo documentado: Bernardo Benito Martínez Porrúa. CAVEAT EPISTEMOLÓGICO: es la primera Caamaño-de-Muros documentada en migración a Colombia, pero **NO está demostrado ningún vínculo primario con nuestra familia**. Las 4-5 generaciones entre su llegada (~1715) y p001 (~1815) están completamente sin documentar — podría ser ancestro directo, prima lejana, o Caamaño sin ningún parentesco con nosotros. Submitter Carlos Mauricio Otálvaro es el contacto vivo investigando esta línea — email enviado 2026-04-13, esperando respuesta con GEDCOM descendente.]",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1713-09-03",
+          "place": "La Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Villa de Muros, A Coruña, Galicia, España",
+          "to": "Colombia",
+          "date": "c.1713-1740"
+        }
+      ],
+      "birthDate": "1695",
+      "deathPlace": "Colombia"
     },
     {
       "id": "gc007",
@@ -2448,7 +2484,7 @@
       "birthPlace": "Villa De Muros, Galicia, España",
       "deathDate": "1788-02-17",
       "deathPlace": "Santa Fe de Bogotá, Colombia",
-      "notes": "Llegó a Santa Fe de Antioquia en 1744. 8 hijos. Línea Caamaño documentada más antigua en Colombia.",
+      "notes": "Llegó a Santa Fe de Antioquia en 1744. 8 hijos. Línea Caamaño documentada más antigua en Colombia. [MERGE 2026-04-13: unified with duplicate fs053 from bridging analysis. Original notes from fs053: FUENTE: FamilySearch Pedigree Resource File 2024. Hijo documentado de Juan Matías Martínez Porrúa Caamaño (fs051) y Antonia Benita Revola Porrúa Amazur (fs052). Nacido probablemente en Colombia tras la migración de sus padres. Línea intermedia entre la primera generación colombiana y los Caamaños posteriores del Caribe.]",
       "events": [
         {
           "type": "immigration",
@@ -2786,17 +2822,6 @@
       "migrations": []
     },
     {
-      "id": "p171",
-      "source": "modern",
-      "firstName": "Licerio",
-      "lastName": "Caamaño Rangel",
-      "gender": "male",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Cabeza de rama importante en El Banco. Padres: Caamaño + Rangel (según registro de Jacob). Casado con Ana María Benavides. Hijos: Emilio, Tito, Néstor, Aida, Elisa, otros. FamilySearch.",
-      "events": [],
-      "migrations": []
-    },
-    {
       "id": "p172",
       "source": "modern",
       "firstName": "Ana María",
@@ -2837,57 +2862,6 @@
       "gender": "male",
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hijo de Licerio Caamaño y Ana María Benavides. DIFERENTE del Néstor Caamaño Castro (p023). Hijos: Cisca, Tito, Temilson. FamilySearch.",
-      "events": [],
-      "migrations": []
-    },
-    {
-      "id": "p176",
-      "source": "modern",
-      "firstName": "Miguel",
-      "lastName": "Caamaño",
-      "gender": "male",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.",
-      "events": [],
-      "migrations": []
-    },
-    {
-      "id": "p177",
-      "source": "modern",
-      "firstName": "Rudecinda",
-      "lastName": "Rangel",
-      "gender": "female",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Esposa de Miguel Caamaño. Madre de Jacob. FamilySearch.",
-      "events": [],
-      "migrations": []
-    },
-    {
-      "id": "p178",
-      "source": "modern",
-      "firstName": "Jacob",
-      "lastName": "Caamaño Rangel",
-      "gender": "male",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Hijo de Miguel Caamaño y Rudecinda Rangel. Casado con Salvadora Blanquicet, matrimonio 28 abril 1909. Hijos: Daniel Enrique (1910, 1915), Ruth María (1912), Salud, Elías José, Miguel Gustavo. FamilySearch.",
-      "events": [
-        {
-          "type": "marriage",
-          "date": "1909-04-28",
-          "place": "El Banco, Magdalena",
-          "description": "Casado con Salvadora Blanquicet"
-        }
-      ],
-      "migrations": []
-    },
-    {
-      "id": "p179",
-      "source": "modern",
-      "firstName": "Salvadora",
-      "lastName": "Blanquicet",
-      "gender": "female",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Esposa de Jacob Caamaño. Matrimonio 1909. Múltiples hijos. FamilySearch.",
       "events": [],
       "migrations": []
     },
@@ -5023,67 +4997,6 @@
       "source": "familysearch"
     },
     {
-      "id": "fs051",
-      "firstName": "Juan Matías",
-      "lastName": "Martínez Porrúa Caamaño",
-      "gender": "male",
-      "birthDate": "1681",
-      "birthPlace": "Galicia, España",
-      "deathPlace": "Colombia",
-      "notes": "FUENTE: FamilySearch Pedigree Resource File 2024 (PID 2:2:7RCY-CKY), submitted 18-jul-2024 por Carlos Mauricio Otálvaro (genealogista colombiano). Casado 03-sep-1713 en La Coruña con Antonia Benita Revola Porrúa Amazur (fs052). Hijo documentado: Bernardo Benito Martínez Porrúa. Apellido compuesto Martínez-Porrúa-Caamaño sugiere ascendencia Caamaño por línea paterna o materna. MIGRACIÓN DOCUMENTADA: ambos fallecieron en Colombia tras el matrimonio. CAVEAT EPISTEMOLÓGICO: esta pareja es la migración Caamaño→Colombia más temprana documentada en nuestra investigación, pero **NO hay evidencia primaria que los conecte con p001, Trinidad Caamaño (fs022), ni con nuestra línea familiar**. Es una migración Caamaño al territorio correcto en la época correcta — podrían ser antepasados, primos, o Caamaños completamente distintos de la misma parroquia. La hipótesis de que son nuestros ancestros es plausible pero NO probada. Pendiente: obtener el GEDCOM completo de Otálvaro para ver si hay descendencia continua 1713→1815 que conecte con Trinidad.",
-      "events": [
-        {
-          "type": "marriage",
-          "date": "1713-09-03",
-          "place": "La Coruña, Galicia, España"
-        }
-      ],
-      "migrations": [
-        {
-          "from": "A Coruña, Galicia, España",
-          "to": "Colombia",
-          "date": "c.1713-1740"
-        }
-      ],
-      "source": "familysearch"
-    },
-    {
-      "id": "fs052",
-      "firstName": "Antonia Benita",
-      "lastName": "Revola Porrúa Amazur",
-      "gender": "female",
-      "birthDate": "1695",
-      "birthPlace": "Villa de Muros, Galicia, España",
-      "deathPlace": "Colombia",
-      "notes": "FUENTE: FamilySearch Pedigree Resource File 2024 (PID 2:2:7RCY-FHB), submitted 18-jul-2024 por Carlos Mauricio Otálvaro. Nacida 1695 en Villa de Muros (costa Barbanza, zona del apellido). Casada 03-sep-1713 La Coruña con Juan Matías Martínez Porrúa Caamaño (fs051). Murió en Colombia. Hijo documentado: Bernardo Benito Martínez Porrúa. CAVEAT EPISTEMOLÓGICO: es la primera Caamaño-de-Muros documentada en migración a Colombia, pero **NO está demostrado ningún vínculo primario con nuestra familia**. Las 4-5 generaciones entre su llegada (~1715) y p001 (~1815) están completamente sin documentar — podría ser ancestro directo, prima lejana, o Caamaño sin ningún parentesco con nosotros. Submitter Carlos Mauricio Otálvaro es el contacto vivo investigando esta línea — email enviado 2026-04-13, esperando respuesta con GEDCOM descendente.",
-      "events": [
-        {
-          "type": "marriage",
-          "date": "1713-09-03",
-          "place": "La Coruña, Galicia, España"
-        }
-      ],
-      "migrations": [
-        {
-          "from": "Villa de Muros, A Coruña, Galicia, España",
-          "to": "Colombia",
-          "date": "c.1713-1740"
-        }
-      ],
-      "source": "familysearch"
-    },
-    {
-      "id": "fs053",
-      "firstName": "Bernardo Benito",
-      "lastName": "Martínez Porrúa",
-      "gender": "male",
-      "birthPlace": "Colombia (posible)",
-      "notes": "FUENTE: FamilySearch Pedigree Resource File 2024. Hijo documentado de Juan Matías Martínez Porrúa Caamaño (fs051) y Antonia Benita Revola Porrúa Amazur (fs052). Nacido probablemente en Colombia tras la migración de sus padres. Línea intermedia entre la primera generación colombiana y los Caamaños posteriores del Caribe.",
-      "events": [],
-      "migrations": [],
-      "source": "familysearch"
-    },
-    {
       "id": "fs054",
       "firstName": "Juan Antonio",
       "lastName": "Caamaño",
@@ -5382,46 +5295,76 @@
   "families": [
     {
       "id": "f001",
-      "parents": ["p001", "p002"],
-      "children": ["p006", "p008"],
+      "parents": [
+        "p001",
+        "p002"
+      ],
+      "children": [
+        "p006",
+        "p008"
+      ],
       "marriagePlace": "Colombia",
       "notes": "José Tomás Caamaño + Desconocida Soto. Rama principal colombiana."
     },
     {
       "id": "f002",
-      "parents": ["p003"],
+      "parents": [
+        "p003"
+      ],
       "children": [],
       "notes": "José María Caamaño — rama dominicana (sin datos de descendencia)."
     },
     {
       "id": "f003",
-      "parents": ["p004"],
+      "parents": [
+        "p004"
+      ],
       "children": [],
       "notes": "Salvador Caamaño — rama ecuatoriana (sin datos de descendencia)."
     },
     {
       "id": "f004",
-      "parents": ["p005"],
+      "parents": [
+        "p005"
+      ],
       "children": [],
       "notes": "Desconocido Caamaño — rama argentina (sin datos de descendencia)."
     },
     {
       "id": "f005",
-      "parents": ["p006", "p007"],
-      "children": ["p010", "p011", "p012", "p013"],
+      "parents": [
+        "p006",
+        "p007"
+      ],
+      "children": [
+        "p010",
+        "p011",
+        "p012",
+        "p013"
+      ],
       "marriagePlace": "Colombia",
       "notes": "José Tomás Caamaño Soto + Faustina Reales."
     },
     {
       "id": "f006",
-      "parents": ["p008", "p009"],
-      "children": ["p045", "p046", "p047"],
+      "parents": [
+        "p008",
+        "p009"
+      ],
+      "children": [
+        "p045",
+        "p046",
+        "p047"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Miguel Caamaño Soto + Ruthesinda Rangel."
     },
     {
       "id": "f007",
-      "parents": ["p013", "p014"],
+      "parents": [
+        "p013",
+        "p014"
+      ],
       "children": [
         "p015",
         "p017",
@@ -5444,177 +5387,330 @@
     },
     {
       "id": "f008",
-      "parents": ["p015", "p016"],
+      "parents": [
+        "p015",
+        "p016"
+      ],
       "children": [],
       "marriagePlace": "Colombia",
       "notes": "Benjamin Caamaño Castro + Felicia (apellido desconocido). Sin datos de hijos."
     },
     {
       "id": "f009",
-      "parents": ["p019", "p020"],
-      "children": ["p027", "p029", "p030"],
+      "parents": [
+        "p019",
+        "p020"
+      ],
+      "children": [
+        "p027",
+        "p029",
+        "p030"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Manuel Felipe Caamaño Castro + Antíope Bustamante."
     },
     {
       "id": "f010",
-      "parents": ["p021", "p022"],
-      "children": ["p031", "p032", "p033", "p034"],
+      "parents": [
+        "p021",
+        "p022"
+      ],
+      "children": [
+        "p031",
+        "p032",
+        "p033",
+        "p034"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Camilo Caamaño Castro + Maria Luisa Villalobos."
     },
     {
       "id": "f011",
-      "parents": ["p023", "p024"],
-      "children": ["p035", "p036", "p037"],
+      "parents": [
+        "p023",
+        "p024"
+      ],
+      "children": [
+        "p035",
+        "p036",
+        "p037"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Nestor Caamaño Castro + Exceptación Garizabal."
     },
     {
       "id": "f012",
-      "parents": ["p025", "p026"],
-      "children": ["p038", "p039", "p040", "p041", "p042", "p043", "p044"],
+      "parents": [
+        "p025",
+        "p026"
+      ],
+      "children": [
+        "p038",
+        "p039",
+        "p040",
+        "p041",
+        "p042",
+        "p043",
+        "p044"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Emilio Caamaño Castro + Emma Laino."
     },
     {
       "id": "f013",
-      "parents": ["p027", "p028"],
+      "parents": [
+        "p027",
+        "p028"
+      ],
       "children": [],
       "notes": "Atala Caamaño Bustamante + Desconocido Yxxxx. Sin datos de hijos."
     },
     {
       "id": "f014",
-      "parents": ["p047", "p048"],
-      "children": ["p049", "p050", "p052", "p053", "p054"],
+      "parents": [
+        "p047",
+        "p048"
+      ],
+      "children": [
+        "p049",
+        "p050",
+        "p052",
+        "p053",
+        "p054"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Jacob Caamaño Rangel + Salvadora Blanquicet."
     },
     {
       "id": "f015",
-      "parents": ["p050", "p051"],
-      "children": ["p056", "p058", "p060", "p062", "p064", "p065"],
+      "parents": [
+        "p050",
+        "p051"
+      ],
+      "children": [
+        "p056",
+        "p058",
+        "p060",
+        "p062",
+        "p064",
+        "p065"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Maria Salud Caamaño Blanquicet + Nicanor Pérez Cogollo."
     },
     {
       "id": "f016",
-      "parents": ["p054", "p055"],
-      "children": ["p066", "p067", "p069", "p071"],
+      "parents": [
+        "p054",
+        "p055"
+      ],
+      "children": [
+        "p066",
+        "p067",
+        "p069",
+        "p071"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Miguel Gustavo Caamaño Blanquicet + Fanny León Sanchez."
     },
     {
       "id": "f017",
-      "parents": ["p067", "p068"],
+      "parents": [
+        "p067",
+        "p068"
+      ],
       "children": [],
       "notes": "Janette Caamaño León + Byron Pérez. Sin datos de hijos."
     },
     {
       "id": "f018",
-      "parents": ["p069", "p070"],
-      "children": ["p073"],
+      "parents": [
+        "p069",
+        "p070"
+      ],
+      "children": [
+        "p073"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Gustavo Javier Caamaño León + Luz Alba Benitez."
     },
     {
       "id": "f019",
-      "parents": ["p071", "p072"],
-      "children": ["p074"],
+      "parents": [
+        "p071",
+        "p072"
+      ],
+      "children": [
+        "p074"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Beatriz Elena Caamaño León + Moises Juliao."
     },
     {
       "id": "f020",
-      "parents": ["p056", "p057"],
-      "children": ["p075", "p077"],
+      "parents": [
+        "p056",
+        "p057"
+      ],
+      "children": [
+        "p075",
+        "p077"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Martha Pérez Caamaño + Luis Rivera."
     },
     {
       "id": "f021",
-      "parents": ["p058", "p059"],
-      "children": ["p079", "p081", "p083"],
+      "parents": [
+        "p058",
+        "p059"
+      ],
+      "children": [
+        "p079",
+        "p081",
+        "p083"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Nicanor Pérez Caamaño + Graciela Pereira."
     },
     {
       "id": "f022",
-      "parents": ["p060", "p061"],
-      "children": ["p085", "p087", "p089", "p105", "p106"],
+      "parents": [
+        "p060",
+        "p061"
+      ],
+      "children": [
+        "p085",
+        "p087",
+        "p089",
+        "p105",
+        "p106"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Gloria Pérez Caamaño + José Diaz."
     },
     {
       "id": "f023",
-      "parents": ["p062", "p063"],
-      "children": ["p091", "p092", "p094"],
+      "parents": [
+        "p062",
+        "p063"
+      ],
+      "children": [
+        "p091",
+        "p092",
+        "p094"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Rafael Emiro Pérez Caamaño + Stella Isabel Jaramillo."
     },
     {
       "id": "f024",
-      "parents": ["p075", "p076"],
-      "children": ["p095"],
+      "parents": [
+        "p075",
+        "p076"
+      ],
+      "children": [
+        "p095"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Luis Alberto Rivera Pérez + Claudia Ponce."
     },
     {
       "id": "f025",
-      "parents": ["p077", "p078"],
-      "children": ["p096"],
+      "parents": [
+        "p077",
+        "p078"
+      ],
+      "children": [
+        "p096"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Ricardo Rivera Pérez + Liz Mary Peñalver."
     },
     {
       "id": "f026",
-      "parents": ["p079", "p080"],
-      "children": ["p097"],
+      "parents": [
+        "p079",
+        "p080"
+      ],
+      "children": [
+        "p097"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Tania Pérez Pereira + Efrain Posada."
     },
     {
       "id": "f027",
-      "parents": ["p081", "p082"],
+      "parents": [
+        "p081",
+        "p082"
+      ],
       "children": [],
       "notes": "José Luis Pérez Pereira + Yecenia Alvarez. Sin datos de hijos."
     },
     {
       "id": "f028",
-      "parents": ["p083", "p084"],
+      "parents": [
+        "p083",
+        "p084"
+      ],
       "children": [],
       "notes": "Miguel Pérez Pereira + Doris Gavanzo. Sin datos de hijos."
     },
     {
       "id": "f029",
-      "parents": ["p085", "p086"],
-      "children": ["p098", "p099"],
+      "parents": [
+        "p085",
+        "p086"
+      ],
+      "children": [
+        "p098",
+        "p099"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Lizzette Diaz Pérez + Pedro Arevalo."
     },
     {
       "id": "f030",
-      "parents": ["p087", "p088"],
-      "children": ["p100", "p101", "p102"],
+      "parents": [
+        "p087",
+        "p088"
+      ],
+      "children": [
+        "p100",
+        "p101",
+        "p102"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Maria Angélica Diaz Pérez + Rommel Cueter."
     },
     {
       "id": "f031",
-      "parents": ["p089", "p090"],
-      "children": ["p103", "p104"],
+      "parents": [
+        "p089",
+        "p090"
+      ],
+      "children": [
+        "p103",
+        "p104"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Jose Ignacio Diaz Pérez + Claudia Angulo."
     },
     {
       "id": "f032",
-      "parents": ["p092", "p093"],
+      "parents": [
+        "p092",
+        "p093"
+      ],
       "children": [],
       "notes": "Rafael David Pérez Jaramillo + Sandra La Sala. Sin datos de hijos."
     },
     {
       "id": "f033",
-      "parents": ["p045"],
+      "parents": [
+        "p045"
+      ],
       "children": [
         "p107",
         "p108",
@@ -5630,14 +5726,24 @@
     },
     {
       "id": "f034",
-      "parents": ["p111", "p112"],
-      "children": ["p135", "p136", "p138", "p140"],
+      "parents": [
+        "p111",
+        "p112"
+      ],
+      "children": [
+        "p135",
+        "p136",
+        "p138",
+        "p140"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Miguel Caamaño (hijo de Brígida) + Celia Rapalino Blanco."
     },
     {
       "id": "f035",
-      "parents": ["p046"],
+      "parents": [
+        "p046"
+      ],
       "children": [
         "p113",
         "p114",
@@ -5658,495 +5764,877 @@
     },
     {
       "id": "f036",
-      "parents": ["p046", "p149"],
-      "children": ["p127", "p128", "p129", "p130"],
+      "parents": [
+        "p046",
+        "p149"
+      ],
+      "children": [
+        "p127",
+        "p128",
+        "p129",
+        "p130"
+      ],
       "notes": "Licerio Caamaño Rangel + Desconocida Villarreal. Hijos con apellido Villarreal."
     },
     {
       "id": "f037",
-      "parents": ["p136", "p137"],
+      "parents": [
+        "p136",
+        "p137"
+      ],
       "children": [],
       "notes": "Bernabé Caamaño Rapalino + Silvia Perales. Sin datos de hijos."
     },
     {
       "id": "f038",
-      "parents": ["p138", "p139"],
-      "children": ["p141", "p142", "p143", "p144"],
+      "parents": [
+        "p138",
+        "p139"
+      ],
+      "children": [
+        "p141",
+        "p142",
+        "p143",
+        "p144"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Omaira Caamaño Rapalino + Pedro Castaño Robles."
     },
     {
       "id": "f039",
-      "parents": ["p144", "p145"],
-      "children": ["p146", "p147", "p148"],
+      "parents": [
+        "p144",
+        "p145"
+      ],
+      "children": [
+        "p146",
+        "p147",
+        "p148"
+      ],
       "marriagePlace": "Colombia",
       "notes": "Jorge Castaño Caamaño + Nohora Rangel."
     },
     {
       "id": "f040",
-      "parents": ["p037"],
-      "children": ["p151"],
+      "parents": [
+        "p037"
+      ],
+      "children": [
+        "p151"
+      ],
       "notes": "Luis Caamaño Garizabal. Madre desconocida."
     },
     {
       "id": "f041",
-      "parents": ["p151", "p150"],
-      "children": ["p152", "p153"],
+      "parents": [
+        "p151",
+        "p150"
+      ],
+      "children": [
+        "p152",
+        "p153"
+      ],
       "notes": "Luis Miguel Caamaño Morales + Alejandra Perdomo."
     },
     {
       "id": "hf01",
-      "parents": ["h001", "h002"],
-      "children": ["h003"],
+      "parents": [
+        "h001",
+        "h002"
+      ],
+      "children": [
+        "h003"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf02",
-      "parents": ["h003", "h004"],
-      "children": ["h005"],
+      "parents": [
+        "h003",
+        "h004"
+      ],
+      "children": [
+        "h005"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf03",
-      "parents": ["h005", "h006"],
-      "children": ["h007"],
+      "parents": [
+        "h005",
+        "h006"
+      ],
+      "children": [
+        "h007"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf04",
-      "parents": ["h007", "h008"],
-      "children": ["h009"],
+      "parents": [
+        "h007",
+        "h008"
+      ],
+      "children": [
+        "h009"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf05",
-      "parents": ["h009", "h010"],
-      "children": ["h011"],
+      "parents": [
+        "h009",
+        "h010"
+      ],
+      "children": [
+        "h011"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf06",
-      "parents": ["h011", "h012"],
-      "children": ["h013"],
+      "parents": [
+        "h011",
+        "h012"
+      ],
+      "children": [
+        "h013"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf07",
-      "parents": ["h013", "h014"],
-      "children": ["h015"],
+      "parents": [
+        "h013",
+        "h014"
+      ],
+      "children": [
+        "h015"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf08",
-      "parents": ["h015", "h016"],
-      "children": ["h017"],
+      "parents": [
+        "h015",
+        "h016"
+      ],
+      "children": [
+        "h017"
+      ],
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf09",
-      "parents": ["h017", "h018"],
-      "children": ["h019"],
+      "parents": [
+        "h017",
+        "h018"
+      ],
+      "children": [
+        "h019"
+      ],
       "marriageDate": "1458",
       "marriagePlace": "Galicia, España"
     },
     {
       "id": "hf10",
-      "parents": ["h019", "h020"],
-      "children": ["h022"],
+      "parents": [
+        "h019",
+        "h020"
+      ],
+      "children": [
+        "h022"
+      ],
       "marriagePlace": "Noya, A Coruña, Galicia, España",
       "notes": "7 hijos incluyendo García Rodríguez de Caamaño (h022, heredero, confirmado por escritura de mejora 1534, Depo 1.195/10), Álvaro de Sotomayor, Rodrigo de Mendoza. Solo h022 documentado nominalmente en el árbol; otros pendientes de incorporar."
     },
     {
       "id": "fsf01",
-      "parents": ["fs001", "fs002"],
-      "children": ["fs003"],
+      "parents": [
+        "fs001",
+        "fs002"
+      ],
+      "children": [
+        "fs003"
+      ],
       "marriagePlace": "Muros, A Coruña, Galicia, España"
     },
     {
       "id": "fsf02",
-      "parents": ["fs003"],
-      "children": ["fs004", "fs005", "fs007"],
+      "parents": [
+        "fs003"
+      ],
+      "children": [
+        "fs004",
+        "fs005",
+        "fs007"
+      ],
       "notes": "Conexión probable basada en misma parroquia (Palmeira) y generación. Pablo viudo = esposa González (apellido de los hijos)."
     },
     {
       "id": "fsf03",
-      "parents": ["fs005", "fs006"],
-      "children": ["fs008", "fs009", "fs011", "fs012", "fs013", "fs014"],
+      "parents": [
+        "fs005",
+        "fs006"
+      ],
+      "children": [
+        "fs008",
+        "fs009",
+        "fs011",
+        "fs012",
+        "fs013",
+        "fs014"
+      ],
       "marriagePlace": "Palmeira, Ribeira, A Coruña, Galicia, España"
     },
     {
       "id": "fsf04",
-      "parents": ["fs009", "fs010"],
+      "parents": [
+        "fs009",
+        "fs010"
+      ],
       "children": [],
       "marriagePlace": "Ribeira, A Coruña, Galicia, España"
     },
     {
       "id": "gcf01",
-      "parents": ["gc001", "gc002"],
-      "children": ["gc003"]
+      "parents": [
+        "gc001",
+        "gc002"
+      ],
+      "children": [
+        "gc003"
+      ]
     },
     {
       "id": "gcf02",
-      "parents": ["gc003", "gc004"],
-      "children": ["gc005"],
+      "parents": [
+        "gc003",
+        "gc004"
+      ],
+      "children": [
+        "gc005"
+      ],
       "marriageDate": "1682-11-30",
       "marriagePlace": "Muros, A Coruña, Galicia, España"
     },
     {
       "id": "gcf03",
-      "parents": ["gc005", "gc006"],
-      "children": ["gc007"],
+      "parents": [
+        "gc005",
+        "gc006"
+      ],
+      "children": [
+        "gc007"
+      ],
       "marriageDate": "1713-09-03",
       "marriagePlace": "Muros, A Coruña, Galicia, España"
     },
     {
       "id": "gcf04",
-      "parents": ["gc009", "gc010"],
+      "parents": [
+        "gc009",
+        "gc010"
+      ],
       "children": [],
       "marriagePlace": "España"
     },
     {
       "id": "cmf02",
-      "parents": ["cm005"],
-      "children": ["cm006", "cm007"]
+      "parents": [
+        "cm005"
+      ],
+      "children": [
+        "cm006",
+        "cm007"
+      ]
     },
     {
       "id": "f100",
-      "parents": ["p100", "p104"],
+      "parents": [
+        "p100",
+        "p104"
+      ],
       "children": [],
       "marriageDate": "1928-08-04",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f101",
-      "parents": ["p102", "p105"],
+      "parents": [
+        "p102",
+        "p105"
+      ],
       "children": [],
       "marriageDate": "1930-02-23",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f102",
-      "parents": ["p103", "p106"],
+      "parents": [
+        "p103",
+        "p106"
+      ],
       "children": [],
       "marriageDate": "1920-01-09",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f160",
-      "parents": ["p160", "p164"],
-      "children": ["p170"],
+      "parents": [
+        "p160",
+        "p164"
+      ],
+      "children": [
+        "p170"
+      ],
       "marriageDate": "1928-08-04",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f161",
-      "parents": ["p162", "p165"],
+      "parents": [
+        "p162",
+        "p165"
+      ],
       "children": [],
       "marriageDate": "1930-02-23",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f162",
-      "parents": ["p163", "p166"],
+      "parents": [
+        "p163",
+        "p166"
+      ],
       "children": [],
       "marriageDate": "1920-01-09",
       "marriagePlace": "El Banco, Magdalena, Colombia"
     },
     {
       "id": "f171",
-      "parents": ["p171", "p172"],
-      "children": ["p173", "p174", "p175"]
+      "parents": [
+        "p046",
+        "p172"
+      ],
+      "children": [
+        "p173",
+        "p174",
+        "p175"
+      ]
     },
     {
       "id": "f172",
-      "parents": ["p176", "p177"],
-      "children": ["p178"]
+      "parents": [
+        "p008",
+        "p009"
+      ],
+      "children": [
+        "p047"
+      ]
     },
     {
       "id": "f173",
-      "parents": ["p178", "p179"],
+      "parents": [
+        "p047",
+        "p048"
+      ],
       "children": [],
       "marriageDate": "1909-04-28",
       "marriagePlace": "El Banco, Magdalena"
     },
     {
       "id": "f174",
-      "parents": ["p180", "p181"],
+      "parents": [
+        "p180",
+        "p181"
+      ],
       "children": []
     },
     {
       "id": "f195",
-      "parents": ["p195", "p196"],
-      "children": ["p109"],
+      "parents": [
+        "p195",
+        "p196"
+      ],
+      "children": [
+        "p109"
+      ],
       "marriagePlace": "El Banco, Magdalena, Colombia",
       "notes": "Tomás Caamaño (Caamaño?) + Eusebia Romero. Confirmado por registro de bautismo de nieta María García Caamaño (1917). Posible conexión con patriarca p001 sin confirmar."
     },
     {
       "id": "f197",
-      "parents": ["p197"],
-      "children": ["p198"]
+      "parents": [
+        "p197"
+      ],
+      "children": [
+        "p198"
+      ]
     },
     {
       "id": "f198",
-      "parents": ["p198", "p199"],
-      "children": ["p200", "p202"],
+      "parents": [
+        "p198",
+        "p199"
+      ],
+      "children": [
+        "p200",
+        "p202"
+      ],
       "marriagePlace": "Galicia, España (según blog)",
       "notes": "También tuvieron a Pedro y Alejandro (no agregados al árbol). Fuente: blog Mariela Caamaño."
     },
     {
       "id": "f199",
-      "parents": ["p200", "p201"],
-      "children": ["p204"],
+      "parents": [
+        "p200",
+        "p201"
+      ],
+      "children": [
+        "p204"
+      ],
       "marriagePlace": "República Dominicana",
       "notes": "Otros hijos: César, Pedro Plutarco (1889-1983), Marina, Adela, Luis Ángel, Rosaura, Isabel. Fuente: blog."
     },
     {
       "id": "f200",
-      "parents": ["p202", "p203"],
+      "parents": [
+        "p202",
+        "p203"
+      ],
       "children": [],
       "marriagePlace": "Mogollón, San Juan de la Maguana, RD",
       "notes": "Hijos: Virgilio (1898-1930), Gustavo (1900-1929), Romélio, Rita Elena, Ernesto, Carmelita, Ramiro Jr. Fuente: blog."
     },
     {
       "id": "f201",
-      "parents": ["p204"],
-      "children": ["p205"]
+      "parents": [
+        "p204"
+      ],
+      "children": [
+        "p205"
+      ]
     },
     {
       "id": "paf01",
-      "parents": ["pa003"],
-      "children": ["pa004", "pa005"],
+      "parents": [
+        "pa003"
+      ],
+      "children": [
+        "pa004",
+        "pa005"
+      ],
       "marriagePlace": "Santa María de Caamaño, Porto do Son, A Coruña, España"
     },
     {
       "id": "paf02",
-      "parents": ["pa008", "pa009"],
+      "parents": [
+        "pa008",
+        "pa009"
+      ],
       "children": [],
       "marriagePlace": "Santa María de Caamaño, Porto do Son, A Coruña, España"
     },
     {
       "id": "paf03",
-      "parents": ["pa010", "pa014"],
-      "children": ["pa011"],
+      "parents": [
+        "pa010",
+        "pa014"
+      ],
+      "children": [
+        "pa011"
+      ],
       "marriagePlace": "Santa María de Caamaño, Porto do Son, A Coruña, España",
       "notes": "CONEXIÓN ESPECULATIVA MEDIA: pa010 Pedro Caamaño (cantero, Catastro 1760) + pa014 María Rodríguez (viuda ante 1794, Depo 1.193/4). Cronología compatible pero no probado. Hipótesis: la viuda María Rodríguez del pleito de 1794 es la esposa del cantero Pedro. pa011 Andrés como hijo o hermano de pa010."
     },
     {
       "id": "hf11",
-      "parents": ["h024", "h025"],
-      "children": ["h019"],
+      "parents": [
+        "h024",
+        "h025"
+      ],
+      "children": [
+        "h019"
+      ],
       "marriagePlace": "Galicia, España",
       "notes": "Padres de h019 García 'El Alto'. Documentado por testamento de h024 de 1478 (Depo 1.195/15, copia 1797). Extiende la línea troncal UNA GENERACIÓN HACIA ATRÁS desde h019."
     },
     {
       "id": "hf12",
-      "parents": ["h022", "h023"],
+      "parents": [
+        "h022",
+        "h023"
+      ],
       "children": [],
       "marriagePlace": "Rubianes, Villagarcía de Arousa, Pontevedra, España",
       "notes": "Matrimonio García Rodríguez de Caamaño + Margarita de Montoto, 1534 (escritura de arras, Depo 1.195/11). Hijos sin identificar todavía — pendiente de cruzar con testamentos posteriores del mismo fondo."
     },
     {
       "id": "hf13",
-      "parents": ["h029"],
-      "children": ["h030", "h031"],
+      "parents": [
+        "h029"
+      ],
+      "children": [
+        "h030",
+        "h031"
+      ],
       "marriagePlace": "Romelle, Zas, A Coruña, Galicia, España",
       "notes": "Casa de Romelle. h029 Álvaro de Caamaño y Ribadeneira (n.1541) + Jerónima de Ulloa y Taboada (m.1607) → h030 Bernarda (n.1618) + h031 Juan (n.1616). Fuente: Geneanet múltiples árboles."
     },
     {
       "id": "gnf01",
-      "parents": ["gn010", "gn011"],
-      "children": ["gn012", "gn013", "gn014"],
+      "parents": [
+        "gn010",
+        "gn011"
+      ],
+      "children": [
+        "gn012",
+        "gn013",
+        "gn014"
+      ],
       "marriageDate": "1798-11-04",
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ Matrimonio 4-NOV-1798 en PORTO DO SON (confirmado Geneanet larapat 2026-04-13): Jacobo Caamaño Malvarez + Josefa Cernadas Yáñez → Joaquina, María Josefa, Vicente Caamaño Cernadas. Parroquia EXACTA donde nació p001. Descendencia verificada hasta 1878 en Porto do Son (nieta Rosa Manuela Alvite Caamaño, gn015). Fuente directa: árbol 'larapat' (Patrice LARA), Geneanet."
     },
     {
       "id": "gnf02",
-      "parents": ["gn016", "gn017"],
-      "children": ["gn018"],
+      "parents": [
+        "gn016",
+        "gn017"
+      ],
+      "children": [
+        "gn018"
+      ],
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "Manuel Caamaño + Socorro Romero → hija [privada] Caamaño Romero (madre de los Bazarra Caamaño 1886-1895). Línea materna del clan Bazarra Caamaño del final del XIX, documentada en Geneanet larapat. Fecha aproximada de matrimonio: ~1855-1860."
     },
     {
       "id": "gnf03",
-      "parents": ["gn020", "gn021"],
-      "children": ["gn019"],
+      "parents": [
+        "gn020",
+        "gn021"
+      ],
+      "children": [
+        "gn019"
+      ],
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "José Antonio Bazarra Chouza (†1900) + Faustina Lado García → Alejandro Bazarra Lado (†1919). Línea paterna del clan Bazarra Caamaño."
     },
     {
       "id": "gnf04",
-      "parents": ["gn019", "gn018"],
-      "children": ["gn022", "gn023", "gn024", "gn009", "gn008", "gn025"],
+      "parents": [
+        "gn019",
+        "gn018"
+      ],
+      "children": [
+        "gn022",
+        "gn023",
+        "gn024",
+        "gn009",
+        "gn008",
+        "gn025"
+      ],
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ NEXO CLAVE: Alejandro Bazarra Lado (†1919) + [privada] Caamaño Romero → **6 hijos documentados**: María (1886), Carmen (1888), Elena (1888, gemela de Carmen), Manuela (1894), Alejandro (1895), Antonia (1903). Más 2 hijos marcados como 'persona privada' en larapat. Nietos de Manuel Caamaño + Socorro Romero por línea materna. Dos de los hermanos (Manuela y Alejandro) emigraron a Avellaneda (Buenos Aires). Documentado en Geneanet árbol larapat (Patrice LARA)."
     },
     {
       "id": "gnf05",
-      "parents": ["gn007", "pa014"],
-      "children": ["gn028", "gn032", "gn026", "gn033", "gn034"],
+      "parents": [
+        "gn007",
+        "pa014"
+      ],
+      "children": [
+        "gn028",
+        "gn032",
+        "gn026",
+        "gn033",
+        "gn034"
+      ],
       "marriageDate": "1738-04-23",
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐⭐⭐ Matrimonio MIÉRCOLES 23-ABR-1738 en Porto do Son: Pedro Bazarra Caamaño (1712-1767) + María Ignacia Rodríguez Patiño (1716-1797). **FUENTE PRIMARIA: AHDS Libro de matrimonios 1663-1745, folio 113.** 5 hijos documentados: Luisa Agustina (1751, gn028), María Juana (1754, gn032), Juan Manuel (gn026), Ángela (gn033), Ignacia (gn034)."
     },
     {
       "id": "gnf09",
-      "parents": ["gn030", "gn031"],
-      "children": ["gn007"],
+      "parents": [
+        "gn030",
+        "gn031"
+      ],
+      "children": [
+        "gn007"
+      ],
       "notes": "⭐⭐⭐ Jacome Fidalgo de Huya + Bernarda de Luces Bazarra → Pedro Bazarra Caamaño (1712). **Pieza clave** que conecta la línea hidalga del XVII (de Luces Caamaño y Sotomayor, Casa de Romelle/Rubianes) con la rama Bazarra Caamaño de Porto do Son del XVIII. Bernarda es probablemente nieta o sobrina de Jacinta de Luces Caamaño y Sotomayor (†1705 Muros, Depo fondo sig. 1.185/31-34)."
     },
     {
       "id": "gnf06",
-      "parents": ["gn026", "gn035"],
-      "children": ["gn027"],
+      "parents": [
+        "gn026",
+        "gn035"
+      ],
+      "children": [
+        "gn027"
+      ],
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "Juan Manuel Bazarra Rodríguez + Rosalía Blanco Fernández Fajardo (1ª esposa) → Juan Beltrán Bazarra Fernández (†1872). Juan Manuel tuvo una 2ª esposa Bárbara Queiruga (hijas Luisa y Ana María Bazarra Queiruga, no incluidas — colateral)."
     },
     {
       "id": "gnf07",
-      "parents": ["gn027", "gn036"],
-      "children": ["gn037", "gn038", "gn039", "gn040", "gn020", "gn041"],
+      "parents": [
+        "gn027",
+        "gn036"
+      ],
+      "children": [
+        "gn037",
+        "gn038",
+        "gn039",
+        "gn040",
+        "gn020",
+        "gn041"
+      ],
       "marriageDate": "1808",
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ Matrimonio 1808 Porto do Son: Juan Beltrán Bazarra Fernández (†1872) + Luisa Chouza Carballo (†1854) → 6 hijos Bazarra Chouza (María del Portal, Rosalía, Mariana, Manuel, **José Antonio gn020 †1900 — nuestro enlace**, Joaquín). El apellido 'Chouza' entra a la línea por esta madre."
     },
     {
       "id": "gnf08",
-      "parents": ["gn028"],
-      "children": ["gn029"],
+      "parents": [
+        "gn028"
+      ],
+      "children": [
+        "gn029"
+      ],
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "Luisa Agustina Bazarra Rodríguez Patiño (1751-1828) → Juan Antonio Agustín Fernández Bazarra (1782-1860). Rama colateral femenina del linaje Pedro Bazarra Caamaño — documentada en larapat con descendencia continua hasta 1993 (Agustín Mariño Vilaro)."
     },
     {
       "id": "gnf10",
-      "parents": ["gn045", "gn052"],
-      "children": ["gn053", "gn054", "gn055"],
+      "parents": [
+        "gn045",
+        "gn052"
+      ],
+      "children": [
+        "gn053",
+        "gn054",
+        "gn055"
+      ],
       "marriageDate": "1832-01-30",
       "marriagePlace": "Arecibo, Puerto Rico",
       "notes": "⭐ Matrimonio LUNES 30-ene-1832 Arecibo, Puerto Rico: Tomás Raimundo Agapito Caamaño López (1811-1858) + Juana Petrona del Carmen de Federico Santa (1815-1890) → 3 hijos documentados (Pablo, Dolores, Isolina Caamaño Federico). Rama Caamaño Puerto Rico — establecida por inmigrante gallego anónimo (padre de Tomás, no documentado en larapat) antes de 1811. FamilySearch Family Tree PID 9Z6C-LBK para Tomás."
     },
     {
       "id": "gnf11",
-      "parents": ["gn056", "gn057"],
-      "children": ["gn043"],
+      "parents": [
+        "gn056",
+        "gn057"
+      ],
+      "children": [
+        "gn043"
+      ],
       "marriagePlace": "Tlaxcala / Puebla, México",
       "notes": "⭐ Domingo Antonio Caamaño (†<1815) + Ana Micaela Conde (†<1815) → José Mariano Caamaño Conde (~1766 Tlaxcala). **Pareja original de la rama mexicana del linaje Caamaño.** Domingo Antonio es casi con seguridad emigrante gallego (primer Caamaño del árbol en suelo americano para esta rama). Su origen exacto en Galicia no está documentado — buscar en registros mexicanos del XVIII (Archivo General de la Nación de México) por 'Domingo Antonio Caamaño' peninsular."
     },
     {
       "id": "gnf12",
-      "parents": ["gn043", "gn058"],
-      "children": ["gn059"],
+      "parents": [
+        "gn043",
+        "gn058"
+      ],
+      "children": [
+        "gn059"
+      ],
       "marriageDate": "1815",
       "marriagePlace": "Sagrario de Puebla, Puebla, México",
       "notes": "José Mariano Caamaño Conde + Ana Josefa González Mata (m.1815 Sagrario de Puebla) → José Luis Caamaño González (~1822). Probablemente otros hijos documentados en el árbol 'gilbertodelatorrem' no integrados aquí."
     },
     {
       "id": "gnf13",
-      "parents": ["gn059", "gn060"],
-      "children": ["gn061"],
+      "parents": [
+        "gn059",
+        "gn060"
+      ],
+      "children": [
+        "gn061"
+      ],
       "marriageDate": "1848-09-23",
       "marriagePlace": "Sagrario de Puebla, Puebla, México",
       "notes": "José Luis Caamaño González (comerciante, ~1822) + Florencia Antonia Machado Vidal (1820-<1872), matrimonio 23-sept-1848 Sagrario de Puebla → María Luisa Antonia Caamaño y Machado (1849)."
     },
     {
       "id": "fsf05",
-      "parents": ["fs017", "fs018"],
-      "children": ["fs019", "fs024"],
+      "parents": [
+        "fs017",
+        "fs018"
+      ],
+      "children": [
+        "fs019",
+        "fs024"
+      ],
       "marriagePlace": "Bolívar, Colombia"
     },
     {
       "id": "fsf06",
-      "parents": ["fs019", "fs020"],
-      "children": ["fs021"],
+      "parents": [
+        "fs019",
+        "fs020"
+      ],
+      "children": [
+        "fs021"
+      ],
       "marriagePlace": "Margarita, Bolívar, Colombia (unión natural)"
     },
     {
       "id": "fsf07",
-      "parents": ["fs022", "fs023"],
-      "children": ["fs026"],
+      "parents": [
+        "fs022",
+        "fs023"
+      ],
+      "children": [
+        "fs026"
+      ],
       "marriagePlace": "Rioviejo, Bolívar, Colombia (antes de 1850)"
     },
     {
       "id": "fsf08",
-      "parents": ["fs025", "fs024"],
+      "parents": [
+        "fs025",
+        "fs024"
+      ],
       "children": [],
       "marriagePlace": "Bolívar, Colombia"
     },
     {
       "id": "fsf09",
-      "parents": ["fs026", "fs027"],
+      "parents": [
+        "fs026",
+        "fs027"
+      ],
       "children": [],
       "marriagePlace": "Rioviejo, Bolívar, Colombia (primeras nupcias, <1891)"
     },
     {
       "id": "fsf10",
-      "parents": ["fs026", "fs028"],
+      "parents": [
+        "fs026",
+        "fs028"
+      ],
       "children": [],
       "marriagePlace": "Rioviejo, Morales, Bolívar, Colombia (in articulo mortis, 1891-11-22)"
     },
     {
       "id": "fsf11",
-      "parents": ["fs029"],
-      "children": ["fs023"],
+      "parents": [
+        "fs029"
+      ],
+      "children": [
+        "fs023"
+      ],
       "marriagePlace": "Rioviejo, Bolívar, Colombia (sin matrimonio — hija natural)"
     },
     {
       "id": "fsf12",
-      "parents": ["fs030", "fs031"],
-      "children": ["fs032", "fs033", "fs034"],
+      "parents": [
+        "fs030",
+        "fs031"
+      ],
+      "children": [
+        "fs032",
+        "fs033",
+        "fs034"
+      ],
       "marriagePlace": "Noia, A Coruña, Galicia, España (~1568)"
     },
     {
       "id": "fsf13",
-      "parents": ["fs035", "fs036"],
-      "children": ["fs037"],
+      "parents": [
+        "fs035",
+        "fs036"
+      ],
+      "children": [
+        "fs037"
+      ],
       "marriagePlace": "La Graña, Ferrol, A Coruña, Galicia, España"
     },
     {
       "id": "fsf14",
-      "parents": ["fs037", "fs038"],
-      "children": ["fs039"],
+      "parents": [
+        "fs037",
+        "fs038"
+      ],
+      "children": [
+        "fs039"
+      ],
       "marriagePlace": "La Graña, Ferrol, A Coruña, Galicia, España (1755)"
     },
     {
       "id": "fsf15",
-      "parents": ["fs039", "fs040"],
-      "children": ["fs041", "fs042", "fs043", "fs044"],
+      "parents": [
+        "fs039",
+        "fs040"
+      ],
+      "children": [
+        "fs041",
+        "fs042",
+        "fs043",
+        "fs044"
+      ],
       "marriagePlace": "Ferrol, A Coruña, Galicia, España"
     },
     {
       "id": "fsf16",
-      "parents": ["fs046", "fs047"],
-      "children": ["fs045"],
+      "parents": [
+        "fs046",
+        "fs047"
+      ],
+      "children": [
+        "fs045"
+      ],
       "marriagePlace": "Padrón, A Coruña, Galicia, España"
     },
     {
       "id": "fsf17",
-      "parents": ["fs045", "fs048"],
-      "children": ["fs049", "fs050"],
+      "parents": [
+        "fs045",
+        "fs048"
+      ],
+      "children": [
+        "fs049",
+        "fs050"
+      ],
       "marriagePlace": "Padrón, A Coruña, Galicia, España"
     },
     {
       "id": "fsf18",
-      "parents": ["fs051", "fs052"],
-      "children": ["fs053"],
+      "parents": [
+        "gc005",
+        "gc006"
+      ],
+      "children": [
+        "gc007"
+      ],
       "marriagePlace": "La Coruña, Galicia, España (03-sep-1713)"
     },
     {
       "id": "fsf19",
-      "parents": ["fs054", "fs055"],
+      "parents": [
+        "fs054",
+        "fs055"
+      ],
       "children": [],
       "marriagePlace": "Abelleira, Muros, A Coruña, Galicia, España (13-mar-1758)"
     },
     {
       "id": "fsf20",
-      "parents": ["fs056", "fs057"],
+      "parents": [
+        "fs056",
+        "fs057"
+      ],
       "children": [],
       "marriagePlace": "Esteiro, Muros, A Coruña, Galicia, España (~1771)"
     }
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 35
+    "version": 36
   }
 }
