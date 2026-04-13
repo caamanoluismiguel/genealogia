@@ -4631,8 +4631,8 @@
       "lastName": "Caamaño",
       "gender": "male",
       "birthDate": "~1830",
-      "birthPlace": "Bolívar, Colombia",
-      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio in articulo mortis 22-nov-1891 Rioviejo, listado como padre del contrayente José Tomás Caamaño el viudo (fs026). Esposa: Damiana Soto (fs023, †<1891). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815, Porto do Son → Colombia). Generación calculada ~1825-1840 para ser padre de hombre ya dos veces viudo en 1891.",
+      "birthPlace": "Rioviejo, Morales, Bolívar, Colombia",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción de su esposa Damiana Soto 16-mayo-1883 Rioviejo, que lo confirma aún vivo en esa fecha, natural y vecino de Rioviejo (agregación de San Sebastián mártir de Morales, Bolívar). FUENTE SECUNDARIA: FS ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto el viudo (fs026) que lo lista como padre. Esposa: Damiana Soto (fs023, †1883). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815 Porto do Son → Colombia). Generación calculada ~1820-1840 para ser padre de hombre ya dos veces viudo en 1891 y consorte de mujer fallecida en 1883.",
       "events": [],
       "migrations": [],
       "source": "familysearch"
@@ -4643,12 +4643,20 @@
       "lastName": "Soto",
       "gender": "female",
       "birthDate": "~1865",
-      "birthPlace": "Bolívar, Colombia",
-      "notes": "FUENTE: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio N°128 in articulo mortis 22-nov-1891 Rioviejo (agregación San Sebastián de Morales), listada como madre difunta del contrayente José Tomás Caamaño el viudo (fs026). Esposa de Trinidad Caamaño (fs022). NOTA: el índice automatizado de FS tenía MUÑOZ por error — confundió su apellido con el de la madre de la novia. El documento original dice claramente SOTO, consistente con el PID FS Tree P96P-C6R (José Tomás Caamaño Soto).",
-      "events": [],
+      "birthPlace": "Rioviejo, Morales, Bolívar, Colombia",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 (Archivo Diocesano Magangué, Image Group 100743838) — partida defunción N°66 folio 116, Pbro. Justo Pastor Salas. Falleció 15-mayo-1883 en Rioviejo (agregación de San Sebastián mártir de Morales), adulta, casada con Trinidad Caamaño (fs022). HIJA NATURAL (ilegítima, solo apellido materno) de Emeteria Soto (fs029), natural y vecina que fué de la agregación. Recibió los tres santos sacramentos. Entierro de cruz baja (clase humilde). FUENTE SECUNDARIA: FS ark 3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto (fs026) que la menciona como difunta. El índice FS tenía MUÑOZ por error — el documento original dice claramente SOTO.",
+      "events": [
+        {
+          "type": "burial",
+          "date": "1883-05-16",
+          "place": "Parroquia San Sebastián mártir de Morales, Rioviejo, Bolívar, Colombia",
+          "note": "entierro menor cantado de cruz baja, tres santos sacramentos, Pbro. Justo Pastor Salas"
+        }
+      ],
       "migrations": [],
       "source": "familysearch",
-      "deathDate": "<1891"
+      "deathDate": "1883-05-15",
+      "deathPlace": "Rioviejo, Morales, Bolívar, Colombia"
     },
     {
       "id": "fs024",
@@ -4732,6 +4740,19 @@
           "place": "Rioviejo, Morales, Bolívar, Colombia"
         }
       ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs029",
+      "firstName": "Emeteria",
+      "lastName": "Soto",
+      "gender": "female",
+      "birthPlace": "Rioviejo, Morales, Bolívar, Colombia",
+      "deathDate": "<1883",
+      "deathPlace": "Rioviejo, Morales, Bolívar, Colombia",
+      "notes": "FUENTE: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción 16-mayo-1883 de su hija natural Damiana Soto (fs023), que la menciona como natural y vecina QUE FUÉ de la agregación de Rioviejo, es decir, ya fallecida antes de 1883. Madre soltera de Damiana — padre de Damiana no reconocido ni registrado (hija natural). Generación estimada ~1800-1820. BISABUELA MATERNA de José Tomás Caamaño Soto el viudo (fs026).",
+      "events": [],
       "migrations": [],
       "source": "familysearch"
     }
@@ -5964,10 +5985,20 @@
       ],
       "children": [],
       "marriagePlace": "Rioviejo, Morales, Bolívar, Colombia (in articulo mortis, 1891-11-22)"
+    },
+    {
+      "id": "fsf11",
+      "parents": [
+        "fs029"
+      ],
+      "children": [
+        "fs023"
+      ],
+      "marriagePlace": "Rioviejo, Bolívar, Colombia (sin matrimonio — hija natural)"
     }
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 27
+    "version": 28
   }
 }
