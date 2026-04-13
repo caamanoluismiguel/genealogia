@@ -5151,6 +5151,36 @@
       "events": [],
       "migrations": [],
       "source": "familysearch"
+    },
+    {
+      "id": "fs058",
+      "firstName": "Joseph",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: Testamento de Don Francisco García, presbítero, 1803 — AHUS (Arquivo Histórico Universitario de Santiago), H.R. Testamentos 32, fols. 114-117, notario Domingo Paz de Andrade. PRIMER CAAMAÑO-COMO-APELLIDO-PERSONAL documentado en la parroquia ancestral con fecha confirmada 1803. Mencionado como \"Don Joseph [...] Caamaño, vecino de Santa María de Caamaño\" en el fol. 115v del testamento — nombrado como pariente o albacea del presbítero Francisco García. Relación exacta ilegible por deterioro del manuscrito. Vivía en Santa María de Caamaño en 1803, 12 años antes del supuesto nacimiento de p001. Confirmación documental directa de que la tradición oral sobre el origen parroquial tiene base real.",
+      "events": [],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs059",
+      "firstName": "Francisco",
+      "lastName": "García (presbítero)",
+      "gender": "male",
+      "deathDate": "1803",
+      "deathPlace": "Hospital Real de Santiago de Compostela, A Coruña, Galicia, España",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: su propio testamento — AHUS H.R. Testamentos 32, fols. 114-117, 1803, notario Domingo Paz de Andrade. NO es ancestro directo Caamaño sino FIGURA HISTÓRICA DE CONTEXTO. Presbítero natural y vecino de Santa María de Caamaño, capellán de la Capellanía de San Vicente Ferrer en esa parroquia. Murió en el Hospital Real de Santiago en 1803. Hermano de Domingo García, tío de Francisco García el joven (sobrino homónimo). Menciona en su testamento a Don Joseph Caamaño (fs058) como pariente/albacea. Su testamento es la evidencia documental más temprana y directa de que la parroquia tenía vida eclesiástica propietaria y familias Caamaño activas 12 años antes del supuesto nacimiento de p001.",
+      "events": [
+        {
+          "type": "death",
+          "date": "1803",
+          "place": "Hospital Real de Santiago de Compostela"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
     }
   ],
   "families": [
@@ -6496,6 +6526,6 @@
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 30
+    "version": 31
   }
 }
