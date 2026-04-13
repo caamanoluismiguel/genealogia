@@ -4288,17 +4288,35 @@
       "firstName": "Tomás Raimundo Agapito",
       "lastName": "Caamaño López",
       "gender": "male",
-      "birthDate": "1811",
+      "birthDate": "1811-03-15",
       "deathDate": "1858",
-      "birthPlace": "San Juan, Puerto Rico, Estados Unidos",
-      "deathPlace": "Dominguito, Arecibo, Puerto Rico, Estados Unidos",
-      "notes": "⭐ FUENTE: Geneanet (múltiples árboles: panchovilla2018, princesa3, enater, songlana88, haymanjoshua, wguindinsantiago, rochysanchez, pablogy74). Casado 1832 con Juana De Federico Santa. **'TOMÁS' en el nombre + nacido 1811 (4 años antes que p001 ~1815)** — llama la atención por la coincidencia del nombre Tomás y la cronología exacta. Rama puertorriqueña del apellido Caamaño, hermana de la colombiana (emigración Galicia → Caribe ~1800-1820). Su descendencia continuó en Arecibo (CAAMAÑO COLÓN Tomás 1874-1928, CAAMAÑO MALDONADO José Bernardo 1878). La hipótesis de que Tomás (1811 San Juan) y José Tomás (~1815 Porto do Son) sean primos hermanos emigrantes simultáneos a distintos destinos americanos es plausible.",
+      "birthPlace": "San Juan, Puerto Rico, Provincia de España",
+      "deathPlace": "Barrio Dominguito, Arecibo, Puerto Rico",
+      "notes": "⭐⭐⭐ FICHA COMPLETA (Geneanet árbol panchovilla2018 'LA FAMILIA MARXUACH', verificada 2026-04-13). **Nacido VIERNES 15-mar-1811** San Juan, Puerto Rico (Provincia de España). **Bautizado LUNES 25-mar-1811** en la Iglesia Catedral San Juan Bautista, San Juan. **Casado LUNES 30-ene-1832** en Arecibo con Juana Petrona del Carmen de Federico Santa (gn052, 1815-1890). Falleció 1858 en Barrio Dominguito, Arecibo, a los 47 años. **Fuente primaria:** FamilySearch Family Tree, PersonID **9Z6C-LBK** (https://familysearch.org/ark:/61903/4:1:9Z6C-LBK). Puerto Rico Registro Civil 1805-2001 múltiples entradas. ⚠ **NO hay padres documentados en el árbol de panchovilla2018** — la línea termina en él. Tuvo al menos 3 hijos: gn053 Pablo Coamaño Federico (docs 1916 Hatillo PR), gn054 Dolores Caamaño Federico (doc 1892 San Juan), gn055 Isolina Camaño Federico (doc 1927 Arecibo). **HIPÓTESIS FUERTE:** Tomás PR (1811) y p001 José Tomás CO (~1815) podrían ser PRIMOS HERMANOS — compartirían abuelos gallegos del XVIII. El padre de Tomás sería un emigrante gallego ya en PR antes de 1811. Buscar FamilySearch PID 9Z6C-LBK para ver si otros contribuidores han añadido padres.",
       "events": [
         {
+          "type": "birth",
+          "date": "1811-03-15",
+          "place": "San Juan, Puerto Rico, Provincia de España",
+          "description": "Viernes"
+        },
+        {
+          "type": "baptism",
+          "date": "1811-03-25",
+          "place": "Iglesia Catedral San Juan Bautista, San Juan, Puerto Rico",
+          "description": "Lunes"
+        },
+        {
           "type": "marriage",
-          "date": "1832",
-          "place": "San Juan, Puerto Rico, Estados Unidos",
-          "description": "Matrimonio con Juana De Federico Santa"
+          "date": "1832-01-30",
+          "place": "Arecibo, Puerto Rico",
+          "description": "Lunes — Matrimonio con Juana Petrona del Carmen de Federico Santa"
+        },
+        {
+          "type": "death",
+          "date": "1858",
+          "place": "Barrio Dominguito, Arecibo, Puerto Rico",
+          "description": "Falleció a los 47 años"
         }
       ],
       "migrations": []
@@ -4378,6 +4396,68 @@
       "birthPlace": "Madrid, Madrid, España",
       "deathPlace": "Madrid, Madrid, España",
       "notes": "⭐ FUENTE: Geneanet árbol 'jmfigueroa'. Casado con Ana María de Mendoza. **Uno de los Caamaños más tempranos del XVII documentado** (pre-h026 Antonio Ribadeneira †1657). Presencia Caamaño en Madrid en 1583-1630 sugiere que algunos hidalgos del linaje ya residían en la Corte, no solo en Galicia. Apellido compuesto Caamaño+Figueroa — conecta con la casa Pardo de Figueroa (h043 Juan José Caamaño y Pardo se casó con Ramona Pardo de Figueroa en 1780s). Posible ancestro lejano de la línea Pardo.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn052",
+      "source": "geneanet",
+      "firstName": "Juana Petrona del Carmen",
+      "lastName": "de Federico Santa",
+      "maidenName": "de Federico Santa",
+      "gender": "female",
+      "birthDate": "1815",
+      "deathDate": "1890-08-21",
+      "birthPlace": "Puerto Rico",
+      "deathPlace": "Arecibo, Puerto Rico",
+      "notes": "FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVJS-164M). Esposa de gn045 Tomás Raimundo Agapito Caamaño López desde 30-ene-1832 en Arecibo. Madre de gn053 Pablo, gn054 Dolores, gn055 Isolina Caamaño Federico. Viuda desde 1858, vivió hasta 1890 (31 años más que el esposo). Su fallecimiento 21-ago-1890 documentado en Arecibo.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1832-01-30",
+          "place": "Arecibo, Puerto Rico"
+        },
+        {
+          "type": "death",
+          "date": "1890-08-21",
+          "place": "Arecibo, Puerto Rico"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn053",
+      "source": "geneanet",
+      "firstName": "Pablo",
+      "lastName": "Caamaño Federico",
+      "gender": "male",
+      "birthDate": "~1835",
+      "birthPlace": "Puerto Rico",
+      "notes": "⭐ FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVJQ-CBP5, documento 10-oct-1916 Hatillo, Puerto Rico). Hijo de gn045 Tomás Raimundo Agapito Caamaño López + gn052 Juana de Federico Santa. Su nombre **'Pablo'** coincide con fs003 Pablo Caamaño Villa (1802, Palmeira, Muros) — son contemporáneos de generación pero en continentes distintos. Evidencia de que el nombre 'Pablo' se repite en varias ramas Caamaño del XIX como onomástico heredado.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn054",
+      "source": "geneanet",
+      "firstName": "Dolores",
+      "lastName": "Caamaño Federico",
+      "gender": "female",
+      "birthDate": "~1840",
+      "birthPlace": "Puerto Rico",
+      "notes": "FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVN1-1PX2, documento 30-jun-1892 San Juan PR). Hija de gn045 Tomás Raimundo Agapito + gn052 Juana de Federico.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn055",
+      "source": "geneanet",
+      "firstName": "Isolina",
+      "lastName": "Camaño Federico",
+      "gender": "female",
+      "birthDate": "~1850",
+      "birthPlace": "Puerto Rico",
+      "notes": "FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVJ3-WYSB, documento 22-sep-1927 Arecibo PR). Hija de gn045 Tomás Raimundo Agapito + gn052 Juana de Federico. Nótese ortografía 'Camaño' en documento civil (variante sin doble 'a').",
       "events": [],
       "migrations": []
     }
@@ -5019,10 +5099,18 @@
       "children": ["gn029"],
       "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "Luisa Agustina Bazarra Rodríguez Patiño (1751-1828) → Juan Antonio Agustín Fernández Bazarra (1782-1860). Rama colateral femenina del linaje Pedro Bazarra Caamaño — documentada en larapat con descendencia continua hasta 1993 (Agustín Mariño Vilaro)."
+    },
+    {
+      "id": "gnf10",
+      "parents": ["gn045", "gn052"],
+      "children": ["gn053", "gn054", "gn055"],
+      "marriageDate": "1832-01-30",
+      "marriagePlace": "Arecibo, Puerto Rico",
+      "notes": "⭐ Matrimonio LUNES 30-ene-1832 Arecibo, Puerto Rico: Tomás Raimundo Agapito Caamaño López (1811-1858) + Juana Petrona del Carmen de Federico Santa (1815-1890) → 3 hijos documentados (Pablo, Dolores, Isolina Caamaño Federico). Rama Caamaño Puerto Rico — establecida por inmigrante gallego anónimo (padre de Tomás, no documentado en larapat) antes de 1811. FamilySearch Family Tree PID 9Z6C-LBK para Tomás."
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-13T23:00:00Z",
-    "version": 22
+    "lastUpdated": "2026-04-13T23:30:00Z",
+    "version": 23
   }
 }
