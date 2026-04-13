@@ -5021,6 +5021,136 @@
       "events": [],
       "migrations": [],
       "source": "familysearch"
+    },
+    {
+      "id": "fs051",
+      "firstName": "Juan Matías",
+      "lastName": "Martínez Porrúa Caamaño",
+      "gender": "male",
+      "birthDate": "1681",
+      "birthPlace": "Galicia, España",
+      "deathPlace": "Colombia",
+      "notes": "FUENTE: FamilySearch Pedigree Resource File 2024 (PID 2:2:7RCY-CKY), submitted 18-jul-2024 por Carlos Mauricio Otálvaro (genealogista colombiano). Casado 03-sep-1713 en La Coruña con Antonia Benita Revola Porrúa Amazur (fs052). Hijo documentado: Bernardo Benito Martínez Porrúa. Apellido compuesto Martínez-Porrúa-Caamaño sugiere ascendencia Caamaño por línea paterna o materna. JUNTO CON SU ESPOSA FALLECIÓ EN COLOMBIA — son probablemente los PATRIARCAS fundadores más tempranos documentados de una rama Caamaño colombiana. 100+ años antes de p001. Descendientes podrían incluir a Trinidad Caamaño (fs022) y la rama colombiana entera.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1713-09-03",
+          "place": "La Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "A Coruña, Galicia, España",
+          "to": "Colombia",
+          "date": "c.1713-1740"
+        }
+      ],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs052",
+      "firstName": "Antonia Benita",
+      "lastName": "Revola Porrúa Amazur",
+      "gender": "female",
+      "birthDate": "1695",
+      "birthPlace": "Villa de Muros, Galicia, España",
+      "deathPlace": "Colombia",
+      "notes": "FUENTE: FamilySearch Pedigree Resource File 2024 (PID 2:2:7RCY-FHB), submitted 18-jul-2024 por Carlos Mauricio Otálvaro. NACIDA 1695 EN VILLA DE MUROS — zona exacta ancestral Caamaño (costa Barbanza). Casada 03-sep-1713 La Coruña con Juan Matías Martínez Porrúa Caamaño (fs051). MURIÓ EN COLOMBIA. Primera Caamaño/Muros documentada en migración a Colombia — posible MATRIARCA de toda la rama colombiana. Hijo: Bernardo Benito Martínez Porrúa. Submitter Carlos Mauricio Otálvaro es contacto vivo investigando la misma línea — CONTACTAR para intercambio de datos.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1713-09-03",
+          "place": "La Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Villa de Muros, A Coruña, Galicia, España",
+          "to": "Colombia",
+          "date": "c.1713-1740"
+        }
+      ],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs053",
+      "firstName": "Bernardo Benito",
+      "lastName": "Martínez Porrúa",
+      "gender": "male",
+      "birthPlace": "Colombia (posible)",
+      "notes": "FUENTE: FamilySearch Pedigree Resource File 2024. Hijo documentado de Juan Matías Martínez Porrúa Caamaño (fs051) y Antonia Benita Revola Porrúa Amazur (fs052). Nacido probablemente en Colombia tras la migración de sus padres. Línea intermedia entre la primera generación colombiana y los Caamaños posteriores del Caribe.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs054",
+      "firstName": "Juan Antonio",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch IGI (PID 2:1:MWSK-46J), batch 7829860, sheet 40, serial 00143, FHL microfilm 1126422. Casado 13-mar-1758 en ABELLEIRA, MUROS, A Coruña con María Antonia Fernández (fs055). Varias entradas IGI listan hijos: Victorio, Patrizio, Antonio, Rafael, Benito, Domingo Antonio Caamaño Fernández. Zona exacta ancestral — Abelleira es la feligresía donde el notario Francisco Antonio Fortes de Novoa firmaba sus protocolos (1762-1795). Probable ancestro directo de la línea colombiana.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1758-03-13",
+          "place": "Abelleira, Muros, A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs055",
+      "firstName": "María Antonia",
+      "lastName": "Fernández",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch IGI (PID 2:1:MWSK-4XZ). Esposa de Juan Antonio Caamaño (fs054), casada 13-mar-1758 Abelleira, Muros. Madre de múltiples hijos Caamaño Fernández documentados en IGI.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1758-03-13",
+          "place": "Abelleira, Muros, A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs056",
+      "firstName": "Juan",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "deathDate": "1776-01-18",
+      "deathPlace": "Santiago de Tal, Esteiro, Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch IGI (PID 2:1:9FVJ-XBH). Falleció 18-enero-1776 en Santiago de Tal (parroquia de Esteiro, municipio de Muros). Casado ~1771 en Esteiro con María Rosa de Gandara Lestón (fs057). 2 hijos llamados Juan Caamaño (posibles mellizos o sucesivos). Contemporáneo del otro Juan Antonio Caamaño (fs054) de Abelleira — misma zona micro-territorial Muros.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "~1771",
+          "place": "Esteiro, Muros, A Coruña, Galicia, España"
+        },
+        {
+          "type": "death",
+          "date": "1776-01-18",
+          "place": "Santiago de Tal, Esteiro, Muros, A Coruña"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs057",
+      "firstName": "María Rosa",
+      "lastName": "de Gándara Lestón",
+      "gender": "female",
+      "birthDate": "1754",
+      "birthPlace": "Esteiro, Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch IGI (PID 2:1:9FVJ-F9G). Esposa de Juan de Caamaño (fs056). Nacida 1754, casada ~1771 con 17 años en Esteiro. Viuda joven en 1776. Apellido compuesto Gándara-Lestón indica familia local gallega.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
     }
   ],
   "families": [
@@ -6333,10 +6463,39 @@
         "fs050"
       ],
       "marriagePlace": "Padrón, A Coruña, Galicia, España"
+    },
+    {
+      "id": "fsf18",
+      "parents": [
+        "fs051",
+        "fs052"
+      ],
+      "children": [
+        "fs053"
+      ],
+      "marriagePlace": "La Coruña, Galicia, España (03-sep-1713)"
+    },
+    {
+      "id": "fsf19",
+      "parents": [
+        "fs054",
+        "fs055"
+      ],
+      "children": [],
+      "marriagePlace": "Abelleira, Muros, A Coruña, Galicia, España (13-mar-1758)"
+    },
+    {
+      "id": "fsf20",
+      "parents": [
+        "fs056",
+        "fs057"
+      ],
+      "children": [],
+      "marriagePlace": "Esteiro, Muros, A Coruña, Galicia, España (~1771)"
     }
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 29
+    "version": 30
   }
 }
