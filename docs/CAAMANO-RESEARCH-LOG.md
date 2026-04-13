@@ -353,6 +353,26 @@ None of these 13 are yet linked into the central pedigree (no `parents` / `child
 
 **The single experiment that would close the case:** AHDS libros sacramentales of Santa María de Caamaño 1810–1820 (action item #2). One baptism entry would resolve everything.
 
+#### 8.1 Honesty note on the 1713 Muros→Colombia migration (added 2026-04-13, session end)
+
+The Pedigree Resource File submission by Carlos Mauricio Otálvaro documents a real 1713 marriage of **Juan Matías Martínez Porrúa Caamaño** (1681) × **Antonia Benita Revola Porrúa Amazur** (1695 Villa de Muros), with both dying in Colombia. This migration is **real, documented, and plausible as a proto-ancestor candidate** — Muros is our target zone, 1713 predates our earliest confirmed Caamaño in Colombia by a century, and the submitter is actively researching the same question.
+
+**But there is zero primary-source evidence linking this couple to our family.** Specifically:
+
+- No chain of descent has been established from Juan Matías/Antonia Benita (1713 arrival) → Trinidad Caamaño (`fs022`, ~1830 Rioviejo). That is **4–5 generations of complete documentary silence**, ~115 years.
+- The only reason they are in our tree is that they are the **earliest documented Caamaño-surnamed arrival in Colombia**, not because of any confirmed kinship.
+- The scenario in which they are distant cousins of p001 (or completely unrelated same-surname emigrants from the same parish) is **equally consistent with the evidence**.
+- Their entries in the tree (`fs051`, `fs052`, `fs053`) are annotated with this caveat. They should be treated as **contextual migration evidence**, not proven ancestors.
+
+**Gap status — unambiguous:**
+
+- **Brecha 0 (modern p001 → living family):** ✅ closed with documented 20th-century records.
+- **Brecha 1 (medieval noble Caamaño → common s. XVIII):** ❌ NOT closed. Still ~300 years with no sacramental chain.
+- **Brecha 2 (p001 parents and origin, 1700–1815):** ❌ NOT closed. Strong candidates (`fs058`, `fs060`, `fs062`), strong parish evidence (1803 testament), zero proven filiation to p001.
+- **1713 migration ↔ our line:** ❌ NOT established. Circumstantial match only.
+
+**In plain language:** our research has proven that Caamaños lived in Santa María de Caamaño parish in 1803 and that they migrated from Muros to Colombia as early as 1713. It has **not** proven that our family descends from any specific documented individual before Trinidad Caamaño (~1830). Every connection upstream of Trinidad is currently a working hypothesis, not a fact.
+
 ---
 
 ### 9. Open action items for next session
