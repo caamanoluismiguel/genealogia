@@ -4566,7 +4566,7 @@
       "gender": "male",
       "birthDate": "1890",
       "birthPlace": "Morales, Bolívar, Colombia",
-      "notes": "FUENTE PRIMARIA: FamilySearch ark 1:1:XS68-BK5D (Colombia registros parroquiales 1576-2019) — bautismo/matrimonio 24-oct-1891, San Sebastián de Las Palmas, Morales, Bolívar (Parroquia de Rodriguez), christening 22-nov-1891 Rioviejo. FS Tree PID P96P-C6R (listado como José Tomás Caamaño Soto). PADRES: Trinidad Caamaño (fs022) + Damiana Muñoz (fs023). FUENTE SECUNDARIA: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955 Margarita 06-ene-1955 listado como abuelo paterno. Cónyuges: (1) posible primera esposa Suzana Mu- indexada en 1891 [requiere verificación], (2) Virginia Benavides (fs018) — madre de Glicerio Sr. (fs019) y Ruth (fs024). Probable nieto o bisnieto de p001 José Tomás Caamaño Sr. (tradición onomástica).",
+      "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955 Margarita 06-ene-1955 listado como abuelo paterno de Glicerio Caamaño Fambrant Jr. (fs021) + ark 1:1:XS6D-JNV2 matrimonio Ruth Caamaño 09-may-1954 listado como padre. Cónyuge: Virginia Benavides (fs018). Hijos confirmados: Glicerio Sr. (fs019) y Ruth (fs024). PADRES DESCONOCIDOS: el índice FS ark XS68-BK5D originalmente lo asoció a Trinidad Caamaño + Damiana Soto, pero esa asociación pertenece al otro José Tomás Caamaño (fs026, el viudo que se casó in articulo mortis en 1891). Probable relación: fs017 sería sobrino o hijo póstumo del viudo (fs026), o hijo de un hermano no documentado. Tradición onomástica confirma que es descendiente de p001.",
       "events": [],
       "migrations": [],
       "source": "familysearch"
@@ -4630,9 +4630,9 @@
       "firstName": "Trinidad",
       "lastName": "Caamaño",
       "gender": "male",
-      "birthDate": "~1860",
+      "birthDate": "~1830",
       "birthPlace": "Bolívar, Colombia",
-      "notes": "FUENTE: FamilySearch ark 1:1:XS68-BK5D — listado como padre de José Tomás Caamaño (fs017) en registro 24-oct-1891 San Sebastián de Las Palmas, Morales, Bolívar (Parroquia de Rodriguez). Cónyuge: Damiana Muñoz (fs023). ESLABÓN CLAVE: generación intermedia entre p001 José Tomás Caamaño Sr. (~1815 Porto do Son) y la rama colombiana s.XX — probable hijo o nieto de p001.",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio in articulo mortis 22-nov-1891 Rioviejo, listado como padre del contrayente José Tomás Caamaño el viudo (fs026). Esposa: Damiana Soto (fs023, †<1891). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815, Porto do Son → Colombia). Generación calculada ~1825-1840 para ser padre de hombre ya dos veces viudo en 1891.",
       "events": [],
       "migrations": [],
       "source": "familysearch"
@@ -4640,14 +4640,15 @@
     {
       "id": "fs023",
       "firstName": "Damiana",
-      "lastName": "Muñoz",
+      "lastName": "Soto",
       "gender": "female",
       "birthDate": "~1865",
       "birthPlace": "Bolívar, Colombia",
-      "notes": "FUENTE: FamilySearch ark 1:1:XS68-BK5D. Esposa de Trinidad Caamaño (fs022), madre de José Tomás Caamaño II (fs017). Registro 24-oct-1891 San Sebastián de Las Palmas, Morales, Bolívar.",
+      "notes": "FUENTE: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio N°128 in articulo mortis 22-nov-1891 Rioviejo (agregación San Sebastián de Morales), listada como madre difunta del contrayente José Tomás Caamaño el viudo (fs026). Esposa de Trinidad Caamaño (fs022). NOTA: el índice automatizado de FS tenía MUÑOZ por error — confundió su apellido con el de la madre de la novia. El documento original dice claramente SOTO, consistente con el PID FS Tree P96P-C6R (José Tomás Caamaño Soto).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "deathDate": "<1891"
     },
     {
       "id": "fs024",
@@ -4680,6 +4681,55 @@
           "type": "marriage",
           "date": "1954-05-09",
           "place": "Bolívar, Colombia"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs026",
+      "firstName": "José Tomás",
+      "lastName": "Caamaño Soto",
+      "gender": "male",
+      "birthDate": "~1850",
+      "birthPlace": "Rioviejo, Bolívar, Colombia",
+      "deathDate": "~1891",
+      "deathPlace": "Rioviejo, Bolívar, Colombia",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 (Archivo Diocesano Magangué, Image Group 100743845) — partida matrimonio N°128 folio 142, asentada por el Pbro. Bernabé Trespalacios, Cura rector interino de San Sebastián mártir de Morales. Casado EN ARTÍCULO MORTIS el 22-noviembre-1891 en la agregación de Rioviejo con Suzana Muñoz (fs028). Era viudo en primeras nupcias de Dolores Castañeda (fs027). HIJO LEGÍTIMO de Trinidad Caamaño (fs022) y Damiana Soto difunta (fs023). Natural y vecino de Rioviejo. Católico apostólico romano. Falleció probablemente poco después del matrimonio (artículo mortis = al borde de la muerte). POSIBLE NIETO DIRECTO de p001 José Tomás Caamaño Sr. via Trinidad Caamaño. NOTA: el índice automatizado FS ark 1:1:XS68-BK5D confundió datos y fechas — este es el registro real. FS Tree PID P96P-C6R listado como José Tomás Caamaño Soto confirma el apellido materno Soto (no Muñoz).",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1891-11-22",
+          "place": "Rioviejo, Morales, Bolívar, Colombia",
+          "note": "in articulo mortis"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs027",
+      "firstName": "Dolores",
+      "lastName": "Castañeda",
+      "gender": "female",
+      "deathDate": "<1891",
+      "notes": "FUENTE: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199. Primera esposa de José Tomás Caamaño Soto el viudo (fs026), fallecida antes de noviembre 1891 cuando él se casó en segundas nupcias in articulo mortis con Suzana Muñoz.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs028",
+      "firstName": "Suzana",
+      "lastName": "Muñoz",
+      "gender": "female",
+      "birthPlace": "Mompós, Bolívar, Colombia",
+      "notes": "FUENTE: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — partida N°128 22-nov-1891 Rioviejo. Segunda esposa de José Tomás Caamaño Soto (fs026) en matrimonio in articulo mortis. Natural de Mompós, vecina de Rioviejo. Viuda en primeras nupcias de Adelfonzo Matos. Hija legítima de Manuel Muñoz (apellido paterno cortado en la página visible como Manuel Mu-) y madre no registrada aquí. Católica apostólica romana.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1891-11-22",
+          "place": "Rioviejo, Morales, Bolívar, Colombia"
         }
       ],
       "migrations": [],
@@ -5884,9 +5934,9 @@
         "fs023"
       ],
       "children": [
-        "fs017"
+        "fs026"
       ],
-      "marriagePlace": "Morales, Bolívar, Colombia"
+      "marriagePlace": "Rioviejo, Bolívar, Colombia (antes de 1850)"
     },
     {
       "id": "fsf08",
@@ -5896,10 +5946,28 @@
       ],
       "children": [],
       "marriagePlace": "Bolívar, Colombia"
+    },
+    {
+      "id": "fsf09",
+      "parents": [
+        "fs026",
+        "fs027"
+      ],
+      "children": [],
+      "marriagePlace": "Rioviejo, Bolívar, Colombia (primeras nupcias, <1891)"
+    },
+    {
+      "id": "fsf10",
+      "parents": [
+        "fs026",
+        "fs028"
+      ],
+      "children": [],
+      "marriagePlace": "Rioviejo, Morales, Bolívar, Colombia (in articulo mortis, 1891-11-22)"
     }
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 26
+    "version": 27
   }
 }
