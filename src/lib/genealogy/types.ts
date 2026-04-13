@@ -17,6 +17,7 @@ export type PersonSource =
   | "ellisisland"
   | "uruguay"
   | "pares"
+  | "galiciana"
   | "gap";
 
 /** Life event types */

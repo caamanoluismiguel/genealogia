@@ -4,6 +4,7 @@
  */
 "use client";
 
+import { useState } from "react";
 import type { PersonSource } from "@/lib/genealogy/types";
 
 interface TreeControlsProps {
@@ -44,6 +45,18 @@ const SOURCE_TOGGLES: {
     label: "Censos",
     activeClass: "bg-green-700 text-white ring-1 ring-green-800",
     inactiveClass: "bg-green-50 text-green-900 ring-1 ring-green-300",
+  },
+  {
+    key: "pares",
+    label: "PARES",
+    activeClass: "bg-indigo-700 text-white ring-1 ring-indigo-800",
+    inactiveClass: "bg-indigo-50 text-indigo-900 ring-1 ring-indigo-300",
+  },
+  {
+    key: "galiciana",
+    label: "Galiciana",
+    activeClass: "bg-amber-700 text-white ring-1 ring-amber-800",
+    inactiveClass: "bg-amber-50 text-amber-900 ring-1 ring-amber-300",
   },
   {
     key: "cemla",
@@ -220,6 +233,51 @@ function IconDownload() {
   );
 }
 
+// NOVA: Filter icon — funnel shape signals "filter" universally at 16px.
+function IconFilter() {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M2 3h12l-4.5 5.5V13l-3-1.5V8.5L2 3Z"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+// KAI: Chevron for collapsible sections — rotates 180° when open.
+function IconChevron({ open }: { open: boolean }) {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      aria-hidden="true"
+      style={{
+        transform: open ? "rotate(180deg)" : "rotate(0deg)",
+        transition: "transform 200ms ease-out",
+      }}
+    >
+      <path
+        d="M2 4l4 4 4-4"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export function TreeControls({
   onZoomIn,
   onZoomOut,
@@ -234,10 +292,22 @@ export function TreeControls({
   activeCountry,
   onSetCountry,
 }: TreeControlsProps) {
+  // KAI: Filter panel is collapsed by default on mobile — saves vertical space.
+  // On desktop it stays open permanently since there's no height constraint.
+  const [filtersOpen, setFiltersOpen] = useState(false);
+
+  // Count active non-default filters to show a badge on the filter button
+  const activeFilterCount =
+    (visibleSources
+      ? [...visibleSources].filter((s) => s !== "modern").length
+      : 0) + (activeCountry ? 1 : 0);
+
   return (
     // ARIA: Floating glass panel — white/90 + backdrop-blur reads over any background.
     // rounded-xl + shadow-lg gives the panel its own elevation layer (z-axis depth).
-    <div className="absolute right-2 bottom-2 flex flex-col items-center gap-0.5 rounded-xl border border-slate-300 bg-white/90 p-1.5 shadow-lg backdrop-blur-sm max-md:max-h-[60vh] max-md:overflow-y-auto md:right-4 md:bottom-4">
+    // ZERO: Removed max-h overflow on the wrapper — overflow is now inside the
+    // collapsible filter panel only, so the zoom controls are always reachable.
+    <div className="absolute right-2 bottom-2 flex flex-col items-center gap-0.5 rounded-xl border border-slate-300 bg-white/90 p-1.5 shadow-lg backdrop-blur-sm md:right-4 md:bottom-4">
       <button
         type="button"
         onClick={onZoomIn}
@@ -328,69 +398,100 @@ export function TreeControls({
         </>
       )}
 
-      {onToggleSource && visibleSources && (
+      {/* NOVA: Collapsible filter panel — source toggles + country filter live here.
+          The toggle button shows a badge with count of active non-default filters.
+          On mobile this prevents the controls from overflowing off-screen. */}
+      {(onToggleSource || onSetCountry) && (
         <>
           <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
-          {SOURCE_TOGGLES.map((src) => {
-            const isActive = visibleSources.has(src.key);
-            return (
-              <button
-                key={src.key}
-                type="button"
-                onClick={() => onToggleSource(src.key)}
-                aria-label={`${isActive ? "Ocultar" : "Mostrar"} ${src.label}`}
-                aria-pressed={isActive}
-                title={src.label}
-                className={`flex h-7 items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
-                  isActive ? src.activeClass : src.inactiveClass
-                }`}
-              >
-                {src.label}
-              </button>
-            );
-          })}
-        </>
-      )}
-
-      {onSetCountry && (
-        <>
-          <div className="my-1 h-px w-6 bg-slate-200" aria-hidden="true" />
-          <p className="text-[8px] font-bold uppercase tracking-wide text-slate-400">
-            País
-          </p>
           <button
             type="button"
-            onClick={() => onSetCountry(null)}
-            className={`flex h-7 items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
-              !activeCountry
-                ? "bg-slate-700 text-white ring-1 ring-slate-800"
-                : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
-            }`}
+            onClick={() => setFiltersOpen((v) => !v)}
+            aria-expanded={filtersOpen}
+            aria-label={filtersOpen ? "Cerrar filtros" : "Abrir filtros"}
+            title="Filtros"
+            className={`relative flex h-9 min-w-9 items-center justify-center gap-1 rounded-lg px-2 transition-colors duration-150 ${filtersOpen ? "bg-slate-100 text-slate-950" : "text-slate-700 hover:bg-slate-100 hover:text-slate-950"} active:scale-95 active:bg-slate-200`}
           >
-            Todos
+            <IconFilter />
+            <span className={btnLabelClass}>Filtros</span>
+            <IconChevron open={filtersOpen} />
+            {activeFilterCount > 0 && (
+              <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-teal-500 text-[8px] font-bold text-white">
+                {activeFilterCount}
+              </span>
+            )}
           </button>
-          {[
-            { key: "colombia", flag: "🇨🇴", label: "Colombia" },
-            { key: "república dominicana", flag: "🇩🇴", label: "RD" },
-            { key: "ecuador", flag: "🇪🇨", label: "Ecuador" },
-            { key: "argentina", flag: "🇦🇷", label: "Argentina" },
-            { key: "españa", flag: "🇪🇸", label: "España" },
-          ].map((c) => (
-            <button
-              key={c.key}
-              type="button"
-              onClick={() => onSetCountry(c.key)}
-              title={c.label}
-              className={`flex h-7 items-center justify-center gap-1 rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
-                activeCountry === c.key
-                  ? "bg-teal-600 text-white ring-1 ring-teal-700"
-                  : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
-              }`}
-            >
-              <span className="text-sm">{c.flag}</span>
-              {c.label}
-            </button>
-          ))}
+
+          {filtersOpen && (
+            <div className="mt-0.5 flex w-full flex-col items-center gap-0.5 max-h-[50vh] overflow-y-auto">
+              {onToggleSource && visibleSources && (
+                <>
+                  <p className="mt-1 text-[8px] font-bold uppercase tracking-wide text-slate-400">
+                    Fuente
+                  </p>
+                  {SOURCE_TOGGLES.map((src) => {
+                    const isActive = visibleSources.has(src.key);
+                    return (
+                      <button
+                        key={src.key}
+                        type="button"
+                        onClick={() => onToggleSource(src.key)}
+                        aria-label={`${isActive ? "Ocultar" : "Mostrar"} ${src.label}`}
+                        aria-pressed={isActive}
+                        title={src.label}
+                        className={`flex h-7 w-full items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                          isActive ? src.activeClass : src.inactiveClass
+                        }`}
+                      >
+                        {src.label}
+                      </button>
+                    );
+                  })}
+                </>
+              )}
+
+              {onSetCountry && (
+                <>
+                  <p className="mt-2 text-[8px] font-bold uppercase tracking-wide text-slate-400">
+                    País
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => onSetCountry(null)}
+                    className={`flex h-7 w-full items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                      !activeCountry
+                        ? "bg-slate-700 text-white ring-1 ring-slate-800"
+                        : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
+                    }`}
+                  >
+                    Todos
+                  </button>
+                  {[
+                    { key: "colombia", flag: "🇨🇴", label: "Colombia" },
+                    { key: "república dominicana", flag: "🇩🇴", label: "RD" },
+                    { key: "ecuador", flag: "🇪🇨", label: "Ecuador" },
+                    { key: "argentina", flag: "🇦🇷", label: "Argentina" },
+                    { key: "españa", flag: "🇪🇸", label: "España" },
+                  ].map((c) => (
+                    <button
+                      key={c.key}
+                      type="button"
+                      onClick={() => onSetCountry(c.key)}
+                      title={c.label}
+                      className={`flex h-7 w-full items-center justify-center gap-1 rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                        activeCountry === c.key
+                          ? "bg-teal-600 text-white ring-1 ring-teal-700"
+                          : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
+                      }`}
+                    >
+                      <span className="text-sm">{c.flag}</span>
+                      {c.label}
+                    </button>
+                  ))}
+                </>
+              )}
+            </div>
+          )}
         </>
       )}
     </div>

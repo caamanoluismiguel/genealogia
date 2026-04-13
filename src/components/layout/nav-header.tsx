@@ -13,6 +13,13 @@ const NAV_LINKS = [
   },
   { href: "/map", label: "Mapa", icon: "🗺️" },
   { href: "/historia", label: "Historia", icon: "📖" },
+  {
+    href: "/estadisticas",
+    label: "Estadísticas",
+    icon: "📊",
+    mobileHide: true,
+  },
+  { href: "/novedades", label: "Novedades", icon: "✨", mobileHide: true },
   { href: "/research", label: "Investigar", icon: "🔬", mobileHide: true },
   { href: "/add", label: "Contribuir", icon: "✏️" },
 ] as const;

@@ -242,6 +242,7 @@ export function PersonNode({
                     ellisisland: "bg-red-700",
                     uruguay: "bg-pink-700",
                     pares: "bg-indigo-700",
+                    galiciana: "bg-amber-700",
                   }[person.source] ?? "bg-slate-500"
                 }`}
               >
@@ -254,6 +255,7 @@ export function PersonNode({
                   ellisisland: "Ellis Is.",
                   uruguay: "Uruguay",
                   pares: "PARES",
+                  galiciana: "Galiciana",
                 }[person.source] ?? "?"}
               </div>
             )}
