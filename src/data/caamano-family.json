@@ -5181,6 +5181,202 @@
       ],
       "migrations": [],
       "source": "galiciana"
+    },
+    {
+      "id": "fs060",
+      "firstName": "Francisco",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1795",
+      "birthPlace": "Abelleira, Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: Arquivo do Reino de Galicia — Real Audiencia de Galicia, Caixa 12625-40, sig. ES.GA.15030.ARG/1.1.1.2.3.1.2.13 (Galiciana id 466686). Pleito 1831: Francisco Caamaño vs. Jacobo Illanes de Albores (escribano) + lic. Juan Antonio Moreira, cura de SAN ESTEBAN DE ABELLEIRA, sobre exceso en ejecución de Real Provisión. CANDIDATO MUY FUERTE a hijo o nieto de Juan Antonio Caamaño × María Antonia Fernández (fs054+fs055, casados 13-mar-1758 Abelleira). Contemporáneo exacto de p001 (~1815) pero vivió/pleiteó en la parroquia ancestral — **muy probable tío o primo hermano de p001**. Generación calculada ~1785-1800 para ser adulto con capacidad legal en 1831. Requiere consulta física de Caixa 12625-40 para confirmar filiación y reconstruir grupo familiar.",
+      "events": [
+        {
+          "type": "lawsuit",
+          "date": "1831",
+          "place": "Real Audiencia de Galicia — Abelleira, Muros, A Coruña"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs061",
+      "firstName": "Baltasar",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1780",
+      "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: Galiciana id 41274 — Real Audiencia de Galicia. Vecino de la Villa de Muros en 1816, junto con Modesto Simón, Juan Antonio de Costa, Roque Malvares (regidor). Muros era la capital del municipio y su vecindad implicaba estatus establecido. Posible tío o tío abuelo de p001. Zona exacta y época correcta para ser pariente de la generación de los padres/abuelos de p001.",
+      "events": [
+        {
+          "type": "residence",
+          "date": "1816",
+          "place": "Villa de Muros, A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs062",
+      "firstName": "Benito",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1770",
+      "birthPlace": "El Rollo, Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: Galiciana id 465954 — Real Audiencia de Galicia 1837. Benito Caamaño, como TUTOR Y CURADOR DE SUS NIETOS, contra Félix Batista, sobre pago de reales. El Rollo es la plaza central de Muros. La tutoría de nietos implica: (a) ya es abuelo en 1837, (b) sus hijos adultos fallecieron (los nietos son huérfanos bajo su tutela). Generación calculada ~1760-1780 para ser abuelo en 1837. POSIBLE ABUELO GENERACIONAL DE p001 si p001 es hijo de un Caamaño fallecido antes de 1837. Pendiente confirmar nombres de los nietos en el documento original.",
+      "events": [
+        {
+          "type": "lawsuit",
+          "date": "1837",
+          "place": "El Rollo, Muros, A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs063",
+      "firstName": "Diego",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1780",
+      "notes": "FUENTE: Galiciana id 466016 — Real Audiencia de Galicia 1807. Diego Caamaño contra Baltasar González Romero (escribano). Posible generación padres de p001. Zona por confirmar.",
+      "events": [
+        {
+          "type": "lawsuit",
+          "date": "1807",
+          "place": "Real Audiencia de Galicia"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs064",
+      "firstName": "Manuel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1790",
+      "notes": "FUENTE: Galiciana id 311968 — Real Audiencia de Galicia 1841. Ramona Martínez Gondar contra Manuel Caamaño y otros, sobre mejor derecho a la herencia de Josefa Coello. Manuel Caamaño 1841 activo en disputa hereditaria — documento puede listar hermanos y padres.",
+      "events": [
+        {
+          "type": "lawsuit",
+          "date": "1841",
+          "place": "Real Audiencia de Galicia"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs065",
+      "firstName": "Agustín",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1795",
+      "notes": "FUENTE: Galiciana ids 464909/464888 — Real Audiencia de Galicia 1834 y 1838. Agustín Caamaño contra José Porrúa sobre nulidad de partija de herencia (1834) y contra Manuel Martínez sobre acreedores de Nicolasa y Josefa Torrado (1838). EL APELLIDO PORRÚA ECHOES la pareja Juan Matías Martínez Porrúa Caamaño (fs051, 1681) — puede ser una partición del mismo patrimonio heredado a través de 5 generaciones. Línea colateral probable.",
+      "events": [
+        {
+          "type": "lawsuit",
+          "date": "1834",
+          "place": "Real Audiencia de Galicia"
+        },
+        {
+          "type": "lawsuit",
+          "date": "1838",
+          "place": "Real Audiencia de Galicia"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs066",
+      "firstName": "Teresa",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthDate": "~1800",
+      "birthPlace": "San Mamed de Carnota, A Coruña, Galicia, España",
+      "notes": "FUENTE: Galiciana id 1508803 — Real Audiencia de Galicia 1839. Teresa Caamaño y consortes contra Juan Benito Chouza, párroco de San Mamed de Carnota, sobre perturbación y despojo. Colectivo Caamaño en Carnota — documento puede revelar red familiar Caamaño en parroquia vecina de Muros.",
+      "events": [
+        {
+          "type": "lawsuit",
+          "date": "1839",
+          "place": "San Mamed de Carnota, A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs067",
+      "firstName": "José",
+      "lastName": "Caamaño Cerero",
+      "gender": "male",
+      "deathDate": "~1757",
+      "notes": "FUENTE: Galiciana id 853425 — Arquivo Municipal da Coruña > Concello da Coruña. Copia del testamento de José Caamaño Cerero, 1751-1757. Testamento del s.XVIII en A Coruña ciudad — posible rama relacionada con la noble ferrolana.",
+      "events": [
+        {
+          "type": "death",
+          "date": "~1757",
+          "place": "A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs068",
+      "firstName": "Antonio Vicente",
+      "lastName": "de Lema Romero Caamaño",
+      "gender": "male",
+      "deathDate": "1758-02-06",
+      "notes": "FUENTE: Galiciana id 377515 — Arquivo da Real Academia Galega > Familia Pardo Bazán. Testamento fechado 6-feb-1758. Apellido compuesto Lema-Romero-Caamaño revela confluencia con casa Pardo Bazán. El fondo Pardo Bazán custodia este testamento — linaje hidalgo documentado.",
+      "events": [
+        {
+          "type": "testament",
+          "date": "1758-02-06",
+          "place": "Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs069",
+      "firstName": "Cosme",
+      "lastName": "de Cantó Varela y Caamaño",
+      "gender": "male",
+      "birthDate": "~1735",
+      "notes": "FUENTE: Galiciana — AHP Pontevedra. ESCRIBANO (notario) con protocolos continuos 1763-1780 (IDs 1701971, 1702608-1702630). Jurisdicción: Mens (Malpica/Bergantiños, costa norte de A Coruña). Dos pleitos en Real Audiencia 1758 (id 1743832) y 1776 (id 1743825). Notario Caamaño — sus protocolos pueden contener escrituras de nuestra familia. Branch colateral noble.",
+      "events": [
+        {
+          "type": "occupation",
+          "date": "1763-1780",
+          "place": "Mens, Malpica, A Coruña, Galicia"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
+    },
+    {
+      "id": "fs070",
+      "firstName": "Benito",
+      "lastName": "Caamaño (escribano)",
+      "gender": "male",
+      "birthDate": "~1775",
+      "notes": "FUENTE: Galiciana — AHP Ourense. Escribano con protocolos 1813-1825 (IDs 1863415-1863450). Posiblemente distinto del Benito Caamaño de El Rollo, Muros 1837 (fs062) — o el mismo reubicado de Muros a Ourense. Pendiente verificar identidad. Sus protocolos 1813-1825 cubren exactamente la ventana de nacimiento de p001.",
+      "events": [
+        {
+          "type": "occupation",
+          "date": "1813-1825",
+          "place": "Ourense, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "galiciana"
     }
   ],
   "families": [
@@ -6526,6 +6722,6 @@
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 31
+    "version": 32
   }
 }
