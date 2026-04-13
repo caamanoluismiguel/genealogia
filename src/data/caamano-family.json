@@ -4755,6 +4755,272 @@
       "events": [],
       "migrations": [],
       "source": "familysearch"
+    },
+    {
+      "id": "fs030",
+      "firstName": "García",
+      "lastName": "de Caamaño y Sotomayor",
+      "gender": "male",
+      "birthDate": "1531",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID 9611-367 (via perfil de su hijo José 9611-9WK). Casado ~1568 Noia con Constanza Romero de Caamaño (fs031). Hijos: Juan (1569), José (1571), Fernando (1573). NO confirmado con documentos primarios en FS (0 sources). Rama noble Noia, probable descendiente del clan García de Caamaño s.XV (h024/h033/h035).",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs031",
+      "firstName": "Constanza",
+      "lastName": "Romero de Caamaño",
+      "gender": "female",
+      "birthDate": "1547",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID 9611-9H4. Esposa de García de Caamaño y Sotomayor (fs030). Endogamia — su apellido incluye ya Caamaño. Matrimonio ~1568 Noia.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs032",
+      "firstName": "Juan",
+      "lastName": "de Caamaño Romero de Caamaño",
+      "gender": "male",
+      "birthDate": "1569",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID K8ZB-DRB. Primogénito de García de Caamaño y Sotomayor + Constanza Romero. Hermano de José (fs033) y Fernando (fs034).",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs033",
+      "firstName": "José",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "1571",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID 9611-9WK. Segundo hijo de García de Caamaño y Sotomayor + Constanza Romero (~1568 Noia). Sin descendencia registrada. 0 sources.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs034",
+      "firstName": "Fernando",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "1573",
+      "birthPlace": "Noia, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID 9611-944. Tercer hijo de García de Caamaño y Sotomayor + Constanza Romero.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs035",
+      "firstName": "Juan Antonio",
+      "lastName": "Caamaño Varela Mendoza Mariño de Goyanes",
+      "gender": "male",
+      "birthDate": "1696",
+      "birthPlace": "La Graña, Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID LH2D-KPH. Patriarca de la rama noble Caamaño Gayoso de Ferrol s.XVIII. Casado en La Graña con María Ventura Gayoso Arias de Lemos Ozores (fs036). 11 hijos documentados. Apellido compuesto revela confluencia de cuatro casas nobiliarias gallegas: Caamaño, Varela, Mendoza, Mariño de Goyanes. Sin conexión directa confirmada con nuestro p001 — rama paralela noble.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs036",
+      "firstName": "María Ventura",
+      "lastName": "Gayoso Arias de Lemos Ozores",
+      "gender": "female",
+      "birthDate": "1695",
+      "birthPlace": "Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID LH2D-KYN. Esposa de Juan Antonio Caamaño Varela (fs035). Apellido compuesto Gayoso-Arias de Lemos-Ozores revela linaje noble luguense (Condes de Lemos). 11 hijos.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs037",
+      "firstName": "Vicente",
+      "lastName": "Caamaño Gayoso Varela",
+      "gender": "male",
+      "birthDate": "1717",
+      "birthPlace": "El Ferrol, A Coruña, Galicia, España",
+      "deathPlace": "Romelle, Lugo, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID LH2D-VDW. Segundo hijo de Juan Antonio Caamaño Varela (fs035) + María Ventura Gayoso (fs036). Casado 1755 en La Graña, Ferrol con María Josefa Pardo Copeiro y Osorio (fs038). 6 hijos documentados. Murió en Romelle (Samos), Lugo — conexión con la residencia familiar lucense.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1755",
+          "place": "La Graña, Ferrol, A Coruña, Galicia, España"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs038",
+      "firstName": "María Josefa",
+      "lastName": "Pardo Copeiro y Osorio",
+      "gender": "female",
+      "birthDate": "1735",
+      "deathDate": "1800",
+      "birthPlace": "Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID LC23-LND. Esposa de Vicente Caamaño Gayoso Varela (fs037). Casada 1755 La Graña. Apellido Pardo-Copeiro-Osorio indica linaje hidalgo gallego. Madre de 6 hijos Caamaño Pardo.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs039",
+      "firstName": "Juan José",
+      "lastName": "Caamaño y Pardo",
+      "gender": "male",
+      "birthDate": "1761-04-25",
+      "birthPlace": "Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID GDJQ-SSR. Hijo de Vicente Caamaño Gayoso (fs037) + María Josefa Pardo Copeiro (fs038). Bautizado 25-abr-1761 Ferrol. Casado con Ramona Pardo de Figueroa y Sarmiento (fs040). 4 hijos: Juana (1800), Rafael (1802-1843), Joaquin (1804-1849), Jose Caamaño Figueroa (1806-1872, Caballero de San Juan).",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs040",
+      "firstName": "Ramona",
+      "lastName": "Pardo de Figueroa y Sarmiento",
+      "gender": "female",
+      "birthDate": "1780",
+      "deathDate": "1838",
+      "notes": "FUENTE: FamilySearch Tree PID LZ5F-43S. Esposa de Juan José Caamaño y Pardo (fs039). Apellido revela linaje hidalgo Pardo de Figueroa (casa Pazo de Figueroa). Madre de 4 hijos.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs041",
+      "firstName": "Juana",
+      "lastName": "Pardo de Figueroa y Caamaño",
+      "gender": "female",
+      "birthDate": "1800",
+      "notes": "FUENTE: FS Tree PID LZ5F-4WM. Primogénita de Juan José Caamaño y Pardo (fs039) + Ramona (fs040).",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs042",
+      "firstName": "Rafael",
+      "lastName": "Caamaño Figueroa",
+      "gender": "male",
+      "birthDate": "1802",
+      "deathDate": "1843",
+      "notes": "FUENTE: FS Tree PID LZ5F-44G. Segundo hijo de Juan José Caamaño y Pardo + Ramona.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs043",
+      "firstName": "Joaquin",
+      "lastName": "Caamaño Figueroa",
+      "gender": "male",
+      "birthDate": "1804",
+      "deathDate": "1849",
+      "notes": "FUENTE: FS Tree PID LZ5F-4CS. Tercer hijo de Juan José Caamaño y Pardo + Ramona.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs044",
+      "firstName": "Jose",
+      "lastName": "Caamaño Figueroa",
+      "gender": "male",
+      "birthDate": "1806",
+      "deathDate": "1872-01-10",
+      "deathPlace": "España",
+      "birthPlace": "Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID LZ5F-4ZD. Cuarto hijo de Juan José Caamaño y Pardo (fs039) + Ramona Pardo de Figueroa (fs040). Ostentaba título nobiliario CABALLERO DE SAN JUAN (orden militar de Malta/San Juan de Jerusalén) — requiere pruebas de nobleza de los 4 abuelos. Sin esposa ni hijos registrados (probable célibe por voto de la orden). NO es p001 José Tomás Caamaño Sr. — distintas biografías: éste vivió y murió en España como noble militar, p001 emigró joven a Colombia. Posible pariente colateral lejano.",
+      "events": [
+        {
+          "type": "title",
+          "date": "siglo XIX",
+          "place": "España",
+          "note": "Caballero de San Juan (Orden de Malta)"
+        }
+      ],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs045",
+      "firstName": "José María",
+      "lastName": "Caamaño Pardo",
+      "gender": "male",
+      "birthDate": "1818",
+      "birthPlace": "Padrón, A Coruña, Galicia, España",
+      "notes": "FUENTE: FamilySearch Tree PID MC7M-4KY. Hijo de Jose Caamaño (fs046) + Manuela Pardo (fs047), sin fechas parentales. Casado con Juana Del Valle (fs048). Hijos: Geraldo Pedro Antonio (1845), Ceferino (1852-1908). NO es p001 — se estableció en Padrón con familia local, no migró. Contemporáneo cercano (n.1818 vs p001 ~1815) pero rama diferente. Padrón está a ~30 km de Porto do Son.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs046",
+      "firstName": "Jose",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthPlace": "Padrón, A Coruña, Galicia, España",
+      "notes": "FUENTE: FS Tree PID MC7M-HJB. Padre de José María Caamaño Pardo (fs045). Sin fechas. Esposa: Manuela Pardo (fs047).",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs047",
+      "firstName": "Manuela",
+      "lastName": "Pardo",
+      "gender": "female",
+      "birthPlace": "Padrón, A Coruña, Galicia, España",
+      "notes": "FUENTE: FS Tree PID MC7M-HV4. Esposa de Jose Caamaño (fs046). Madre de José María Caamaño Pardo (fs045).",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs048",
+      "firstName": "Juana",
+      "lastName": "Del Valle",
+      "gender": "female",
+      "birthDate": "1820",
+      "notes": "FUENTE: FS Tree PID MC7M-42Z. Esposa de José María Caamaño Pardo (fs045). Madre de 2 hijos en Padrón.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs049",
+      "firstName": "Geraldo Pedro Antonio",
+      "lastName": "Caamaño Valle",
+      "gender": "male",
+      "birthDate": "1845",
+      "birthPlace": "Padrón, A Coruña, Galicia, España",
+      "notes": "FUENTE: FS Tree PID MC7M-4K7. Primogénito de José María Caamaño Pardo + Juana Del Valle.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
+    },
+    {
+      "id": "fs050",
+      "firstName": "Ceferino",
+      "lastName": "Caamaño del Valle",
+      "gender": "male",
+      "birthDate": "1852",
+      "deathDate": "1908",
+      "birthPlace": "Padrón, A Coruña, Galicia, España",
+      "notes": "FUENTE: FS Tree PID GCHG-SY1. Segundo hijo de José María Caamaño Pardo + Juana Del Valle.",
+      "events": [],
+      "migrations": [],
+      "source": "familysearch"
     }
   ],
   "families": [
@@ -5995,10 +6261,82 @@
         "fs023"
       ],
       "marriagePlace": "Rioviejo, Bolívar, Colombia (sin matrimonio — hija natural)"
+    },
+    {
+      "id": "fsf12",
+      "parents": [
+        "fs030",
+        "fs031"
+      ],
+      "children": [
+        "fs032",
+        "fs033",
+        "fs034"
+      ],
+      "marriagePlace": "Noia, A Coruña, Galicia, España (~1568)"
+    },
+    {
+      "id": "fsf13",
+      "parents": [
+        "fs035",
+        "fs036"
+      ],
+      "children": [
+        "fs037"
+      ],
+      "marriagePlace": "La Graña, Ferrol, A Coruña, Galicia, España"
+    },
+    {
+      "id": "fsf14",
+      "parents": [
+        "fs037",
+        "fs038"
+      ],
+      "children": [
+        "fs039"
+      ],
+      "marriagePlace": "La Graña, Ferrol, A Coruña, Galicia, España (1755)"
+    },
+    {
+      "id": "fsf15",
+      "parents": [
+        "fs039",
+        "fs040"
+      ],
+      "children": [
+        "fs041",
+        "fs042",
+        "fs043",
+        "fs044"
+      ],
+      "marriagePlace": "Ferrol, A Coruña, Galicia, España"
+    },
+    {
+      "id": "fsf16",
+      "parents": [
+        "fs046",
+        "fs047"
+      ],
+      "children": [
+        "fs045"
+      ],
+      "marriagePlace": "Padrón, A Coruña, Galicia, España"
+    },
+    {
+      "id": "fsf17",
+      "parents": [
+        "fs045",
+        "fs048"
+      ],
+      "children": [
+        "fs049",
+        "fs050"
+      ],
+      "marriagePlace": "Padrón, A Coruña, Galicia, España"
     }
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 28
+    "version": 29
   }
 }
