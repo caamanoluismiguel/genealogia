@@ -40,3 +40,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .mcp.json
+
+# Heavy research artifacts (scraped PDFs, images, HTML fetches)
+research/pares-6092354/images/
+research/pares-6092354/cookies.txt
+research/depo-familia-caamano/records/
+research/depo-familia-caamano/*.tsv
+research/depo-familia-caamano/*.json
+research/depo-familia-caamano/*.pdf
+

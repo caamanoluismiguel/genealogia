@@ -1962,9 +1962,9 @@
     {
       "id": "gap001",
       "firstName": "⚠ BRECHA",
-      "lastName": "GENEALÓGICA",
+      "lastName": "GENEALÓGICA (PROOF GAP)",
       "gender": "unknown",
-      "notes": "CONEXIÓN NO VERIFICADA. Entre la línea documentada medieval (García Carraffa, hasta ~1700s) y José Tomás Caamaño (emigrante a Colombia, ~1850s). Se necesita investigar: registros parroquiales de Santa María de Caamaño (Porto do Son) en FamilySearch, partida de bautismo de José Tomás, registros de emigración en PARES. La parroquia de Caamaño está en la Comarca de Noya — misma zona que la fortaleza ancestral de Castro Caamaño.",
+      "notes": "CONEXIÓN ESPECULATIVA PENDIENTE DE PRUEBA SACRAMENTAL. Entre la línea documentada medieval (García Carraffa, hasta h019 'El Alto' d.1540) y José Tomás Caamaño Sr (p001, emigrante a Colombia, n.~1815). ACTUALIZACIÓN 2026-04-13: PARES 6092354 (Comprobaciones del Catastro de Ensenada, ~1760) documentó 13 Caamaños viviendo en la propia Feligresía de Santa María de Caamaño — ver pa001 a pa013. CANDIDATO PRINCIPAL a ancestro directo: pa005 FRANCISCO DE LOS SANTOS THOMÁS DE CAAMAÑO (~1725), por coincidencia del nombre Thomás con el patronímico del patriarca colombiano. Hipótesis: Francisco (~1725) → [hijo no identificado] (~1755) → Pablo Caamaño Villa fs003 (1802, Palmeira) o directamente → José Tomás Sr p001 (~1815). Brecha 2 (1760→1815) reducida a un solo eslabón sacramental pendiente. Brecha 1 (1540→1700) sin cambios. Acciones pendientes: ARG (Respuestas Particulares originales), AHPA (protocolos notariales Noia 1740-1780 para los canteros Pedro y Andrés Caamaño pa010/pa011), Geneanet larapat (contactar por Pedro Bazarra Caamaño gn007), visita presencial AHDS con lista priorizada.",
       "events": [],
       "migrations": [],
       "source": "gap"
@@ -3212,6 +3212,1029 @@
         }
       ],
       "migrations": []
+    },
+    {
+      "id": "pa001",
+      "source": "pares",
+      "firstName": "Manuel",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1700",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 (Comprobaciones del Catastro de Ensenada), folios 0015 y 0031 (~1760). Tratamiento 'Don' = hidalgo/rango. Primer declarante del índice alfabético de hacendados de la parroquia y primer declarante de la relación de bienes. Probable mayor propietario Caamaño de la feligresía hacia 1760. Confianza: ALTA. Candidato a rama hidalga residual del solar ancestral.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa002",
+      "source": "pares",
+      "firstName": "Bernardo",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1710",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0039 (~1760). Literal: 'Bernardo de Caamaño lo 6.tt.º Casado de cinquenta años tiene en su compañia tres hijos menores de diez y ocho'. Vecino cabeza de casa, casado, ~50 años en 1760 → nacido ~1710. Padre de 3 hijos menores de 18 (no nombrados) → hijos nacidos ~1742-1760. Confianza: ALTA. Ancla cronológica clave del catastro.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa003",
+      "source": "pares",
+      "firstName": "Santos",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1690",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0282 (~1760). Propietario de tierras de primera calidad en zona Cermo/Carreira. Probable patriarca del linaje 'de los Santos de Caamaño' (antecesor de pa004 Juan y pa005 Francisco Thomás, que usan 'de los Santos' como sintagma de rama/solar). Confianza: ALTA. Candidato a tronco del clúster familiar más prometedor.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa004",
+      "source": "pares",
+      "firstName": "Juan de los Santos",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1720",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0273 (~1760, fol. 100 del tomo). Vecino declarante cabeza de casa. Posee casas, tierras y ganado en la parroquia. El sintagma 'de los Santos' antepuesto al apellido en uso gallego del XVIII indica rama/solar. Probable hermano o primo hermano de pa005 Francisco de los Santos Thomás de Caamaño (ambos contemporáneos, ambos con el mismo sintagma). Confianza: ALTA.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa005",
+      "source": "pares",
+      "firstName": "Francisco de los Santos Thomás",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1725",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ HALLAZGO CLAVE ⭐ FUENTE: PARES 6092354 folio 0282 (~1760). Propietario lindero de tierras de primera calidad en zona Cermo/Carreira. CONTIENE EL NOMBRE 'THOMÁS' que coincide con el patronímico del patriarca colombiano José Tomás Caamaño Sr (p001, n.~1815). En Galicia los nombres de pila se transmiten nieto→abuelo con alta frecuencia. 2-3 generaciones entre Francisco (~1725-1760) y José Tomás Sr (n.~1810-1815) = padre/tío-abuelo/bisabuelo PLAUSIBLE. HIPÓTESIS ESPECULATIVA: candidato #1 a ancestro directo de p001 vía Pablo Caamaño Villa (fs003) o directamente. Confianza transcripción: ALTA. Confianza conexión especulativa: MEDIA-ALTA por coincidencia onomástica + lugar + cronología. REQUIERE PRUEBA SACRAMENTAL (AHDS, libros bautismales de Sta Mª de Caamaño ~1760-1820).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa006",
+      "source": "pares",
+      "firstName": "Magdalena",
+      "lastName": "de Caamaño",
+      "gender": "female",
+      "birthDate": "~1720",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0282 (~1760). Literal: 'Magdalena de Caamaño Nuestra Madre Dueña' — el honorífico 'Nuestra Madre Dueña' sugiere monja o benefactora religiosa. Propietaria lindera en zona Cermo. Confianza: MEDIA (ambigüedad entre apellido y posible topónimo).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa007",
+      "source": "pares",
+      "firstName": "José",
+      "lastName": "Barcala Caamaño",
+      "gender": "male",
+      "birthDate": "~1720",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0286 (~1760). Propietario de casa en el propio lugar de Caamaño, frontera de la casa de Juan Paz. Doble apellido Barcala+Caamaño sugiere matrimonio: padre Barcala, madre Caamaño (por costumbre gallega de anteponer solar). Rama materna Caamaño documentada. Confianza: ALTA.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa008",
+      "source": "pares",
+      "firstName": "Sebastián",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1715",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0154 (~1760). Literal: 'Sebastian Caamaño labrador vecino de esta feligresia casado con Rosa de Tuor' (apellido de esposa dudoso: posible Tourís, Touro, Touza). Labrador, cabeza de casa. Confianza: MEDIA.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa009",
+      "source": "pares",
+      "firstName": "Rosa",
+      "lastName": "de Tourís",
+      "maidenName": "de Tourís",
+      "gender": "female",
+      "birthDate": "~1720",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0154 (~1760). Esposa de Sebastián Caamaño (pa008). Apellido transcrito como 'Tuor' en el original, interpretado como Tourís (apellido común en la zona). Confianza: MEDIA.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa010",
+      "source": "pares",
+      "firstName": "Pedro",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1720",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ FUENTE: PARES 6092354 folio 0421 (fol. 174v, ~1760). Listado bajo el epígrafe 'Canteros' de la parroquia. OFICIO: CANTERO. **CASI SEGURAMENTE = gn007 Pedro Bazarra Caamaño (1712-1767)** según cross-ref triple con Geneanet + Depo fondo 1.193/4 (2026-04-13): las tres fuentes convergen en un único Pedro Caamaño de Porto do Son nacido ~1712-1720, casado con María Rodríguez/Ignacia Rodríguez Patiño, muerto 1767, cuya viuda litigó en 1794. Si confirmado, este pa010 es un registro duplicado de gn007 desde distinta fuente.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa011",
+      "source": "pares",
+      "firstName": "Andrés",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1722",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ FUENTE: PARES 6092354 folio 0421 (fol. 174v, ~1760). Listado consecutivamente a Pedro Caamaño bajo el epígrafe 'Canteros'. OFICIO: CANTERO. Probable hermano o hijo de pa010 Pedro Caamaño. Mismo perfil de búsqueda en protocolos notariales de Noia/Muros. Confianza: ALTA.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa012",
+      "source": "pares",
+      "firstName": "Pedro García",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1715",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0390 (fol. 158v, ~1760). Declarante/testigo, aparece junto a Dña. Teresa de Lucinga. Doble apellido García+Caamaño. Confianza: MEDIA (posible lectura alternativa 'García vecino de Caamaño').",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa013",
+      "source": "pares",
+      "firstName": "Teresa",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthDate": "~1710",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: PARES 6092354 folio 0398 (fol. 162v, ~1760). Literal: 'la referida Dn. Thereza Caamaño'. Tratamiento 'Doña' = hidalga. Compareciente/propietaria. Posible vínculo con Dn. Domingo de Luaces mencionado en línea siguiente. Confianza: MEDIA-BAJA (transcripción del segundo término dudosa).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn007",
+      "source": "geneanet",
+      "firstName": "Pedro",
+      "lastName": "Bazarra Caamaño",
+      "gender": "male",
+      "birthDate": "1712",
+      "deathDate": "1767-06-12",
+      "birthPlace": "A Pobra do Caramiñal (La Puebla), A Coruña, Galicia, España",
+      "deathPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐⭐ FICHA COMPLETA (Geneanet larapat, verificada 2026-04-13). Nacido 1712 A Pobra do Caramiñal (parroquia vecina a Porto do Son, al otro lado de la ría). Fallecido viernes 12-jun-1767 en Porto do Son, 55 años. Enterrado: **Cementerio de la Parroquia de San Vicente de Noal** (parroquia del concello de Porto do Son). Nacionalidad: española. **Padres: gn030 Jacome Fidalgo de Huya + gn031 Bernarda de Luces Bazarra.** Apellido 'Caamaño' heredado vía línea materna (Bernarda de Luces BAZARRA) → probable descendiente de la hidalga **'de Luces Caamaño y Sotomayor'** (Doña Jacinta †1705 Muros, documentada en Depo fondo signatura 1.185/31-34 y otras). **ESTO CONECTA LA LÍNEA HIDALGA DE RUBIANES/ROMELLE CON LA RAMA DE PORTO DO SON.** Casado miércoles 23-abr-1738 en Porto do Son con pa014 María Ignacia Rodríguez Patiño (1716-1797). **5 hijos documentados:** Luisa Agustina (1751-1828, gn028), María Juana (1754, gn032), Juan Manuel (gn026), Ángela (gn033), Ignacia (gn034). **FUENTE PRIMARIA AHDS:** Libro de matrimonios 1663-1745, **folio 113** (cita en larapat). **CROSS-REF:** casi seguramente = pa010 Pedro Caamaño cantero del Catastro 1760 = el Pedro Caamaño difunto del pleito Depo 1.193/4 (1794).",
+      "events": [
+        {
+          "type": "baptism",
+          "date": "1712",
+          "place": "A Pobra do Caramiñal, A Coruña, Galicia, España"
+        },
+        {
+          "type": "marriage",
+          "date": "1738-04-23",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Matrimonio con María Ignacia Rodríguez Patiño. Fuente: AHDS Libro matrimonios 1663-1745, folio 113"
+        },
+        {
+          "type": "death",
+          "date": "1767-06-12",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Fallecido a los 55 años, viernes"
+        },
+        {
+          "type": "custom",
+          "date": "1767",
+          "place": "Cementerio Parroquial de San Vicente de Noal, Porto do Son, A Coruña, Galicia, España",
+          "description": "Enterramiento"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h022",
+      "source": "historical",
+      "firstName": "García Rodríguez",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1500",
+      "birthPlace": "Rubianes, Villagarcía de Arousa, Pontevedra, España",
+      "notes": "⭐ FUENTE: Arquivo da Deputación de Pontevedra, fondo FAMILIA CAAMAÑO, signatura 1.195/10 (1797, copia de escritura original de 1534). Literal: 'Extracto de escritura de mellora outorgada por García Caamaño de Rubianes, marido de Constanza Sánchez Guillelme de Bendaña, a favor do seu fillo García Rodríguez de Caamaño'. HIJO MAYOR y HEREDERO PRINCIPAL de h019 García 'El Alto' + h020 Constanza Sánchez. Casado con h023 Margarita de Montoto (signatura 1.195/11, escritura de arras 1534). Extiende la línea noble una generación hacia adelante desde h019.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h023",
+      "source": "historical",
+      "firstName": "Margarita",
+      "lastName": "de Montoto",
+      "maidenName": "de Montoto",
+      "gender": "female",
+      "birthDate": "~1510",
+      "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/11 (1797, copia escritura de arras 1534). Esposa de h022 García Rodríguez de Caamaño (hijo mayor de h019 'El Alto'). Recibió arras de su suegro García de Rubianes 'El Alto'. Nuera identificada de h019.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h024",
+      "source": "historical",
+      "firstName": "García",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1450",
+      "deathDate": "~1478",
+      "birthPlace": "Galicia, España",
+      "deathPlace": "Caldas de Reis, Pontevedra, Galicia, España",
+      "notes": "⭐ FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/15 (1797, extracto de testamento original de 1478). Literal: 'Extracto do testamento que outorgou García de Caamaño, marido de Inés de Mendoza, no ano 1478'. Notario: Juan Goldriño. PADRE/ABUELO de h019 García 'El Alto' (d.1540). Extiende la línea noble UNA GENERACIÓN HACIA ATRÁS desde h019 — el hallazgo más antiguo del fondo de Pontevedra vinculado a la línea troncal.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h025",
+      "source": "historical",
+      "firstName": "Inés",
+      "lastName": "de Mendoza",
+      "maidenName": "de Mendoza",
+      "gender": "female",
+      "birthDate": "~1455",
+      "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/15 (test. 1478). Esposa de h024 García de Caamaño. Madre/abuela de h019 'El Alto'. El apellido Mendoza en esta generación sugiere vínculo temprano con la Casa de Mendoza (la nieta de h019, Constanza Sánchez de Bendaña, también aporta Guillelmes).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h026",
+      "source": "historical",
+      "firstName": "Antonio",
+      "lastName": "de Caamaño Ribadeneira",
+      "gender": "male",
+      "deathDate": "1657",
+      "birthPlace": "Rubiáns / Romelle, Galicia, España",
+      "notes": "⭐ BISAGRA DOCUMENTAL RUBIANES ↔ ROMELLE. FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.272/x (testamento original 1657) + 1.199/1 (traslado de bienes). Rector (párroco) de Santa María de Rubiáns. Por testamento de 1657 dispuso que sus bienes pasaran a la Casa de Romelle. Su testamento EXPLICA por qué el fondo de la Casa de Romelle (conservado en Pontevedra, 3.577 expedientes) contiene tanto material de Rubianes — y por qué los Caamaño de Romelle son colaterales DIRECTOS de la rama troncal h017-h021. Punto de unión documental de las dos ramas.",
+      "events": [
+        {
+          "type": "death",
+          "date": "1657",
+          "description": "Testó disponiendo traspaso de bienes a Casa de Romelle"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "h027",
+      "source": "historical",
+      "firstName": "Juan Prego",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1520",
+      "deathDate": "~1585",
+      "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐ FUENTE: Depo fondo FAMILIA CAAMAÑO, signaturas 1.213/14 (pleito 1666) + 1.299/16 (copia 1797 del testamento original de 1585). Primer presentador conocido del beneficio curado de la Feligresía de Santa María de Caamaño en 1564 (dato del pleito 1666). Su testamento de 1585 existe y pendiente de reproducción digital — debería nombrar padres, esposa e hijos. Vivió y ejerció en la PARROQUIA ANCESTRAL exacta donde nació p001. Candidato directo a nieto/biznieto de h019. Cadena documentada de presentadores del beneficio parroquial 1564-1666: Juan Prego de Caamaño → García Caamaño → otro García de Caamaño → Fernando Romay → Diego Romay.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h028",
+      "source": "historical",
+      "firstName": "Alberta",
+      "lastName": "de Caamaño",
+      "gender": "female",
+      "birthDate": "~1500",
+      "deathDate": "~1569",
+      "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.292/12 (1797, copia del testamento original de 1569). PRIMER TESTAMENTO CAAMAÑO FEMENINO DEL SIGLO XVI localizado. Contemporánea de la generación inmediatamente posterior a h019 (d.1540) — posible hija, sobrina o nieta del patriarca. Nombre nuevo no documentado en otras fuentes hasta Fase 5 del scrape del fondo de Pontevedra.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h029",
+      "source": "historical",
+      "firstName": "Álvaro",
+      "lastName": "de Caamaño y Ribadeneira",
+      "gender": "male",
+      "birthDate": "1541",
+      "birthPlace": "Romelle, Zas, A Coruña, Galicia, España",
+      "deathPlace": "Vimianzo, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (múltiples árboles: ambern1, fedegrifo, guanape1957, skywardpictures, jlare1). Nacido 1541 en Romelle. Casado con Jerónima de Ulloa y Taboada (1607). Fundador/patriarca documentado de la Casa de Romelle (Zas). Su hija Bernarda Caamaño Taboada Ribadeneira Ulloa (h030, n.1618) se casó en 1642 con Antonio Bermúdez de Castro, conectando con el linaje Bermúdez. Nacido el mismo año (1541) de la muerte del 'El Alto' (h019, 1540) — cronológicamente podría ser su sobrino o biznieto.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h030",
+      "source": "historical",
+      "firstName": "Bernarda",
+      "lastName": "de Caamaño Taboada y Ribadeneira Ulloa",
+      "maidenName": "de Caamaño Taboada y Ribadeneira Ulloa",
+      "gender": "female",
+      "birthDate": "1618",
+      "birthPlace": "Romelle, Zas, A Coruña, Galicia, España",
+      "deathPlace": "Vimianzo, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (múltiples árboles: samuelsotillo, pabonilla, skywardpictures, guanape1957, labraira, gbodu, cristinoconde, nicubano, pcagle72, tazntampa, ambern1). Hija de h029 Álvaro de Caamaño y Ribadeneira. Casada 1642 con Antonio Bermúdez de Castro y del Mercado. Conexión Caamaño-Bermúdez de Castro crítica: sus descendientes emigraron a Cumaná, Venezuela. Un apellido compuesto que aparece en 11 árboles independientes = ancestro común muy extendido en Geneanet.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h031",
+      "source": "historical",
+      "firstName": "Juan",
+      "lastName": "de Caamaño Ulloa",
+      "gender": "male",
+      "birthDate": "1616",
+      "birthPlace": "Romelle, Zas, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet (árboles fedegrifo, ambern1, skywardpictures). Hijo de h029 Álvaro de Caamaño y Ribadeneira + Jerónima de Ulloa. Hermano de h030 Bernarda. Casado con Leonor de Mendoza y Mariño (1635). Generación clave Romelle XVII.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h032",
+      "source": "historical",
+      "firstName": "Rodrigo",
+      "lastName": "de Caamaño de Mendoza y Sotomayor",
+      "gender": "male",
+      "birthDate": "1553",
+      "deathDate": "1601",
+      "birthPlace": "Vilagarcía de Arousa, Pontevedra, España",
+      "notes": "FUENTE: Geneanet (árbol arousa73). Casado con Urraca de Mendoza de Sotomayor y Osorio. Rama Villagarcía/Vista Alegre — antepasado del linaje que culmina en h021 Antonio José de Mendoza Caamaño Sotomayor, Virrey del Perú (1667-1746). Nieto en línea paterna de h019 'El Alto' según reconstrucción del linaje de Rubianes.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa014",
+      "source": "pares",
+      "firstName": "María Ignacia",
+      "lastName": "Rodríguez Patiño",
+      "maidenName": "Rodríguez Patiño",
+      "gender": "female",
+      "birthDate": "1716",
+      "deathDate": "1797",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐⭐ TRIPLE CONFIRMACIÓN (2026-04-13). Identidad completa obtenida de Geneanet árbol 'larapat'. Casada 1738 con gn007 Pedro Bazarra Caamaño (1712-1767). Madre de gn026 Juan Manuel Bazarra Rodríguez y gn028 Luisa Agustina Bazarra Rodríguez Patiño (1751-1828). **FUENTE 1 (Depo):** signatura 1.193/4 (pleito 1794) — literal 'Preito de Vicente Caamaño con María Rodríguez, viúva de Pedro Caamaño, polo non pagamento das rendas do lugar de Orons'. Viuda 27 años después de Pedro (†1767). Muerta 3 años después del pleito. **FUENTE 2 (Geneanet):** ficha confirmada con nombre completo, fecha de matrimonio 1738 y descendencia directa. Cross-ref con pa010 Pedro Caamaño cantero del Catastro 1760.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1738",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Matrimonio con Pedro Bazarra Caamaño"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn008",
+      "source": "geneanet",
+      "firstName": "Alejandro",
+      "lastName": "Bazarra Caamaño",
+      "gender": "male",
+      "birthDate": "1895",
+      "deathDate": "1970",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "deathPlace": "Avellaneda, Buenos Aires, Argentina",
+      "notes": "⭐ FUENTE: Geneanet árbol 'larapat' (Patrice Lara). Hijo de gn019 Alejandro Bazarra Lado (†1919) + gn018 [privada] Caamaño Romero. Nieto materno de gn016 Manuel Caamaño + gn017 Socorro Romero (Porto do Son, ~1830-1900). Hermano menor de gn022 María Bazarra Caamaño (1886) y gn009 Manuela Bazarra Caamaño (1894). Emigró a Avellaneda (Buenos Aires). Confirma el linaje Bazarra-Caamaño Porto do Son 1712→1970 (~270 años).",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Porto do Son, A Coruña, Galicia, España",
+          "to": "Avellaneda, Buenos Aires, Argentina",
+          "reason": "Emigración gallega a Argentina (olas 1900-1930)"
+        }
+      ]
+    },
+    {
+      "id": "gn009",
+      "source": "geneanet",
+      "firstName": "Manuela",
+      "lastName": "Bazarra Caamaño",
+      "gender": "female",
+      "birthDate": "1894",
+      "deathDate": "1981",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "deathPlace": "Avellaneda, Buenos Aires, Argentina",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn019 Alejandro Bazarra Lado + gn018 [privada] Caamaño Romero. Nieta materna de gn016 Manuel Caamaño + gn017 Socorro Romero. Hermana de gn022 María (1886) y gn008 Alejandro (1895). Emigró a Avellaneda.",
+      "events": [],
+      "migrations": [
+        {
+          "from": "Porto do Son, A Coruña, Galicia, España",
+          "to": "Avellaneda, Buenos Aires, Argentina",
+          "reason": "Emigración gallega a Argentina"
+        }
+      ]
+    },
+    {
+      "id": "gn010",
+      "source": "geneanet",
+      "firstName": "Jacobo",
+      "lastName": "Caamaño Malvarez",
+      "gender": "male",
+      "birthDate": "~1770",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐⭐ FUENTE: Geneanet árbol 'larapat' (Patrice LARA, ficha verificada 2026-04-13). Casado el 4-NOV-1798 en **PORTO DO SON** con h011 Josefa Cernadas Yáñez. UBICACIÓN EN PORTO DO SON CONFIRMADA = parroquia exacta donde nació p001 José Tomás Caamaño Sr (~1815). Padre de Joaquina, María Josefa y Vicente Caamaño Cernadas. Abuelo de Rosa Manuela Alvite Caamaño (casada 1878 también en Porto do Son, ver gn015). Su boda en 1798 lo sitúa en la generación inmediatamente anterior al patriarca colombiano. **CANDIDATO DIRECTO a padre, tío o abuelo de p001**. Requiere contacto con 'larapat' para obtener padres de Jacobo y cerrar Brecha 2 definitivamente.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1798-11-04",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Matrimonio con Josefa Cernadas Yáñez (confirmado Geneanet larapat)"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn011",
+      "source": "geneanet",
+      "firstName": "Josefa",
+      "lastName": "Cernadas Yáñez",
+      "maidenName": "Cernadas Yáñez",
+      "gender": "female",
+      "birthDate": "~1775",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Esposa de gn010 Jacobo Caamaño Malvarez desde 4-NOV-1798 en Porto do Son. Madre de los hermanos Caamaño Cernadas (gn012-gn014). Abuela de Rosa Manuela Alvite Caamaño (gn015).",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1798-11-04",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Matrimonio con Jacobo Caamaño Malvarez"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn012",
+      "source": "geneanet",
+      "firstName": "Joaquina",
+      "lastName": "Caamaño Cernadas",
+      "gender": "female",
+      "birthDate": "~1800",
+      "notes": "FUENTE: Geneanet. Hija de gn010 Jacobo Caamaño Malvarez + gn011 Josefa Cernadas Yáñez (m.1798). Casada con José Calderón. Generación exactamente contemporánea a p001 José Tomás Caamaño Sr.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn013",
+      "source": "geneanet",
+      "firstName": "María Josefa",
+      "lastName": "Caamaño Cernadas",
+      "gender": "female",
+      "birthDate": "~1802",
+      "notes": "FUENTE: Geneanet. Hija de gn010 + gn011. Casada con Joaquín Alvite Sobrido. Hermana de gn012 y gn014.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn014",
+      "source": "geneanet",
+      "firstName": "Vicente",
+      "lastName": "Caamaño Cernadas",
+      "gender": "male",
+      "birthDate": "~1805",
+      "notes": "FUENTE: Geneanet. Hijo de gn010 Jacobo Caamaño Malvarez + gn011 Josefa Cernadas Yáñez (m.1798). Casado con Juana Romero Sieira. Generación exactamente contemporánea a p001 José Tomás Caamaño Sr — ambos Vicente y José Tomás nacidos ~1800-1815.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h033",
+      "source": "historical",
+      "firstName": "García",
+      "lastName": "de Caamaño Escudero",
+      "gender": "male",
+      "birthDate": "~1480",
+      "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/2 (1797, extracto de testamento). Casado con h034 Marina Pérez. Apellido 'Escudero' indica estatus de escudero (hidalgo menor). Generación contemporánea o ligeramente anterior a h019 García 'El Alto' (d.1540). Los testamentos Garcías del legajo 1.195 apuntan a una red de parientes (hermanos, primos, tíos) todos llamados García de Caamaño en la franja 1478-1540. Candidato a hermano o primo hermano de h024.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h034",
+      "source": "historical",
+      "firstName": "Marina",
+      "lastName": "Pérez",
+      "maidenName": "Pérez",
+      "gender": "female",
+      "birthDate": "~1485",
+      "notes": "FUENTE: Depo signatura 1.195/2. Esposa de h033 García de Caamaño Escudero.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h035",
+      "source": "historical",
+      "firstName": "García",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1470",
+      "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/25 (1797, extracto testamento). Casado con h036 Doña Juana Villamarín. Escribano del testamento original: 'Benito' (apellido no identificado). Tercer García de Caamaño documentado en el legajo 1.195 junto a h024 (+Inés de Mendoza, 1478) y h033 (+Marina Pérez). Todos comparten generación aproximada 1470-1540 y son pieza de la red familiar que culmina en h019 'El Alto'.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h036",
+      "source": "historical",
+      "firstName": "Juana",
+      "lastName": "Villamarín",
+      "maidenName": "Villamarín",
+      "gender": "female",
+      "birthDate": "~1475",
+      "notes": "FUENTE: Depo signatura 1.195/25. Esposa de h035 García de Caamaño. Apellido Villamarín = linaje noble gallego documentado en Rianxo (Aldonza de Figueroa y Villamarín aparece en Depo 1.304/10, 1603).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h037",
+      "source": "historical",
+      "firstName": "Jorge Vázquez",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1505",
+      "deathDate": "~1560",
+      "notes": "FUENTE: Depo fondo, signaturas 1.194/6 (1643), 1.194/9, 1.237/3 (17 menciones). Generación XVI. Casado con Aldonza Ribadeneira (nombre repetido en la línea — hay una Aldonza Ribadeneira también en 1643 como madre de otro Jorge Vázquez Caamaño posterior). Vinculo Caamaño-Vázquez documentado en la Casa de Romelle temprano.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h038",
+      "source": "historical",
+      "firstName": "Juan Vázquez",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1540",
+      "deathDate": "~1585",
+      "notes": "FUENTE: Depo fondo, signaturas 1.189/24, 1.190/18, 1.194/2 (31 menciones, fechas 1576-1581). Generación posterior a h037. Posible hijo de h037 Jorge Vázquez de Caamaño. Vinculación explícita Caamaño-Vázquez en Casa de Romelle XVI.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h039",
+      "source": "historical",
+      "firstName": "Antonio",
+      "lastName": "de Caamaño y Quintana",
+      "gender": "male",
+      "birthDate": "~1640",
+      "deathDate": "~1702",
+      "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signaturas 1.189/30, 1.209/2, 1.223/3, 1.190/20, 1.209/8, 1.211/4 (46-32 menciones, fechas 1652-1702). Casa de Romelle en el XVII. Hizo testamento en 1700/1702 (citado en Fase 4). Contemporáneo a Antonio Caamaño Ribadeneira (h026, †1657) — posible sobrino o sucesor en la Casa de Romelle tras el traspaso de bienes.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h040",
+      "source": "historical",
+      "firstName": "Jorge",
+      "lastName": "de Caamaño",
+      "gender": "male",
+      "birthDate": "~1610",
+      "notes": "FUENTE: Depo signaturas 1.194/6 (1643), 1.218/6, 1.218/8, 1.190/20 (9 menciones). Casado con Aldonza Ribadeneira (primera mención de esta pareja: 1643). Abuelo o bisabuelo de Jorge Vázquez Caamaño del bautismo 1799 (Depo 1.270/24, 1.270/22) casado con otra Aldonza Ribadeneira (homónima o misma familia).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h041",
+      "source": "historical",
+      "firstName": "Vicente",
+      "lastName": "Caamaño Gayoso",
+      "gender": "male",
+      "birthDate": "1723",
+      "birthPlace": "El Ferrol, La Coruña, Galicia, España",
+      "deathPlace": "Romelle, Zas, A Coruña, Galicia, España",
+      "notes": "FUENTE: Depo + Geneanet (árbol seixalbo). Nacido 1723 en El Ferrol. Casado 1760 con María Josefa Pardo Copeiro (h042). Padre de la prole Caamaño y Pardo: Juan José (h043, 1761-1819), Rafael (h044, 1762-1849), José Frutos (1772), Vicente (1775), Joaquín, Antonia. Dueño de los morgados del Pazo de Orellán (Zas) por real ejecutoria 1790 (Depo 1.277/3). CABEZA DE LA CASA DE ROMELLE EN EL XVIII. Jurisdicción sobre las islas de Sálvora, Vionta y Noro (Depo 1.229/13, 1773).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h042",
+      "source": "historical",
+      "firstName": "María Josefa",
+      "lastName": "Pardo Copeiro",
+      "maidenName": "Pardo Copeiro",
+      "gender": "female",
+      "birthDate": "~1730",
+      "notes": "FUENTE: Depo + Geneanet. Esposa de h041 Vicente Caamaño Gayoso desde 1760. Madre de la prole Caamaño y Pardo. Aporta a la línea los apellidos Pardo + Copeiro.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h043",
+      "source": "historical",
+      "firstName": "Juan José",
+      "lastName": "de Caamaño y Pardo",
+      "gender": "male",
+      "birthDate": "1761",
+      "deathDate": "1819",
+      "birthPlace": "El Ferrol, La Coruña, Galicia, España",
+      "deathPlace": "Santiago de Compostela, La Coruña, Galicia, España",
+      "notes": "⭐ FUENTE: Depo fondo FAMILIA CAAMAÑO + Geneanet (árboles seixalbo, mimonero, breogan, jmfigueroa). Nacido 1761 Ferrol, †1819 Santiago. Hijo primogénito de h041 Vicente Caamaño Gayoso + h042 Josefa Pardo Copeiro. Casado con Ramona Escolástica Pardo de Figueroa Correa y Sarmiento. Partida de bautismo en Depo 1.196/14 y subserie bautismal 1.213. Heredero de la Casa de Romelle. Llevaba el archivo familiar que pasó a la Casa de Romelle. Gran parte del fondo FE10 Caamaño del Arquivo de Pontevedra proviene de su archivo personal.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h044",
+      "source": "historical",
+      "firstName": "Rafael",
+      "lastName": "de Caamaño y Pardo",
+      "gender": "male",
+      "birthDate": "1762",
+      "deathDate": "1849",
+      "birthPlace": "El Ferrol, La Coruña, Galicia, España",
+      "deathPlace": "Ferrol, La Coruña, Galicia, España",
+      "notes": "FUENTE: Depo + Geneanet (110 menciones en el fondo, árbol mimonero). Hermano de h043 Juan José. Casado con Felipa Carbonell. Sucesor Casa Romelle tras Juan José. Ramona Caamaño Carbonell (en Depo, bautismo 1825) es su hija. Mencionado en Depo 1.186/50, 1.178/14, y muchas más con fechas 1768-1850.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h045",
+      "source": "historical",
+      "firstName": "Juan Antonio",
+      "lastName": "Caamaño y Varela",
+      "gender": "male",
+      "birthDate": "~1680",
+      "notes": "FUENTE: Depo fondo, signaturas 1.202/15, 1.208/8, 1.213/41 + bautismo 1.270/27 (1724). Casado con María Ventura Gayoso. Padre de Fernando Antonio Caamaño y Gayoso (1724), Jorge Caamaño y Gayoso, Vicente Caamaño y Gayoso. Nexo generacional entre los Caamaño Varela del XVII tardío y los Caamaño Gayoso del XVIII (incluye a h041 Vicente). Posible padre o tío de h041.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h046",
+      "source": "historical",
+      "firstName": "María Ventura",
+      "lastName": "Gayoso",
+      "maidenName": "Gayoso",
+      "gender": "female",
+      "birthDate": "~1690",
+      "notes": "FUENTE: Depo signaturas 1.270/27 (1724), 1.270/29 (1737-1752), 1.270/10 (1797). Esposa de h045 Juan Antonio Caamaño y Varela. Aporta el apellido Gayoso que pasa a toda la prole de la Casa de Romelle del XVIII.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h047",
+      "source": "historical",
+      "firstName": "Juan Antonio",
+      "lastName": "Caamaño y Lamas",
+      "gender": "male",
+      "birthDate": "~1720",
+      "notes": "FUENTE: Depo signaturas 1.251/14, 1.270/13, 1.270/14 (1689-1708, 8 menciones). Padre de Juan Antonio Caamaño y Varela (1795, bautismo 1.270/14). Casado con Aldonza Varela.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h048",
+      "source": "historical",
+      "firstName": "Antonio José",
+      "lastName": "de Caamaño y Mendoza",
+      "gender": "male",
+      "birthDate": "~1625",
+      "deathDate": "~1700",
+      "notes": "FUENTE: Depo signaturas 1.202/19 (1658-1665), 1.202/20, 1.202/21 + 1.195/31 (1800), 1.421043. Identificado como hijo de Juan Caamaño Ribadeneira (1.195/31, 1800). Señor de Romelle en 1658 (real executoria sobre toda la hacienda del Partido de San Les, Depo arc.ADP_0003421043). Padre de Juan Antonio de Caamaño y Sotomayor. Generación puente entre Antonio Ribadeneira (h026, †1657) y los Caamaño Quintana (h039).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h049",
+      "source": "historical",
+      "firstName": "Marina",
+      "lastName": "de Caamaño",
+      "maidenName": "de Caamaño",
+      "gender": "female",
+      "birthDate": "~1645",
+      "notes": "FUENTE: Depo signatura 1.270/36 (1673). Literal del bautismo: 'Partida de bautismo de Jacinta María Caamaño, filla de José Pensado e Marina de Caamaño'. Madre documentada en 1673. Caso interesante: el apellido materno pasa al hijo (bautizado 'Jacinta María Caamaño' en lugar de 'Jacinta María Pensado') — suele indicar mayor prestigio del solar materno, o ilegitimidad.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "h050",
+      "source": "historical",
+      "firstName": "Álvaro",
+      "lastName": "García de Caamaño",
+      "gender": "male",
+      "birthDate": "~1490",
+      "notes": "FUENTE: Depo signatura 1.190/18 y 1.190/19 (1797, extracto de documento original). Aparece como 'tutor de Pedro García e María Bella' junto con Alonso Díaz. Generación XVI temprana. Posible cuarto García de Caamaño del legajo 1.195-1.190, reforzando la red de Garcías pre-h019.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn015",
+      "source": "geneanet",
+      "firstName": "Rosa Manuela",
+      "lastName": "Alvite Caamaño",
+      "gender": "female",
+      "birthDate": "~1855",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ FUENTE: Geneanet árbol 'larapat' (ficha de Jacobo Caamaño Malvarez, verificada 2026-04-13). NIETA de gn010 Jacobo Caamaño Malvarez + gn011 Josefa Cernadas Yáñez. Hija de gn013 María Josefa Caamaño Cernadas + Joaquín Alvite Sobrido. Casada en 1878 con Juan Manuel Vidal Santos en Porto do Son. CONFIRMA que el linaje Caamaño Malvarez/Cernadas/Alvite permaneció en Porto do Son durante al menos 80 años (1798-1878) — mismo lugar de origen que p001 José Tomás Caamaño Sr (n.~1815). Rosa Manuela es una prima segunda teórica de p001 si las hipótesis genealógicas se confirman.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1878",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Matrimonio con Juan Manuel Vidal Santos"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn016",
+      "source": "geneanet",
+      "firstName": "Manuel",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1830",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐⭐ FUENTE: Geneanet árbol 'larapat' (ficha de María Bazarra Caamaño 1886, verificada 2026-04-13). Casado con gn017 Socorro Romero. BISABUELO de María Bazarra Caamaño (gn022, n.1886), Manuela Bazarra Caamaño (gn009, n.1894) y Alejandro Bazarra Caamaño (gn008, n.1895). Padre de una hija (persona privada en Geneanet) que se casó con Alejandro Bazarra Lado (gn019). Generación exactamente compatible con p001 José Tomás Caamaño Sr (n.~1815): Manuel podría ser hermano, primo o sobrino de p001, dado que ambos son Caamaño nacidos en Porto do Son en la misma franja ~1815-1840. **La combinación Caamaño+Romero aparece también en otros registros del siglo XVIII/XIX (ej. Romero de Caamaño documentados en Boiro y Ponteceso), sugiriendo un patrón de alianza familiar Caamaño-Romero en la zona Barbanza.**",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn017",
+      "source": "geneanet",
+      "firstName": "Socorro",
+      "lastName": "Romero",
+      "maidenName": "Romero",
+      "gender": "female",
+      "birthDate": "~1835",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Esposa de gn016 Manuel Caamaño. Madre de la mujer (privada) que se casó con Alejandro Bazarra Lado. Bisabuela materna de la trilogía Bazarra Caamaño (María 1886, Manuela 1894, Alejandro 1895).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn018",
+      "source": "geneanet",
+      "firstName": "[Persona privada]",
+      "lastName": "Caamaño Romero",
+      "gender": "female",
+      "birthDate": "~1860",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat' (2026-04-13). Nombre privatizado en Geneanet (alive o fallecida reciente). Hija de gn016 Manuel Caamaño + gn017 Socorro Romero. Casada con gn019 Alejandro Bazarra Lado (†1919). Madre de María Bazarra Caamaño (gn022, 1886), Manuela Bazarra Caamaño (gn009, 1894) y Alejandro Bazarra Caamaño (gn008, 1895). Enlace crítico entre la familia Caamaño-Romero de Porto do Son y la familia Bazarra Lado. Pieza clave para la reconstrucción — requiere contacto con larapat para desprivatizar nombre (ya está fallecida con seguridad, siendo madre de persona nacida en 1886).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn019",
+      "source": "geneanet",
+      "firstName": "Alejandro",
+      "lastName": "Bazarra Lado",
+      "gender": "male",
+      "birthDate": "~1855",
+      "deathDate": "1919",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn020 José Antonio Bazarra Chouza († 1900) + gn021 Faustina Lado García. Casado con gn018 [privada] Caamaño Romero. Padre de María (gn022, 1886), Manuela (gn009, 1894) y Alejandro (gn008, 1895) Bazarra Caamaño. Línea Bazarra Porto do Son, contemporáneo al final del XIX.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn020",
+      "source": "geneanet",
+      "firstName": "José Antonio",
+      "lastName": "Bazarra Chouza",
+      "gender": "male",
+      "deathDate": "1900",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Casado con gn021 Faustina Lado García. Padre de gn019 Alejandro Bazarra Lado. Línea Bazarra Chouza. Potencialmente descendiente remoto de gn007 Pedro Bazarra Caamaño (1712-1767) — mismo apellido Bazarra en Porto do Son ~180 años después. Requiere verificar genealogía intermedia con larapat.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn021",
+      "source": "geneanet",
+      "firstName": "Faustina",
+      "lastName": "Lado García",
+      "maidenName": "Lado García",
+      "gender": "female",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Esposa de gn020 José Antonio Bazarra Chouza. Aporta a la línea el apellido materno Lado que lleva su hijo Alejandro Bazarra LADO.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn022",
+      "source": "geneanet",
+      "firstName": "María",
+      "lastName": "Bazarra Caamaño",
+      "gender": "female",
+      "birthDate": "1886",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija mayor de gn019 Alejandro Bazarra Lado + gn018 [privada] Caamaño Romero. Tiene 5+ hermanos documentados (Carmen 1888, Elena 1888, Manuela 1894, Alejandro 1895, Antonia 1903).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn023",
+      "source": "geneanet",
+      "firstName": "Carmen",
+      "lastName": "Bazarra Caamaño",
+      "gender": "female",
+      "birthDate": "1888",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat' (ficha de 'persona privada' madre, 2026-04-13). Hija de gn019 Alejandro Bazarra Lado + gn018 [privada] Caamaño Romero. Hermana de María (1886), Elena (1888, probable gemela), Manuela (1894), Alejandro (1895), Antonia (1903).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn024",
+      "source": "geneanet",
+      "firstName": "Elena",
+      "lastName": "Bazarra Caamaño",
+      "gender": "female",
+      "birthDate": "1888",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn019 + gn018. Misma fecha de nacimiento que Carmen (gn023) → probable gemela. Hermana de los 6 Bazarra Caamaño documentados en larapat.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn025",
+      "source": "geneanet",
+      "firstName": "Antonia",
+      "lastName": "Bazarra Caamaño",
+      "gender": "female",
+      "birthDate": "1903",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija menor documentada de gn019 Alejandro Bazarra Lado (†1919) + gn018 [privada] Caamaño Romero. Nacida en 1903, cuando su padre tenía ~48 años. Hermana de 5 Bazarra Caamaño anteriores. Hay al menos 2 hijos más marcados como 'persona privada' en el árbol larapat — probablemente nacidos ~1905-1915 y vivos hasta fechas recientes (o con descendencia viva).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn026",
+      "source": "geneanet",
+      "firstName": "Juan Manuel",
+      "lastName": "Bazarra Rodríguez",
+      "gender": "male",
+      "birthDate": "~1740",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn007 Pedro Bazarra Caamaño (1712-1767) + pa014 María Ignacia Rodríguez Patiño (1716-1797), matrimonio 1738. Padre de gn027 Juan Beltrán Bazarra Fernández (†1872). Hermano de gn028 Luisa Agustina Bazarra Rodríguez Patiño (1751-1828). Enlace generacional clave entre Pedro Bazarra Caamaño y José Antonio Bazarra Chouza.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn027",
+      "source": "geneanet",
+      "firstName": "Juan Beltrán",
+      "lastName": "Bazarra Fernández",
+      "gender": "male",
+      "birthDate": "~1790",
+      "deathDate": "1872",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn026 Juan Manuel Bazarra Rodríguez. Padre de gn020 José Antonio Bazarra Chouza (†1900). Apellido materno Fernández — esposa del Juan Manuel era una Fernández. Bisnieto de gn007 Pedro Bazarra Caamaño.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn028",
+      "source": "geneanet",
+      "firstName": "Luisa Agustina",
+      "lastName": "Bazarra Rodríguez Patiño",
+      "gender": "female",
+      "birthDate": "1751",
+      "deathDate": "1828",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Hermana de gn026 Juan Manuel. Casada con un Fernández. Madre de gn029 Juan Antonio Agustín Fernández Bazarra (1782-1860). Su línea de descendencia es la rama femenina Fernández/Vilaro/Mariño documentada en larapat hasta 1993.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn029",
+      "source": "geneanet",
+      "firstName": "Juan Antonio Agustín",
+      "lastName": "Fernández Bazarra",
+      "gender": "male",
+      "birthDate": "1782",
+      "deathDate": "1860",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn028 Luisa Agustina Bazarra Rodríguez Patiño. Nieto de gn007 Pedro Bazarra Caamaño por línea materna. Cabeza de la rama Fernández-Bazarra que desciende ~200 años hasta Agustín Mariño Vilaro (1906-1993) y descendientes vivos. Casado con una señora de apellido García (madre de su hijo José Ramos Fernández García 1810-1876).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn030",
+      "source": "geneanet",
+      "firstName": "Jacome",
+      "lastName": "Fidalgo de Huya",
+      "gender": "male",
+      "birthDate": "~1680",
+      "notes": "⭐ FUENTE: Geneanet árbol 'larapat' (ficha de Pedro Bazarra Caamaño, 2026-04-13). Padre de gn007 Pedro Bazarra Caamaño (1712). Casado con gn031 Bernarda de Luces Bazarra. El apellido 'Fidalgo' indica hidalguía — categoría noble menor. 'De Huya' = toponímico (probable lugar de Huya en Galicia). El hijo Pedro adoptó los apellidos maternos (Bazarra + Caamaño, vía Bernarda) en lugar del paterno (Fidalgo de Huya), un patrón común en Galicia cuando el solar materno tenía más prestigio.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn031",
+      "source": "geneanet",
+      "firstName": "Bernarda",
+      "lastName": "de Luces Bazarra",
+      "maidenName": "de Luces Bazarra",
+      "gender": "female",
+      "birthDate": "~1685",
+      "notes": "⭐⭐⭐ FUENTE: Geneanet árbol 'larapat'. Madre de gn007 Pedro Bazarra Caamaño (1712). Esposa de gn030 Jacome Fidalgo de Huya. **LA PIEZA CLAVE: el apellido 'de Luces Bazarra' conecta con la línea hidalga 'de Luces Caamaño y Sotomayor'** documentada en el Depo fondo FAMILIA CAAMAÑO (Doña Jacinta de Luces Caamaño y Sotomayor †1705 Muros, casada con Gómez de Rioboo 1685, signaturas 1.185/31-34). **Esto sugiere que Bernarda era nieta, biznieta o sobrina de Jacinta de Luces Caamaño — y por tanto la línea Bazarra Caamaño de Porto do Son ES UNA LÍNEA CADETE/COLATERAL DE LA CASA DE ROMELLE/RUBIANES.** Primera conexión documental directa entre la rama común de Porto do Son (donde nació p001) y la rama hidalga h017-h049 a través de un ancestro del XVII.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn032",
+      "source": "geneanet",
+      "firstName": "María Juana",
+      "lastName": "Bazarra Rodríguez Patiño",
+      "gender": "female",
+      "birthDate": "1754",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Hermana de gn028 Luisa Agustina (1751), gn026 Juan Manuel, gn033 Ángela, gn034 Ignacia.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn033",
+      "source": "geneanet",
+      "firstName": "Ángela",
+      "lastName": "Bazarra Rodríguez Patiño",
+      "gender": "female",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Sin fechas documentadas en larapat.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn034",
+      "source": "geneanet",
+      "firstName": "Ignacia",
+      "lastName": "Bazarra Rodríguez",
+      "gender": "female",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Sin fechas documentadas en larapat. Casada con José Ares Pérez → hijos Manuela, José, Rosa Ares Bazarra.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn035",
+      "source": "geneanet",
+      "firstName": "Rosalía",
+      "lastName": "Blanco Fernández Fajardo",
+      "maidenName": "Blanco Fernández Fajardo",
+      "gender": "female",
+      "birthDate": "~1750",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ FUENTE: Geneanet árbol 'larapat' (descendencia de Bernarda de Luces Bazarra, 2026-04-13). PRIMERA esposa de gn026 Juan Manuel Bazarra Rodríguez. Madre de: gn027 Juan Beltrán Bazarra Fernández (†1872, nuestro ancestro directo), Soledad Bazarra Fernández, María de la Presentación Bazarra Fernández. **Línea materna directa** de nuestra cadena Bazarra→p001. Juan Manuel tuvo una segunda esposa (Bárbara Queiruga → Luisa y Ana María Bazarra Queiruga), documentada como colateral.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn036",
+      "source": "geneanet",
+      "firstName": "Luisa",
+      "lastName": "Chouza Carballo",
+      "maidenName": "Chouza Carballo",
+      "gender": "female",
+      "deathDate": "1854",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐ FUENTE: Geneanet árbol 'larapat'. Esposa de gn027 Juan Beltrán Bazarra Fernández (†1872), matrimonio **1808** en Porto do Son. **AQUÍ ES DONDE NACE EL APELLIDO 'CHOUZA'** del hijo José Antonio Bazarra Chouza (gn020, †1900). Madre de los 6 hermanos Bazarra Chouza: María del Portal, Rosalía, Mariana, Manuel, gn020 José Antonio, Joaquín. Línea materna directa de nuestra cadena.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1808",
+          "place": "Porto do Son, A Coruña, Galicia, España",
+          "description": "Matrimonio con Juan Beltrán Bazarra Fernández"
+        }
+      ],
+      "migrations": []
+    },
+    {
+      "id": "gn037",
+      "source": "geneanet",
+      "firstName": "María del Portal",
+      "lastName": "Bazarra Chouza",
+      "gender": "female",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hermana mayor de gn020 José Antonio Bazarra Chouza. Hija de gn027 Juan Beltrán Bazarra Fernández + gn036 Luisa Chouza Carballo (m.1808).",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn038",
+      "source": "geneanet",
+      "firstName": "Rosalía",
+      "lastName": "Bazarra Chouza",
+      "gender": "female",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hermana de gn020 José Antonio Bazarra Chouza. Hija de gn027 + gn036.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn039",
+      "source": "geneanet",
+      "firstName": "Mariana",
+      "lastName": "Bazarra Chouza",
+      "gender": "female",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hermana de gn020.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn040",
+      "source": "geneanet",
+      "firstName": "Manuel",
+      "lastName": "Bazarra Chouza",
+      "gender": "male",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hermano de gn020.",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "gn041",
+      "source": "geneanet",
+      "firstName": "Joaquín",
+      "lastName": "Bazarra Chouza",
+      "gender": "male",
+      "birthPlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "FUENTE: Geneanet árbol 'larapat'. Hermano de gn020. Hijo menor documentado.",
+      "events": [],
+      "migrations": []
     }
   ],
   "families": [
@@ -3587,9 +4610,9 @@
     {
       "id": "hf10",
       "parents": ["h019", "h020"],
-      "children": [],
+      "children": ["h022"],
       "marriagePlace": "Noya, A Coruña, Galicia, España",
-      "notes": "7 hijos incluyendo García Rodríguez (heredero), Álvaro de Sotomayor, Rodrigo de Mendoza"
+      "notes": "7 hijos incluyendo García Rodríguez de Caamaño (h022, heredero, confirmado por escritura de mejora 1534, Depo 1.195/10), Álvaro de Sotomayor, Rodrigo de Mendoza. Solo h022 documentado nominalmente en el árbol; otros pendientes de incorporar."
     },
     {
       "id": "fsf01",
@@ -3746,10 +4769,115 @@
       "id": "f201",
       "parents": ["p204"],
       "children": ["p205"]
+    },
+    {
+      "id": "paf01",
+      "parents": ["pa003"],
+      "children": ["pa004", "pa005"],
+      "marriagePlace": "Santa María de Caamaño, Porto do Son, A Coruña, España"
+    },
+    {
+      "id": "paf02",
+      "parents": ["pa008", "pa009"],
+      "children": [],
+      "marriagePlace": "Santa María de Caamaño, Porto do Son, A Coruña, España"
+    },
+    {
+      "id": "paf03",
+      "parents": ["pa010", "pa014"],
+      "children": ["pa011"],
+      "marriagePlace": "Santa María de Caamaño, Porto do Son, A Coruña, España",
+      "notes": "CONEXIÓN ESPECULATIVA MEDIA: pa010 Pedro Caamaño (cantero, Catastro 1760) + pa014 María Rodríguez (viuda ante 1794, Depo 1.193/4). Cronología compatible pero no probado. Hipótesis: la viuda María Rodríguez del pleito de 1794 es la esposa del cantero Pedro. pa011 Andrés como hijo o hermano de pa010."
+    },
+    {
+      "id": "hf11",
+      "parents": ["h024", "h025"],
+      "children": ["h019"],
+      "marriagePlace": "Galicia, España",
+      "notes": "Padres de h019 García 'El Alto'. Documentado por testamento de h024 de 1478 (Depo 1.195/15, copia 1797). Extiende la línea troncal UNA GENERACIÓN HACIA ATRÁS desde h019."
+    },
+    {
+      "id": "hf12",
+      "parents": ["h022", "h023"],
+      "children": [],
+      "marriagePlace": "Rubianes, Villagarcía de Arousa, Pontevedra, España",
+      "notes": "Matrimonio García Rodríguez de Caamaño + Margarita de Montoto, 1534 (escritura de arras, Depo 1.195/11). Hijos sin identificar todavía — pendiente de cruzar con testamentos posteriores del mismo fondo."
+    },
+    {
+      "id": "hf13",
+      "parents": ["h029"],
+      "children": ["h030", "h031"],
+      "marriagePlace": "Romelle, Zas, A Coruña, Galicia, España",
+      "notes": "Casa de Romelle. h029 Álvaro de Caamaño y Ribadeneira (n.1541) + Jerónima de Ulloa y Taboada (m.1607) → h030 Bernarda (n.1618) + h031 Juan (n.1616). Fuente: Geneanet múltiples árboles."
+    },
+    {
+      "id": "gnf01",
+      "parents": ["gn010", "gn011"],
+      "children": ["gn012", "gn013", "gn014"],
+      "marriageDate": "1798-11-04",
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ Matrimonio 4-NOV-1798 en PORTO DO SON (confirmado Geneanet larapat 2026-04-13): Jacobo Caamaño Malvarez + Josefa Cernadas Yáñez → Joaquina, María Josefa, Vicente Caamaño Cernadas. Parroquia EXACTA donde nació p001. Descendencia verificada hasta 1878 en Porto do Son (nieta Rosa Manuela Alvite Caamaño, gn015). Fuente directa: árbol 'larapat' (Patrice LARA), Geneanet."
+    },
+    {
+      "id": "gnf02",
+      "parents": ["gn016", "gn017"],
+      "children": ["gn018"],
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "Manuel Caamaño + Socorro Romero → hija [privada] Caamaño Romero (madre de los Bazarra Caamaño 1886-1895). Línea materna del clan Bazarra Caamaño del final del XIX, documentada en Geneanet larapat. Fecha aproximada de matrimonio: ~1855-1860."
+    },
+    {
+      "id": "gnf03",
+      "parents": ["gn020", "gn021"],
+      "children": ["gn019"],
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "José Antonio Bazarra Chouza (†1900) + Faustina Lado García → Alejandro Bazarra Lado (†1919). Línea paterna del clan Bazarra Caamaño."
+    },
+    {
+      "id": "gnf04",
+      "parents": ["gn019", "gn018"],
+      "children": ["gn022", "gn023", "gn024", "gn009", "gn008", "gn025"],
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ NEXO CLAVE: Alejandro Bazarra Lado (†1919) + [privada] Caamaño Romero → **6 hijos documentados**: María (1886), Carmen (1888), Elena (1888, gemela de Carmen), Manuela (1894), Alejandro (1895), Antonia (1903). Más 2 hijos marcados como 'persona privada' en larapat. Nietos de Manuel Caamaño + Socorro Romero por línea materna. Dos de los hermanos (Manuela y Alejandro) emigraron a Avellaneda (Buenos Aires). Documentado en Geneanet árbol larapat (Patrice LARA)."
+    },
+    {
+      "id": "gnf05",
+      "parents": ["gn007", "pa014"],
+      "children": ["gn028", "gn032", "gn026", "gn033", "gn034"],
+      "marriageDate": "1738-04-23",
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐⭐⭐ Matrimonio MIÉRCOLES 23-ABR-1738 en Porto do Son: Pedro Bazarra Caamaño (1712-1767) + María Ignacia Rodríguez Patiño (1716-1797). **FUENTE PRIMARIA: AHDS Libro de matrimonios 1663-1745, folio 113.** 5 hijos documentados: Luisa Agustina (1751, gn028), María Juana (1754, gn032), Juan Manuel (gn026), Ángela (gn033), Ignacia (gn034)."
+    },
+    {
+      "id": "gnf09",
+      "parents": ["gn030", "gn031"],
+      "children": ["gn007"],
+      "notes": "⭐⭐⭐ Jacome Fidalgo de Huya + Bernarda de Luces Bazarra → Pedro Bazarra Caamaño (1712). **Pieza clave** que conecta la línea hidalga del XVII (de Luces Caamaño y Sotomayor, Casa de Romelle/Rubianes) con la rama Bazarra Caamaño de Porto do Son del XVIII. Bernarda es probablemente nieta o sobrina de Jacinta de Luces Caamaño y Sotomayor (†1705 Muros, Depo fondo sig. 1.185/31-34)."
+    },
+    {
+      "id": "gnf06",
+      "parents": ["gn026", "gn035"],
+      "children": ["gn027"],
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "Juan Manuel Bazarra Rodríguez + Rosalía Blanco Fernández Fajardo (1ª esposa) → Juan Beltrán Bazarra Fernández (†1872). Juan Manuel tuvo una 2ª esposa Bárbara Queiruga (hijas Luisa y Ana María Bazarra Queiruga, no incluidas — colateral)."
+    },
+    {
+      "id": "gnf07",
+      "parents": ["gn027", "gn036"],
+      "children": ["gn037", "gn038", "gn039", "gn040", "gn020", "gn041"],
+      "marriageDate": "1808",
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "⭐ Matrimonio 1808 Porto do Son: Juan Beltrán Bazarra Fernández (†1872) + Luisa Chouza Carballo (†1854) → 6 hijos Bazarra Chouza (María del Portal, Rosalía, Mariana, Manuel, **José Antonio gn020 †1900 — nuestro enlace**, Joaquín). El apellido 'Chouza' entra a la línea por esta madre."
+    },
+    {
+      "id": "gnf08",
+      "parents": ["gn028"],
+      "children": ["gn029"],
+      "marriagePlace": "Porto do Son, A Coruña, Galicia, España",
+      "notes": "Luisa Agustina Bazarra Rodríguez Patiño (1751-1828) → Juan Antonio Agustín Fernández Bazarra (1782-1860). Rama colateral femenina del linaje Pedro Bazarra Caamaño — documentada en larapat con descendencia continua hasta 1993 (Agustín Mariño Vilaro)."
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-05T01:30:00Z",
-    "version": 13
+    "lastUpdated": "2026-04-13T22:30:00Z",
+    "version": 21
   }
 }

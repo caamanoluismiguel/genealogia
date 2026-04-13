@@ -1,141 +1,169 @@
-# Caamaño Surname — Deep Research (2026-04-03)
+---
+name: Caamaño Surname Research
+description: Etymology, origins, heraldry, migration patterns, and free genealogy APIs for the Caamaño surname. Galician origin, A Coruña.
+type: project
+---
 
-## The Origin: Santa María de Caamaño, Porto do Son
+# Caamaño Surname Research (2026-04-03)
 
-The surname is **toponymic** — the family took its name from the **Parish of Santa María de Caamaño** in Porto do Son, A Coruña. The church is Romanesque (12th century) with evidence of continuous occupation since the Neolithic.
+## Etymology
 
-- Tourism: https://www.turismo.gal/recurso/-/detalle/23183/igrexa-de-santa-maria-de-caamano
-- Wikipedia: https://es.wikipedia.org/wiki/Caama%C3%B1o_(Espa%C3%B1a)
+- **Galician surname** (NOT Castilian)
+- From medieval **Camaño** ← Latin **Camanius** or toponym **Camanium**
+- Celtic root _cam-_ = "curved/crooked" — common in Galician toponymy
+- Double "a" reflects Galician phonetic evolution (lost intervocalic consonant)
+- Likely **toponymic** (place-derived), not occupational or patronymic
 
-## The Definitive Source: García Carraffa, Tomo XX
+## Geographic Origin
 
-**FREE on Internet Archive:** https://archive.org/details/enciclopediahera20garc
+- **Province:** A Coruña, Galicia, Spain
+- Concentrated in: Betanzos, Pontedeume, Ferrol, Santiago area
+- Earliest documented solar: **Tierra de Betanzos** (Ría de Betanzos, Mandeo river valley)
+- **Torre de Caamaño** — traditional ancestral manor house in Betanzos area
 
-The _Enciclopedia Heráldica y Genealógica Hispano-Americana_ (1919-1963), Tomo XX covers Caamaño to Cadelo. Contains:
+## Heraldry
 
-- Multi-page genealogy tracing 13 generations from 12th century
-- Origin near **villa de Noya (A Coruña)**
-- Three main branches: Casa de Noya, Señores de Rubianes/Marqueses de Villagarcía, Vista Alegre/Barrantes
-- Coat of arms blazon descriptions (multiple regional variants)
-- Expansion to Castile, Andalucía, Extremadura, Cataluña, Valencia, Portugal, Americas
+- Most common: **Azure (blue), three bars argent (silver)**
+- Variant: bordure gules (red) with eight saltires or (gold)
+- Secondary branch: gold field, green tree, wolf/boar at base
+- Source: García Carraffa _Diccionario Heráldico y Genealógico_
+- **Caveat:** Arms belong to specific lines, not all surname bearers
 
-## Documented Lineage: Señores de Villagarcía (6 generations)
+## Notable Historical Figures
 
-Source: http://genealogiabermudezdecastro.es/LINAJES-EMPARENTADOS/MOSQUERA-Guimarei-y-Bentraces/CAAMANYO-Senyores-de-Villagarc-a/
+- **Francisco Alberto Caamaño Deñó** (1932-1973) — Dominican revolutionary, led 1965 Constitutionalist revolt, briefly president. US invaded DR partly in response. Killed 1973.
+- **José María Plácido Caamaño** (1838-1901) — **President of Ecuador** (1884-1888), from Guayaquil
+- **Ángel Caamaño** (1861-1927) — Spanish journalist, "El Barquero"
 
-1. **García Rodríguez de Caamaño** — Received O Salnés lands from Santiago archbishopric (1390). Reclaimed Tuy from Portuguese (1379). Married María Pérez das Mariñas.
-2. **Ruy Fernández de Caamaño** — Lord of Caamaño house, alcaide of Barreira fortress. Died 1462. Married Inés Fernández de Silva y Fajardo.
-3. **García de Caamaño "El Hermoso"** — Lord of Rubianes, Vista Alegre, Arealonga. **Founded Villagarcía de Arousa** (charter of 1441). Married Inés de Mendoza y Sotomayor.
-4. **García de Caamaño "El Alto"** — Served Catholic Monarchs in Granada campaign. Granted mayorazgo (1524). Named Señor de la Casa de Rubianes by Charles I (1535). Married Constanza Sánchez de Bendaña.
-5. **García Rodríguez de Caamaño** — Married Margarita de Montoto (1534).
-6. **García de Caamaño y Mendoza** — Lord of Rubianes and Cornazo. Married Juana de Figueroa y Villamarín.
+## Migration Patterns (Galicia → Americas)
 
-Wikipedia: https://es.wikipedia.org/wiki/Garc%C3%ADa_de_Caama%C3%B1o_de_Mendoza
-Xenealoxía: https://xenealoxia.org/linaxes/pontevedra/1501-caamano-garcia-de-fundador-da-vila-de-vilagarcia
+1. **Colonial (1500s-1700s):** Hidalgos/clergy → Ecuador (Audiencia de Quito), Dominican Republic, New Granada (Colombia)
+2. **19th century (1850s-1900s):** Galician poverty + minifundio → Argentina (#1), Cuba (#2), Colombia via Barranquilla
+3. **20th century (1900-1960):** Civil War + Franco → Argentina, Venezuela, Colombia, DR
 
-## Real Places
+- Family pattern (A Coruña → CO main, DR, EC, AR) = classic Galician diaspora
 
-### Pazo de Rubianes (Villagarcía de Arousa)
+## Free APIs for Genealogy
 
-12th-century fort tower, rebuilt by García Caamaño in 1411. His inscription survives: _"This house was made by D. Garcia Caamaño in the year 1,411."_ Founded Villa de García (today Villagarcía) in 1441. Now a historic estate and winery.
+| API                     | Free?      | Auth         | Best For                                                  |
+| ----------------------- | ---------- | ------------ | --------------------------------------------------------- |
+| **FamilySearch**        | Yes        | OAuth 2.0    | Parish records, civil registration, immigration. LARGEST. |
+| **WikiTree**            | Yes        | API key      | Collaborative world tree, sourced data                    |
+| **Geni.com**            | Partial    | OAuth 2.0    | Existing Caamaño trees ($13/mo for full)                  |
+| **PARES** (Spain gov)   | Yes        | Free reg     | Colonial admin, emigration, Inquisition records           |
+| **Arquivo de Galicia**  | Yes        | None         | A Coruña parish records (baptisms, marriages, burials)    |
+| **CEMLA** (Argentina)   | Yes        | None         | Ship passenger lists Buenos Aires 1882-1960               |
+| **INE.es**              | Yes        | None         | Surname frequency/distribution in Spain                   |
+| **Forebears.io**        | Basic free | None         | Worldwide surname distribution maps                       |
+| **IPUMS International** | Yes (reg)  | Registration | Census microdata (CO, EC, AR, DR, ES)                     |
+| **Galiciana**           | Yes        | None         | Digitized Galician historical documents                   |
 
-- https://www.pazoderubianes.com/en/the-palace/history/
+### FamilySearch API (Best Starting Point)
 
-### Pazo-Convento de Vista Alegre
+- URL: https://www.familysearch.org/developers/
+- Docs: https://www.familysearch.org/developers/docs/api/
+- Relevant collections: Spain parish records, Colombia civil reg, Argentine immigration, Ecuador church records
 
-Also in Villagarcía, tower ordered by García de Caamaño, mid-15th century.
+### Research Priority Order
 
-### Iglesia de Santa María de Caamaño (Porto do Son)
+1. FamilySearch — A Coruña parish records + Colombian civil registration
+2. INE.es — Confirm surname concentration in A Coruña
+3. PARES — Colonial emigration records
+4. CEMLA — Argentine ship manifests
+5. WikiTree/Geni — Existing Caamaño trees
+6. Arquivo de Galicia — Betanzos/Pontedeume parish records
 
-The place that gave the family its name. Romanesque, 12th century.
+## CEMLA Deep Dive (2026-04-03)
 
-## INE.es: Surname Distribution in Spain
+**100 Caamaño passengers** to Buenos Aires, 1884-1907. Full data: `research/cemla-caamano-100.json`
 
-**Total bearers: ~6,205** (Spain) / **~9,601** (Galicia counting all positions)
+### Key Finds
 
-| Province     | Bearers              |
-| ------------ | -------------------- |
-| **A Coruña** | **7,889** (dominant) |
-| Pontevedra   | 1,001                |
-| Ourense      | 115                  |
-| Lugo         | 114                  |
+- **TOMAS CAAMANO** — age 42, married, jornalero. Ship P. de Satrústegui, arrived 25 Jan 1905 from VILLAGARCÍA. Traveling with children Amalia (6) + Manuel (5). Born ~1863.
+- **JOSE MARIA CAAMANO** — age 15, labrador. Ship Nile, 23 Oct 1897 from Vigo. Born ~1882.
+- **SALVADOR CAAMANO** — age 6, with Victor (42) + Antonia (12). Ship Darmstadt, 12 Dec 1906 from Villagarcía.
+- 9+ family groups identified (same ship+date). See `docs/CEMLA-PARES-RESEARCH.md`.
+- Departure ports: Coruña (35), Villagarcía (33), Vigo (20), Carril (5) — Villagarcía+Carril = 38% from Ría de Arousa zone.
 
-**Top municipalities:** A Coruña city (977), Muros (913), Carnota (764), Cee (468)
+## PARES Analysis (2026-04-03)
 
-Concentrated along the **Costa da Morte** and the city of A Coruña.
+**602 records**, 1600-1900. First 100 analyzed. Key categories:
 
-- INE search: https://www.ine.es/widgets/nombApell/index.shtml
-- Galicia-specific: https://apelidosgalicia.org/caama%C3%B1o-1314
+### CONTRATACIÓN (emigration licenses to Americas)
 
-## Worldwide Distribution (Forebears.io)
+- Salvador Varela Caamaño (1687 + 1690) — EARLIEST emigrant, 2 licenses
+- Antonio José de Mendoza Caamaño y Sotomayor (1735) — noble line
+- Juan Antonio García de Caamaño (1776)
+- José Leys Caamaño (1776)
+- Francisco Javier Romay y Caamaño (1768)
 
-**~18,827 bearers worldwide**
+### Inquisition (4-generation family trees)
 
-| Country            | Bearers | Frequency |
-| ------------------ | ------- | --------- |
-| Spain              | 6,205   | 1:7,535   |
-| Chile              | 4,192   | 1:4,202   |
-| Argentina          | 2,411   | 1:17,729  |
-| Mexico             | 1,923   | 1:64,548  |
-| Colombia           | 1,504   | 1:31,765  |
-| Dominican Republic | 1,086   | 1:9,607   |
-| Ecuador            | 639     | 1:24,892  |
-| Venezuela          | 357     | 1:84,605  |
-| Costa Rica         | 251     | 1:19,044  |
+- Baltasar de Mendoza Caamaño y Sotomayor (1680)
+- Felipe de Caamaño y de Ocampo (1681)
+- Felipe Caamaño de Ocampo + María Patiño (1699)
 
-Source: https://forebears.io/surnames/caama%C3%B1o
+### Hidalguía lawsuits (5+ generation lineages)
 
-## Ecuador Branch: President Caamaño
+- Domingo Antonio Caamaño Sotomayor y Figueroa — San Vicente de Cespón (15km from Noia), 1758
+- Fernando García Fernández de Caamaño — San Miguel de Couso (20km from Noia), 1704
 
-**Jacinto Caamaño Moraleja** (1759 Madrid — 1829), Spanish naval officer, Knight of Calatrava, explored Alaska/British Columbia. Married Francisca de Arteta Santistévan in Guayaquil. 8 children.
+### Santa María de Caamaño parish
 
-- Grandson: **José María Plácido Caamaño** = President of Ecuador (1884-1888)
-- Great-grandson: **Jacinto Jijón y Caamaño** (aristocrat, historian)
-- Great-grandson: **Ernesto Noboa y Caamaño** (poet)
+- Tax/property record 1761 (possibly Catastro de Ensenada) — lists every household in the surname's origin parish near Noia
 
-**Geographic legacy:** Camano Island (WA), Caamaño Sound (BC), Caamaño Passage named after Jacinto.
+## Genealogías de Colombia (2026-04-03)
 
-- https://en.wikipedia.org/wiki/Jacinto_Caama%C3%B1o
-- Geni: https://www.geni.com/people/Jos%C3%A9-Mar%C3%ADa-Pl%C3%A1cido-de-la-Trinidad-Caama%C3%B1o-y-G%C3%B3mez-Cornejo-12-Presidente-Constitucional-de-la-Rep%C3%BAblica-del-Ecuador/6000000006039130016
+PDF from www.genealogiasdecolombia.co (Fidel Botero Arango, 565K persons DB). 4 Caamaño lines:
 
-## Dominican Branch: Revolutionary Caamaño
+### Line 1: Juan de Caamaño → Antioquia (MAIN COLOMBIA LINE)
 
-**Francisco Alberto Caamaño Deñó** (1932-1973). Led 1965 Constitutionalist revolt.
+1. **+JUAN DE CAAMAÑO** (Villa de Muros, A Coruña) m. +María Alfonso Martínez (Muros)
+2. **+Luis de Caamaño Martínez** (b. 11 Sep 1647, Muros) m. 1682 +María Oáñez de Patiño
+3. **+Juan Matías Martínez Perrúa y Caamaño** (b. 21 Feb 1681, Muros) m. 1713 +Antonia de Relova Perrúa y Amúzar
+4. **Bernardo Martínez Y Perrúa** (b. 19 Aug 1720, Muros — d. 17 Feb 1788, Santa Fe de Bogotá). **Arrived Santa Fe de Antioquia 1744.** 8 children.
 
-- Father: General **Fausto Caamaño Medina** (Secretary of Armed Forces under Trujillo)
-- Cousin: Juan Pablo Medina de los Santos (father of President Danilo Medina)
-- Wikipedia categorizes him as having **Basque, Canarian, and Galician descent**
+### Line 2: Clara de Caamaño de Mendoza (noble, b. 1502 Rubianes/Pontevedra)
 
-- https://en.wikipedia.org/wiki/Francisco_Caamano
-- Geni: https://www.geni.com/people/Fausto-Caama%C3%B1o-Medina/6000000006817283661
+Married Marqués De La Sierra De Outes (near Noia). Son: Cristobal Mariño De Lobeira (b. 1517, Santiago).
 
-## Geni.com: 538 Caamaño Profiles
+### Line 3: David Pontón Caamaño — married Julia de la Hortúa López
 
-Notable finds:
+### Line 4: Juana María Caamaño Y Vega — 5 children in Bogotá 1689-1705
 
-- **Andrés Caamaño (1838-1902)** — Born in Atán, Mazaricos, A Coruña → direct A Coruña connection
-- Full Ecuador presidential lineage documented
-- Dominican military branch (Fausto, Francisco)
+## FamilySearch XLS Data (2026-04-03)
 
-## Free Research Resources
+**1,844 unique records** across 18 XLS exports. Full data: `research/familysearch-caamano-1844.json`
 
-| Source                             | What                                            | URL                                                       |
-| ---------------------------------- | ----------------------------------------------- | --------------------------------------------------------- |
-| **García Carraffa Tomo XX**        | Definitive published genealogy (13 generations) | https://archive.org/details/enciclopediahera20garc        |
-| **FamilySearch La Coruña Records** | Municipal records 1648-1951                     | https://www.familysearch.org/en/search/collection/2015359 |
-| **PARES**                          | Colonial archives, military orders, emigration  | https://pares.cultura.gob.es                              |
-| **Movimientos Migratorios**        | Emigration FROM Spain                           | https://pares.mcu.es/MovimientosMigratorios/              |
-| **CEMLA**                          | Ship arrivals Buenos Aires 1882-1950            | https://cemla.com/buscador/                               |
-| **Apelidosgalicia.org**            | INE data for Galician surnames                  | https://apelidosgalicia.org                               |
-| **Xenealoxía.org**                 | Galician genealogy community                    | https://xenealoxia.org                                    |
-| **Geni Caamaño profiles**          | 538 connected profiles                          | https://geni.com                                          |
-| **Pazo de Rubianes**               | Ancestral estate history                        | https://www.pazoderubianes.com/en/the-palace/history/     |
+Top collections: La Coruña Municipal (1,332), Civil Records (136+20), Ellis Island (47), Uruguay passengers (28).
+Top birth places: A Coruña (38), Ferrol (27), Ribeira (16), Betanzos (12), Muros (9), Noia (9), Palmeira (8).
 
-## Research Priority (Next Steps)
+## Colombian Parish Records CONFIRMED (2026-04-04)
 
-1. **Read García Carraffa Tomo XX** — free on Internet Archive. The 13-generation lineage may connect to your known tree.
-2. **Search FamilySearch La Coruña 1648-1951** — browse parish records for Porto do Son, Muros, Carnota, Noya.
-3. **Explore 538 Geni profiles** — look for shared ancestors or overlapping branches.
-4. **Search CEMLA** — Argentine ship manifests for Caamaño passengers.
-5. **Search PARES Movimientos Migratorios** — emigration records from A Coruña to Colombia/Americas.
-6. **Visit Pazo de Rubianes website** — the 1411 inscription connects to the documented lineage.
+**FamilySearch Film #004001320** — Santa Iglesia del Carmen, El Banco, Magdalena, Colombia. **2,531 images.**
+
+Confirmed records:
+
+- **Partida #1055:** Néstor Daniel Caamaño Castro, born 2 January 1901, son of Benjamín Caamaño and Dominga Castro
+- **Partida #424:** Benjamín (son), baptized May 1896, son of Benjamín Caamaño and Dominga Castro
+- Church: Santa Iglesia del Carmen, El Banco, Magdalena
+- FamilySearch ARK: ark:/61903/3:1:3QS7-89ZR (baptism images)
+
+**Action: Mine the remaining 2,500+ images** — search for all Caamaño entries in this film. Will contain marriages, deaths, and more baptisms.
+
+## Critical Finds from Deep FamilySearch Analysis (2026-04-03)
+
+- **Jose Caamano SOTO** (b.1889, Uruguay passenger list) — Caamaño+Soto surname combo matches patriarch José Tomás Caamaño who married Desconocida **Soto**. Confirms the family.
+- **Bernardo Caamaño** (Betanzos) married Juana **Prieto** — connects to Bogotá Caamaño-Prieto line (1689-1705).
+- **3 Tomás Caamaños** found (b.1845, 1847, 1852) — same generation as patriarch's possible sons.
+- **Ramon Caamano** from Muro, Porto do Son — only record actually in Porto do Son municipality.
+- **47 Ellis Island** + **28 Uruguay** passengers — Caamaños emigrated to USA and Uruguay, not just Argentina/Colombia.
+- **Santiago Caamano Caamano** (b.1869, Uruguay) — both surnames Caamaño = intra-family marriage.
+
+## Caamaño-Flores-Stagg Family Tree (Ecuador)
+
+Image: `~/Downloads/gen/Figura-1-Arbol-genealogico-de-la-familia-Caamano-Flores-Stagg.png`
+
+- **Jacinto Caamaño** → sons José María + Jacinto Ignacio
+- José María → **José María Plácido Caamaño** (President of Ecuador 1884-1888)
+- Jacinto Ignacio → married Francisca (daughter of **Juan José Flores**, 1st President of Ecuador)

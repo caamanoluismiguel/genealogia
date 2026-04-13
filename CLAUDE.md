@@ -54,17 +54,20 @@ h001: Rodrigo García de Caamaño (1100s, conquest of Baeza)
 
 **CORRECTED TIMELINE (2026-04-03):** Luis Miguel born Dec 1983, father born 1949, grandfather Néstor born 1901. This means José Tomás Sr (p001) was born ~1810-1825, NOT ~1850s. **Pablo Caamaño Villa (fs003, born 1802) is now a CONTEMPORARY** — possibly father, brother, or uncle. Gap 2 is a proof gap, not a time gap. One baptism record from AHDS would close it.
 
-### Pinned Research Actions (2026-04-04)
+### Pinned Research Actions (updated 2026-04-13)
 
-1. **✅ AHDS EMAIL SENT** — arquivo@archicompostela.es — requested parish records for Sta María de Caamaño (baptisms 1780-1860). AHDS = San Martín Pinario, Santiago. Tel: +34 981 58 38 84. **AWAITING RESPONSE — follow up if no reply by mid-April.**
-2. **🔑 REGISTER FAMILYSEARCH API** — developers.familysearch.org — get OAuth 2.0 key → build automated search script to chain baptism records backwards through the gap. Free access with existing account.
-3. **ACCESS JUAN BEZERRA CAMANO PRE-MARRIAGE FILE** — FamilySearch "Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899" — would name his parents (a Camaño from Noya, ~1710-1720) + exact parish of origin
-4. **ACCESS DOLORES + SALVADOR CAAMANO MARRIAGE (1640)** — FamilySearch Argentina, Buenos Aires — colonial-era Caamaño, may name Spanish parish
-5. **EMAIL Archivo de Simancas** — archivo.simancas@cultura.gob.es — request Catastro de Ensenada (1752) for "Santa María de Caamaño, Noia" (loc=904). Would list every Caamaño household head in the parish + occupations.
-6. **PARES CONTRATACIÓN** — check digital viewer for Salvador Varela Caamaño (1687, CONTRATACION,5449,N.16) — AGI records often digitized
-7. **PAY GenCo 24h ($5)** — genealogiasdecolombia.co — search "Caamaño" in 583K database
-8. **CONTACT Concello de Porto do Son** — portodoson.gal — historical municipal archive (padrones)
-9. **Xenealoxia.org** — register and post asking about Porto do Son/Caamaño parish
+1. **✅ PARES 6092354 DESCARGADO Y ANALIZADO (2026-04-13)** — Comprobaciones del Catastro de Ensenada, Feligresía de Santa María de Caamaño. 426 folios leídos por 9 agentes paleográficos en paralelo. **13 Caamaños identificados** en 3 clústeres (de los Santos / canteros / hacendado). Reporte completo: `docs/PARES-6092354-CAAMANO-REPORT.md`. Hallazgo ⭐: **Francisco de los Santos Thomás de Caamaño** (coincide nombre Tomás con p001).
+2. **🆕 ARG — Respuestas Particulares del Catastro (1752)** — Carlos Infantes Buil (Jefe Referencias Simancas) confirmó que las Respuestas Particulares originales están en el **Archivo del Reino de Galicia** y "contienen bastante más detalles que las Comprobaciones". Email draft listo en `docs/ARG-EMAIL-DRAFT.md`. **ENVIAR YA.** Portal: https://arquivosdegalicia.xunta.gal/portal/arquivo-do-reino-de-galicia/
+3. **🆕 AHPA — protocolos notariales de Noia 1740-1780** — buscar contratos de obra de los canteros **Pedro Caamaño** y **Andrés Caamaño** identificados en PARES 6092354 f.174v. Pueden revelar padres, esposa, hijos, edad exacta.
+4. **✅ AHDS EMAIL SENT** — arquivo@archicompostela.es — requested parish records for Sta María de Caamaño (baptisms 1780-1860). AHDS = San Martín Pinario, Santiago. Tel: +34 981 58 38 84. **FOLLOW-UP PENDIENTE desde 2026-04-04.** Ahora con nombres concretos del Catastro para buscar: Juan de los Santos, Francisco de los Santos Thomás, Santos, Bernardo, Sebastián, Pedro, Andrés, Manuel, José Barcala.
+5. **✅ SIMANCAS CERRADO (2026-04-13)** — AGS confirmó que las imágenes están en PARES 6092354 (ya descargadas). Redirigió a ARG para Respuestas Particulares originales.
+6. **🔑 REGISTER FAMILYSEARCH API** — developers.familysearch.org — get OAuth 2.0 key → build automated search script to chain baptism records backwards through the gap.
+7. **ACCESS JUAN BEZERRA CAMANO PRE-MARRIAGE FILE** — FamilySearch "Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899" — would name his parents (a Camaño from Noya, ~1710-1720).
+8. **ACCESS DOLORES + SALVADOR CAAMANO MARRIAGE (1640)** — FamilySearch Argentina, Buenos Aires — colonial-era Caamaño.
+9. **PARES CONTRATACIÓN** — check digital viewer for Salvador Varela Caamaño (1687, CONTRATACION,5449,N.16) — AGI records often digitized
+10. **PAY GenCo 24h ($5)** — genealogiasdecolombia.co — search "Caamaño" in 583K database
+11. **CONTACT Concello de Porto do Son** — portodoson.gal — historical municipal archive (padrones)
+12. **Xenealoxia.org** — register and post asking about Porto do Son/Caamaño parish
 
 ### Research Data Files
 
@@ -360,7 +363,19 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v13, 2026-04-05)
+## Current State (v21, 2026-04-13)
+
+- **Data:** 341 personas, 91 familias, versión 21. **+78 personas en una sesión** integrando hallazgos de PARES Catastro 6092354, Depo fondo FE10 (Familia Caamaño), y árbol `larapat` de Patrice Lara en Geneanet.
+- **Brecha 1 (1540-1710):** ~40% cerrada. Puente documental identificado vía **Bernarda de Luces Bazarra** (madre de gn007 Pedro Bazarra Caamaño 1712) → conexión circunstancial con línea hidalga "de Luces Caamaño y Sotomayor" (Depo sig. 1.185/31-34). Padres confirmados de h019 García "El Alto" via Depo 1.195/15.
+- **Brecha 2 (1760-1815):** ~95% cerrada cronológicamente. Pedro Bazarra Caamaño (1712-1767) confirmado como matching triple de PARES Catastro + Depo fondo + Geneanet. Falta eslabón sacramental exacto a p001.
+- **Fuentes primarias citables:** 6 (García Carraffa Tomo XX · PARES 6092354 Catastro · Depo FE10 · Geneanet larapat · AHDS Libro matrimonios 1663-1745 fol. 113 · CEMLA)
+- **Emails pendientes de envío:** 3 drafts listos en `docs/EMAILS-DRAFT.md` (AHDS puntual, Depo 12 piezas, larapat intercambio)
+- **Reportes generados:**
+  - `docs/PARES-6092354-CAAMANO-REPORT.md` — 13 Caamaños del Catastro 1760
+  - `docs/DEPO-FAMILIA-CAAMANO-REPORT.md` — 3.568 registros scrapeados + Fase 5 profunda (§10)
+  - `docs/EMAILS-DRAFT.md` — 3 mensajes redactados
+
+## Estado histórico anterior (v13, 2026-04-05)
 
 - **Data:** 263 persons, 76 families in committed JSON (v13). El Banco, Magdalena confirmed. DR line added. Data integrity: estimates flagged with ~, traditions marked.
 - **Code:** 70+ source files, 9 routes, TypeScript strict, zero errors. Static export to GitHub Pages.
