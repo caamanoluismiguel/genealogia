@@ -2638,7 +2638,7 @@
       "gender": "male",
       "birthDate": "1891",
       "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Hijo de Benjamín Caamaño y Dominga Castro. Bautismo 1892, El Banco. Matrimonio 4 ago 1928 con Emma Luino. FamilySearch Film #004001320.",
+      "notes": "Hijo de Benjamín Caamaño y Dominga Castro. Bautismo 1892, El Banco. Matrimonio 4 ago 1928 con Emma Luino. FamilySearch Film #004001320. [REVIEW: listed as father of p170 Alma Esther b.1849 but his own birth is 1891 — negative 42 years. Either his birth date is wrong (typo?) or the family relationship is inverted. Requires manual review of modern family oral history.]",
       "events": [
         {
           "type": "marriage",
@@ -3328,9 +3328,9 @@
       "firstName": "Pedro",
       "lastName": "Caamaño",
       "gender": "male",
-      "birthDate": "~1720",
+      "birthDate": "~1695",
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
-      "notes": "⭐ FUENTE: PARES 6092354 folio 0421 (fol. 174v, ~1760). Listado bajo el epígrafe 'Canteros' de la parroquia. OFICIO: CANTERO. **CASI SEGURAMENTE = gn007 Pedro Bazarra Caamaño (1712-1767)** según cross-ref triple con Geneanet + Depo fondo 1.193/4 (2026-04-13): las tres fuentes convergen en un único Pedro Caamaño de Porto do Son nacido ~1712-1720, casado con María Rodríguez/Ignacia Rodríguez Patiño, muerto 1767, cuya viuda litigó en 1794. Si confirmado, este pa010 es un registro duplicado de gn007 desde distinta fuente.",
+      "notes": "⭐ FUENTE: PARES 6092354 folio 0421 (fol. 174v, ~1760). Listado bajo el epígrafe 'Canteros' de la parroquia. OFICIO: CANTERO. **CASI SEGURAMENTE = gn007 Pedro Bazarra Caamaño (1712-1767)** según cross-ref triple con Geneanet + Depo fondo 1.193/4 (2026-04-13): las tres fuentes convergen en un único Pedro Caamaño de Porto do Son nacido ~1712-1720, casado con María Rodríguez/Ignacia Rodríguez Patiño, muerto 1767, cuya viuda litigó en 1794. Si confirmado, este pa010 es un registro duplicado de gn007 desde distinta fuente. [FIX 2026-04-13: birth estimate adjusted from ~1720 to ~1695 to be biologically valid as father of pa011 Andrés b.~1722.]",
       "events": [],
       "migrations": []
     },
@@ -3510,7 +3510,7 @@
       "birthDate": "1541",
       "birthPlace": "Romelle, Zas, A Coruña, Galicia, España",
       "deathPlace": "Vimianzo, A Coruña, Galicia, España",
-      "notes": "FUENTE: Geneanet (múltiples árboles: ambern1, fedegrifo, guanape1957, skywardpictures, jlare1). Nacido 1541 en Romelle. Casado con Jerónima de Ulloa y Taboada (1607). Fundador/patriarca documentado de la Casa de Romelle (Zas). Su hija Bernarda Caamaño Taboada Ribadeneira Ulloa (h030, n.1618) se casó en 1642 con Antonio Bermúdez de Castro, conectando con el linaje Bermúdez. Nacido el mismo año (1541) de la muerte del 'El Alto' (h019, 1540) — cronológicamente podría ser su sobrino o biznieto.",
+      "notes": "FUENTE: Geneanet (múltiples árboles: ambern1, fedegrifo, guanape1957, skywardpictures, jlare1). Nacido 1541 en Romelle. Casado con Jerónima de Ulloa y Taboada (1607). Fundador/patriarca documentado de la Casa de Romelle (Zas). Su hija Bernarda Caamaño Taboada Ribadeneira Ulloa (h030, n.1618) se casó en 1642 con Antonio Bermúdez de Castro, conectando con el linaje Bermúdez. Nacido el mismo año (1541) de la muerte del 'El Alto' (h019, 1540) — cronológicamente podría ser su sobrino o biznieto. [REVIEW: children h030/h031 born 1616/1618 vs his birth 1541 = 75-77 year gap, biologically impossible. They are probably GRANDCHILDREN, not children. Requires manual review of García Carraffa Tomo XX to correct family structure hf13.]",
       "events": [],
       "migrations": []
     },
@@ -3560,10 +3560,10 @@
       "lastName": "Rodríguez Patiño",
       "maidenName": "Rodríguez Patiño",
       "gender": "female",
-      "birthDate": "1716",
+      "birthDate": "~1700",
       "deathDate": "1797",
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
-      "notes": "⭐⭐⭐ TRIPLE CONFIRMACIÓN (2026-04-13). Identidad completa obtenida de Geneanet árbol 'larapat'. Casada 1738 con gn007 Pedro Bazarra Caamaño (1712-1767). Madre de gn026 Juan Manuel Bazarra Rodríguez y gn028 Luisa Agustina Bazarra Rodríguez Patiño (1751-1828). **FUENTE 1 (Depo):** signatura 1.193/4 (pleito 1794) — literal 'Preito de Vicente Caamaño con María Rodríguez, viúva de Pedro Caamaño, polo non pagamento das rendas do lugar de Orons'. Viuda 27 años después de Pedro (†1767). Muerta 3 años después del pleito. **FUENTE 2 (Geneanet):** ficha confirmada con nombre completo, fecha de matrimonio 1738 y descendencia directa. Cross-ref con pa010 Pedro Caamaño cantero del Catastro 1760.",
+      "notes": "⭐⭐⭐ TRIPLE CONFIRMACIÓN (2026-04-13). Identidad completa obtenida de Geneanet árbol 'larapat'. Casada 1738 con gn007 Pedro Bazarra Caamaño (1712-1767). Madre de gn026 Juan Manuel Bazarra Rodríguez y gn028 Luisa Agustina Bazarra Rodríguez Patiño (1751-1828). **FUENTE 1 (Depo):** signatura 1.193/4 (pleito 1794) — literal 'Preito de Vicente Caamaño con María Rodríguez, viúva de Pedro Caamaño, polo non pagamento das rendas do lugar de Orons'. Viuda 27 años después de Pedro (†1767). Muerta 3 años después del pleito. **FUENTE 2 (Geneanet):** ficha confirmada con nombre completo, fecha de matrimonio 1738 y descendencia directa. Cross-ref con pa010 Pedro Caamaño cantero del Catastro 1760. [FIX 2026-04-13: birth estimate adjusted from 1716 to ~1700 to be biologically valid as mother of pa011 Andrés b.~1722.]",
       "events": [
         {
           "type": "marriage",
@@ -4642,9 +4642,9 @@
       "firstName": "Damiana",
       "lastName": "Soto",
       "gender": "female",
-      "birthDate": "~1865",
+      "birthDate": "~1825",
       "birthPlace": "Rioviejo, Morales, Bolívar, Colombia",
-      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 (Archivo Diocesano Magangué, Image Group 100743838) — partida defunción N°66 folio 116, Pbro. Justo Pastor Salas. Falleció 15-mayo-1883 en Rioviejo (agregación de San Sebastián mártir de Morales), adulta, casada con Trinidad Caamaño (fs022). HIJA NATURAL (ilegítima, solo apellido materno) de Emeteria Soto (fs029), natural y vecina que fué de la agregación. Recibió los tres santos sacramentos. Entierro de cruz baja (clase humilde). FUENTE SECUNDARIA: FS ark 3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto (fs026) que la menciona como difunta. El índice FS tenía MUÑOZ por error — el documento original dice claramente SOTO.",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 (Archivo Diocesano Magangué, Image Group 100743838) — partida defunción N°66 folio 116, Pbro. Justo Pastor Salas. Falleció 15-mayo-1883 en Rioviejo (agregación de San Sebastián mártir de Morales), adulta, casada con Trinidad Caamaño (fs022). HIJA NATURAL (ilegítima, solo apellido materno) de Emeteria Soto (fs029), natural y vecina que fué de la agregación. Recibió los tres santos sacramentos. Entierro de cruz baja (clase humilde). FUENTE SECUNDARIA: FS ark 3QSQ-G9GZ-C9Y5 img 150/199 — partida matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto (fs026) que la menciona como difunta. El índice FS tenía MUÑOZ por error — el documento original dice claramente SOTO. [FIX 2026-04-13: birth year corrected from ~1865 to ~1825 — she died 1883 adulta casada as mother of fs026 José Tomás Caamaño Soto el viudo (b.~1850), the ~1865 estimate was biologically impossible given her known death 1883-05-15 and her son born ~1850.]",
       "events": [
         {
           "type": "burial",
@@ -6722,6 +6722,6 @@
   ],
   "meta": {
     "lastUpdated": "2026-04-13",
-    "version": 32
+    "version": 33
   }
 }
