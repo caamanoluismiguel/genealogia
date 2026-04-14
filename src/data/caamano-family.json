@@ -16,7 +16,9 @@
         }
       ],
       "source": "modern",
-      "birthDate": "~1815"
+      "birthDate": "~1815",
+      "certainty": "hypothetical",
+      "certaintyReason": "Oral tradition - no primary source found. p001 is narrative construct."
     },
     {
       "id": "p002",
@@ -33,7 +35,9 @@
           "reason": "Emigración familiar"
         }
       ],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "hypothetical",
+      "certaintyReason": "Oral tradition - no primary source found. p001 is narrative construct."
     },
     {
       "id": "p003",
@@ -50,7 +54,9 @@
           "reason": "Emigración familiar"
         }
       ],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "hypothetical",
+      "certaintyReason": "Oral tradition - no primary source found. p001 is narrative construct."
     },
     {
       "id": "p004",
@@ -67,7 +73,9 @@
           "reason": "Emigración familiar"
         }
       ],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "hypothetical",
+      "certaintyReason": "Oral tradition - no primary source found. p001 is narrative construct."
     },
     {
       "id": "p005",
@@ -84,7 +92,9 @@
           "reason": "Emigración familiar"
         }
       ],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "hypothetical",
+      "certaintyReason": "Oral tradition - no primary source found. p001 is narrative construct."
     },
     {
       "id": "p006",
@@ -95,7 +105,9 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Hijo de José Tomás Caamaño y Desconocida Soto. Fecha y lugar de nacimiento desconocidos. Casado con Faustina Reales. Tradición oral."
+      "notes": "Hijo de José Tomás Caamaño y Desconocida Soto. Fecha y lugar de nacimiento desconocidos. Casado con Faustina Reales. Tradición oral.",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p007",
@@ -106,7 +118,9 @@
       "notes": "Esposa de José Tomás Caamaño Soto. Apellido Reales confirmado por FamilySearch: partida de bautismo de Felicia Eleutina Camaño Reales (1864), hija de Manuel Camaño y Faustina Reales. Film #004001320.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p008",
@@ -117,7 +131,9 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": " [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.]"
+      "notes": " [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.]",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p009",
@@ -128,7 +144,9 @@
       "notes": "Esposa de Miguel Caamaño Soto. [MERGE 2026-04-13: unified with duplicate p177 from bridging analysis. Original notes from p177: Esposa de Miguel Caamaño. Madre de Jacob. FamilySearch.]",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p010",
@@ -138,7 +156,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p011",
@@ -148,7 +168,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p012",
@@ -158,7 +180,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p013",
@@ -169,7 +193,9 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida."
+      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida.",
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p014",
@@ -180,7 +206,9 @@
       "notes": "Esposa de Benjamín Caamaño. Confirmada en múltiples registros: bautismos de Emilio (1891), Justina Lucia (1893), Camilo Antonio (1898), Néstor Daniel (1901). Matrimonios de Manuel J. (1920), Emilio (1928), Camilo (1930). FamilySearch Film #004001320.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p015",
@@ -190,7 +218,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p016",
@@ -201,7 +231,9 @@
       "notes": "Esposa de Benjamin Caamaño Castro. Apellido desconocido.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p017",
@@ -211,7 +243,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p018",
@@ -221,7 +255,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p019",
@@ -231,7 +267,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p020",
@@ -242,7 +280,9 @@
       "notes": "Esposa de Manuel Felipe Caamaño Castro.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p021",
@@ -252,7 +292,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p022",
@@ -263,7 +305,9 @@
       "notes": "Esposa de Camilo Caamaño Castro.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p023",
@@ -282,7 +326,9 @@
       "migrations": [],
       "source": "modern",
       "birthDate": "1901-01-02",
-      "notes": "Néstor Daniel Caamaño Castro. Bautizado en Santa Iglesia del Carmen, El Banco, Magdalena. Partida #1055 (1901). Hijo de Benjamín Caamaño y Dominga Castro. Casado con Manuela Sarmiento de la Cruz. DAS Civil Registration confirma: padre de Luís Alberto Caamaño Ganizabal. FamilySearch Film #004001320."
+      "notes": "Néstor Daniel Caamaño Castro. Bautizado en Santa Iglesia del Carmen, El Banco, Magdalena. Partida #1055 (1901). Hijo de Benjamín Caamaño y Dominga Castro. Casado con Manuela Sarmiento de la Cruz. DAS Civil Registration confirma: padre de Luís Alberto Caamaño Ganizabal. FamilySearch Film #004001320.",
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p024",
@@ -293,7 +339,9 @@
       "notes": "Esposa de Nestor Caamaño Castro.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p025",
@@ -303,7 +351,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p026",
@@ -314,7 +364,9 @@
       "notes": "Esposa de Emilio Caamaño Castro.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p027",
@@ -324,7 +376,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p028",
@@ -335,7 +389,9 @@
       "notes": "Esposo de Atala Caamaño Bustamante. Nombre y apellido desconocidos.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p029",
@@ -345,7 +401,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p030",
@@ -355,7 +413,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p031",
@@ -365,7 +425,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p032",
@@ -375,7 +437,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p033",
@@ -385,7 +449,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p034",
@@ -395,7 +461,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p035",
@@ -405,7 +473,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p036",
@@ -415,7 +485,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p037",
@@ -427,7 +499,9 @@
       "migrations": [],
       "source": "modern",
       "birthDate": "1949",
-      "notes": "Luis Alberto Caamaño Garizabal. Hijo de Néstor Caamaño Castro. Confirmado en DAS Civil Registration. Lugar de nacimiento no verificado — \"Colombia\" mantenido hasta obtener documento."
+      "notes": "Luis Alberto Caamaño Garizabal. Hijo de Néstor Caamaño Castro. Confirmado en DAS Civil Registration. Lugar de nacimiento no verificado — \"Colombia\" mantenido hasta obtener documento.",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p038",
@@ -437,7 +511,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p039",
@@ -447,7 +523,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p040",
@@ -457,7 +535,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p041",
@@ -467,7 +547,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p042",
@@ -477,7 +559,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p043",
@@ -487,7 +571,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p044",
@@ -497,7 +583,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p045",
@@ -508,7 +596,9 @@
       "notes": "Hija de Miguel Caamaño Soto y Ruthesinda Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p046",
@@ -519,7 +609,9 @@
       "notes": "Hijo de Miguel Caamaño Soto y Ruthesinda Rangel. [MERGE 2026-04-13: unified with duplicate p171 from bridging analysis. Original notes from p171: Cabeza de rama importante en El Banco. Padres: Caamaño + Rangel (según registro de Jacob). Casado con Ana María Benavides. Hijos: Emilio, Tito, Néstor, Aida, Elisa, otros. FamilySearch.]",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p047",
@@ -537,7 +629,9 @@
       ],
       "migrations": [],
       "source": "modern",
-      "notes": " [MERGE 2026-04-13: unified with duplicate p178 from bridging analysis. Original notes from p178: Hijo de Miguel Caamaño y Rudecinda Rangel. Casado con Salvadora Blanquicet, matrimonio 28 abril 1909. Hijos: Daniel Enrique (1910, 1915), Ruth María (1912), Salud, Elías José, Miguel Gustavo. FamilySearch.]"
+      "notes": " [MERGE 2026-04-13: unified with duplicate p178 from bridging analysis. Original notes from p178: Hijo de Miguel Caamaño y Rudecinda Rangel. Casado con Salvadora Blanquicet, matrimonio 28 abril 1909. Hijos: Daniel Enrique (1910, 1915), Ruth María (1912), Salud, Elías José, Miguel Gustavo. FamilySearch.]",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p048",
@@ -548,7 +642,9 @@
       "notes": "Esposa de Jacob Caamaño Rangel. [MERGE 2026-04-13: unified with duplicate p179 from bridging analysis. Original notes from p179: Esposa de Jacob Caamaño. Matrimonio 1909. Múltiples hijos. FamilySearch.]",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p049",
@@ -558,7 +654,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p050",
@@ -568,7 +666,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p051",
@@ -579,7 +679,9 @@
       "notes": "Esposo de Maria Salud Caamaño Blanquicet.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p052",
@@ -589,7 +691,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p053",
@@ -599,7 +703,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p054",
@@ -609,7 +715,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p055",
@@ -620,7 +728,9 @@
       "notes": "Esposa de Miguel Gustavo Caamaño Blanquicet.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p056",
@@ -630,7 +740,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p057",
@@ -641,7 +753,9 @@
       "notes": "Esposo de Martha Pérez Caamaño.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p058",
@@ -651,7 +765,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p059",
@@ -662,7 +778,9 @@
       "notes": "Esposa de Nicanor Pérez Caamaño.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p060",
@@ -672,7 +790,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p061",
@@ -683,7 +803,9 @@
       "notes": "Esposo de Gloria Pérez Caamaño.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p062",
@@ -693,7 +815,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p063",
@@ -704,7 +828,9 @@
       "notes": "Esposa de Rafael Emiro Pérez Caamaño.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p064",
@@ -714,7 +840,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p065",
@@ -724,7 +852,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p066",
@@ -734,7 +864,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p067",
@@ -744,7 +876,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p068",
@@ -755,7 +889,9 @@
       "notes": "Esposo de Janette Caamaño León.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p069",
@@ -765,7 +901,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p070",
@@ -776,7 +914,9 @@
       "notes": "Esposa de Gustavo Javier Caamaño León.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p071",
@@ -786,7 +926,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p072",
@@ -797,7 +939,9 @@
       "notes": "Esposo de Beatriz Elena Caamaño León.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p073",
@@ -807,7 +951,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p074",
@@ -817,7 +963,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p075",
@@ -827,7 +975,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p076",
@@ -838,7 +988,9 @@
       "notes": "Esposa de Luis Alberto Rivera Pérez.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p077",
@@ -848,7 +1000,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p078",
@@ -859,7 +1013,9 @@
       "notes": "Esposa de Ricardo Rivera Pérez.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p079",
@@ -869,7 +1025,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p080",
@@ -880,7 +1038,9 @@
       "notes": "Esposo de Tania Pérez Pereira.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p081",
@@ -890,7 +1050,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p082",
@@ -901,7 +1063,9 @@
       "notes": "Esposa de José Luis Pérez Pereira.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p083",
@@ -911,7 +1075,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p084",
@@ -922,7 +1088,9 @@
       "notes": "Esposa de Miguel Pérez Pereira.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p085",
@@ -932,7 +1100,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p086",
@@ -943,7 +1113,9 @@
       "notes": "Esposo de Lizzette Diaz Pérez.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p087",
@@ -953,7 +1125,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p088",
@@ -964,7 +1138,9 @@
       "notes": "Esposo de Maria Angélica Diaz Pérez.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p089",
@@ -974,7 +1150,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p090",
@@ -985,7 +1163,9 @@
       "notes": "Esposa de Jose Ignacio Diaz Pérez.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p091",
@@ -996,7 +1176,9 @@
       "notes": "Hija de Rafael Emiro Pérez Caamaño. Apellido materno diferente (posiblemente otra relación).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p092",
@@ -1006,7 +1188,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p093",
@@ -1017,7 +1201,9 @@
       "notes": "Esposa de Rafael David Pérez Jaramillo.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p094",
@@ -1027,7 +1213,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p095",
@@ -1037,7 +1225,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p096",
@@ -1047,7 +1237,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p097",
@@ -1057,7 +1249,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p098",
@@ -1068,7 +1262,9 @@
       "notes": "Hija de Lizzette Diaz Pérez. Apellido paterno diferente.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p099",
@@ -1078,7 +1274,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p100",
@@ -1088,7 +1286,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p101",
@@ -1098,7 +1298,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p102",
@@ -1108,7 +1310,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p103",
@@ -1118,7 +1322,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p104",
@@ -1128,7 +1334,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p105",
@@ -1138,7 +1346,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p106",
@@ -1148,7 +1358,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p107",
@@ -1159,7 +1371,9 @@
       "notes": "Hija de Brígida Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p108",
@@ -1170,7 +1384,9 @@
       "notes": "Hijo de Brígida Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p109",
@@ -1181,7 +1397,9 @@
       "notes": "Hija de Tomás Caamaño y Eusebia Romero. Casada con Arcadio García. Hija: María García Caamaño (nacida 25 dic 1916, bautizada 18 abr 1917, La Gloria). Registro confirma abuelos maternos: Tomás Caamaño (Caamaño?) y Eusebia Romero. FamilySearch Film #004001320, imagen 35.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p110",
@@ -1192,7 +1410,9 @@
       "notes": "Hijo de Brígida Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p111",
@@ -1203,7 +1423,9 @@
       "notes": "Hijo de Brígida Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p112",
@@ -1214,7 +1436,9 @@
       "notes": "Esposa de Miguel Caamaño (hijo de Brígida).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p113",
@@ -1225,7 +1449,9 @@
       "notes": "Hija de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p114",
@@ -1236,7 +1462,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p115",
@@ -1247,7 +1475,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p116",
@@ -1258,7 +1488,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel (primer Uriel).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p117",
@@ -1269,7 +1501,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p118",
@@ -1280,7 +1514,9 @@
       "notes": "Hija de Licerio Caamaño Rangel (primera Carmen Maria).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p119",
@@ -1291,7 +1527,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p120",
@@ -1302,7 +1540,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p121",
@@ -1313,7 +1553,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p122",
@@ -1324,7 +1566,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel (segundo Uriel).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p123",
@@ -1335,7 +1579,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p124",
@@ -1346,7 +1592,9 @@
       "notes": "Hija de Licerio Caamaño Rangel (segunda Carmen Maria).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p125",
@@ -1357,7 +1605,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p126",
@@ -1368,7 +1618,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel (mismo nombre que su padre).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p127",
@@ -1379,7 +1631,9 @@
       "notes": "Hija de Licerio Caamaño Rangel (con madre Villarreal).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p128",
@@ -1390,7 +1644,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel (con madre Villarreal).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p129",
@@ -1401,7 +1657,9 @@
       "notes": "Hijo de Licerio Caamaño Rangel (con madre Villarreal).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p130",
@@ -1412,7 +1670,9 @@
       "notes": "Hija de Licerio Caamaño Rangel (con madre Villarreal).",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p131",
@@ -1423,7 +1683,9 @@
       "notes": "Descendiente de rama Brígida. Padre desconocido.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p132",
@@ -1434,7 +1696,9 @@
       "notes": "Descendiente de rama Brígida. Padre desconocido.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p133",
@@ -1445,7 +1709,9 @@
       "notes": "Descendiente de rama Brígida. Padre desconocido.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p134",
@@ -1456,7 +1722,9 @@
       "notes": "Descendiente de rama Brígida.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p135",
@@ -1466,7 +1734,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p136",
@@ -1476,7 +1746,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p137",
@@ -1487,7 +1759,9 @@
       "notes": "Esposa de Bernabé Caamaño Rapalino.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p138",
@@ -1497,7 +1771,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p139",
@@ -1508,7 +1784,9 @@
       "notes": "Esposo de Omaira Caamaño Rapalino.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p140",
@@ -1518,7 +1796,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p141",
@@ -1528,7 +1808,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p142",
@@ -1538,7 +1820,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p143",
@@ -1548,7 +1832,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p144",
@@ -1558,7 +1844,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p145",
@@ -1569,7 +1857,9 @@
       "notes": "Esposa de Jorge Castaño Caamaño.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p146",
@@ -1579,7 +1869,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p147",
@@ -1589,7 +1881,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p148",
@@ -1599,7 +1893,9 @@
       "birthPlace": "Colombia",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p149",
@@ -1610,7 +1906,9 @@
       "notes": "Segunda esposa o pareja de Licerio Caamaño Rangel. Nombre desconocido.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p150",
@@ -1621,7 +1919,9 @@
       "notes": "Esposa de Luis Miguel Caamaño Morales.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p151",
@@ -1633,7 +1933,9 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "birthDate": "1983-12"
+      "birthDate": "1983-12",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p152",
@@ -1644,7 +1946,9 @@
       "notes": "Hijo de Luis Miguel Caamaño Morales y Alejandra Perdomo.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p153",
@@ -1655,7 +1959,9 @@
       "notes": "Hija de Luis Miguel Caamaño Morales y Alejandra Perdomo.",
       "events": [],
       "migrations": [],
-      "source": "modern"
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "h001",
@@ -1673,7 +1979,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h002",
@@ -1684,7 +1992,9 @@
       "notes": "HISTÓRICO. Esposa de Rodrigo García de Caamaño.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h003",
@@ -1704,7 +2014,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h004",
@@ -1714,7 +2026,9 @@
       "notes": "HISTÓRICO. Primera esposa de Sancho García.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h005",
@@ -1731,7 +2045,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h006",
@@ -1741,7 +2057,9 @@
       "notes": "HISTÓRICO. Familia Altamira. Esposa de Fernán García.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h007",
@@ -1758,7 +2076,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h008",
@@ -1768,7 +2088,9 @@
       "notes": "HISTÓRICO. Esposa de Garci Fernández.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h009",
@@ -1779,7 +2101,9 @@
       "notes": "HISTÓRICO. Gen 5. Su hijo Vasco fundó la línea portuguesa Camões (poeta Luís de Camões).",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h010",
@@ -1789,7 +2113,9 @@
       "notes": "HISTÓRICO. Esposa de Fernán García II.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h011",
@@ -1800,7 +2126,9 @@
       "notes": "HISTÓRICO. Gen 6. Siguió a D. Enrique de Trastámara.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h012",
@@ -1810,7 +2138,9 @@
       "notes": "HISTÓRICO. Esposa de Garci Fernández II.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h013",
@@ -1832,7 +2162,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h014",
@@ -1842,7 +2174,9 @@
       "notes": "HISTÓRICO. Esposa de García Rodríguez.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h015",
@@ -1859,7 +2193,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h016",
@@ -1869,7 +2205,9 @@
       "notes": "HISTÓRICO. Esposa de Rui Fernández.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h017",
@@ -1891,7 +2229,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h018",
@@ -1901,7 +2241,9 @@
       "notes": "HISTÓRICO. Hija del Mariscal Suero Gómez de Sotomayor. Esposa de García 'El Hermoso'.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h019",
@@ -1930,7 +2272,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h020",
@@ -1940,7 +2284,9 @@
       "notes": "HISTÓRICO. Hija de Vasco Guillelmes, regidor de Noya. Esposa de García 'El Alto'.",
       "events": [],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h021",
@@ -1966,7 +2312,9 @@
         }
       ],
       "migrations": [],
-      "source": "historical"
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "gap001",
@@ -1976,7 +2324,9 @@
       "notes": "CONEXIÓN ESPECULATIVA PENDIENTE DE PRUEBA SACRAMENTAL. Entre la línea documentada medieval (García Carraffa, hasta h019 'El Alto' d.1540) y José Tomás Caamaño Sr (p001, emigrante a Colombia, n.~1815). ACTUALIZACIÓN 2026-04-13: PARES 6092354 (Comprobaciones del Catastro de Ensenada, ~1760) documentó 13 Caamaños viviendo en la propia Feligresía de Santa María de Caamaño — ver pa001 a pa013. CANDIDATO PRINCIPAL a ancestro directo: pa005 FRANCISCO DE LOS SANTOS THOMÁS DE CAAMAÑO (~1725), por coincidencia del nombre Thomás con el patronímico del patriarca colombiano. Hipótesis: Francisco (~1725) → [hijo no identificado] (~1755) → Pablo Caamaño Villa fs003 (1802, Palmeira) o directamente → José Tomás Sr p001 (~1815). Brecha 2 (1760→1815) reducida a un solo eslabón sacramental pendiente. Brecha 1 (1540→1700) sin cambios. Acciones pendientes: ARG (Respuestas Particulares originales), AHPA (protocolos notariales Noia 1740-1780 para los canteros Pedro y Andrés Caamaño pa010/pa011), Geneanet larapat (contactar por Pedro Bazarra Caamaño gn007), visita presencial AHDS con lista priorizada.",
       "events": [],
       "migrations": [],
-      "source": "gap"
+      "source": "gap",
+      "certainty": "hypothetical",
+      "certaintyReason": "Explicit gap marker"
     },
     {
       "id": "fs001",
@@ -1988,7 +2338,9 @@
       "notes": "INVESTIGACIÓN. Padre de Pablo Caamaño Villa. Deducido del apellido de Pablo (Caamaño Villa = padre Caamaño, madre Villa). Nacido probablemente en Muros (naturaleza de Pablo).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs002",
@@ -1999,7 +2351,9 @@
       "notes": "INVESTIGACIÓN. Madre de Pablo Caamaño Villa. Apellido Villa deducido del segundo apellido de Pablo.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs003",
@@ -2022,7 +2376,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs004",
@@ -2034,7 +2390,9 @@
       "notes": "FUENTE: FamilySearch censo 1862. Posible hija mayor de Pablo Caamaño Villa. O hermana de José.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "fs005",
@@ -2067,7 +2425,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs006",
@@ -2079,7 +2439,9 @@
       "notes": "FUENTE: FamilySearch. Esposa de José Caamaño González.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs007",
@@ -2091,7 +2453,9 @@
       "notes": "FUENTE: FamilySearch censo 1898. Mismo año de nacimiento que José — ¿gemelo? ¿primo?",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs008",
@@ -2103,7 +2467,9 @@
       "notes": "FUENTE: FamilySearch censos 1890-1950. Hija de José Caamaño González y Rosa González Millán. Tuvo hijos: José, Manuel, Ramón Caamaño + Rosa (n.1912).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs009",
@@ -2115,7 +2481,9 @@
       "notes": "FUENTE: FamilySearch censos 1890-1930. Hijo de José y Rosa. Casado con Ramona Piferrer Vilar. Hijos: José, Juan, Vicente, Dolores, Manuel, Antonio Caamaño Piferrer.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs010",
@@ -2125,7 +2493,9 @@
       "notes": "FUENTE: FamilySearch. Esposa de Juan Francisco Caamaño González.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs011",
@@ -2137,7 +2507,9 @@
       "notes": "FUENTE: FamilySearch censos 1890-1940. Hija de José y Rosa. Hijos: José, Enrique, Andrés, Ramón Caamaño Caamaño (padre también Caamaño — ambos padres del mismo apellido).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs012",
@@ -2149,7 +2521,9 @@
       "notes": "FUENTE: FamilySearch. Hijo de José Caamaño González y Rosa González Millán.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs013",
@@ -2161,7 +2535,9 @@
       "notes": "FUENTE: FamilySearch censos 1898-1906. Hija menor de José y Rosa.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs014",
@@ -2172,7 +2548,9 @@
       "notes": "FUENTE: FamilySearch. Hijo de José Caamaño González y Rosa González Millán. 'Incógnito' = segundo apellido desconocido. Posible emigrante — registros incompletos porque se fue. ¿Podría ser José Tomás Caamaño (p001)?",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "fs015",
@@ -2184,7 +2562,9 @@
       "notes": "FUENTE: FamilySearch censo 1869. Padre de José (n.1851), Andrés y Ramona Caamaño. Misma parroquia que Pablo Caamaño Villa — posiblemente hermano o hijo de Pablo.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "fs016",
@@ -2196,7 +2576,9 @@
       "notes": "FUENTE: FamilySearch censos 1862-1869. Hermano de Manuel Caamaño Maneiro. Línea paralela — madre Maneiro. Relacionado con (Don) José Caamaño Maneiro (n.1806).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "cm001",
@@ -2222,7 +2604,9 @@
           "reason": "Emigración"
         }
       ],
-      "source": "cemla"
+      "source": "cemla",
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "cm002",
@@ -2248,7 +2632,9 @@
           "reason": "Emigración"
         }
       ],
-      "source": "cemla"
+      "source": "cemla",
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "cm003",
@@ -2274,7 +2660,9 @@
           "reason": "Emigración"
         }
       ],
-      "source": "cemla"
+      "source": "cemla",
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "cm004",
@@ -2300,7 +2688,9 @@
           "reason": "Emigración"
         }
       ],
-      "source": "cemla"
+      "source": "cemla",
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "gn001",
@@ -2314,7 +2704,9 @@
       "notes": "FUENTE: Geneanet (jgomezreinofern). Casado con Elisa Santiso García. Mazaricos es municipio vecino de Porto do Son.",
       "events": [],
       "migrations": [],
-      "source": "geneanet"
+      "source": "geneanet",
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn002",
@@ -2325,7 +2717,9 @@
       "notes": "FUENTE: Geneanet (raquelcaam). Casado con Adela López París. De NOIA — el pueblo ancestral de los Caamaño nobles.",
       "events": [],
       "migrations": [],
-      "source": "geneanet"
+      "source": "geneanet",
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn003",
@@ -2339,7 +2733,9 @@
       "notes": "FUENTE: Geneanet (gessto). Casado con María Lado Rodríguez (1937). Mazaricos — municipio vecino de Porto do Son.",
       "events": [],
       "migrations": [],
-      "source": "geneanet"
+      "source": "geneanet",
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn004",
@@ -2351,7 +2747,9 @@
       "notes": "FUENTE: Geneanet (fedegrifo). Nacido 1517 en NOIA. Podría ser eslabón entre la línea noble (h019 García 'El Alto' d.1540) y las generaciones posteriores. INVESTIGAR.",
       "events": [],
       "migrations": [],
-      "source": "geneanet"
+      "source": "geneanet",
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn005",
@@ -2364,7 +2762,9 @@
       "notes": "FUENTE: Geneanet (mariacaamanofdez). Murió en infancia. De Carnota — municipio con 764 portadores del apellido Caamaño (3er más alto). La familia Caamaño de Cernadas podría conectar con la línea de Porto do Son.",
       "events": [],
       "migrations": [],
-      "source": "geneanet"
+      "source": "geneanet",
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn006",
@@ -2378,7 +2778,9 @@
       "notes": "FUENTE: Geneanet (manuelyagoarza). Casado con Josefa Antonia de Sedano y Ochoa. De BOIRO — municipio vecino de Porto do Son al otro lado de la ría. Los Romero de Caamaño son una rama documentada.",
       "events": [],
       "migrations": [],
-      "source": "geneanet"
+      "source": "geneanet",
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gc001",
@@ -2389,7 +2791,9 @@
       "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
       "notes": "Origen de la línea colombiana. Casado con María Alfonso Martínez (también de Muros). Fuente: Genealogías de Colombia.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc002",
@@ -2399,7 +2803,9 @@
       "gender": "female",
       "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc003",
@@ -2411,7 +2817,9 @@
       "birthPlace": "Villa de Muros, A Coruña, Galicia, España",
       "notes": "Casado 30 Nov 1682 con María Oáñez de Patiño.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc004",
@@ -2422,7 +2830,9 @@
       "birthPlace": "Muros, A Coruña, Galicia, España",
       "notes": "Hija de Juan Patiño de Guemes y Catalina Pérez (ambos de Muros).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc005",
@@ -2447,7 +2857,9 @@
           "date": "c.1713-1740"
         }
       ],
-      "deathPlace": "Colombia"
+      "deathPlace": "Colombia",
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc006",
@@ -2472,7 +2884,9 @@
         }
       ],
       "birthDate": "1695",
-      "deathPlace": "Colombia"
+      "deathPlace": "Colombia",
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc007",
@@ -2500,7 +2914,9 @@
           "year": 1744,
           "reason": "Emigración colonial"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc008",
@@ -2512,7 +2928,9 @@
       "birthPlace": "Rubianes, Pontevedra, Galicia, España",
       "notes": "Casada con Marqués De La Sierra De Outes Pedro Álvarez Mariño De Lobeira Y Valladares (Santiago, 1493-1583). Conecta línea noble con Noia.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc009",
@@ -2529,7 +2947,9 @@
           "to": "Santa Fe de Bogotá, Colombia",
           "reason": "Emigración colonial"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc010",
@@ -2540,7 +2960,9 @@
       "birthPlace": "España",
       "notes": "Esposo de Juana María Caamaño. Padre de 5 hijos en Bogotá.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "uy001",
@@ -2564,7 +2986,9 @@
           "to": "Montevideo, Uruguay",
           "reason": "Emigración"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "Uruguay passenger indexed"
     },
     {
       "id": "gc011",
@@ -2583,7 +3007,9 @@
           "to": "Guayaquil, Ecuador",
           "reason": "Carrera naval y matrimonio"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "gc012",
@@ -2603,7 +3029,9 @@
           "description": "Presidente constitucional de Ecuador"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Genealogías de Colombia fascicle (published secondary)"
     },
     {
       "id": "cm005",
@@ -2628,7 +3056,9 @@
           "year": 1905,
           "reason": "Emigración"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "cm006",
@@ -2646,7 +3076,9 @@
           "year": 1905,
           "reason": "Emigración con padre"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "cm007",
@@ -2664,7 +3096,9 @@
           "year": 1905,
           "reason": "Emigración con padre"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "CEMLA passenger list (indexed secondary)"
     },
     {
       "id": "p160",
@@ -2683,7 +3117,9 @@
           "description": "Casado con Emma Luino"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p161",
@@ -2695,7 +3131,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hija de Benjamín Caamaño y Dominga Castro. Bautismo 1894. FamilySearch Film #004001320.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p162",
@@ -2714,7 +3152,9 @@
           "description": "Casado con María Luisa Villalobos"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p163",
@@ -2732,7 +3172,9 @@
           "description": "Casado con Andrea Bustamante"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p164",
@@ -2743,7 +3185,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Emilio Caamaño. Matrimonio 1928.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p165",
@@ -2754,7 +3198,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Camilo Caamaño. Matrimonio 1930. Entierro en Bogotá.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p166",
@@ -2765,7 +3211,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Manuel J. Caamaño. Matrimonio 1920.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p167",
@@ -2777,7 +3225,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hija de Manuel Camaño y Faustina Reales. Bautismo 1864. \"Reales\" = apellido materno confirmado en esta generación. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p168",
@@ -2788,7 +3238,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hijo de José Tomás Camaño y Virginia Benavidez. Casado con Matilde Fambrano. Un José Tomás en El Banco — ¿el patriarca con segunda esposa? FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p169",
@@ -2807,7 +3259,9 @@
           "description": "Casada con José María Pedrozo"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p170",
@@ -2819,7 +3273,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "DAS record. Hija de Emilio Camaño y Emma Laino. Confirma descendencia de Emilio. FamilySearch DAS. [FIX 2026-04-13: birth year corrected from 1849 to ~1930. DAS cards have a misleading date field; she is daughter of Emilio Caamaño Castro (1891) + Emma Luino married 1928, so her real birth must be post-1928. The 1849 in DAS is either background-check date or a field mismatch, NOT her birth year.]",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p172",
@@ -2830,7 +3286,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Licerio Caamaño. Múltiples hijos confirmados en registros de iglesia.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p173",
@@ -2841,7 +3299,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hijo de Licerio Caamaño y Ana María Benavides. Casado con Ester Ardila. Hijos: Carmen, José Antonio, Ana María. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p174",
@@ -2852,7 +3312,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hijo de Licerio Caamaño y Ana María Benavides. Casado con Filadelfina Genez Núñez. Hijo: Jorge. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p175",
@@ -2863,7 +3325,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hijo de Licerio Caamaño y Ana María Benavides. DIFERENTE del Néstor Caamaño Castro (p023). Hijos: Cisca, Tito, Temilson. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p180",
@@ -2874,7 +3338,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Ofelia Beleño (Amaris). Hijos: Astolfo, Hernando José, Myriam, Fernando José. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p181",
@@ -2885,7 +3351,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Otoniel Caamaño. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p182",
@@ -2896,7 +3364,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Dilia Sarmiento. Hijos: Augusto, Delia, Ilse. Padre de Donaciano Caamaño Nieto (segunda B. Nieto). FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p183",
@@ -2907,7 +3377,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hija de Tomás Caamaño y Eusebia Romero. Casada con Arcadio García. ¿Tomás = el patriarca con otra pareja? FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p184",
@@ -2918,7 +3390,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Hija de Tomás Caamaño y Eusebia Contreras. Hijo: Juan. Romero/Contreras = ¿misma Eusebia? FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p185",
@@ -2929,7 +3403,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Herminia Lima. Hijo: Joaquín Jr (1903). FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p186",
@@ -2940,7 +3416,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Madre soltera de muchos hijos: Esperanza (1913), Desiderio Antonio (1907), María de Jesús (1911), Francisca (1909), Toribio (1886), Plácido (1904). Prolífica rama Caamaño en El Banco. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p187",
@@ -2951,7 +3429,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Madre de: Sixto (1902), Marina de la Concepción (1912), Manuel Dolores (1905), Andrés (1909), Silvia María (1907), Aristóbulo (1915). Otra rama prolífica. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p188",
@@ -2962,7 +3442,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Madre de: Manuel Esteban (1896), Silverio (1892), María Raquel (1873), Manuela (1875). Registros desde 1873 — generación más antigua de Caamaños documentada en El Banco. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p189",
@@ -2973,7 +3455,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Madre de: Ana Ceferina (1877), Angelina (1892). FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p190",
@@ -2984,7 +3468,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Catalina Beleño. Hija: María Lucía (1875). Una de las familias más antiguas documentadas. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p191",
@@ -2995,7 +3481,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con María de la Cruz Montero. Hijo: José Nemecio (1874). Generación anterior a Benjamín. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p192",
@@ -3006,7 +3494,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Petrona Arcea. Hija: Juana Clemencia (1877). FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p193",
@@ -3017,7 +3507,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Cayetana León Cuyo. Hijo: José Encarnación Dimas (1874). También Benedicta (1866, con Felicia Rocha). Generación más antigua (~1840s). FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p194",
@@ -3028,7 +3520,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Dominga Villarreal. Hijo: Luís Enrique Caamaño Villarreal (nacido 1854, Palomino, Magdalena). DAS record. Uno de los Caamaños más antiguos — sugiere presencia en Magdalena desde ~1830s. FamilySearch DAS.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p195",
@@ -3039,7 +3533,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Casado con Eusebia Romero. Hija: Eduvigis Caamaño Romero (p109). Nieta: María García Caamaño (1916). Registro de 1917 muestra \"Tomás Caamaño Caamaño\" — segundo apellido posiblemente duplicado por el registrador o indicativo de matrimonio entre Caamaños. ¿Posible conexión con el patriarca José Tomás (p001)? Sin confirmar. FamilySearch Film #004001320.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p196",
@@ -3050,7 +3546,9 @@
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Tomás Caamaño. Registro de bautismo de nieta (1917) la nombra como abuela materna. FamilySearch.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p197",
@@ -3061,7 +3559,9 @@
       "birthPlace": "Galicia, España (según blog Mariela Caamaño)",
       "notes": "Padre de Ramón Caamaño García. Abuelo de los hermanos que emigraron a RD. Fuente: marielacaamano.blogspot.com (2015). Sin verificación documental independiente.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p198",
@@ -3072,7 +3572,9 @@
       "birthPlace": "Santiago de Compostela, Galicia, España (según blog)",
       "notes": "Padre de Pedro, Alejandro, Álvaro y Ramiro. De Santiago de Compostela. Casado con Rita Sanjurjo. ¿Conexión con la rama de Porto do Son (p001)? Santiago está a ~35km de Porto do Son. Fuente: blog Mariela Caamaño.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p199",
@@ -3083,7 +3585,9 @@
       "birthPlace": "Galicia, España (según blog)",
       "notes": "Esposa de Ramón Caamaño García. Madre de los hermanos que emigraron a RD.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p200",
@@ -3106,7 +3610,9 @@
           "to": "San Juan de la Maguana, República Dominicana",
           "reason": "Emigración"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p201",
@@ -3117,7 +3623,9 @@
       "birthPlace": "República Dominicana",
       "notes": "Esposa de Álvaro Caamaño Sanjurjo. Hermana de Vicenta Medina Báez (esposa de Ramiro).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p202",
@@ -3142,7 +3650,9 @@
           "to": "Mogollón, San Juan de la Maguana, República Dominicana",
           "reason": "Emigración"
         }
-      ]
+      ],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p203",
@@ -3153,7 +3663,9 @@
       "birthPlace": "República Dominicana",
       "notes": "Esposa de Ramiro Caamaño Sanjurjo. Hermana de Josefa (esposa de Álvaro).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p204",
@@ -3165,7 +3677,9 @@
       "deathDate": "1986",
       "notes": "General. Secretario de las Fuerzas Armadas bajo Trujillo (1952-1953). Hijo de Álvaro Caamaño Sanjurjo y Josefa Medina Báez. Padre de Francisco Alberto Caamaño Deñó (revolucionario 1965). Fuente: blog + Wikipedia.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "p205",
@@ -3185,7 +3699,9 @@
           "description": "Presidente constitucionalista durante la revolución de 1965"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
       "id": "pa001",
@@ -3197,7 +3713,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 (Comprobaciones del Catastro de Ensenada), folios 0015 y 0031 (~1760). Tratamiento 'Don' = hidalgo/rango. Primer declarante del índice alfabético de hacendados de la parroquia y primer declarante de la relación de bienes. Probable mayor propietario Caamaño de la feligresía hacia 1760. Confianza: ALTA. Candidato a rama hidalga residual del solar ancestral.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa002",
@@ -3209,7 +3727,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0039 (~1760). Literal: 'Bernardo de Caamaño lo 6.tt.º Casado de cinquenta años tiene en su compañia tres hijos menores de diez y ocho'. Vecino cabeza de casa, casado, ~50 años en 1760 → nacido ~1710. Padre de 3 hijos menores de 18 (no nombrados) → hijos nacidos ~1742-1760. Confianza: ALTA. Ancla cronológica clave del catastro.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa003",
@@ -3221,7 +3741,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0282 (~1760). Propietario de tierras de primera calidad en zona Cermo/Carreira. Probable patriarca del linaje 'de los Santos de Caamaño' (antecesor de pa004 Juan y pa005 Francisco Thomás, que usan 'de los Santos' como sintagma de rama/solar). Confianza: ALTA. Candidato a tronco del clúster familiar más prometedor.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa004",
@@ -3233,7 +3755,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0273 (~1760, fol. 100 del tomo). Vecino declarante cabeza de casa. Posee casas, tierras y ganado en la parroquia. El sintagma 'de los Santos' antepuesto al apellido en uso gallego del XVIII indica rama/solar. Probable hermano o primo hermano de pa005 Francisco de los Santos Thomás de Caamaño (ambos contemporáneos, ambos con el mismo sintagma). Confianza: ALTA.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa005",
@@ -3245,7 +3769,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ HALLAZGO CLAVE ⭐ FUENTE: PARES 6092354 folio 0282 (~1760). Propietario lindero de tierras de primera calidad en zona Cermo/Carreira. CONTIENE EL NOMBRE 'THOMÁS' que coincide con el patronímico del patriarca colombiano José Tomás Caamaño Sr (p001, n.~1815). En Galicia los nombres de pila se transmiten nieto→abuelo con alta frecuencia. 2-3 generaciones entre Francisco (~1725-1760) y José Tomás Sr (n.~1810-1815) = padre/tío-abuelo/bisabuelo PLAUSIBLE. HIPÓTESIS ESPECULATIVA: candidato #1 a ancestro directo de p001 vía Pablo Caamaño Villa (fs003) o directamente. Confianza transcripción: ALTA. Confianza conexión especulativa: MEDIA-ALTA por coincidencia onomástica + lugar + cronología. REQUIERE PRUEBA SACRAMENTAL (AHDS, libros bautismales de Sta Mª de Caamaño ~1760-1820).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa006",
@@ -3257,7 +3783,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0282 (~1760). Literal: 'Magdalena de Caamaño Nuestra Madre Dueña' — el honorífico 'Nuestra Madre Dueña' sugiere monja o benefactora religiosa. Propietaria lindera en zona Cermo. Confianza: MEDIA (ambigüedad entre apellido y posible topónimo).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa007",
@@ -3269,7 +3797,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0286 (~1760). Propietario de casa en el propio lugar de Caamaño, frontera de la casa de Juan Paz. Doble apellido Barcala+Caamaño sugiere matrimonio: padre Barcala, madre Caamaño (por costumbre gallega de anteponer solar). Rama materna Caamaño documentada. Confianza: ALTA.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa008",
@@ -3281,7 +3811,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0154 (~1760). Literal: 'Sebastian Caamaño labrador vecino de esta feligresia casado con Rosa de Tuor' (apellido de esposa dudoso: posible Tourís, Touro, Touza). Labrador, cabeza de casa. Confianza: MEDIA.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa009",
@@ -3294,7 +3826,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0154 (~1760). Esposa de Sebastián Caamaño (pa008). Apellido transcrito como 'Tuor' en el original, interpretado como Tourís (apellido común en la zona). Confianza: MEDIA.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa010",
@@ -3306,7 +3840,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ FUENTE: PARES 6092354 folio 0421 (fol. 174v, ~1760). Listado bajo el epígrafe 'Canteros' de la parroquia. OFICIO: CANTERO. **CASI SEGURAMENTE = gn007 Pedro Bazarra Caamaño (1712-1767)** según cross-ref triple con Geneanet + Depo fondo 1.193/4 (2026-04-13): las tres fuentes convergen en un único Pedro Caamaño de Porto do Son nacido ~1712-1720, casado con María Rodríguez/Ignacia Rodríguez Patiño, muerto 1767, cuya viuda litigó en 1794. Si confirmado, este pa010 es un registro duplicado de gn007 desde distinta fuente. [FIX 2026-04-13: birth estimate adjusted from ~1720 to ~1695 to be biologically valid as father of pa011 Andrés b.~1722.]",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa011",
@@ -3318,7 +3854,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ FUENTE: PARES 6092354 folio 0421 (fol. 174v, ~1760). Listado consecutivamente a Pedro Caamaño bajo el epígrafe 'Canteros'. OFICIO: CANTERO. Probable hermano o hijo de pa010 Pedro Caamaño. Mismo perfil de búsqueda en protocolos notariales de Noia/Muros. Confianza: ALTA.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa012",
@@ -3330,7 +3868,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0390 (fol. 158v, ~1760). Declarante/testigo, aparece junto a Dña. Teresa de Lucinga. Doble apellido García+Caamaño. Confianza: MEDIA (posible lectura alternativa 'García vecino de Caamaño').",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "pa013",
@@ -3342,7 +3882,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: PARES 6092354 folio 0398 (fol. 162v, ~1760). Literal: 'la referida Dn. Thereza Caamaño'. Tratamiento 'Doña' = hidalga. Compareciente/propietaria. Posible vínculo con Dn. Domingo de Luaces mencionado en línea siguiente. Confianza: MEDIA-BAJA (transcripción del segundo término dudosa).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "gn007",
@@ -3380,7 +3922,9 @@
           "description": "Enterramiento"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Geneanet w/ primary citation"
     },
     {
       "id": "h022",
@@ -3392,7 +3936,9 @@
       "birthPlace": "Rubianes, Villagarcía de Arousa, Pontevedra, España",
       "notes": "⭐ FUENTE: Arquivo da Deputación de Pontevedra, fondo FAMILIA CAAMAÑO, signatura 1.195/10 (1797, copia de escritura original de 1534). Literal: 'Extracto de escritura de mellora outorgada por García Caamaño de Rubianes, marido de Constanza Sánchez Guillelme de Bendaña, a favor do seu fillo García Rodríguez de Caamaño'. HIJO MAYOR y HEREDERO PRINCIPAL de h019 García 'El Alto' + h020 Constanza Sánchez. Casado con h023 Margarita de Montoto (signatura 1.195/11, escritura de arras 1534). Extiende la línea noble una generación hacia adelante desde h019.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h023",
@@ -3404,7 +3950,9 @@
       "birthDate": "~1510",
       "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/11 (1797, copia escritura de arras 1534). Esposa de h022 García Rodríguez de Caamaño (hijo mayor de h019 'El Alto'). Recibió arras de su suegro García de Rubianes 'El Alto'. Nuera identificada de h019.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h024",
@@ -3418,7 +3966,9 @@
       "deathPlace": "Caldas de Reis, Pontevedra, Galicia, España",
       "notes": "⭐ FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/15 (1797, extracto de testamento original de 1478). Literal: 'Extracto do testamento que outorgou García de Caamaño, marido de Inés de Mendoza, no ano 1478'. Notario: Juan Goldriño. PADRE/ABUELO de h019 García 'El Alto' (d.1540). Extiende la línea noble UNA GENERACIÓN HACIA ATRÁS desde h019 — el hallazgo más antiguo del fondo de Pontevedra vinculado a la línea troncal.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h025",
@@ -3430,7 +3980,9 @@
       "birthDate": "~1455",
       "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/15 (test. 1478). Esposa de h024 García de Caamaño. Madre/abuela de h019 'El Alto'. El apellido Mendoza en esta generación sugiere vínculo temprano con la Casa de Mendoza (la nieta de h019, Constanza Sánchez de Bendaña, también aporta Guillelmes).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h026",
@@ -3448,7 +4000,9 @@
           "description": "Testó disponiendo traspaso de bienes a Casa de Romelle"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h027",
@@ -3461,7 +4015,9 @@
       "birthPlace": "Santa María de Caamaño, Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐⭐ FUENTE: Depo fondo FAMILIA CAAMAÑO, signaturas 1.213/14 (pleito 1666) + 1.299/16 (copia 1797 del testamento original de 1585). Primer presentador conocido del beneficio curado de la Feligresía de Santa María de Caamaño en 1564 (dato del pleito 1666). Su testamento de 1585 existe y pendiente de reproducción digital — debería nombrar padres, esposa e hijos. Vivió y ejerció en la PARROQUIA ANCESTRAL exacta donde nació p001. Candidato directo a nieto/biznieto de h019. Cadena documentada de presentadores del beneficio parroquial 1564-1666: Juan Prego de Caamaño → García Caamaño → otro García de Caamaño → Fernando Romay → Diego Romay.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h028",
@@ -3473,7 +4029,9 @@
       "deathDate": "~1569",
       "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.292/12 (1797, copia del testamento original de 1569). PRIMER TESTAMENTO CAAMAÑO FEMENINO DEL SIGLO XVI localizado. Contemporánea de la generación inmediatamente posterior a h019 (d.1540) — posible hija, sobrina o nieta del patriarca. Nombre nuevo no documentado en otras fuentes hasta Fase 5 del scrape del fondo de Pontevedra.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h029",
@@ -3486,7 +4044,9 @@
       "deathPlace": "Vimianzo, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet (múltiples árboles: ambern1, fedegrifo, guanape1957, skywardpictures, jlare1). Nacido c.1580 Romelle [CORREGIDO 2026-04-13: los árboles de Geneanet decían 1541 pero eso es biológicamente imposible — casado 1607, hijos nacidos 1616/1618. Muy probablemente es conflación con un ancestro homónimo. Edad estimada coherente: n.~1580, casado ~27, hijos ~36-38.]. Casado con Jerónima de Ulloa y Taboada (1607). Fundador/patriarca documentado de la Casa de Romelle (Zas). Su hija Bernarda Caamaño Taboada Ribadeneira Ulloa (h030, n.1618) se casó en 1642 con Antonio Bermúdez de Castro, conectando con el linaje Bermúdez. Nacido el mismo año (1541) de la muerte del 'El Alto' (h019, 1540) — cronológicamente podría ser su sobrino o biznieto. [REVIEW: children h030/h031 born 1616/1618 vs his birth 1541 = 75-77 year gap, biologically impossible. They are probably GRANDCHILDREN, not children. Requires manual review of García Carraffa Tomo XX to correct family structure hf13.]",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h030",
@@ -3500,7 +4060,9 @@
       "deathPlace": "Vimianzo, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet (múltiples árboles: samuelsotillo, pabonilla, skywardpictures, guanape1957, labraira, gbodu, cristinoconde, nicubano, pcagle72, tazntampa, ambern1). Hija de h029 Álvaro de Caamaño y Ribadeneira. Casada 1642 con Antonio Bermúdez de Castro y del Mercado. Conexión Caamaño-Bermúdez de Castro crítica: sus descendientes emigraron a Cumaná, Venezuela. Un apellido compuesto que aparece en 11 árboles independientes = ancestro común muy extendido en Geneanet.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h031",
@@ -3512,7 +4074,9 @@
       "birthPlace": "Romelle, Zas, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet (árboles fedegrifo, ambern1, skywardpictures). Hijo de h029 Álvaro de Caamaño y Ribadeneira + Jerónima de Ulloa. Hermano de h030 Bernarda. Casado con Leonor de Mendoza y Mariño (1635). Generación clave Romelle XVII.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h032",
@@ -3525,7 +4089,9 @@
       "birthPlace": "Vilagarcía de Arousa, Pontevedra, España",
       "notes": "FUENTE: Geneanet (árbol arousa73). Casado con Urraca de Mendoza de Sotomayor y Osorio. Rama Villagarcía/Vista Alegre — antepasado del linaje que culmina en h021 Antonio José de Mendoza Caamaño Sotomayor, Virrey del Perú (1667-1746). Nieto en línea paterna de h019 'El Alto' según reconstrucción del linaje de Rubianes.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "pa014",
@@ -3546,7 +4112,9 @@
           "description": "Matrimonio con Pedro Bazarra Caamaño"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "PARES-adjacent without explicit signature"
     },
     {
       "id": "gn008",
@@ -3566,7 +4134,9 @@
           "to": "Avellaneda, Buenos Aires, Argentina",
           "reason": "Emigración gallega a Argentina (olas 1900-1930)"
         }
-      ]
+      ],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn009",
@@ -3586,7 +4156,9 @@
           "to": "Avellaneda, Buenos Aires, Argentina",
           "reason": "Emigración gallega a Argentina"
         }
-      ]
+      ],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn010",
@@ -3605,7 +4177,9 @@
           "description": "Matrimonio con Josefa Cernadas Yáñez (confirmado Geneanet larapat)"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn011",
@@ -3625,7 +4199,9 @@
           "description": "Matrimonio con Jacobo Caamaño Malvarez"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn012",
@@ -3636,7 +4212,9 @@
       "birthDate": "~1800",
       "notes": "FUENTE: Geneanet. Hija de gn010 Jacobo Caamaño Malvarez + gn011 Josefa Cernadas Yáñez (m.1798). Casada con José Calderón. Generación exactamente contemporánea a p001 José Tomás Caamaño Sr.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn013",
@@ -3647,7 +4225,9 @@
       "birthDate": "~1802",
       "notes": "FUENTE: Geneanet. Hija de gn010 + gn011. Casada con Joaquín Alvite Sobrido. Hermana de gn012 y gn014.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "gn014",
@@ -3658,7 +4238,9 @@
       "birthDate": "~1805",
       "notes": "FUENTE: Geneanet. Hijo de gn010 Jacobo Caamaño Malvarez + gn011 Josefa Cernadas Yáñez (m.1798). Casado con Juana Romero Sieira. Generación exactamente contemporánea a p001 José Tomás Caamaño Sr — ambos Vicente y José Tomás nacidos ~1800-1815.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet multi-source"
     },
     {
       "id": "h033",
@@ -3669,7 +4251,9 @@
       "birthDate": "~1480",
       "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/2 (1797, extracto de testamento). Casado con h034 Marina Pérez. Apellido 'Escudero' indica estatus de escudero (hidalgo menor). Generación contemporánea o ligeramente anterior a h019 García 'El Alto' (d.1540). Los testamentos Garcías del legajo 1.195 apuntan a una red de parientes (hermanos, primos, tíos) todos llamados García de Caamaño en la franja 1478-1540. Candidato a hermano o primo hermano de h024.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h034",
@@ -3681,7 +4265,9 @@
       "birthDate": "~1485",
       "notes": "FUENTE: Depo signatura 1.195/2. Esposa de h033 García de Caamaño Escudero.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h035",
@@ -3692,7 +4278,9 @@
       "birthDate": "~1470",
       "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signatura 1.195/25 (1797, extracto testamento). Casado con h036 Doña Juana Villamarín. Escribano del testamento original: 'Benito' (apellido no identificado). Tercer García de Caamaño documentado en el legajo 1.195 junto a h024 (+Inés de Mendoza, 1478) y h033 (+Marina Pérez). Todos comparten generación aproximada 1470-1540 y son pieza de la red familiar que culmina en h019 'El Alto'.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h036",
@@ -3704,7 +4292,9 @@
       "birthDate": "~1475",
       "notes": "FUENTE: Depo signatura 1.195/25. Esposa de h035 García de Caamaño. Apellido Villamarín = linaje noble gallego documentado en Rianxo (Aldonza de Figueroa y Villamarín aparece en Depo 1.304/10, 1603).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h037",
@@ -3716,7 +4306,9 @@
       "deathDate": "~1560",
       "notes": "FUENTE: Depo fondo, signaturas 1.194/6 (1643), 1.194/9, 1.237/3 (17 menciones). Generación XVI. Casado con Aldonza Ribadeneira (nombre repetido en la línea — hay una Aldonza Ribadeneira también en 1643 como madre de otro Jorge Vázquez Caamaño posterior). Vinculo Caamaño-Vázquez documentado en la Casa de Romelle temprano.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h038",
@@ -3728,7 +4320,9 @@
       "deathDate": "~1585",
       "notes": "FUENTE: Depo fondo, signaturas 1.189/24, 1.190/18, 1.194/2 (31 menciones, fechas 1576-1581). Generación posterior a h037. Posible hijo de h037 Jorge Vázquez de Caamaño. Vinculación explícita Caamaño-Vázquez en Casa de Romelle XVI.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h039",
@@ -3740,7 +4334,9 @@
       "deathDate": "~1702",
       "notes": "FUENTE: Depo fondo FAMILIA CAAMAÑO, signaturas 1.189/30, 1.209/2, 1.223/3, 1.190/20, 1.209/8, 1.211/4 (46-32 menciones, fechas 1652-1702). Casa de Romelle en el XVII. Hizo testamento en 1700/1702 (citado en Fase 4). Contemporáneo a Antonio Caamaño Ribadeneira (h026, †1657) — posible sobrino o sucesor en la Casa de Romelle tras el traspaso de bienes.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h040",
@@ -3751,7 +4347,9 @@
       "birthDate": "~1610",
       "notes": "FUENTE: Depo signaturas 1.194/6 (1643), 1.218/6, 1.218/8, 1.190/20 (9 menciones). Casado con Aldonza Ribadeneira (primera mención de esta pareja: 1643). Abuelo o bisabuelo de Jorge Vázquez Caamaño del bautismo 1799 (Depo 1.270/24, 1.270/22) casado con otra Aldonza Ribadeneira (homónima o misma familia).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h041",
@@ -3764,7 +4362,9 @@
       "deathPlace": "Romelle, Zas, A Coruña, Galicia, España",
       "notes": "FUENTE: Depo + Geneanet (árbol seixalbo). Nacido 1723 en El Ferrol. Casado 1760 con María Josefa Pardo Copeiro (h042). Padre de la prole Caamaño y Pardo: Juan José (h043, 1761-1819), Rafael (h044, 1762-1849), José Frutos (1772), Vicente (1775), Joaquín, Antonia. Dueño de los morgados del Pazo de Orellán (Zas) por real ejecutoria 1790 (Depo 1.277/3). CABEZA DE LA CASA DE ROMELLE EN EL XVIII. Jurisdicción sobre las islas de Sálvora, Vionta y Noro (Depo 1.229/13, 1773).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h042",
@@ -3776,7 +4376,9 @@
       "birthDate": "~1730",
       "notes": "FUENTE: Depo + Geneanet. Esposa de h041 Vicente Caamaño Gayoso desde 1760. Madre de la prole Caamaño y Pardo. Aporta a la línea los apellidos Pardo + Copeiro.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h043",
@@ -3790,7 +4392,9 @@
       "deathPlace": "Santiago de Compostela, La Coruña, Galicia, España",
       "notes": "⭐ FUENTE: Depo fondo FAMILIA CAAMAÑO + Geneanet (árboles seixalbo, mimonero, breogan, jmfigueroa). Nacido 1761 Ferrol, †1819 Santiago. Hijo primogénito de h041 Vicente Caamaño Gayoso + h042 Josefa Pardo Copeiro. Casado con Ramona Escolástica Pardo de Figueroa Correa y Sarmiento. Partida de bautismo en Depo 1.196/14 y subserie bautismal 1.213. Heredero de la Casa de Romelle. Llevaba el archivo familiar que pasó a la Casa de Romelle. Gran parte del fondo FE10 Caamaño del Arquivo de Pontevedra proviene de su archivo personal.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h044",
@@ -3804,7 +4408,9 @@
       "deathPlace": "Ferrol, La Coruña, Galicia, España",
       "notes": "FUENTE: Depo + Geneanet (110 menciones en el fondo, árbol mimonero). Hermano de h043 Juan José. Casado con Felipa Carbonell. Sucesor Casa Romelle tras Juan José. Ramona Caamaño Carbonell (en Depo, bautismo 1825) es su hija. Mencionado en Depo 1.186/50, 1.178/14, y muchas más con fechas 1768-1850.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h045",
@@ -3815,7 +4421,9 @@
       "birthDate": "~1680",
       "notes": "FUENTE: Depo fondo, signaturas 1.202/15, 1.208/8, 1.213/41 + bautismo 1.270/27 (1724). Casado con María Ventura Gayoso. Padre de Fernando Antonio Caamaño y Gayoso (1724), Jorge Caamaño y Gayoso, Vicente Caamaño y Gayoso. Nexo generacional entre los Caamaño Varela del XVII tardío y los Caamaño Gayoso del XVIII (incluye a h041 Vicente). Posible padre o tío de h041.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h046",
@@ -3827,7 +4435,9 @@
       "birthDate": "~1690",
       "notes": "FUENTE: Depo signaturas 1.270/27 (1724), 1.270/29 (1737-1752), 1.270/10 (1797). Esposa de h045 Juan Antonio Caamaño y Varela. Aporta el apellido Gayoso que pasa a toda la prole de la Casa de Romelle del XVIII.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h047",
@@ -3838,7 +4448,9 @@
       "birthDate": "~1720",
       "notes": "FUENTE: Depo signaturas 1.251/14, 1.270/13, 1.270/14 (1689-1708, 8 menciones). Padre de Juan Antonio Caamaño y Varela (1795, bautismo 1.270/14). Casado con Aldonza Varela.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h048",
@@ -3850,7 +4462,9 @@
       "deathDate": "~1700",
       "notes": "FUENTE: Depo signaturas 1.202/19 (1658-1665), 1.202/20, 1.202/21 + 1.195/31 (1800), 1.421043. Identificado como hijo de Juan Caamaño Ribadeneira (1.195/31, 1800). Señor de Romelle en 1658 (real executoria sobre toda la hacienda del Partido de San Les, Depo arc.ADP_0003421043). Padre de Juan Antonio de Caamaño y Sotomayor. Generación puente entre Antonio Ribadeneira (h026, †1657) y los Caamaño Quintana (h039).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h049",
@@ -3862,7 +4476,9 @@
       "birthDate": "~1645",
       "notes": "FUENTE: Depo signatura 1.270/36 (1673). Literal del bautismo: 'Partida de bautismo de Jacinta María Caamaño, filla de José Pensado e Marina de Caamaño'. Madre documentada en 1673. Caso interesante: el apellido materno pasa al hijo (bautizado 'Jacinta María Caamaño' en lugar de 'Jacinta María Pensado') — suele indicar mayor prestigio del solar materno, o ilegitimidad.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "h050",
@@ -3873,7 +4489,9 @@
       "birthDate": "~1490",
       "notes": "FUENTE: Depo signatura 1.190/18 y 1.190/19 (1797, extracto de documento original). Aparece como 'tutor de Pedro García e María Bella' junto con Alonso Díaz. Generación XVI temprana. Posible cuarto García de Caamaño del legajo 1.195-1.190, reforzando la red de Garcías pre-h019.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "circumstantial",
+      "certaintyReason": "García Carraffa + corroborating secondary sources"
     },
     {
       "id": "gn015",
@@ -3892,7 +4510,9 @@
           "description": "Matrimonio con Juan Manuel Vidal Santos"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn016",
@@ -3904,7 +4524,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐⭐⭐ FUENTE: Geneanet árbol 'larapat' (ficha de María Bazarra Caamaño 1886, verificada 2026-04-13). Casado con gn017 Socorro Romero. BISABUELO de María Bazarra Caamaño (gn022, n.1886), Manuela Bazarra Caamaño (gn009, n.1894) y Alejandro Bazarra Caamaño (gn008, n.1895). Padre de una hija (persona privada en Geneanet) que se casó con Alejandro Bazarra Lado (gn019). Generación exactamente compatible con p001 José Tomás Caamaño Sr (n.~1815): Manuel podría ser hermano, primo o sobrino de p001, dado que ambos son Caamaño nacidos en Porto do Son en la misma franja ~1815-1840. **La combinación Caamaño+Romero aparece también en otros registros del siglo XVIII/XIX (ej. Romero de Caamaño documentados en Boiro y Ponteceso), sugiriendo un patrón de alianza familiar Caamaño-Romero en la zona Barbanza.**",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn017",
@@ -3917,7 +4539,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Esposa de gn016 Manuel Caamaño. Madre de la mujer (privada) que se casó con Alejandro Bazarra Lado. Bisabuela materna de la trilogía Bazarra Caamaño (María 1886, Manuela 1894, Alejandro 1895).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn018",
@@ -3929,7 +4553,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat' (2026-04-13). Nombre privatizado en Geneanet (alive o fallecida reciente). Hija de gn016 Manuel Caamaño + gn017 Socorro Romero. Casada con gn019 Alejandro Bazarra Lado (†1919). Madre de María Bazarra Caamaño (gn022, 1886), Manuela Bazarra Caamaño (gn009, 1894) y Alejandro Bazarra Caamaño (gn008, 1895). Enlace crítico entre la familia Caamaño-Romero de Porto do Son y la familia Bazarra Lado. Pieza clave para la reconstrucción — requiere contacto con larapat para desprivatizar nombre (ya está fallecida con seguridad, siendo madre de persona nacida en 1886).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn019",
@@ -3942,7 +4568,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn020 José Antonio Bazarra Chouza († 1900) + gn021 Faustina Lado García. Casado con gn018 [privada] Caamaño Romero. Padre de María (gn022, 1886), Manuela (gn009, 1894) y Alejandro (gn008, 1895) Bazarra Caamaño. Línea Bazarra Porto do Son, contemporáneo al final del XIX.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn020",
@@ -3954,7 +4582,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Casado con gn021 Faustina Lado García. Padre de gn019 Alejandro Bazarra Lado. Línea Bazarra Chouza. Potencialmente descendiente remoto de gn007 Pedro Bazarra Caamaño (1712-1767) — mismo apellido Bazarra en Porto do Son ~180 años después. Requiere verificar genealogía intermedia con larapat.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn021",
@@ -3966,7 +4596,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Esposa de gn020 José Antonio Bazarra Chouza. Aporta a la línea el apellido materno Lado que lleva su hijo Alejandro Bazarra LADO.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn022",
@@ -3978,7 +4610,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija mayor de gn019 Alejandro Bazarra Lado + gn018 [privada] Caamaño Romero. Tiene 5+ hermanos documentados (Carmen 1888, Elena 1888, Manuela 1894, Alejandro 1895, Antonia 1903).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn023",
@@ -3990,7 +4624,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat' (ficha de 'persona privada' madre, 2026-04-13). Hija de gn019 Alejandro Bazarra Lado + gn018 [privada] Caamaño Romero. Hermana de María (1886), Elena (1888, probable gemela), Manuela (1894), Alejandro (1895), Antonia (1903).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn024",
@@ -4002,7 +4638,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn019 + gn018. Misma fecha de nacimiento que Carmen (gn023) → probable gemela. Hermana de los 6 Bazarra Caamaño documentados en larapat.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn025",
@@ -4014,7 +4652,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija menor documentada de gn019 Alejandro Bazarra Lado (†1919) + gn018 [privada] Caamaño Romero. Nacida en 1903, cuando su padre tenía ~48 años. Hermana de 5 Bazarra Caamaño anteriores. Hay al menos 2 hijos más marcados como 'persona privada' en el árbol larapat — probablemente nacidos ~1905-1915 y vivos hasta fechas recientes (o con descendencia viva).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn026",
@@ -4026,7 +4666,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn007 Pedro Bazarra Caamaño (1712-1767) + pa014 María Ignacia Rodríguez Patiño (1716-1797), matrimonio 1738. Padre de gn027 Juan Beltrán Bazarra Fernández (†1872). Hermano de gn028 Luisa Agustina Bazarra Rodríguez Patiño (1751-1828). Enlace generacional clave entre Pedro Bazarra Caamaño y José Antonio Bazarra Chouza.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn027",
@@ -4039,7 +4681,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn026 Juan Manuel Bazarra Rodríguez. Padre de gn020 José Antonio Bazarra Chouza (†1900). Apellido materno Fernández — esposa del Juan Manuel era una Fernández. Bisnieto de gn007 Pedro Bazarra Caamaño.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn028",
@@ -4052,7 +4696,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Hermana de gn026 Juan Manuel. Casada con un Fernández. Madre de gn029 Juan Antonio Agustín Fernández Bazarra (1782-1860). Su línea de descendencia es la rama femenina Fernández/Vilaro/Mariño documentada en larapat hasta 1993.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn029",
@@ -4065,7 +4711,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hijo de gn028 Luisa Agustina Bazarra Rodríguez Patiño. Nieto de gn007 Pedro Bazarra Caamaño por línea materna. Cabeza de la rama Fernández-Bazarra que desciende ~200 años hasta Agustín Mariño Vilaro (1906-1993) y descendientes vivos. Casado con una señora de apellido García (madre de su hijo José Ramos Fernández García 1810-1876).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn030",
@@ -4076,7 +4724,9 @@
       "birthDate": "~1680",
       "notes": "⭐ FUENTE: Geneanet árbol 'larapat' (ficha de Pedro Bazarra Caamaño, 2026-04-13). Padre de gn007 Pedro Bazarra Caamaño (1712). Casado con gn031 Bernarda de Luces Bazarra. El apellido 'Fidalgo' indica hidalguía — categoría noble menor. 'De Huya' = toponímico (probable lugar de Huya en Galicia). El hijo Pedro adoptó los apellidos maternos (Bazarra + Caamaño, vía Bernarda) en lugar del paterno (Fidalgo de Huya), un patrón común en Galicia cuando el solar materno tenía más prestigio.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn031",
@@ -4088,7 +4738,9 @@
       "birthDate": "~1685",
       "notes": "⭐⭐⭐ FUENTE: Geneanet árbol 'larapat'. Madre de gn007 Pedro Bazarra Caamaño (1712). Esposa de gn030 Jacome Fidalgo de Huya. **LA PIEZA CLAVE: el apellido 'de Luces Bazarra' conecta con la línea hidalga 'de Luces Caamaño y Sotomayor'** documentada en el Depo fondo FAMILIA CAAMAÑO (Doña Jacinta de Luces Caamaño y Sotomayor †1705 Muros, casada con Gómez de Rioboo 1685, signaturas 1.185/31-34). **Esto sugiere que Bernarda era nieta, biznieta o sobrina de Jacinta de Luces Caamaño — y por tanto la línea Bazarra Caamaño de Porto do Son ES UNA LÍNEA CADETE/COLATERAL DE LA CASA DE ROMELLE/RUBIANES.** Primera conexión documental directa entre la rama común de Porto do Son (donde nació p001) y la rama hidalga h017-h049 a través de un ancestro del XVII.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn032",
@@ -4100,7 +4752,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Hermana de gn028 Luisa Agustina (1751), gn026 Juan Manuel, gn033 Ángela, gn034 Ignacia.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn033",
@@ -4110,7 +4764,9 @@
       "gender": "female",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Sin fechas documentadas en larapat.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn034",
@@ -4120,7 +4776,9 @@
       "gender": "female",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hija de gn007 Pedro Bazarra Caamaño + pa014 María Ignacia Rodríguez Patiño. Sin fechas documentadas en larapat. Casada con José Ares Pérez → hijos Manuela, José, Rosa Ares Bazarra.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn035",
@@ -4133,7 +4791,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "⭐ FUENTE: Geneanet árbol 'larapat' (descendencia de Bernarda de Luces Bazarra, 2026-04-13). PRIMERA esposa de gn026 Juan Manuel Bazarra Rodríguez. Madre de: gn027 Juan Beltrán Bazarra Fernández (†1872, nuestro ancestro directo), Soledad Bazarra Fernández, María de la Presentación Bazarra Fernández. **Línea materna directa** de nuestra cadena Bazarra→p001. Juan Manuel tuvo una segunda esposa (Bárbara Queiruga → Luisa y Ana María Bazarra Queiruga), documentada como colateral.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn036",
@@ -4153,7 +4813,9 @@
           "description": "Matrimonio con Juan Beltrán Bazarra Fernández"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn037",
@@ -4164,7 +4826,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hermana mayor de gn020 José Antonio Bazarra Chouza. Hija de gn027 Juan Beltrán Bazarra Fernández + gn036 Luisa Chouza Carballo (m.1808).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn038",
@@ -4175,7 +4839,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hermana de gn020 José Antonio Bazarra Chouza. Hija de gn027 + gn036.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn039",
@@ -4186,7 +4852,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hermana de gn020.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn040",
@@ -4197,7 +4865,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hermano de gn020.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn041",
@@ -4208,7 +4878,9 @@
       "birthPlace": "Porto do Son, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'larapat'. Hermano de gn020. Hijo menor documentado.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn042",
@@ -4220,7 +4892,9 @@
       "birthPlace": "Muros, Pontevedra, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'fjcobasseoane' (búsqueda 2026-04-13, 591 resultados). Casado con Benita González Sisto. ⭐ **Muros limita con Porto do Son** — misma comarca de Noia. Vive a ~20km de la parroquia ancestral de Santa María de Caamaño. Posible pariente distante (contemporáneo de 3ª generación después de p001 por cronología).",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn043",
@@ -4240,7 +4914,9 @@
           "description": "Matrimonio con Ana Josefa González Mata"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Geneanet w/ primary citation"
     },
     {
       "id": "gn044",
@@ -4254,7 +4930,9 @@
       "deathPlace": "Madrid, Madrid, España",
       "notes": "FUENTE: Geneanet árbol 'evagarj1' + Censo electoral de Madrid 1894. Casado con Amalia Verdi Dolagaray. Rama andaluza-madrileña del apellido Caamaño — probablemente descendiente de emigración del s. XVIII a Cádiz (puerto de Indias). No vinculado directamente a Porto do Son.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn045",
@@ -4293,7 +4971,9 @@
           "description": "Falleció a los 47 años"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Geneanet w/ primary citation"
     },
     {
       "id": "gn046",
@@ -4307,7 +4987,9 @@
       "deathPlace": "Arecibo, Puerto Rico, Estados Unidos",
       "notes": "FUENTE: Geneanet (árboles pgarcias, wguindinsantiago, princesa3). Casado con María Luisa Firpi Negro (1902). Descendiente de gn045 Tomás Raimundo Agapito Caamaño López por línea paterna o paterna-materna. Continúa la rama Caamaño en Arecibo, PR.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn047",
@@ -4319,7 +5001,9 @@
       "deathDate": "1975",
       "notes": "⭐ FUENTE: Geneanet árbol 'sperezdominguez'. **GENEALOGISTA** — autor del artículo 'El linaje de Rosalía de Castro' publicado en el Boletín de la Real Academia Galega. Citado en la Guía del Investigador del Arquivo do Reino de Galicia (ARG) como referencia para el linaje Caamaño. Su trabajo establece conexiones entre las familias Caamaño, Castro y Rosalía de Castro. Valor investigativo: **buscar sus publicaciones** podría dar acceso a documentación original de archivos gallegos que ya no está disponible.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn048",
@@ -4331,7 +5015,9 @@
       "birthPlace": "Chillán, Ñuble, Biobío, Chile",
       "notes": "FUENTE: Geneanet (árboles adevesadevesa, grosselotiriart, antonio2012, cbarriga). Casado con Mercedes Ramos (1818). **Contemporáneo exacto de Pablo Caamaño Villa (fs003, n.1802) y próximo a p001 (~1815)**. Rama chilena del apellido Caamaño. Posible pariente directo (primo hermano) de la rama colombiana si los Caamaño de América del Sur comparten origen gallego del XVIII. Apellido compuesto Jarpa+Caamaño = madre Caamaño.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn049",
@@ -4345,7 +5031,9 @@
       "deathPlace": "Baradero, Buenos Aires, Argentina",
       "notes": "FUENTE: Geneanet (árboles martintxu, enriquealberto). Murió en infancia (mismo año de nacimiento). **Apellido doble Pueyrredón+Caamaño en Argentina en 1803** — la familia Pueyrredón es una de las grandes casas porteñas (Juan Martín de Pueyrredón fue Director Supremo de las Provincias Unidas 1816-1819). Que un Pueyrredón tuviera madre Caamaño en 1803 indica **presencia Caamaño documentada en Buenos Aires colonial antes de la independencia**. Rama argentina muy temprana.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn050",
@@ -4357,7 +5045,9 @@
       "birthPlace": "Xora, San Miguel de Treos, Vimianzo, A Coruña, Galicia, España",
       "notes": "FUENTE: Geneanet árbol 'mimonero'. Casado con Doña Antonia Díaz de Aza y Díaz-Gallego. Nacido 1691 en Xora (aldea de Vimianzo, MUY cerca de Romelle — Casa de Romelle está en la misma jurisdicción). **Contemporáneo exacto a h039 Antonio de Caamaño y Quintana (~1640-1702) y a h026 Antonio de Caamaño Ribadeneira (†1657)**. Posible bisnieto o sobrino nieto de la bisagra Rubianes↔Romelle. Rama Caamaño-Sotomayor del XVII-XVIII documentada en Vimianzo.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn051",
@@ -4371,7 +5061,9 @@
       "deathPlace": "Madrid, Madrid, España",
       "notes": "⭐ FUENTE: Geneanet árbol 'jmfigueroa'. Casado con Ana María de Mendoza. **Uno de los Caamaños más tempranos del XVII documentado** (pre-h026 Antonio Ribadeneira †1657). Presencia Caamaño en Madrid en 1583-1630 sugiere que algunos hidalgos del linaje ya residían en la Corte, no solo en Galicia. Apellido compuesto Caamaño+Figueroa — conecta con la casa Pardo de Figueroa (h043 Juan José Caamaño y Pardo se casó con Ramona Pardo de Figueroa en 1780s). Posible ancestro lejano de la línea Pardo.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn052",
@@ -4397,7 +5089,9 @@
           "place": "Arecibo, Puerto Rico"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn053",
@@ -4409,7 +5103,9 @@
       "birthPlace": "Puerto Rico",
       "notes": "⭐ FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVJQ-CBP5, documento 10-oct-1916 Hatillo, Puerto Rico). Hijo de gn045 Tomás Raimundo Agapito Caamaño López + gn052 Juana de Federico Santa. Su nombre **'Pablo'** coincide con fs003 Pablo Caamaño Villa (1802, Palmeira, Muros) — son contemporáneos de generación pero en continentes distintos. Evidencia de que el nombre 'Pablo' se repite en varias ramas Caamaño del XIX como onomástico heredado.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn054",
@@ -4421,7 +5117,9 @@
       "birthPlace": "Puerto Rico",
       "notes": "FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVN1-1PX2, documento 30-jun-1892 San Juan PR). Hija de gn045 Tomás Raimundo Agapito + gn052 Juana de Federico.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn055",
@@ -4433,7 +5131,9 @@
       "birthPlace": "Puerto Rico",
       "notes": "FUENTE: Geneanet árbol panchovilla2018 + Puerto Rico Registro Civil 1805-2001 (FamilySearch QVJ3-WYSB, documento 22-sep-1927 Arecibo PR). Hija de gn045 Tomás Raimundo Agapito + gn052 Juana de Federico. Nótese ortografía 'Camaño' en documento civil (variante sin doble 'a').",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn056",
@@ -4453,7 +5153,9 @@
           "to": "Puebla/Tlaxcala, Nueva España (México)",
           "reason": "Emigración colonial (XVIII) — probable vía Cádiz o Veracruz"
         }
-      ]
+      ],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn057",
@@ -4467,7 +5169,9 @@
       "birthPlace": "México (presunto)",
       "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn056 Domingo Antonio Caamaño. Madre de gn043 José Mariano Caamaño Conde. Aporta a la línea el apellido Conde que llevó su hijo. Probablemente criolla mexicana (Puebla/Tlaxcala). Muerta antes de 1815.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn058",
@@ -4480,7 +5184,9 @@
       "birthPlace": "Puebla, Puebla, México",
       "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn043 José Mariano Caamaño Conde desde 1815 (Sagrario de Puebla). Madre de gn059 José Luis Caamaño González (~1822). Hija de Joseph Mariano González (†<1815) + María Gertrudis Mata (†<1815). Sus padres muertos antes del matrimonio de la hija indican que era huérfana al casarse.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn059",
@@ -4499,7 +5205,9 @@
           "description": "Matrimonio con Florencia Antonia Machado Vidal"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "proven",
+      "certaintyReason": "Geneanet w/ primary citation"
     },
     {
       "id": "gn060",
@@ -4519,7 +5227,9 @@
           "place": "Sagrario de Puebla, Puebla, México"
         }
       ],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "gn061",
@@ -4531,7 +5241,9 @@
       "birthPlace": "Puebla, Puebla, México",
       "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Hija de gn059 José Luis Caamaño González + gn060 Florencia Antonia Machado Vidal. Nieta de Domingo Antonio Caamaño (gn056, emigrante gallego). Bisnieta del ancestro gallego no identificado (padre de gn056). 4ª generación mexicana del linaje Caamaño.",
       "events": [],
-      "migrations": []
+      "migrations": [],
+      "certainty": "hypothetical",
+      "certaintyReason": "Geneanet user tree (uncorroborated)"
     },
     {
       "id": "fs017",
@@ -4543,7 +5255,9 @@
       "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955 Margarita 06-ene-1955 listado como abuelo paterno de Glicerio Caamaño Fambrant Jr. (fs021) + ark 1:1:XS6D-JNV2 matrimonio Ruth Caamaño 09-may-1954 listado como padre. Cónyuge: Virginia Benavides (fs018). Hijos confirmados: Glicerio Sr. (fs019) y Ruth (fs024). PADRES DESCONOCIDOS: el índice FS ark XS68-BK5D originalmente lo asoció a Trinidad Caamaño + Damiana Soto, pero esa asociación pertenece al otro José Tomás Caamaño (fs026, el viudo que se casó in articulo mortis en 1891). Probable relación: fs017 sería sobrino o hijo póstumo del viudo (fs026), o hijo de un hermano no documentado. Tradición onomástica confirma que es descendiente de p001.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs018",
@@ -4555,7 +5269,9 @@
       "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354. Esposa de José Tomás Caamaño II (fs017). Abuela paterna de Glicerio Caamaño Fambrant Jr. según partida bautismo N°955 Margarita, Bolívar, 06-ene-1955.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs019",
@@ -4567,7 +5283,9 @@
       "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955. Hijo de José Tomás Caamaño (fs017) + Virginia Benavides (fs018). Padre de Glicerio Caamaño Fambrant Jr. (fs020) con Matilde Fambrant en unión natural (no casados). Generación calculada ~1915-1925.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs020",
@@ -4579,7 +5297,9 @@
       "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354. Madre de Glicerio Caamaño Fambrant Jr. con Glicerio Caamaño Benavides (fs019) en unión natural. Padres: Emiliano Fambrant y Paulina Fambrant.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs021",
@@ -4597,7 +5317,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs022",
@@ -4609,7 +5331,9 @@
       "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción de su esposa Damiana Soto 16-mayo-1883 Rioviejo, que lo confirma aún vivo en esa fecha, natural y vecino de Rioviejo (agregación de San Sebastián mártir de Morales, Bolívar). FUENTE SECUNDARIA: FS ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto el viudo (fs026) que lo lista como padre. Esposa: Damiana Soto (fs023, †1883). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815 Porto do Son → Colombia). Generación calculada ~1820-1840 para ser padre de hombre ya dos veces viudo en 1891 y consorte de mujer fallecida en 1883.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs023",
@@ -4630,7 +5354,9 @@
       "migrations": [],
       "source": "familysearch",
       "deathDate": "1883-05-15",
-      "deathPlace": "Rioviejo, Morales, Bolívar, Colombia"
+      "deathPlace": "Rioviejo, Morales, Bolívar, Colombia",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs024",
@@ -4648,7 +5374,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs025",
@@ -4666,7 +5394,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "fs026",
@@ -4687,7 +5417,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs027",
@@ -4698,7 +5430,9 @@
       "notes": "FUENTE: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199. Primera esposa de José Tomás Caamaño Soto el viudo (fs026), fallecida antes de noviembre 1891 cuando él se casó en segundas nupcias in articulo mortis con Suzana Muñoz.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs028",
@@ -4715,7 +5449,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs029",
@@ -4728,7 +5464,9 @@
       "notes": "FUENTE: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción 16-mayo-1883 de su hija natural Damiana Soto (fs023), que la menciona como natural y vecina QUE FUÉ de la agregación de Rioviejo, es decir, ya fallecida antes de 1883. Madre soltera de Damiana — padre de Damiana no reconocido ni registrado (hija natural). Generación estimada ~1800-1820. BISABUELA MATERNA de José Tomás Caamaño Soto el viudo (fs026).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs030",
@@ -4740,7 +5478,9 @@
       "notes": "FUENTE: FamilySearch Tree PID 9611-367 (via perfil de su hijo José 9611-9WK). Casado ~1568 Noia con Constanza Romero de Caamaño (fs031). Hijos: Juan (1569), José (1571), Fernando (1573). NO confirmado con documentos primarios en FS (0 sources). Rama noble Noia, probable descendiente del clan García de Caamaño s.XV (h024/h033/h035).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs031",
@@ -4752,7 +5492,9 @@
       "notes": "FUENTE: FamilySearch Tree PID 9611-9H4. Esposa de García de Caamaño y Sotomayor (fs030). Endogamia — su apellido incluye ya Caamaño. Matrimonio ~1568 Noia.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs032",
@@ -4764,7 +5506,9 @@
       "notes": "FUENTE: FamilySearch Tree PID K8ZB-DRB. Primogénito de García de Caamaño y Sotomayor + Constanza Romero. Hermano de José (fs033) y Fernando (fs034).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs033",
@@ -4776,7 +5520,9 @@
       "notes": "FUENTE: FamilySearch Tree PID 9611-9WK. Segundo hijo de García de Caamaño y Sotomayor + Constanza Romero (~1568 Noia). Sin descendencia registrada. 0 sources.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs034",
@@ -4788,7 +5534,9 @@
       "notes": "FUENTE: FamilySearch Tree PID 9611-944. Tercer hijo de García de Caamaño y Sotomayor + Constanza Romero.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs035",
@@ -4800,7 +5548,9 @@
       "notes": "FUENTE: FamilySearch Tree PID LH2D-KPH. Patriarca de la rama noble Caamaño Gayoso de Ferrol s.XVIII. Casado en La Graña con María Ventura Gayoso Arias de Lemos Ozores (fs036). 11 hijos documentados. Apellido compuesto revela confluencia de cuatro casas nobiliarias gallegas: Caamaño, Varela, Mendoza, Mariño de Goyanes. Sin conexión directa confirmada con nuestro p001 — rama paralela noble.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs036",
@@ -4812,7 +5562,9 @@
       "notes": "FUENTE: FamilySearch Tree PID LH2D-KYN. Esposa de Juan Antonio Caamaño Varela (fs035). Apellido compuesto Gayoso-Arias de Lemos-Ozores revela linaje noble luguense (Condes de Lemos). 11 hijos.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs037",
@@ -4831,7 +5583,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs038",
@@ -4844,7 +5598,9 @@
       "notes": "FUENTE: FamilySearch Tree PID LC23-LND. Esposa de Vicente Caamaño Gayoso Varela (fs037). Casada 1755 La Graña. Apellido Pardo-Copeiro-Osorio indica linaje hidalgo gallego. Madre de 6 hijos Caamaño Pardo.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs039",
@@ -4863,7 +5619,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs040",
@@ -4875,7 +5633,9 @@
       "notes": "FUENTE: FamilySearch Tree PID LZ5F-43S. Esposa de Juan José Caamaño y Pardo (fs039). Apellido revela linaje hidalgo Pardo de Figueroa (casa Pazo de Figueroa). Madre de 4 hijos.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs041",
@@ -4886,7 +5646,9 @@
       "notes": "FUENTE: FS Tree PID LZ5F-4WM. Primogénita de Juan José Caamaño y Pardo (fs039) + Ramona (fs040).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs042",
@@ -4898,7 +5660,9 @@
       "notes": "FUENTE: FS Tree PID LZ5F-44G. Segundo hijo de Juan José Caamaño y Pardo + Ramona.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs043",
@@ -4910,7 +5674,9 @@
       "notes": "FUENTE: FS Tree PID LZ5F-4CS. Tercer hijo de Juan José Caamaño y Pardo + Ramona.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs044",
@@ -4931,7 +5697,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "fs045",
@@ -4943,7 +5711,9 @@
       "notes": "FUENTE: FamilySearch Tree PID MC7M-4KY. Hijo de Jose Caamaño (fs046) + Manuela Pardo (fs047), sin fechas parentales. Casado con Juana Del Valle (fs048). Hijos: Geraldo Pedro Antonio (1845), Ceferino (1852-1908). NO es p001 — se estableció en Padrón con familia local, no migró. Contemporáneo cercano (n.1818 vs p001 ~1815) pero rama diferente. Padrón está a ~30 km de Porto do Son.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs046",
@@ -4954,7 +5724,9 @@
       "notes": "FUENTE: FS Tree PID MC7M-HJB. Padre de José María Caamaño Pardo (fs045). Sin fechas. Esposa: Manuela Pardo (fs047).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs047",
@@ -4965,7 +5737,9 @@
       "notes": "FUENTE: FS Tree PID MC7M-HV4. Esposa de Jose Caamaño (fs046). Madre de José María Caamaño Pardo (fs045).",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs048",
@@ -4976,7 +5750,9 @@
       "notes": "FUENTE: FS Tree PID MC7M-42Z. Esposa de José María Caamaño Pardo (fs045). Madre de 2 hijos en Padrón.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs049",
@@ -4988,7 +5764,9 @@
       "notes": "FUENTE: FS Tree PID MC7M-4K7. Primogénito de José María Caamaño Pardo + Juana Del Valle.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs050",
@@ -5001,7 +5779,9 @@
       "notes": "FUENTE: FS Tree PID GCHG-SY1. Segundo hijo de José María Caamaño Pardo + Juana Del Valle.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs054",
@@ -5018,7 +5798,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs055",
@@ -5035,7 +5817,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs056",
@@ -5058,7 +5842,9 @@
         }
       ],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "fs057",
@@ -5070,7 +5856,9 @@
       "notes": "FUENTE: FamilySearch IGI (PID 2:1:9FVJ-F9G). Esposa de Juan de Caamaño (fs056). Nacida 1754, casada ~1771 con 17 años en Esteiro. Viuda joven en 1776. Apellido compuesto Gándara-Lestón indica familia local gallega.",
       "events": [],
       "migrations": [],
-      "source": "familysearch"
+      "source": "familysearch",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS Tree / IGI / indexed record"
     },
     {
       "id": "fs058",
@@ -5081,7 +5869,9 @@
       "notes": "FUENTE PRIMARIA: Testamento de Don Francisco García, presbítero, 1803 — AHUS (Arquivo Histórico Universitario de Santiago), H.R. Testamentos 32, fols. 114-117, notario Domingo Paz de Andrade. PRIMER CAAMAÑO-COMO-APELLIDO-PERSONAL documentado en la parroquia ancestral con fecha confirmada 1803. Mencionado como \"Don Joseph [...] Caamaño, vecino de Santa María de Caamaño\" en el fol. 115v del testamento — nombrado como pariente o albacea del presbítero Francisco García. Relación exacta ilegible por deterioro del manuscrito. Vivía en Santa María de Caamaño en 1803, 12 años antes del supuesto nacimiento de p001. Confirmación documental directa de que la tradición oral sobre el origen parroquial tiene base real.",
       "events": [],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs059",
@@ -5100,7 +5890,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs060",
@@ -5118,7 +5910,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs061",
@@ -5136,7 +5930,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs062",
@@ -5154,7 +5950,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs063",
@@ -5171,7 +5969,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs064",
@@ -5188,7 +5988,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs065",
@@ -5210,7 +6012,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs066",
@@ -5228,7 +6032,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs067",
@@ -5245,7 +6051,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs068",
@@ -5262,7 +6070,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "proven",
+      "certaintyReason": "FS primary document (ark/film/partida)"
     },
     {
       "id": "fs069",
@@ -5279,7 +6089,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "circumstantial",
+      "certaintyReason": "FS source default"
     },
     {
       "id": "fs070",
@@ -5296,7 +6108,9 @@
         }
       ],
       "migrations": [],
-      "source": "galiciana"
+      "source": "galiciana",
+      "certainty": "hypothetical",
+      "certaintyReason": "FS candidate / Tree merge / speculative"
     },
     {
       "id": "pa015",
@@ -5315,7 +6129,9 @@
         }
       ],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa016",
@@ -5335,7 +6151,9 @@
         }
       ],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa017",
@@ -5354,7 +6172,9 @@
         }
       ],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa018",
@@ -5371,7 +6191,9 @@
         }
       ],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa019",
@@ -5394,7 +6216,9 @@
           "date": "c.1939-1946"
         }
       ],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa020",
@@ -5406,7 +6230,9 @@
       "notes": "FUENTE PRIMARIA: AGI (Archivo General de Indias), Casa de la Contratación, Autos sobre Bienes de Difuntos. Signatura ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Mencionado en los autos de bienes de difuntos de su nieto Ignacio de Luaces (pa022) fechados 1728/1776-1777. Casado con María de Solís. Padre de Jacobo Luaces de Caamaño (pa021). ABUELO PATERNO documentado en Muros — primer Caamaño de Muros con filiación multi-generacional confirmada en documento primario AGI. El apellido compuesto \"de Luaces y Caamaño\" indica matrimonio entre Casa de Luaces y Casa de Caamaño, patrón hidalgo gallego costero típico.",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa021",
@@ -5418,7 +6244,9 @@
       "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Padre de Ignacio de Luaces (pa022). Hijo de Simón de Luaces y Caamaño (pa020) y María de Solís. Casado con María Fernández de Orgás (vecina de Muros, hija de Pedro de Orgás y María F[ernández]). Conservó el apellido Caamaño por línea paterna.",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa022",
@@ -5443,7 +6271,9 @@
           "date": "~1720"
         }
       ],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa023",
@@ -5455,7 +6285,9 @@
       "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5459,N.9 — PARES id 155486. Padre de José Varela Camaño (pa024), factor pasajero a Nueva España 1699. Vecino de Pernes del Coto de Bergantiños (comarca Bergantiños, norte de A Coruña — zona distinta a Muros/Porto do Son). Casado con María de Villar.",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa024",
@@ -5479,7 +6311,9 @@
           "date": "1699"
         }
       ],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa025",
@@ -5490,7 +6324,9 @@
       "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5465,N.1,R.9 — PARES id 156354. Madre de Felipe de Baños (hijo), pasajero a Indias. Casada con Felipe de Baños (padre). Apellido compuesto Jiansa-Caamaño indica ancestría Caamaño por al menos una línea. Natural de Muros.",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa026",
@@ -5508,7 +6344,9 @@
         }
       ],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa027",
@@ -5519,7 +6357,9 @@
       "notes": "FUENTE PRIMARIA: PARES id 228333. Esposa de Matías Caamaño (pa026). Fallecida antes de 1773 (fecha inicio del pleito sobre sus bienes).",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa028",
@@ -5531,7 +6371,9 @@
       "notes": "FUENTE PRIMARIA: PARES id 228333. Hijo de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807 por herencia paterna. Vecino de Fefiñanes.",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa029",
@@ -5543,7 +6385,9 @@
       "notes": "FUENTE PRIMARIA: PARES id 228333. Hija de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807. Hermana de José Manuel (pa028).",
       "events": [],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     },
     {
       "id": "pa030",
@@ -5560,7 +6404,9 @@
         }
       ],
       "migrations": [],
-      "source": "pares"
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
     }
   ],
   "families": [
@@ -6952,6 +7798,15 @@
   ],
   "meta": {
     "lastUpdated": "2026-04-14",
-    "version": 38
+    "version": 39,
+    "certaintyAudit": {
+      "date": "2026-04-13",
+      "stats": {
+        "proven": 50,
+        "circumstantial": 312,
+        "hypothetical": 61
+      },
+      "version": 39
+    }
   }
 }
