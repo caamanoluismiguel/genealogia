@@ -215,6 +215,34 @@ export function PersonNode({
             </div>
           )}
 
+          {/* Certainty badge (top-right if no YO, else bottom-right) */}
+          {person.certainty &&
+            person.certainty !== "proven" &&
+            !isReference && (
+              <div
+                className={`absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full text-[9px] font-bold leading-none text-white shadow-sm ${
+                  person.certainty === "circumstantial"
+                    ? "bg-amber-500"
+                    : "bg-slate-400"
+                }`}
+                title={
+                  person.certainty === "circumstantial"
+                    ? "Circunstancial — fuente secundaria"
+                    : "Hipotético — sin documento primario"
+                }
+              >
+                {person.certainty === "circumstantial" ? "?" : "!"}
+              </div>
+            )}
+          {person.certainty === "proven" && !isReference && (
+            <div
+              className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-emerald-600 text-[10px] font-bold leading-none text-white shadow-sm"
+              title="Probado — fuente primaria documentada"
+            >
+              ✓
+            </div>
+          )}
+
           {/* Compare A/B badges */}
           {isCompareA && (
             <div className="absolute -top-2 -left-2 rounded-full bg-slate-500 px-1.5 py-0.5 text-[8px] font-bold leading-none text-white shadow-sm">

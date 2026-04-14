@@ -32,19 +32,27 @@ import { exportData } from "@/lib/data/persistence";
 import {
   filterIndexBySources,
   filterIndexByCountry,
+  filterIndexByCertainty,
 } from "@/lib/genealogy/index-builder";
 import type { Person, LayoutNode } from "@/lib/genealogy/types";
 
 export function FamilyTree() {
   const { data, index, mutate } = useGenealogy();
 
-  const { visibleSources, toggleSource, activeCountry, setCountry } =
-    useTreeStore();
+  const {
+    visibleSources,
+    toggleSource,
+    activeCountry,
+    setCountry,
+    minCertainty,
+    setMinCertainty,
+  } = useTreeStore();
 
   const filteredIndex = useMemo(() => {
     const bySource = filterIndexBySources(index, visibleSources);
-    return filterIndexByCountry(bySource, activeCountry);
-  }, [index, visibleSources, activeCountry]);
+    const byCountry = filterIndexByCountry(bySource, activeCountry);
+    return filterIndexByCertainty(byCountry, minCertainty);
+  }, [index, visibleSources, activeCountry, minCertainty]);
 
   const layout = useMemo(
     () => computeTreeLayout(filteredIndex),
@@ -487,6 +495,8 @@ export function FamilyTree() {
         onToggleSource={toggleSource}
         activeCountry={activeCountry}
         onSetCountry={setCountry}
+        minCertainty={minCertainty}
+        onSetMinCertainty={setMinCertainty}
       />
 
       <PersonDetailSidebar

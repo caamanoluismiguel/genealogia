@@ -5,7 +5,7 @@
 "use client";
 
 import { useState } from "react";
-import type { PersonSource } from "@/lib/genealogy/types";
+import type { Certainty, PersonSource } from "@/lib/genealogy/types";
 
 interface TreeControlsProps {
   onZoomIn: () => void;
@@ -20,6 +20,9 @@ interface TreeControlsProps {
   onSetCountry?: (country: string | null) => void;
   visibleSources?: Set<PersonSource>;
   onToggleSource?: (source: PersonSource) => void;
+  /** Minimum certainty level to show. Default null = show all. */
+  minCertainty?: Certainty | null;
+  onSetMinCertainty?: (c: Certainty | null) => void;
 }
 
 const SOURCE_TOGGLES: {
@@ -291,16 +294,18 @@ export function TreeControls({
   onToggleSource,
   activeCountry,
   onSetCountry,
+  minCertainty,
+  onSetMinCertainty,
 }: TreeControlsProps) {
-  // KAI: Filter panel is collapsed by default on mobile — saves vertical space.
-  // On desktop it stays open permanently since there's no height constraint.
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   // Count active non-default filters to show a badge on the filter button
   const activeFilterCount =
     (visibleSources
       ? [...visibleSources].filter((s) => s !== "modern").length
-      : 0) + (activeCountry ? 1 : 0);
+      : 0) +
+    (activeCountry ? 1 : 0) +
+    (minCertainty ? 1 : 0);
 
   return (
     // ARIA: Floating glass panel — white/90 + backdrop-blur reads over any background.
@@ -488,6 +493,50 @@ export function TreeControls({
                       {c.label}
                     </button>
                   ))}
+                </>
+              )}
+
+              {onSetMinCertainty && (
+                <>
+                  <p className="mt-2 text-[8px] font-bold uppercase tracking-wide text-slate-400">
+                    Certeza
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => onSetMinCertainty(null)}
+                    title="Mostrar todo (probados + circunstanciales + hipotéticos)"
+                    className={`flex h-7 w-full items-center justify-center rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                      !minCertainty
+                        ? "bg-slate-700 text-white ring-1 ring-slate-800"
+                        : "bg-slate-50 text-slate-600 ring-1 ring-slate-300"
+                    }`}
+                  >
+                    Todo
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => onSetMinCertainty("circumstantial")}
+                    title="Probados + circunstanciales (oculta hipotéticos)"
+                    className={`flex h-7 w-full items-center justify-center gap-1 rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                      minCertainty === "circumstantial"
+                        ? "bg-amber-600 text-white ring-1 ring-amber-700"
+                        : "bg-amber-50 text-amber-900 ring-1 ring-amber-300"
+                    }`}
+                  >
+                    🟡 ≥ Circunstancial
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => onSetMinCertainty("proven")}
+                    title="Solo personas con documento primario (fuente archivística directa)"
+                    className={`flex h-7 w-full items-center justify-center gap-1 rounded-lg px-2 text-[9px] font-bold whitespace-nowrap transition-all duration-150 ${
+                      minCertainty === "proven"
+                        ? "bg-emerald-600 text-white ring-1 ring-emerald-700"
+                        : "bg-emerald-50 text-emerald-900 ring-1 ring-emerald-300"
+                    }`}
+                  >
+                    ✅ Solo probados
+                  </button>
                 </>
               )}
             </div>

@@ -13,15 +13,15 @@ Cada persona del árbol ha sido clasificada en uno de tres niveles epistémicos 
 - **🟡 CIRCUMSTANTIAL** — fuente secundaria publicada (García Carraffa, Genealogías de Colombia), bases indexadas (IGI, Pedigree Resource File, CEMLA), o tradición familiar con fechas internamente coherentes. Útil como hipótesis, no como prueba.
 - **❌ HYPOTHETICAL** — tradición oral sin soporte documental, árbol de usuario sin corroborar, candidato especulativo, o marcador explícito de brecha.
 
-**Regla de oro:** una persona es *PROVEN* solo si su existencia está confirmada por un documento contemporáneo (s.XIX en adelante) o una cita archivística directa. No basta con aparecer en un árbol Geneanet o en tradición familiar — eso es *CIRCUMSTANTIAL* como mucho.
+**Regla de oro:** una persona es _PROVEN_ solo si su existencia está confirmada por un documento contemporáneo (s.XIX en adelante) o una cita archivística directa. No basta con aparecer en un árbol Geneanet o en tradición familiar — eso es _CIRCUMSTANTIAL_ como mucho.
 
 ## Resumen estadístico
 
-| Nivel | Personas | % |
-|---|---:|---:|
-| ✅ PROVEN | 50 | 11.8% |
-| 🟡 CIRCUMSTANTIAL | 312 | 73.8% |
-| ❌ HYPOTHETICAL | 61 | 14.4% |
+| Nivel             | Personas |     % |
+| ----------------- | -------: | ----: |
+| ✅ PROVEN         |       50 | 11.8% |
+| 🟡 CIRCUMSTANTIAL |      312 | 73.8% |
+| ❌ HYPOTHETICAL   |       61 | 14.4% |
 
 ### Interpretación
 
@@ -31,18 +31,18 @@ Cada persona del árbol ha sido clasificada en uno de tres niveles epistémicos 
 
 ## Desglose por fuente × nivel
 
-| Fuente | Total | ✅ Proven | 🟡 Circumst. | ❌ Hipot. |
-|---|---:|---:|---:|---:|
-| **modern** | 194 | 8 | 181 | 5 |
-| **historical** | 50 | 0 | 50 | 0 |
-| **familysearch** | 54 | 11 | 37 | 6 |
-| **pares** | 30 | 17 | 13 | 0 |
-| **galiciana** | 13 | 10 | 2 | 1 |
-| **geneanet** | 61 | 4 | 9 | 48 |
-| **genco** | 12 | 0 | 12 | 0 |
-| **cemla** | 7 | 0 | 7 | 0 |
-| **uruguay** | 1 | 0 | 1 | 0 |
-| **gap** | 1 | 0 | 0 | 1 |
+| Fuente           | Total | ✅ Proven | 🟡 Circumst. | ❌ Hipot. |
+| ---------------- | ----: | --------: | -----------: | --------: |
+| **modern**       |   194 |         8 |          181 |         5 |
+| **historical**   |    50 |         0 |           50 |         0 |
+| **familysearch** |    54 |        11 |           37 |         6 |
+| **pares**        |    30 |        17 |           13 |         0 |
+| **galiciana**    |    13 |        10 |            2 |         1 |
+| **geneanet**     |    61 |         4 |            9 |        48 |
+| **genco**        |    12 |         0 |           12 |         0 |
+| **cemla**        |     7 |         0 |            7 |         0 |
+| **uruguay**      |     1 |         0 |            1 |         0 |
+| **gap**          |     1 |         0 |            0 |         1 |
 
 ## Observaciones clave
 
@@ -80,11 +80,11 @@ Padres (PROVEN por referencia en expediente): fs037 Vicente Caamaño Gayoso Vare
 
 ### 4. Brechas pendientes
 
-| Brecha | Estado | Personas del lado "arriba" | Conexión al siguiente nivel |
-|---|---|---|---|
-| **0. Modern → Trinidad** | ✅ Cerrada documentalmente | p023 Néstor (1901, PROVEN) → fs022 Trinidad (~1830, PROVEN) | Cadena completa |
-| **2. p001 padres** | ❌ NO cerrada | ~20 candidatos HYPOTHETICAL/CIRCUMSTANTIAL (fs058 Joseph 1803, fs060 Francisco 1831, fs062 Benito 1837, cluster Luaces) | Sin enlace primario |
-| **1. Noble medieval → común** | ❌ NO cerrada | h019 García "El Alto" (†1540) | ~300 años sin cadena sacramental |
+| Brecha                        | Estado                     | Personas del lado "arriba"                                                                                              | Conexión al siguiente nivel      |
+| ----------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **0. Modern → Trinidad**      | ✅ Cerrada documentalmente | p023 Néstor (1901, PROVEN) → fs022 Trinidad (~1830, PROVEN)                                                             | Cadena completa                  |
+| **2. p001 padres**            | ❌ NO cerrada              | ~20 candidatos HYPOTHETICAL/CIRCUMSTANTIAL (fs058 Joseph 1803, fs060 Francisco 1831, fs062 Benito 1837, cluster Luaces) | Sin enlace primario              |
+| **1. Noble medieval → común** | ❌ NO cerrada              | h019 García "El Alto" (†1540)                                                                                           | ~300 años sin cadena sacramental |
 
 ### 5. Las 48 personas Geneanet hipotéticas
 
@@ -94,58 +94,58 @@ La mayor concentración de entradas HYPOTHETICAL (48/61 = 78%) viene de **árbol
 
 ## Personas PROVEN (las 50 defendibles académicamente)
 
-| ID | Nombre | Fuente primaria |
-|---|---|---|
-| `fs017` | José Tomás Caamaño | FS primary document (ark/film/partida) |
-| `fs018` | Virginia Benavides | FS primary document (ark/film/partida) |
-| `fs019` | Glicerio Caamaño Benavides | FS primary document (ark/film/partida) |
-| `fs021` | Glicerio Caamaño Fambrant | FS primary document (ark/film/partida) |
-| `fs022` | Trinidad Caamaño | FS primary document (ark/film/partida) |
-| `fs023` | Damiana Soto | FS primary document (ark/film/partida) |
-| `fs026` | José Tomás Caamaño Soto | FS primary document (ark/film/partida) |
-| `fs028` | Suzana Muñoz | FS primary document (ark/film/partida) |
-| `fs029` | Emeteria Soto | FS primary document (ark/film/partida) |
-| `fs039` | Juan José Caamaño y Pardo | FS primary document (ark/film/partida) |
-| `fs054` | Juan Antonio Caamaño | FS primary document (ark/film/partida) |
-| `fs058` | Joseph Caamaño | FS primary document (ark/film/partida) |
-| `fs059` | Francisco García (presbítero) | FS primary document (ark/film/partida) |
-| `fs060` | Francisco Caamaño | FS primary document (ark/film/partida) |
-| `fs061` | Baltasar Caamaño | FS primary document (ark/film/partida) |
-| `fs062` | Benito Caamaño | FS primary document (ark/film/partida) |
-| `fs063` | Diego Caamaño | FS primary document (ark/film/partida) |
-| `fs064` | Manuel Caamaño | FS primary document (ark/film/partida) |
-| `fs066` | Teresa Caamaño | FS primary document (ark/film/partida) |
-| `fs067` | José Caamaño Cerero | FS primary document (ark/film/partida) |
-| `fs068` | Antonio Vicente de Lema Romero Caamaño | FS primary document (ark/film/partida) |
-| `gn007` | Pedro Bazarra Caamaño | Geneanet w/ primary citation |
-| `gn043` | José Mariano Caamaño Conde | Geneanet w/ primary citation |
-| `gn045` | Tomás Raimundo Agapito Caamaño López | Geneanet w/ primary citation |
-| `gn059` | José Luis Caamaño González | Geneanet w/ primary citation |
-| `p007` | Faustina Reales | Modern family with primary document citation |
-| `p013` | Benjamin Caamaño Reales | Modern family with primary document citation |
-| `p014` | Dominga Castro | Modern family with primary document citation |
-| `p023` | Néstor Daniel Caamaño Castro | Modern family with primary document citation |
-| `p109` | Brígida Caamaño | Modern family with primary document citation |
-| `p160` | Emilio Caamaño Castro | Modern family with primary document citation |
-| `p161` | Justina Lucía Caamaño Castro | Modern family with primary document citation |
-| `p195` | Tomás Caamaño (Caamaño?) | Modern family with primary document citation |
-| `pa005` | Francisco de los Santos Thomás de Caamaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa015` | José Frutos Caamaño Pardo Gayoso y Copeiro | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| ID      | Nombre                                        | Fuente primaria                                      |
+| ------- | --------------------------------------------- | ---------------------------------------------------- |
+| `fs017` | José Tomás Caamaño                            | FS primary document (ark/film/partida)               |
+| `fs018` | Virginia Benavides                            | FS primary document (ark/film/partida)               |
+| `fs019` | Glicerio Caamaño Benavides                    | FS primary document (ark/film/partida)               |
+| `fs021` | Glicerio Caamaño Fambrant                     | FS primary document (ark/film/partida)               |
+| `fs022` | Trinidad Caamaño                              | FS primary document (ark/film/partida)               |
+| `fs023` | Damiana Soto                                  | FS primary document (ark/film/partida)               |
+| `fs026` | José Tomás Caamaño Soto                       | FS primary document (ark/film/partida)               |
+| `fs028` | Suzana Muñoz                                  | FS primary document (ark/film/partida)               |
+| `fs029` | Emeteria Soto                                 | FS primary document (ark/film/partida)               |
+| `fs039` | Juan José Caamaño y Pardo                     | FS primary document (ark/film/partida)               |
+| `fs054` | Juan Antonio Caamaño                          | FS primary document (ark/film/partida)               |
+| `fs058` | Joseph Caamaño                                | FS primary document (ark/film/partida)               |
+| `fs059` | Francisco García (presbítero)                 | FS primary document (ark/film/partida)               |
+| `fs060` | Francisco Caamaño                             | FS primary document (ark/film/partida)               |
+| `fs061` | Baltasar Caamaño                              | FS primary document (ark/film/partida)               |
+| `fs062` | Benito Caamaño                                | FS primary document (ark/film/partida)               |
+| `fs063` | Diego Caamaño                                 | FS primary document (ark/film/partida)               |
+| `fs064` | Manuel Caamaño                                | FS primary document (ark/film/partida)               |
+| `fs066` | Teresa Caamaño                                | FS primary document (ark/film/partida)               |
+| `fs067` | José Caamaño Cerero                           | FS primary document (ark/film/partida)               |
+| `fs068` | Antonio Vicente de Lema Romero Caamaño        | FS primary document (ark/film/partida)               |
+| `gn007` | Pedro Bazarra Caamaño                         | Geneanet w/ primary citation                         |
+| `gn043` | José Mariano Caamaño Conde                    | Geneanet w/ primary citation                         |
+| `gn045` | Tomás Raimundo Agapito Caamaño López          | Geneanet w/ primary citation                         |
+| `gn059` | José Luis Caamaño González                    | Geneanet w/ primary citation                         |
+| `p007`  | Faustina Reales                               | Modern family with primary document citation         |
+| `p013`  | Benjamin Caamaño Reales                       | Modern family with primary document citation         |
+| `p014`  | Dominga Castro                                | Modern family with primary document citation         |
+| `p023`  | Néstor Daniel Caamaño Castro                  | Modern family with primary document citation         |
+| `p109`  | Brígida Caamaño                               | Modern family with primary document citation         |
+| `p160`  | Emilio Caamaño Castro                         | Modern family with primary document citation         |
+| `p161`  | Justina Lucía Caamaño Castro                  | Modern family with primary document citation         |
+| `p195`  | Tomás Caamaño (Caamaño?)                      | Modern family with primary document citation         |
+| `pa005` | Francisco de los Santos Thomás de Caamaño     | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa015` | José Frutos Caamaño Pardo Gayoso y Copeiro    | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
 | `pa016` | Joaquín Gabino Caamaño Pardo Gayoso y Copeiro | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa017` | Rafael José Caamaño Pardo Gayoso y Copeiro | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa018` | Gabriel Romero de Caamaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa019` | Ángela Caamaño Pato | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa020` | Simón de Luaces y Caamaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa021` | Jacobo Luaces de Caamaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa022` | Ignacio de Luaces | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa023` | Domingo Varela Camaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa024` | José Varela Camaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa025` | María Jiansa y Caamaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa026` | Matías Caamaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa027` | Rosa Estévez | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa028` | José Manuel Caamaño y Estévez | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa029` | Isabel Caamaño y Estévez | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
-| `pa030` | Juan Camaño | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa017` | Rafael José Caamaño Pardo Gayoso y Copeiro    | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa018` | Gabriel Romero de Caamaño                     | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa019` | Ángela Caamaño Pato                           | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa020` | Simón de Luaces y Caamaño                     | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa021` | Jacobo Luaces de Caamaño                      | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa022` | Ignacio de Luaces                             | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa023` | Domingo Varela Camaño                         | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa024` | José Varela Camaño                            | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa025` | María Jiansa y Caamaño                        | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa026` | Matías Caamaño                                | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa027` | Rosa Estévez                                  | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa028` | José Manuel Caamaño y Estévez                 | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa029` | Isabel Caamaño y Estévez                      | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
+| `pa030` | Juan Camaño                                   | PARES primary archival signature (AGI/AHN/ARG/ARChV) |
 
 ## Recomendaciones del auditor
 
@@ -159,5 +159,4 @@ La mayor concentración de entradas HYPOTHETICAL (48/61 = 78%) viene de **árbol
 
 ---
 
-*Este reporte es generado automáticamente desde el campo `certainty` de cada persona en `src/data/caamano-family.json`. Para re-ejecutar: `node scripts/audit-certainty.js`.*
-
+_Este reporte es generado automáticamente desde el campo `certainty` de cada persona en `src/data/caamano-family.json`. Para re-ejecutar: `node scripts/audit-certainty.js`._

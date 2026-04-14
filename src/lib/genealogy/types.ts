@@ -56,6 +56,9 @@ export interface Migration {
 }
 
 /** A single person in the family tree */
+/** Epistemological certainty level assigned by audit (see docs/CERTAINTY-AUDIT.md) */
+export type Certainty = "proven" | "circumstantial" | "hypothetical";
+
 export interface Person {
   id: string;
   source?: PersonSource;
@@ -71,6 +74,10 @@ export interface Person {
   notes?: string;
   events: LifeEvent[];
   migrations: Migration[];
+  /** Documentary certainty level (v39 audit 2026-04-13) */
+  certainty?: Certainty;
+  /** Reason for the certainty classification */
+  certaintyReason?: string;
 }
 
 /** A family unit (couple + children) */

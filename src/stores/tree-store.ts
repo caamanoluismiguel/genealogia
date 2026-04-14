@@ -3,7 +3,7 @@
  * Manages selected person, highlighted path, zoom level, and search query.
  */
 import { create } from "zustand";
-import type { PersonSource } from "@/lib/genealogy/types";
+import type { Certainty, PersonSource } from "@/lib/genealogy/types";
 
 interface TreeState {
   /** Currently selected person ID */
@@ -28,6 +28,9 @@ interface TreeState {
   /** Country filter — null = show all, Set = show only these */
   activeCountry: string | null;
 
+  /** Minimum documentary certainty filter — null = show all */
+  minCertainty: Certainty | null;
+
   // Actions
   selectPerson: (id: string | null) => void;
   setComparisonPerson: (id: string | null) => void;
@@ -41,6 +44,9 @@ interface TreeState {
 
   // Country filter actions
   setCountry: (country: string | null) => void;
+
+  // Certainty filter actions
+  setMinCertainty: (c: Certainty | null) => void;
 
   // Path Finder actions
   enterCompareMode: () => void;
@@ -62,6 +68,7 @@ export const useTreeStore = create<TreeState>()((set) => ({
 
   visibleSources: new Set<PersonSource>(["modern"]),
   activeCountry: null,
+  minCertainty: null,
 
   selectPerson: (id) => set({ selectedPersonId: id, sidebarOpen: id !== null }),
   setComparisonPerson: (id) => set({ comparisonPersonId: id }),
@@ -105,6 +112,9 @@ export const useTreeStore = create<TreeState>()((set) => ({
     set((s) => ({
       activeCountry: s.activeCountry === country ? null : country,
     })),
+
+  // Certainty filter — null = show all
+  setMinCertainty: (c) => set({ minCertainty: c }),
 
   // Path Finder actions
   enterCompareMode: () =>
