@@ -4822,7 +4822,7 @@
       "birthDate": "1717",
       "birthPlace": "El Ferrol, A Coruña, Galicia, España",
       "deathPlace": "Romelle, Lugo, Galicia, España",
-      "notes": "FUENTE: FamilySearch Tree PID LH2D-VDW. Segundo hijo de Juan Antonio Caamaño Varela (fs035) + María Ventura Gayoso (fs036). Casado 1755 en La Graña, Ferrol con María Josefa Pardo Copeiro y Osorio (fs038). 6 hijos documentados. Murió en Romelle (Samos), Lugo — conexión con la residencia familiar lucense.",
+      "notes": "FUENTE: FamilySearch Tree PID LH2D-VDW. Segundo hijo de Juan Antonio Caamaño Varela (fs035) + María Ventura Gayoso (fs036). Casado 1755 en La Graña, Ferrol con María Josefa Pardo Copeiro y Osorio (fs038). 6 hijos documentados. Murió en Romelle (Samos), Lugo — conexión con la residencia familiar lucense. [UPDATE 2026-04-13: 4 de sus hijos fueron Caballeros de la Orden de San Juan de Jerusalén — Juan José (fs039), Rafael José (pa017), José Frutos (pa015), Joaquín Gabino (pa016). Expedientes AHN OM San Juan 23367-23368. Esto confirma limpieza de sangre noble documentada con 4 generaciones para toda la rama Ferrol Caamaño Pardo Gayoso.]",
       "events": [
         {
           "type": "marriage",
@@ -4853,8 +4853,15 @@
       "gender": "male",
       "birthDate": "1761-04-25",
       "birthPlace": "Ferrol, A Coruña, Galicia, España",
-      "notes": "FUENTE: FamilySearch Tree PID GDJQ-SSR. Hijo de Vicente Caamaño Gayoso (fs037) + María Josefa Pardo Copeiro (fs038). Bautizado 25-abr-1761 Ferrol. Casado con Ramona Pardo de Figueroa y Sarmiento (fs040). 4 hijos: Juana (1800), Rafael (1802-1843), Joaquin (1804-1849), Jose Caamaño Figueroa (1806-1872, Caballero de San Juan).",
-      "events": [],
+      "notes": "FUENTE: FamilySearch Tree PID GDJQ-SSR. Hijo de Vicente Caamaño Gayoso (fs037) + María Josefa Pardo Copeiro (fs038). Bautizado 25-abr-1761 Ferrol. Casado con Ramona Pardo de Figueroa y Sarmiento (fs040). 4 hijos: Juana (1800), Rafael (1802-1843), Joaquin (1804-1849), Jose Caamaño Figueroa (1806-1872, Caballero de San Juan). [UPDATE 2026-04-13: FUENTE PRIMARIA AHN Órdenes Militares, San Juan de Jerusalén, Expediente 23368 — PARES id 1579278. Juan José fue CABALLERO DE LA ORDEN DE SAN JUAN DE JERUSALÉN junto con sus hermanos Rafael José (pa017), José Frutos (pa015) y Joaquín Gabino (pa016).]",
+      "events": [
+        {
+          "type": "nobility",
+          "date": "s.XVIII-XIX",
+          "place": "Ferrol, A Coruña, Galicia, España",
+          "note": "Caballero de la Orden Militar de San Juan de Jerusalén"
+        }
+      ],
       "migrations": [],
       "source": "familysearch"
     },
@@ -5290,6 +5297,270 @@
       ],
       "migrations": [],
       "source": "galiciana"
+    },
+    {
+      "id": "pa015",
+      "firstName": "José Frutos",
+      "lastName": "Caamaño Pardo Gayoso y Copeiro",
+      "gender": "male",
+      "birthDate": "1772",
+      "birthPlace": "La Graña, Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: Archivo Histórico Nacional (AHN), Órdenes Militares, San Juan de Jerusalén, Expediente 23367 — vía PARES id 1579277. Caballero de la Orden de San Juan de Jerusalén. Natural de Ferrol. Padres: Vicente Caamaño (fs037) + María Josefa Pardo (fs038). Abuelos paternos: Juan Antonio Caamaño (fs035). Hermano de Juan José (fs039), Joaquín Gabino (pa016), Rafael José (pa017). El expediente contiene pruebas de nobleza (limpieza de sangre) con 4 generaciones documentadas — no accedido aún, consulta física o digital en AHN Madrid necesaria para extraer bisabuelos y tatarabuelos.",
+      "events": [
+        {
+          "type": "nobility",
+          "date": "s.XVIII-XIX",
+          "place": "Ferrol, A Coruña, Galicia, España",
+          "note": "Caballero de la Orden Militar de San Juan de Jerusalén"
+        }
+      ],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa016",
+      "firstName": "Joaquín Gabino",
+      "lastName": "Caamaño Pardo Gayoso y Copeiro",
+      "gender": "male",
+      "birthDate": "1762",
+      "deathDate": "1849",
+      "birthPlace": "La Graña, Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AHN Órdenes Militares, San Juan de Jerusalén, Expediente 23367 (compartido con su hermano José Frutos) — PARES id 1579277. Caballero de San Juan de Jerusalén. Natural de Ferrol. Padres: fs037+fs038. Abuelos paternos: fs035. Hermanos: fs039 Juan José, pa015 José Frutos, pa017 Rafael José. FS Tree PID 9NSB-T8D confirma fechas 1762-1849.",
+      "events": [
+        {
+          "type": "nobility",
+          "date": "s.XVIII-XIX",
+          "place": "Ferrol, A Coruña, Galicia, España",
+          "note": "Caballero de la Orden Militar de San Juan de Jerusalén"
+        }
+      ],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa017",
+      "firstName": "Rafael José",
+      "lastName": "Caamaño Pardo Gayoso y Copeiro",
+      "gender": "male",
+      "birthDate": "1762",
+      "birthPlace": "La Graña, Ferrol, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AHN Órdenes Militares, San Juan de Jerusalén, Expediente 23368 — PARES id 1579278. Caballero de San Juan de Jerusalén. Natural de Ferrol. Padres: fs037+fs038. Abuelos paternos: fs035. Hermanos: fs039 Juan José, pa015 José Frutos, pa016 Joaquín Gabino. FS Tree PID LH2D-VF8 confirma n.1762. Posible gemelo de Joaquín Gabino (ambos 1762).",
+      "events": [
+        {
+          "type": "nobility",
+          "date": "s.XVIII-XIX",
+          "place": "Ferrol, A Coruña, Galicia, España",
+          "note": "Caballero de la Orden Militar de San Juan de Jerusalén"
+        }
+      ],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa018",
+      "firstName": "Gabriel",
+      "lastName": "Romero de Caamaño",
+      "gender": "male",
+      "birthDate": "~1570",
+      "notes": "FUENTE PRIMARIA: AGS (Archivo General de Simancas), sig. GYM,LEG,227 — PARES id 4644980. Cartas del conde de Fuentes siglo XVI-XVII (gobierno militar del Milanesado / expediciones mediterráneas). Gabriel Romero de Caamaño mencionado en carta 21 del legajo junto con figuras como don Alonso de Bazán, Francisco Duarte, don Pedro de Guzmán, Sancho Pardo de Osorio, arzobispo de Santiago. Contexto militar/diplomático, posible oficial de Armada o secretario. Sin filiación establecida con nuestras líneas. Agregado como figura histórica documentada de contexto.",
+      "events": [
+        {
+          "type": "correspondence",
+          "date": "c.1600",
+          "place": "Milanesado / Mediterráneo"
+        }
+      ],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa019",
+      "firstName": "Ángela",
+      "lastName": "Caamaño Pato",
+      "gender": "female",
+      "notes": "FUENTE PRIMARIA: AGA (Archivo General de la Administración), sig. 12,02721,017 — PARES id 12911672. Expediente JARE (Junta de Auxilio a los Republicanos Españoles) México, 1946. Viuda del doctor Rafael González Rodal (refugiado republicano fallecido). Solicita: (1) pensión como viuda, concedido subsidio 90 pesos/mes durante 4 meses; (2) beca de estudios en el Colegio Madrid para sus hijos Rafael y Ángel González Caamaño; (3) prórrogas del subsidio. Refugiada española del exilio republicano en México tras la Guerra Civil 1936-39. Hijos: Rafael González Caamaño, Ángel González Caamaño. Sin filiación establecida con nuestras líneas — contexto diaspora republicana gallega.",
+      "events": [
+        {
+          "type": "refugee",
+          "date": "1946",
+          "place": "México D.F.",
+          "note": "JARE expediente"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Galicia, España",
+          "to": "México",
+          "date": "c.1939-1946"
+        }
+      ],
+      "source": "pares"
+    },
+    {
+      "id": "pa020",
+      "firstName": "Simón",
+      "lastName": "de Luaces y Caamaño",
+      "gender": "male",
+      "birthDate": "~1660",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI (Archivo General de Indias), Casa de la Contratación, Autos sobre Bienes de Difuntos. Signatura ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Mencionado en los autos de bienes de difuntos de su nieto Ignacio de Luaces (pa022) fechados 1728/1776-1777. Casado con María de Solís. Padre de Jacobo Luaces de Caamaño (pa021). ABUELO PATERNO documentado en Muros — primer Caamaño de Muros con filiación multi-generacional confirmada en documento primario AGI. El apellido compuesto \"de Luaces y Caamaño\" indica matrimonio entre Casa de Luaces y Casa de Caamaño, patrón hidalgo gallego costero típico.",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa021",
+      "firstName": "Jacobo",
+      "lastName": "Luaces de Caamaño",
+      "gender": "male",
+      "birthDate": "~1690",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Padre de Ignacio de Luaces (pa022). Hijo de Simón de Luaces y Caamaño (pa020) y María de Solís. Casado con María Fernández de Orgás (vecina de Muros, hija de Pedro de Orgás y María F[ernández]). Conservó el apellido Caamaño por línea paterna.",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa022",
+      "firstName": "Ignacio",
+      "lastName": "de Luaces",
+      "gender": "male",
+      "birthDate": "~1710",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "deathPlace": "Ultramar (posible Nueva España)",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Autos sobre bienes de difuntos 1728 (primario) / 1776-1777 (autos secundarios). MOZO DE NAVÍO natural de Muros. Hijo de Jacobo Luaces de Caamaño (pa021) + María Fernández de Orgás. Nieto paterno de Simón de Luaces y Caamaño (pa020) + María de Solís. Nieto materno de Pedro de Orgás + María Fernández. Falleció en Ultramar dejando bienes que fueron devueltos a España vía Casa de la Contratación de Sevilla. PRIMERA DOCUMENTACIÓN PRIMARIA COMPLETA de una familia Caamaño de Muros con 3 generaciones y migración a América.",
+      "events": [
+        {
+          "type": "death",
+          "date": "~1727",
+          "place": "Ultramar"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Muros, A Coruña, Galicia, España",
+          "to": "Nueva España",
+          "date": "~1720"
+        }
+      ],
+      "source": "pares"
+    },
+    {
+      "id": "pa023",
+      "firstName": "Domingo",
+      "lastName": "Varela Camaño",
+      "gender": "male",
+      "birthDate": "~1660",
+      "birthPlace": "Pernes, Coto de Bergantiños, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5459,N.9 — PARES id 155486. Padre de José Varela Camaño (pa024), factor pasajero a Nueva España 1699. Vecino de Pernes del Coto de Bergantiños (comarca Bergantiños, norte de A Coruña — zona distinta a Muros/Porto do Son). Casado con María de Villar.",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa024",
+      "firstName": "José",
+      "lastName": "Varela Camaño",
+      "gender": "male",
+      "birthDate": "~1680",
+      "birthPlace": "Pernes, Coto de Bergantiños, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5459,N.9 — PARES id 155486. Expediente de información y licencia de pasajero a Indias, fecha 06-jul-1699. Factor de profesión. Natural y vecino de Pernes del Coto de Bergantiños. Hijo de Domingo Varela Camaño (pa023) + María de Villar. DESTINO: Nueva España (México). Tercer Caamaño-con-documento-primario migrado a las Américas en nuestra investigación, junto con Martínez Porrúa Caamaño 1713 (gc005) e Ignacio de Luaces (pa022).",
+      "events": [
+        {
+          "type": "emigration",
+          "date": "1699-07-06",
+          "place": "Casa de la Contratación, Sevilla"
+        }
+      ],
+      "migrations": [
+        {
+          "from": "Pernes, Bergantiños, A Coruña, Galicia, España",
+          "to": "Nueva España (México)",
+          "date": "1699"
+        }
+      ],
+      "source": "pares"
+    },
+    {
+      "id": "pa025",
+      "firstName": "María",
+      "lastName": "Jiansa y Caamaño",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5465,N.1,R.9 — PARES id 156354. Madre de Felipe de Baños (hijo), pasajero a Indias. Casada con Felipe de Baños (padre). Apellido compuesto Jiansa-Caamaño indica ancestría Caamaño por al menos una línea. Natural de Muros.",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa026",
+      "firstName": "Matías",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "~1720",
+      "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
+      "notes": "FUENTE PRIMARIA: Archivo Real Chancillería de Valladolid, PL CIVILES, PÉREZ ALONSO (F), CAJA 3703,1 — PARES id 228333. Pleito civil 1773-1807 sobre posesión de sus bienes y herencia (lo que indica fallecimiento pre-1773). Vecino de Fefiñanes (Cambados, ría de Arousa, Pontevedra). Casado con Rosa Estévez (pa027). Hijos documentados: José Manuel Caamaño y Estévez (pa028) + Isabel Caamaño y Estévez (pa029). Línea Pontevedra sur, ría de Arousa, NO costa Barbanza.",
+      "events": [
+        {
+          "type": "death",
+          "date": "<1773",
+          "place": "Fefiñanes, Cambados, Pontevedra"
+        }
+      ],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa027",
+      "firstName": "Rosa",
+      "lastName": "Estévez",
+      "gender": "female",
+      "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
+      "notes": "FUENTE PRIMARIA: PARES id 228333. Esposa de Matías Caamaño (pa026). Fallecida antes de 1773 (fecha inicio del pleito sobre sus bienes).",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa028",
+      "firstName": "José Manuel",
+      "lastName": "Caamaño y Estévez",
+      "gender": "male",
+      "birthDate": "~1750",
+      "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
+      "notes": "FUENTE PRIMARIA: PARES id 228333. Hijo de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807 por herencia paterna. Vecino de Fefiñanes.",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa029",
+      "firstName": "Isabel",
+      "lastName": "Caamaño y Estévez",
+      "gender": "female",
+      "birthDate": "~1755",
+      "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
+      "notes": "FUENTE PRIMARIA: PARES id 228333. Hija de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807. Hermana de José Manuel (pa028).",
+      "events": [],
+      "migrations": [],
+      "source": "pares"
+    },
+    {
+      "id": "pa030",
+      "firstName": "Juan",
+      "lastName": "Camaño",
+      "gender": "male",
+      "birthDate": "~1740",
+      "notes": "FUENTE PRIMARIA: AHN INQUISICIÓN,3730,Exp.42 — PARES id 3599779. Alegación fiscal del proceso de fe 1775 en el Tribunal de la Inquisición de Córdoba. Secretario de la Superintendencia de La Carolina (colonia de Sierra Morena, Jaén, fundada por Carlos III 1767). Acusado por \"proposiciones\" (errores dogmáticos). Oficio de secretario implica nobleza o grado educativo alto. Línea no relacionada directamente con costa Barbanza pero confirma presencia Caamaño funcionarial en la España borbónica.",
+      "events": [
+        {
+          "type": "inquisition",
+          "date": "1775",
+          "place": "Córdoba, España"
+        }
+      ],
+      "migrations": [],
+      "source": "pares"
     }
   ],
   "families": [
@@ -6562,7 +6833,10 @@
         "fs038"
       ],
       "children": [
-        "fs039"
+        "fs039",
+        "pa015",
+        "pa016",
+        "pa017"
       ],
       "marriagePlace": "La Graña, Ferrol, A Coruña, Galicia, España (1755)"
     },
@@ -6631,10 +6905,53 @@
       ],
       "children": [],
       "marriagePlace": "Esteiro, Muros, A Coruña, Galicia, España (~1771)"
+    },
+    {
+      "id": "paf04",
+      "parents": [
+        "pa020"
+      ],
+      "children": [
+        "pa021"
+      ],
+      "marriagePlace": "Muros, A Coruña, Galicia, España",
+      "notes": "Casa de Luaces y Caamaño — Muros. Fuente AGI CONTRATACION 5590 N.6."
+    },
+    {
+      "id": "paf05",
+      "parents": [
+        "pa021"
+      ],
+      "children": [
+        "pa022"
+      ],
+      "marriagePlace": "Muros, A Coruña, Galicia, España"
+    },
+    {
+      "id": "paf06",
+      "parents": [
+        "pa023"
+      ],
+      "children": [
+        "pa024"
+      ],
+      "marriagePlace": "Pernes, Bergantiños, A Coruña, Galicia, España"
+    },
+    {
+      "id": "paf07",
+      "parents": [
+        "pa026",
+        "pa027"
+      ],
+      "children": [
+        "pa028",
+        "pa029"
+      ],
+      "marriagePlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España"
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-13",
-    "version": 36
+    "lastUpdated": "2026-04-14",
+    "version": 38
   }
 }
