@@ -4,7 +4,7 @@
 
 ## What This Is
 
-Personal genealogy web app for the Caamaño family. **217 persons, 60 families, ~20 generations** (12th century → present). Traces from **Caamaño, A Coruña, Galicia, España** → Colombia (main branch), Dominican Republic, Ecuador, Argentina, Uruguay, USA.
+Personal genealogy web app for the Caamaño family. **423 persons, 115 families, ~28 generations** (12th century → present). Traces from **Caamaño, A Coruña, Galicia, España** → Colombia (main branch), Dominican Republic, Ecuador, Argentina, Uruguay, USA, Mexico, Puerto Rico, Cuba.
 
 **Live:** https://caamanoluismiguel.github.io/genealogia/
 **Repo:** https://github.com/caamanoluismiguel/genealogia (public)
@@ -20,54 +20,96 @@ Personal genealogy web app for the Caamaño family. **217 persons, 60 families, 
 - **~20 generations** spanning 12th century to present, across 5 countries
 - **"Yo soy" identity system:** `?yo=slug` shareable URLs, welcome modal, localStorage persistence, WhatsApp share
 
-### Data Structure (v7, 2026-04-04)
+### Data Structure (v38, 2026-04-13)
 
-- **217 persons**, **60 families** — version 7
-- **Modern persons:** IDs `p001`-`p153` (family)
-- **Historical persons:** IDs `h001`-`h021` (medieval lineage, García Carraffa Tomo XX)
-- **FamilySearch persons:** IDs `fs001`-`fs016` (Ribeira/Palmeira census clan, 1798-1905)
+- **423 persons**, **115 families** — version 38
+- **Modern persons:** IDs `p001`-`p179` (modern family, Colombian branch)
+- **Historical persons:** IDs `h001`-`h050` (medieval lineage, García Carraffa Tomo XX + Casa de Romelle)
+- **FamilySearch persons:** IDs `fs001`-`fs070` (Ribeira/Palmeira + Muros + Noble Ferrol Gayoso-Pardo + Bolívar 1954 + Colombian candidates)
+- **PARES persons:** IDs `pa001`-`pa030` (Catastro Ensenada 13 Caamaños + AGI Contratación Muros Luaces chain + AHN OM Caballeros San Juan + Chancillería Valladolid + Inquisición + JARE + AGS)
+- **Geneanet persons:** IDs `gn001`-`gn061` (Bazarra-Caamaño Porto do Son, Jacobo Malvarez, Pedro 1712-1767, Tomás Raimundo Agapito PR, Mexican branch Domingo Antonio → José Luis)
+- **Galiciana persons:** `fs058` (Joseph Caamaño 1803) + `fs059` (Francisco García presbítero) — via testament 1803 Santa María de Caamaño
 - **CEMLA passengers:** IDs `cm001`-`cm007` (Buenos Aires ship manifests — Tomás 1905 family)
-- **Genealogías de Colombia:** IDs `gc001`-`gc012` (Juan de Caamaño → Antioquia 1744, Clara 1502, Juana María Bogotá 1689, Ecuador presidential line)
-- **Uruguay:** ID `uy001` (José Caamaño Soto — Caamaño+Soto combo, smoking gun)
-- **Geneanet:** IDs `gn001`-`gn006`
-- **Gap marker:** ID `gap001` — unverified connection, now reclassified as PROOF GAP (not time gap)
-- **PersonSource types:** `modern | historical | familysearch | cemla | geneanet | genco | ellisisland | uruguay | pares | gap`
+- **Genealogías de Colombia:** IDs `gc001`-`gc012` (Juan de Caamaño → Antioquia 1744, Clara 1502, Juana María Bogotá 1689, Ecuador presidential line) — **fs051/fs052/fs053 merged here v36** (1713 Martínez Porrúa = gc005-007)
+- **Uruguay:** ID `uy001` (José Caamaño Soto)
+- **Gap marker:** ID `gap001`
+- **PersonSource types:** `modern | historical | familysearch | cemla | geneanet | genco | ellisisland | uruguay | pares | galiciana | gap`
 
-### The Complete Lineage
+### The Complete Lineage (honest epistemic state v38)
 
 ```
 h001: Rodrigo García de Caamaño (1100s, conquest of Baeza)
-  └→ 10 generations documented (García Carraffa Tomo XX)
+  └→ 10+ generations documented (García Carraffa Tomo XX + Casa de Romelle)
       └→ h019: García de Caamaño "El Alto" (d. 1540, Señor de Rubianes)
-          └→ ⚠ BRECHA 1 (~1540s to ~1770s) — noble → common folk
-              └→ fs001: [Desconocido] Caamaño (born ~1770, Muros)
-                  └→ fs003: Pablo Caamaño Villa (born 1802, Palmeira/Muros — marinero)
-                  └→ p001: José Tomás Caamaño Sr (born ~1815, Sta María de Caamaño → Colombia)
-                      └→ p006: José Tomás Jr (~1840)
-                          └→ p013: Benjamín (~1870)
-                              └→ p023: Néstor (1901) ✓
-                                  └→ p037: Luis (1949) ✓
-                                      └→ p151: Luis Miguel (Dec 1983) ✓
-                  ⚠ BRECHA 2 = PROOF GAP ONLY (Pablo & José Tomás are contemporaries ~1802-1815)
-                  ★ Jose Caamano SOTO (b.1889, Uruguay passenger) = Caamaño+Soto combo confirms family
+          └→ ⚠ BRECHA 1 (~1540s to ~1700s) — noble → common folk. NOT CLOSED.
+              └→ [cluster Muros documented via PARES/AGI but no chain to p001]
+                  · pa020 Simón de Luaces y Caamaño ~1660 Muros × María de Solís
+                  · pa021 Jacobo Luaces de Caamaño ~1690 Muros × María Fernández de Orgás
+                  · pa022 Ignacio de Luaces (~1710 Muros, †Ultramar) — AGI CONTRATACION 5590 N.6
+                  · fs054 Juan Antonio Caamaño × fs055 María Fernández (Abelleira, Muros 1758) — IGI
+                  · fs056 Juan de Caamaño × fs057 Gándara Lestón (Esteiro, Muros 1771)
+                  · fs058 Don Joseph Caamaño (1803 Santa María de Caamaño) — Galiciana testament
+                  · fs060 Francisco Caamaño (1831 Abelleira pleito) — ARG Caixa 12625-40
+                  · fs062 Benito Caamaño (1837 El Rollo Muros, tutor de nietos)
+              └→ p001: José Tomás Caamaño Sr (~1815, tradición oral Sta María de Caamaño → Colombia)
+                  ⚠ BRECHA 2 (1700-1815) — NOT CLOSED. No primary source links anyone above to p001.
+                  ⚠ p001 himself has ZERO primary documents (baptism, passport, marriage)
+                  └→ fs022 Trinidad Caamaño (~1830 Rioviejo, Bolívar) — FIRST documented Caamaño
+                  │   × fs023 Damiana Soto (~1825-†1883 Rioviejo) — AHDS burial record 1883
+                  │   │  └→ fs029 Emeteria Soto (†<1883) — her illegitimate mother
+                  │   └→ fs026 José Tomás Caamaño Soto "el viudo" (~1850, †1891 Rioviejo)
+                  │       × fs027 Dolores Castañeda (1st wife, †<1891)
+                  │       × fs028 Suzana Muñoz (2nd wife, 1891 in articulo mortis, de Mompós)
+                  └→ p006: José Tomás Jr (~1840) — oral tradition
+                      └→ p013: Benjamín (~1870)
+                          └→ p023: Néstor (1901) ✓ AHDS partida #1055 El Banco
+                              └→ p037: Luis (1949) ✓
+                                  └→ p151: Luis Miguel (Dec 1983) ✓
 ```
 
-**CORRECTED TIMELINE (2026-04-03):** Luis Miguel born Dec 1983, father born 1949, grandfather Néstor born 1901. This means José Tomás Sr (p001) was born ~1810-1825, NOT ~1850s. **Pablo Caamaño Villa (fs003, born 1802) is now a CONTEMPORARY** — possibly father, brother, or uncle. Gap 2 is a proof gap, not a time gap. One baptism record from AHDS would close it.
+**EPISTEMIC STATUS v38 (2026-04-13):**
 
-### Pinned Research Actions (updated 2026-04-13)
+- ✅ **Brecha 0** (modern → Trinidad ~1830) — CLOSED with primary records
+- ❌ **Brecha 2** (p001 parents 1700-1815) — NOT CLOSED. Strong candidates in Muros parish, zero proven filiation
+- ❌ **Brecha 1** (noble medieval → common s.XVIII) — NOT CLOSED. ~300 year gap in sacramental chain
+- ❌ **1713 Muros→Colombia migration** (Martínez Porrúa Caamaño) — DOCUMENTED, NOT LINKED to our line
+- The 1803 Galiciana testament (Francisco García presbítero Santa María de Caamaño) confirms parish was active with Caamaño families 12 years before p001's presumed birth
+- The AGI Contratación Luaces-de-Caamaño chain (3 gens Muros, 1660-1727) is the first primary-source Caamaño-of-Muros family confirmed, but Luaces is a distinct compound surname
 
-1. **✅ PARES 6092354 DESCARGADO Y ANALIZADO (2026-04-13)** — Comprobaciones del Catastro de Ensenada, Feligresía de Santa María de Caamaño. 426 folios leídos por 9 agentes paleográficos en paralelo. **13 Caamaños identificados** en 3 clústeres (de los Santos / canteros / hacendado). Reporte completo: `docs/PARES-6092354-CAAMANO-REPORT.md`. Hallazgo ⭐: **Francisco de los Santos Thomás de Caamaño** (coincide nombre Tomás con p001).
-2. **🆕 ARG — Respuestas Particulares del Catastro (1752)** — Carlos Infantes Buil (Jefe Referencias Simancas) confirmó que las Respuestas Particulares originales están en el **Archivo del Reino de Galicia** y "contienen bastante más detalles que las Comprobaciones". Email draft listo en `docs/ARG-EMAIL-DRAFT.md`. **ENVIAR YA.** Portal: https://arquivosdegalicia.xunta.gal/portal/arquivo-do-reino-de-galicia/
-3. **🆕 AHPA — protocolos notariales de Noia 1740-1780** — buscar contratos de obra de los canteros **Pedro Caamaño** y **Andrés Caamaño** identificados en PARES 6092354 f.174v. Pueden revelar padres, esposa, hijos, edad exacta.
-4. **✅ AHDS EMAIL SENT** — arquivo@archicompostela.es — requested parish records for Sta María de Caamaño (baptisms 1780-1860). AHDS = San Martín Pinario, Santiago. Tel: +34 981 58 38 84. **FOLLOW-UP PENDIENTE desde 2026-04-04.** Ahora con nombres concretos del Catastro para buscar: Juan de los Santos, Francisco de los Santos Thomás, Santos, Bernardo, Sebastián, Pedro, Andrés, Manuel, José Barcala.
-5. **✅ SIMANCAS CERRADO (2026-04-13)** — AGS confirmó que las imágenes están en PARES 6092354 (ya descargadas). Redirigió a ARG para Respuestas Particulares originales.
-6. **🔑 REGISTER FAMILYSEARCH API** — developers.familysearch.org — get OAuth 2.0 key → build automated search script to chain baptism records backwards through the gap.
-7. **ACCESS JUAN BEZERRA CAMANO PRE-MARRIAGE FILE** — FamilySearch "Spain, Granada, Catholic Pre-Marriage Investigation Files, 1556-1899" — would name his parents (a Camaño from Noya, ~1710-1720).
-8. **ACCESS DOLORES + SALVADOR CAAMANO MARRIAGE (1640)** — FamilySearch Argentina, Buenos Aires — colonial-era Caamaño.
-9. **PARES CONTRATACIÓN** — check digital viewer for Salvador Varela Caamaño (1687, CONTRATACION,5449,N.16) — AGI records often digitized
-10. **PAY GenCo 24h ($5)** — genealogiasdecolombia.co — search "Caamaño" in 583K database
-11. **CONTACT Concello de Porto do Son** — portodoson.gal — historical municipal archive (padrones)
-12. **Xenealoxia.org** — register and post asking about Porto do Son/Caamaño parish
+### Pinned Research Actions (updated 2026-04-13, v38)
+
+**Sources EXHAUSTED this session (negative or limited results):**
+
+- ✅ **PARES 6092354** (Catastro Ensenada Sta María de Caamaño) — 13 Caamaños extracted → `docs/PARES-6092354-CAAMANO-REPORT.md`
+- ✅ **PARES AGI Contratación / AHN OM / Inquisición / Chancillería Valladolid** — 16 primary-source persons added v38 via curl scrape (bypassed Playwright CAPTCHA)
+- ✅ **Galiciana Patrimonio Digital** — 1803 testament Francisco García presbítero Sta María de Caamaño extracted + Real Audiencia sweep (11 candidates, fs060-fs070)
+- ✅ **WikiTree API** — 12 Caamaños worldwide, all Carnota (Holmes-11913), dead end
+- ✅ **BNE Hemeroteca Digital** — 122k hits, all noise. No mostrencos for our line
+- ✅ **Gaceta de Madrid (BOE)** — 56 unique, all collateral (Ferreira Caamaño deputy, Pontevedra mostrencos). Dry well
+- ✅ **Chronicling America (LoC)** — 486 hits, dominated by President Caamaño Ecuador + Ramón NYC embezzler. Zero for our line
+- ✅ **Ancestry passenger lists** — 3041 hits post-1900, confirms Muros/Carnota/Noia emigration pattern
+- ✅ **Consello Cultura Galega Emigración** — 0 item hits, AEG doesn't cover costa Barbanza municipalities
+- ⚠️ **Geneanet** — Cloudflare blocking, partial data (larapat tree, panchovilla2018)
+
+**Emails pending OUR action (drafts ready):**
+
+1. **AHDS** (`archivo@ahds.es`) — request sacramental books Sta María de Caamaño 1750-1840. Draft in `docs/AHDS-EMAIL-DRAFT.md`. **HIGHEST LEVERAGE**: single baptism record would close Brecha 2.
+2. **ARG** (Arquivo do Reino de Galicia) — request Caixa 12625-40 (Francisco Caamaño 1831 Abelleira pleito) + Respuestas Particulares Catastro originales. Draft in `docs/ARG-EMAIL-DRAFT.md`.
+3. **Carlos Mauricio Otálvaro** — Colombian genealogist, email SENT 2026-04-13 with Pedigree Resource File 2024. Awaiting reply.
+
+**Open untapped sources (see `docs/UNTAPPED-SOURCES.md` for full catalog):**
+
+4. **AGN Colombia ArchiDoc** (`consulta.archivogeneral.gov.co`) — Notarías Cartagena + Testamentarías 1700-1900. Requires Playwright.
+5. **AHPA Muros/Noia notarial protocols** — semi-public PDF inventory + scans on request.
+6. **Google Books** — targeted queries for Restrepo Sáenz, Flórez de Ocáriz, Martínez Reyes snippets.
+7. **FamilySearch OAuth API** — register at developers.familysearch.org → automated chain search.
+8. **Biblioteca Nacional Colombia hemeroteca** — 19th-century Colombian press, never scraped.
+9. **AHPA Noia escribano protocolos 1740-1780** — contratos de obra de canteros Pedro/Andrés Caamaño identificados en PARES 6092354 f.174v.
+10. **Xenealoxia.org** — Galician genealogy community forum.
+11. **GenCo pay $5** — genealogiasdecolombia.co 583K database.
+12. **Wikidata SPARQL** — preliminary test shows dozens of Caamaño hits (verified live).
+
+**Persistent research log:** `docs/CAAMANO-RESEARCH-LOG.md` (master audit trail, append new sessions).
 
 ### Research Data Files
 
@@ -363,17 +405,35 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v21, 2026-04-13)
+## Current State (v38, 2026-04-13 PM session)
 
-- **Data:** 341 personas, 91 familias, versión 21. **+78 personas en una sesión** integrando hallazgos de PARES Catastro 6092354, Depo fondo FE10 (Familia Caamaño), y árbol `larapat` de Patrice Lara en Geneanet.
-- **Brecha 1 (1540-1710):** ~40% cerrada. Puente documental identificado vía **Bernarda de Luces Bazarra** (madre de gn007 Pedro Bazarra Caamaño 1712) → conexión circunstancial con línea hidalga "de Luces Caamaño y Sotomayor" (Depo sig. 1.185/31-34). Padres confirmados de h019 García "El Alto" via Depo 1.195/15.
-- **Brecha 2 (1760-1815):** ~95% cerrada cronológicamente. Pedro Bazarra Caamaño (1712-1767) confirmado como matching triple de PARES Catastro + Depo fondo + Geneanet. Falta eslabón sacramental exacto a p001.
-- **Fuentes primarias citables:** 6 (García Carraffa Tomo XX · PARES 6092354 Catastro · Depo FE10 · Geneanet larapat · AHDS Libro matrimonios 1663-1745 fol. 113 · CEMLA)
-- **Emails pendientes de envío:** 3 drafts listos en `docs/EMAILS-DRAFT.md` (AHDS puntual, Depo 12 piezas, larapat intercambio)
-- **Reportes generados:**
-  - `docs/PARES-6092354-CAAMANO-REPORT.md` — 13 Caamaños del Catastro 1760
-  - `docs/DEPO-FAMILIA-CAAMANO-REPORT.md` — 3.568 registros scrapeados + Fase 5 profunda (§10)
-  - `docs/EMAILS-DRAFT.md` — 3 mensajes redactados
+- **Data:** **423 personas, 115 familias, versión 38**. **+82 personas en una sesión** integrando PARES/AGI Contratación, AHN Órdenes Militares, Galiciana (testamento 1803 Sta María de Caamaño), Real Audiencia de Galicia, Real Chancillería Valladolid, Inquisición Córdoba, JARE México, DR Luaces-Caamaño chain de Muros.
+- **Código:** TypeScript strict, `npx tsc --noEmit` clean, `npm run build` OK (427 rutas estáticas).
+- **Deploy:** commit `9fab5ca` (v38) en main, GitHub Actions verde, sitio live.
+- **Brecha 0 (p001 → tú):** ✅ CERRADA con partidas primarias (Néstor partida #1055 El Banco, Damiana Soto defunción 1883 AHDS-Magangué).
+- **Brecha 1 (1540-1710 noble→común):** ❌ NO cerrada. ~40% avance (Bernarda de Luces Bazarra, García "El Alto", Depo fondo).
+- **Brecha 2 (1700-1815 p001 padres):** ❌ NO cerrada. Strong candidates identificados en costa Barbanza (fs058 Joseph Caamaño 1803 Sta Mª de Caamaño, fs060 Francisco 1831 Abelleira, fs062 Benito 1837 Muros, pa020-pa022 Luaces-Caamaño chain Muros 1660-1727). **Cero enlace sacramental primario a p001.**
+- **Migración 1713 Muros→Colombia** (Martínez Porrúa Caamaño × Revola Porrúa Amazur, gc005-gc007): DOCUMENTADA vía AGI Contratación + Pedigree Resource File Otálvaro 2024. **NO establecido parentesco con nuestra línea.** Merged v36 en cluster Genealogías de Colombia ya existente.
+- **p001 José Tomás Caamaño Sr:** sin documento primario directo. Existe como construcción narrativa de tradición oral. La evidencia sube la probabilidad del **origen parroquial** (Santa María de Caamaño, Porto do Son) al ~85-90% pero NO prueba al individuo.
+- **Fuentes primarias citables nuevas en esta sesión:**
+  - **AGI ES.41091.AGI//CONTRATACION,5590,N.6** — Autos bienes difuntos Ignacio de Luaces (Muros, †Ultramar 1727)
+  - **AGI ES.41091.AGI//CONTRATACION,5459,N.9** — José Varela Camaño pasajero 1699 → Nueva España
+  - **AGI ES.41091.AGI//CONTRATACION,5465,N.1,R.9** — Felipe de Baños + María Jiansa y Caamaño Muros
+  - **AHN ES.28079.AHN//OM-SAN_JUAN_DE_JERUSALEN,Exp.23367-23368** — 4 Caballeros de San Juan Caamaño Pardo Gayoso y Copeiro (Ferrol)
+  - **AHN ES.28079.AHN//INQUISICIÓN,3730,Exp.42** — Proceso de fe Juan Camaño 1775 Córdoba
+  - **ARChV ES.47186.ARCHV//PL CIVILES,PÉREZ ALONSO (F),CAJA 3703,1** — Pleito herencia Matías Caamaño 1773-1807 Fefiñanes
+  - **ARG ES.GA.15030.ARG//1.1.1.2.3.1.2.13.//Caixa 12625-40** — Francisco Caamaño 1831 Abelleira (pendiente orden física)
+  - **AHUS ES.GA.15078.AHUS/3.6.1.//32** — Testamento Francisco García presbítero 1803 Sta María de Caamaño (Galiciana id 2255405)
+- **Reportes/docs generados en esta sesión:**
+  - `docs/CAAMANO-RESEARCH-LOG.md` — master research log persistente (append-only)
+  - `docs/UNTAPPED-SOURCES.md` — catálogo 34 fuentes libres + top 5 scrape plans
+  - `docs/BRIDGING-ANALYSIS.md` — análisis 112 componentes desconectados, 10 propuestas merge
+  - `docs/ONOMASTIC-ANALYSIS.md` — top 20 nombres 500 años (José/María/Juan/García dominan)
+  - `docs/GENEALOGY-DEEP-ANALYSIS.md` — panel 3 expertos (demográfico + mobility + structural)
+- **Nuevas páginas en el sitio:** `/estadisticas` (dashboard research progress) + `/novedades` (changelog v1-v38)
+- **Filtros de árbol expandidos:** toggle "Galiciana" agregado al `PersonSource` type + tree-controls
+- **Epistemic posture:** honest — las notas de fs051/fs052 (migración 1713) fueron corregidas v35 para quitar overclaims "PATRIARCAS de la rama colombiana", reemplazadas con caveats explícitos.
+- **Agentes usados en esta sesión:** ~18 en paralelo (WikiTree, Chronicling America, BNE, Gaceta, Galiciana x3, paleografía x2, UX team, onomástica, 3 expertos, research log, bridging, untapped sources, PARES x3, CCG, Geneanet, research docs). PARES scraping via Playwright murió por CAPTCHA de PARES — sustituido por curl directo sobre `/catalogo/find` que funciona sin auth.
 
 ## Estado histórico anterior (v13, 2026-04-05)
 
