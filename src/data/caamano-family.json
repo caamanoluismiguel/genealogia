@@ -6,7 +6,7 @@
       "lastName": "Caamaño",
       "gender": "male",
       "birthPlace": "Caamaño, A Coruña, España",
-      "notes": "Patriarca. Nacido ~1815 (estimado por generaciones: nieto Néstor nacido 1901). Lugar de nacimiento según tradición oral familiar: parroquia de Sta María de Caamaño, Porto do Son. Sin partida de bautismo encontrada. Emigró a Colombia. Esposa de apellido Soto (nombre de pila desconocido).",
+      "notes": "Patriarca. Nacido ~1815 (estimado por generaciones: nieto Néstor nacido 1901). Lugar de nacimiento según tradición oral familiar: parroquia de Sta María de Caamaño, Porto do Son. Sin partida de bautismo encontrada. Emigró a Colombia. Esposa de apellido Soto (nombre de pila desconocido). v42: la línea documentada ya no pasa por aquí. El padre de Benjamín es Manuel E. Caamaño, natural de Rioviejo (col003). La pareja 'José Tomás + Soto' coincide con Trinidad Caamaño + Damiana Soto de Rioviejo (fs022/fs023), hipótesis sin probar.",
       "events": [],
       "migrations": [
         {
@@ -26,7 +26,7 @@
       "lastName": "Soto",
       "gender": "female",
       "birthPlace": "Caamaño, A Coruña, España (tradición oral)",
-      "notes": "Esposa de José Tomás. Nombre de pila desconocido, solo se conoce el apellido Soto. Lugar de origen según tradición oral. Confirmación indirecta: José Caamaño Soto (1889, pasajero a Uruguay) tiene la misma combinación de apellidos.",
+      "notes": "Esposa de José Tomás. Nombre de pila desconocido, solo se conoce el apellido Soto. Lugar de origen según tradición oral. Confirmación indirecta: José Caamaño Soto (1889, pasajero a Uruguay) tiene la misma combinación de apellidos. v42: la línea documentada ya no pasa por aquí. El padre de Benjamín es Manuel E. Caamaño, natural de Rioviejo (col003). La pareja 'José Tomás + Soto' coincide con Trinidad Caamaño + Damiana Soto de Rioviejo (fs022/fs023), hipótesis sin probar.",
       "events": [],
       "migrations": [
         {
@@ -105,9 +105,9 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Hijo de José Tomás Caamaño y Desconocida Soto. Fecha y lugar de nacimiento desconocidos. Casado con Faustina Reales. Tradición oral.",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "notes": "Tradición oral: 'José Tomás Caamaño Soto, hijo de José Tomás Caamaño y una Soto, casado con Faustina Reales'. v42: el matrimonio de Benjamín (1889) prueba que el esposo de Faustina y padre de Benjamín fue Manuel E. Caamaño (col003), no José Tomás. Muy probablemente la familia recordaba al José Tomás Caamaño Soto real (fs026, hijo de Trinidad Caamaño y Damiana Soto, †~1891 Rioviejo), pariente de Manuel. Se conserva como registro de la tradición oral.",
+      "certainty": "hypothetical",
+      "certaintyReason": "Oral tradition contradicted by 1889 primary record"
     },
     {
       "id": "p007",
@@ -115,7 +115,7 @@
       "lastName": "Reales",
       "gender": "female",
       "birthPlace": "Colombia",
-      "notes": "Esposa de José Tomás Caamaño Soto. Apellido Reales confirmado por FamilySearch: partida de bautismo de Felicia Eleutina Camaño Reales (1864), hija de Manuel Camaño y Faustina Reales. Film #004001320.",
+      "notes": "Esposa de Manuel E. Caamaño (col003): boda in artículo mortis el 3-X-1869 en El Banco (https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZR-F97B-D), 'natural y vecina' de El Banco. Viuda en octubre de 1869. En 1889 figura como 'Faustina J. Reales' en el matrimonio de su hijo Benjamín. Partida de bautismo de su hija Felicia Eleutina (1864), hija de Manuel Camaño y Faustina Reales. Film #004001320.",
       "events": [],
       "migrations": [],
       "source": "modern",
@@ -131,7 +131,7 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": " [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.]",
+      "notes": " [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.] v42: un registro indexado de Rudesinda Rangel la casa con 'Miguel Caamaño Soto' y menciona a Damiana Soto: Miguel sería hijo de Trinidad Caamaño y Damiana Soto (fs022/fs023). Sin imagen leída.",
       "certainty": "circumstantial",
       "certaintyReason": "Modern family oral history w/ coherent dates"
     },
@@ -174,28 +174,36 @@
     },
     {
       "id": "p012",
-      "firstName": "Felicia",
-      "lastName": "Caamaño Reales",
+      "firstName": "Felicia Eleutina",
+      "lastName": "Camaño Reales",
       "gender": "female",
       "birthPlace": "Colombia",
-      "events": [],
+      "events": [
+        {
+          "type": "baptism",
+          "date": "1864-04-17",
+          "place": "Nuestra Señora de la Candelaria, El Banco, Magdalena, Colombia",
+          "description": "Hija de Manuel Camaño y Faustina Reales"
+        }
+      ],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)",
+      "notes": "Bautizada el 17-IV-1864 en El Banco, hija de Manuel Camaño y Faustina Reales (film 004001320, bautismos 1858-1886, img 105-106 del rollo; índice https://www.familysearch.org/ark:/61903/1:1:F2JM-THS)."
     },
     {
       "id": "p013",
-      "firstName": "Benjamin",
+      "firstName": "Benjamín A.",
       "lastName": "Caamaño Reales",
       "gender": "male",
       "birthPlace": "El Banco, Magdalena, Colombia",
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida. v40: un 'B. A. Caamaño' vendía en El Banco, Magdalena, en noviembre de 1898 (El Autonomista n.° 47-55, Banrep). Identidad con Benjamín sin probar. v41: las partidas de bautismo de sus hijos Benjamín (1896), Camilo Antonio (1898) y Néstor Daniel (1901) lo llaman siempre 'Benjamín A. Caamaño'. Eso hace muy probable, sin probarlo, que sea el 'B. A. Caamaño' de 1898.",
+      "notes": "Benjamín A. Caamaño. matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero', casado con Dominga Castro, hija de Antonino Castro y Emilia Erazo. v42: su padre es Manuel E. Caamaño (col003), NO José Tomás Caamaño Soto como decía la tradición oral. Hijos bautizados en El Banco: Emilio (1891), Justina Lucía (1893), Benjamín (1896), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Un 'B. A. Caamaño' vendía en El Banco en 1898 (El Autonomista n.° 47-55). Nacimiento sin documentar (antes de 1869; su bautismo no aparece en el índice de El Banco 1858-1869).",
       "certainty": "proven",
-      "certaintyReason": "Modern family with primary document citation"
+      "certaintyReason": "Primary record images read (FamilySearch)"
     },
     {
       "id": "p014",
@@ -6543,6 +6551,29 @@
       "certaintyReason": "Published 1843 court ruling (newspaper); parents unnamed",
       "events": [],
       "migrations": []
+    },
+    {
+      "id": "col003",
+      "firstName": "Manuel E.",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "<1845",
+      "birthPlace": "Rioviejo, Bolívar, Colombia",
+      "deathDate": "1869-10",
+      "deathPlace": "El Banco, Magdalena, Colombia",
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "Primary record images read (FamilySearch)",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1869-10-03",
+          "place": "Nuestra Señora de la Candelaria, El Banco, Magdalena",
+          "description": "In artículo mortis, con Faustina Reales"
+        }
+      ],
+      "migrations": [],
+      "notes": "PADRE DOCUMENTADO DE BENJAMÍN (p013). Fuentes leídas en imagen el 2026-10-14: (1) matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'Benjamín A. Caamaño, hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero'. (2) matrimonio in artículo mortis de Manuel Camaño y Faustina Reales, El Banco, 3-X-1869, film 004001320 elem. 14 img 38-39 (https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZR-F97B-D): 'casé in artículo mortis a Manuel Camaño natural de Rioviejo con Faustina Reales natural y vecina de esta'. (3) entierro de Manuel Camaño, El Banco, [8?]-X-1869, Defunciones 1843-1916 img 82/145 (https://www.familysearch.org/ark:/61903/3:1:3QS7-L9ZR-F9Q5-R): 'Manuel Camaño adulto casado natural de Rioviejo y vecino de esta'. Nació en Rioviejo, el mismo pueblo de Trinidad Caamaño (fs022) y Damiana Soto. Probable pariente cercano de Trinidad (hijo o hermano), SIN PROBAR: ninguna de las tres partidas nombra a sus padres. Nacimiento antes de 1845 estimado por su hija Felicia (1864). Ver docs/BRECHA-COLOMBIA-2026-10.md."
     }
   ],
   "families": [
@@ -6573,10 +6604,11 @@
     },
     {
       "id": "f005",
-      "parents": ["p006", "p007"],
+      "parents": ["col003", "p007"],
       "children": ["p010", "p011", "p012", "p013"],
-      "marriagePlace": "Colombia",
-      "notes": "José Tomás Caamaño Soto + Faustina Reales."
+      "marriagePlace": "Nuestra Señora de la Candelaria, El Banco, Magdalena, Colombia",
+      "notes": "Manuel E. Caamaño + Faustina Reales. Boda in artículo mortis el 3-X-1869 en El Banco; legitimó a los hijos anteriores. v42: antes figuraba como José Tomás Caamaño Soto + Faustina Reales (tradición oral, desmentida por el matrimonio de Benjamín de 1889).",
+      "marriageDate": "1869-10-03"
     },
     {
       "id": "f006",
@@ -7341,13 +7373,13 @@
   ],
   "meta": {
     "lastUpdated": "2026-10-14",
-    "version": 41,
+    "version": 42,
     "certaintyAudit": {
       "date": "2026-04-13",
       "stats": {
-        "proven": 61,
-        "circumstantial": 310,
-        "hypothetical": 59
+        "proven": 63,
+        "circumstantial": 308,
+        "hypothetical": 60
       },
       "version": 39
     }

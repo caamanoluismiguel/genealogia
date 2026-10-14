@@ -13,10 +13,10 @@ interface Branch {
 const BRANCHES: Branch[] = [
   {
     id: "main",
-    label: "José Tomás → Colombia",
+    label: "Rioviejo → El Banco",
     flag: "🇨🇴",
-    personId: "p001",
-    description: "Rama principal. Patriarca ~1815, El Banco, Magdalena.",
+    personId: "col003",
+    description: "Rama principal. Manuel E. Caamaño, natural de Rioviejo, murió en El Banco en 1869.",
   },
   {
     id: "dr",

@@ -467,11 +467,11 @@ export function buildTimeline(data: GenealogyData): TimelineEvent[] {
   events.sort((a, b) => a.year - b.year);
 
   // Filter to curated events — keep only historically relevant ones
-  // Direct lineage IDs: José Tomás → José Tomás Jr → Benjamín → Néstor → Luis → Luis Miguel
+  // Direct lineage IDs: Manuel E. → Benjamín → Néstor → Luis → Luis Miguel
+  // (José Tomás p001/p006 was oral tradition; the 1889 marriage of Benjamín names Manuel E.)
   const DIRECT_LINEAGE = new Set([
-    "p001",
-    "p002",
-    "p006",
+    "col003",
+    "p007",
     "p013",
     "p023",
     "p037",

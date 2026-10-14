@@ -27,6 +27,21 @@ interface ChangeEntry {
 // Each entry is a research milestone, not a software release.
 const CHANGELOG: ChangeEntry[] = [
   {
+    version: 42,
+    date: "2026-10-14",
+    title: "El padre de Benjamín era Manuel, de Rioviejo",
+    type: "descubrimiento",
+    persons: 431,
+    families: 115,
+    highlights: [
+      "En su boda de 1889, Benjamín A. Caamaño aparece como 'hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero'. No era hijo de José Tomás, como decía la tradición.",
+      "Manuel Camaño, 'natural de Rioviejo', se casó con Faustina Reales en El Banco el 3 de octubre de 1869, in artículo mortis, y fue enterrado allí días después.",
+      "Rioviejo es el pueblo de Trinidad Caamaño y Damiana Soto. El parentesco de Manuel con Trinidad es probable pero no está probado: ninguna partida nombra a sus padres.",
+      "Felicia Eleutina (1864) queda confirmada como hija de Manuel y Faustina.",
+    ],
+    source: "Matrimonios de Morales (1889) y El Banco (1869) · Entierros de El Banco (1869)",
+  },
+  {
     version: 41,
     date: "2026-10-14",
     title: "Partidas de El Banco leídas: la fecha real de Néstor",

@@ -144,8 +144,8 @@ const MIGRATIONS = [
     push: "Pobreza gallega, crisis del minifundio, hambrunas",
     destinations: "Argentina (#1), Cuba (#2), Colombia, Uruguay, EEUU",
     detail:
-      "~1845: José Tomás Caamaño emigra desde la parroquia de Santa María de Caamaño (Porto do Son) a Colombia. Sus hermanos se dispersan a Rep. Dominicana, Ecuador y Argentina. 1889: José Caamaño Soto (combinación Caamaño+Soto) aparece en listas de pasajeros a Uruguay — confirma la familia.",
-    source: "Tradición oral + CEMLA + FamilySearch",
+      "La tradición familiar habla de un José Tomás Caamaño que llegó de Santa María de Caamaño (Porto do Son) hacia 1845. Los documentos cuentan otra cosa: la familia ya estaba en Rioviejo hacia 1830, y el padre de Benjamín fue Manuel E. Caamaño, natural de Rioviejo, que murió en El Banco en 1869. Quién cruzó el Atlántico, y cuándo, sigue sin documentarse.",
+    source: "Partidas de El Banco y Morales (FamilySearch) + tradición oral",
   },
   {
     era: "Siglo XX (1884–1907)",
@@ -480,18 +480,20 @@ export function HistoriaPage() {
             </div>
             <div className="rounded-xl border border-emerald-200 border-l-4 border-l-emerald-500 bg-white p-5">
               <h3 className="font-serif text-lg font-semibold text-slate-900">
-                ~1845 — José Tomás Caamaño → Colombia
+                1869: Manuel E. Caamaño, de Rioviejo a El Banco
               </h3>
               <p className="mt-1 text-sm text-slate-600">
-                Nuestro patriarca. Nacido ~1815 en Santa María de Caamaño, Porto
-                do Son. Casado con una mujer de apellido Soto. Emigró a Colombia
-                con sus hermanos, que se dispersaron a Rep. Dominicana, Ecuador
-                y Argentina.
+                El primer antepasado directo con partidas. Nació en Rioviejo, se
+                casó con Faustina Reales en El Banco el 3 de octubre de 1869,
+                ya muy enfermo, y murió pocos días después. Su hijo Benjamín
+                se casó en 1889 y lo nombró como su padre. La familia recordaba
+                a un José Tomás que vino de Galicia. En Rioviejo sí vivió un
+                José Tomás Caamaño Soto, hijo de Trinidad Caamaño, pero el
+                emigrante sigue sin identificarse.
               </p>
               <p className="mt-2 text-xs text-teal-600">
-                📄 Fuente: Tradición oral familiar. Confirmado: José Caamaño
-                Soto (1889) en listas de pasajeros a Uruguay — misma combinación
-                de apellidos.
+                📄 Fuente: matrimonios de El Banco (1869) y de Morales (1889),
+                entierros de El Banco (1869). FamilySearch, rollo 004001320.
               </p>
             </div>
           </div>
