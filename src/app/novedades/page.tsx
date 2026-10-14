@@ -27,6 +27,22 @@ interface ChangeEntry {
 // Each entry is a research milestone, not a software release.
 const CHANGELOG: ChangeEntry[] = [
   {
+    version: 40,
+    date: "2026-10-14",
+    title: "Partidas de Muros leídas en el original + un Caamaño en Mompós",
+    type: "descubrimiento",
+    persons: 432,
+    families: 116,
+    highlights: [
+      "Leídas por primera vez las imágenes del expediente AGI Contratación 5590 N.6: copia certificada de la boda de Jacobo Luaces de Caamaño (27-I-1697) y del bautismo de su hijo Ignacio (6-VII-1700) en San Pedro de Muros. La línea Simón, Jacobo, Ignacio ya tiene partidas, no solo catálogo.",
+      "Corrección: Ignacio de Luaces no murió en Nueva España. Se ahogó en el Río de la Plata, frente a Buenos Aires, el 12-II-1727.",
+      "+7 personas de Muros: María Fernández de Orxas, sus padres Pedro de Orxas y María Fernández de Baños, y los hermanos Josefa, Antonio, Simón y Juana.",
+      "Ignacio Caamaño, anciano con estancia a cuatro leguas de Mompós, asesinado hacia 1842 junto a su nieta Buenaventura (Semanario de la Provincia de Cartagena, 1843). Es el Caamaño más antiguo hallado en el distrito de Mompós. Sin vínculo probado con Trinidad ni con José Tomás Sr.",
+      "La Brecha 2 sigue abierta.",
+    ],
+    source: "AGI Contratación 5590 N.6 · 5459 N.9 · 5465 N.1 R.9 · ARChV 3703,1 · Banrep (prensa 1843)",
+  },
+  {
     version: 32,
     date: "2026-04-13",
     title: "PARES Catastro finalizado + integración Galiciana",

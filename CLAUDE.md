@@ -405,7 +405,17 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v38, 2026-04-13 PM session)
+## Current State (v40, 2026-10-14)
+
+- **Data:** 432 personas, 116 familias, versión 40. Certeza: 57 proven / 314 circumstantial / 61 hypothetical.
+- **PARES leído en imagen** (antes solo catálogo), ver `docs/PARES-TRANSCRIPTIONS-2026-10.md`: AGI 5590 N.6 trae copia certificada de la boda de Jacobo Luaces de Caamaño × María Fernández de Orxas (27-I-1697) y del bautismo de Ignacio (6-VII-1700), San Pedro de Muros. Ignacio murió ahogado en el Río de la Plata (12-II-1727), no en Nueva España. +7 personas (pa031-pa037, familia paf08). pa025 corregido a "Iansa de Camaño" (lectura dudosa), pa029 = María Isabel. ARChV 3703,1 (1.588 img) solo muestreado.
+- **Fuentes colombianas** (ver `docs/UNTAPPED-SOURCES-RESULTS-2026-10.md`): col001 Ignacio Caamaño, anciano asesinado hacia 1842 en su estancia a 4 leguas de Mompós, y col002 su nieta Buenaventura (~1833). Fuente: Semanario de la Provincia de Cartagena 22-I-1843. CIRCUMSTANTIAL, sin vínculo con Trinidad/p001. AGN ArchiDoc ahora es DATAVIVA (API abierta); BNC y Google Books bloquean automatización.
+- **Brecha 2 sigue abierta.** Próximos pasos: entierros San Fernando (Bolívar) 1841-42 y bautismos Mompós ~1833 en FamilySearch; causa criminal contra José Antonio Linares (Mompós 1842); libros de San Pedro de Muros en AHDS.
+- **App:** export GEDCOM 5.5.1 (botón junto a JSON, incluye ediciones locales y certeza) y widget "Hoy en la familia". Vitest añadido: `npm test`.
+- **Datos crudos** de investigación (imágenes, fetches) están en `.gitignore`; los scripts de descarga sí se versionan.
+- **Formato del JSON:** al reescribir `caamano-family.json` con scripts, conservar arrays cortos en una línea (≤80 col) o el diff se llena de ruido.
+
+## Previous State (v38, 2026-04-13 PM session)
 
 - **Data:** **423 personas, 115 familias, versión 38**. **+82 personas en una sesión** integrando PARES/AGI Contratación, AHN Órdenes Militares, Galiciana (testamento 1803 Sta María de Caamaño), Real Audiencia de Galicia, Real Chancillería Valladolid, Inquisición Córdoba, JARE México, DR Luaces-Caamaño chain de Muros.
 - **Código:** TypeScript strict, `npx tsc --noEmit` clean, `npm run build` OK (427 rutas estáticas).

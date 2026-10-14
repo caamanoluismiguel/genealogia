@@ -193,7 +193,7 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida.",
+      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida. v40: un 'B. A. Caamaño' vendía en El Banco, Magdalena, en noviembre de 1898 (El Autonomista n.° 47-55, Banrep). Identidad con Benjamín sin probar.",
       "certainty": "proven",
       "certaintyReason": "Modern family with primary document citation"
     },
@@ -269,7 +269,8 @@
       "migrations": [],
       "source": "modern",
       "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certaintyReason": "Modern family oral history w/ coherent dates",
+      "notes": "v40: posible coincidencia con el Dr. Manuel F. Caamaño, juez 3.° del circuito de Santa Marta (1913) y gobernador del Magdalena (1939). Sin probar; las fechas podrían apuntar a un pariente mayor."
     },
     {
       "id": "p020",
@@ -6225,9 +6226,9 @@
       "firstName": "Simón",
       "lastName": "de Luaces y Caamaño",
       "gender": "male",
-      "birthDate": "~1660",
+      "birthDate": "~1640",
       "birthPlace": "Muros, A Coruña, Galicia, España",
-      "notes": "FUENTE PRIMARIA: AGI (Archivo General de Indias), Casa de la Contratación, Autos sobre Bienes de Difuntos. Signatura ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Mencionado en los autos de bienes de difuntos de su nieto Ignacio de Luaces (pa022) fechados 1728/1776-1777. Casado con María de Solís. Padre de Jacobo Luaces de Caamaño (pa021). ABUELO PATERNO documentado en Muros — primer Caamaño de Muros con filiación multi-generacional confirmada en documento primario AGI. El apellido compuesto \"de Luaces y Caamaño\" indica matrimonio entre Casa de Luaces y Casa de Caamaño, patrón hidalgo gallego costero típico.",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835). Nombrado en la partida de matrimonio de su hijo Jacobo (27-I-1697, San Pedro de Muros), copiada literalmente en el expediente (img 15): 'Jacob Luazes de Caam[año] hijo de Simón de Luazes y Caamaño y de María de Solís'. Abuelo paterno de Ignacio de Luaces (pa022). Nacimiento ~1640 estimado (v40 corrige ~1660: su hijo se casó en 1697). Feligreses de San Pedro de Muros, no de Santa María de Caamaño. El apellido compuesto 'de Luaces y Caamaño' sugiere enlace de las casas de Luaces y Caamaño (interpretación, no dato del documento).",
       "events": [],
       "migrations": [],
       "source": "pares",
@@ -6239,41 +6240,48 @@
       "firstName": "Jacobo",
       "lastName": "Luaces de Caamaño",
       "gender": "male",
-      "birthDate": "~1690",
+      "birthDate": "~1670",
       "birthPlace": "Muros, A Coruña, Galicia, España",
-      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Padre de Ignacio de Luaces (pa022). Hijo de Simón de Luaces y Caamaño (pa020) y María de Solís. Casado con María Fernández de Orgás (vecina de Muros, hija de Pedro de Orgás y María F[ernández]). Conservó el apellido Caamaño por línea paterna.",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835). Partida de matrimonio copiada en el expediente (img 15-16): casó el 27-I-1697 en San Pedro de Muros con María Fernández de Orxas (pa031), hija de Pedro de Orxas (pa032) y María Fernández de Baños (pa033). Hijo de Simón de Luaces y Caamaño (pa020) y María de Solís. Murió antes del 30-XI-1727 (su mujer aparece viuda). Hijos documentados (informe del juez de Muros, 1776): Ignacio (pa022), Antonio, Simón, Juana y Josefa. Nacimiento ~1670 estimado por la boda de 1697 (v40 corrige ~1690, imposible, y la grafía 'Orgás' de la esposa).",
       "events": [],
       "migrations": [],
       "source": "pares",
       "certainty": "proven",
-      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "deathDate": "<1727"
     },
     {
       "id": "pa022",
       "firstName": "Ignacio",
       "lastName": "de Luaces",
       "gender": "male",
-      "birthDate": "~1710",
-      "birthPlace": "Muros, A Coruña, Galicia, España",
-      "deathPlace": "Ultramar (posible Nueva España)",
-      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 — PARES id 99835. Autos sobre bienes de difuntos 1728 (primario) / 1776-1777 (autos secundarios). MOZO DE NAVÍO natural de Muros. Hijo de Jacobo Luaces de Caamaño (pa021) + María Fernández de Orgás. Nieto paterno de Simón de Luaces y Caamaño (pa020) + María de Solís. Nieto materno de Pedro de Orgás + María Fernández. Falleció en Ultramar dejando bienes que fueron devueltos a España vía Casa de la Contratación de Sevilla. PRIMERA DOCUMENTACIÓN PRIMARIA COMPLETA de una familia Caamaño de Muros con 3 generaciones y migración a América.",
+      "birthDate": "1700-07-06",
+      "birthPlace": "San Pedro de Muros, A Coruña, Galicia, España",
+      "deathPlace": "Río de la Plata, frente a Buenos Aires (ahogado)",
+      "notes": "FUENTE PRIMARIA (imágenes leídas 2026-10-14): AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835). Autos de bienes de difuntos 1727-1728 y 1776-1777, tramitados en Cádiz. Bautizado el 6-VII-1700 en San Pedro de Muros (libro de bautismos f. 60, copia certificada por el cura en 1727, img 15). Nombre completo en los autos: Ignacio Luaces de Caamaño Fernández de Orxas. Se fue de Muros soltero hacia 1716. Mozo del navío San Rafael y Santo Domingo de la Calzada; murió ahogado el 12-II-1727 en el Río de la Plata frente a Buenos Aires al volcar un bote (certificación del capellán, img 17). Su madre fue declarada heredera abintestato (154 pesos, 1728). Hijo de Jacobo Luaces de Caamaño (pa021) y María Fernández de Orxas (pa031). Corrección v40: antes figuraba nacido ~1710 y muerto en 'Ultramar (posible Nueva España)'. Sin relación documentada con Santa María de Caamaño, Colombia ni p001. Ver docs/PARES-TRANSCRIPTIONS-2026-10.md §1.",
       "events": [
         {
+          "type": "baptism",
+          "date": "1700-07-06",
+          "place": "San Pedro de Muros"
+        },
+        {
           "type": "death",
-          "date": "~1727",
-          "place": "Ultramar"
+          "date": "1727-02-12",
+          "place": "Río de la Plata, Buenos Aires"
         }
       ],
       "migrations": [
         {
           "from": "Muros, A Coruña, Galicia, España",
-          "to": "Nueva España",
-          "date": "~1720"
+          "to": "Buenos Aires (Río de la Plata)",
+          "date": "~1716"
         }
       ],
       "source": "pares",
       "certainty": "proven",
-      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "deathDate": "1727-02-12"
     },
     {
       "id": "pa023",
@@ -6294,9 +6302,9 @@
       "firstName": "José",
       "lastName": "Varela Camaño",
       "gender": "male",
-      "birthDate": "~1680",
+      "birthDate": "~1677",
       "birthPlace": "Pernes, Coto de Bergantiños, A Coruña, Galicia, España",
-      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5459,N.9 — PARES id 155486. Expediente de información y licencia de pasajero a Indias, fecha 06-jul-1699. Factor de profesión. Natural y vecino de Pernes del Coto de Bergantiños. Hijo de Domingo Varela Camaño (pa023) + María de Villar. DESTINO: Nueva España (México). Tercer Caamaño-con-documento-primario migrado a las Américas en nuestra investigación, junto con Martínez Porrúa Caamaño 1713 (gc005) e Ignacio de Luaces (pa022).",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5459,N.9 — PARES id 155486. Expediente de información y licencia de pasajero a Indias, fecha 06-jul-1699. Factor de profesión. Natural y vecino de Pernes del Coto de Bergantiños. Hijo de Domingo Varela Camaño (pa023) + María de Villar. DESTINO: Nueva España (México). Tercer Caamaño-con-documento-primario migrado a las Américas en nuestra investigación, junto con Martínez Porrúa Caamaño 1713 (gc005) e Ignacio de Luaces (pa022). v40: el expediente (leído 2026-10-14) da 22 años en julio de 1699, nacido ~1677. Es de Bergantiños, sin relación con el clúster de Muros.",
       "events": [
         {
           "type": "emigration",
@@ -6318,10 +6326,10 @@
     {
       "id": "pa025",
       "firstName": "María",
-      "lastName": "Jiansa y Caamaño",
+      "lastName": "Iansa de Camaño",
       "gender": "female",
       "birthPlace": "Muros, A Coruña, Galicia, España",
-      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5465,N.1,R.9 — PARES id 156354. Madre de Felipe de Baños (hijo), pasajero a Indias. Casada con Felipe de Baños (padre). Apellido compuesto Jiansa-Caamaño indica ancestría Caamaño por al menos una línea. Natural de Muros.",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5465,N.1,R.9 — PARES id 156354 (imágenes leídas 2026-10-14). Madre de Felipe de Baños (hijo), nacido en Muros ~1693, que pasó a Indias en 1709 como criado del gobernador de Trinidad y Guayana. Casada con Felipe de Baños (padre). Natural de Muros. LECTURA DUDOSA: el original dice 'María Iansa' o 'Ieanza de Camaño'; el catálogo de PARES lo da como 'Jiansa y Caamaño', lo que no se sostiene literalmente. Podría ser un apellido como Llanza o Yanza.",
       "events": [],
       "migrations": [],
       "source": "pares",
@@ -6354,7 +6362,7 @@
       "lastName": "Estévez",
       "gender": "female",
       "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
-      "notes": "FUENTE PRIMARIA: PARES id 228333. Esposa de Matías Caamaño (pa026). Fallecida antes de 1773 (fecha inicio del pleito sobre sus bienes).",
+      "notes": "FUENTE PRIMARIA: PARES id 228333. Esposa de Matías Caamaño (pa026). Fallecida antes de 1773 (fecha inicio del pleito sobre sus bienes). v40 (pedimento de 1805): Rosa y su hermano D. Francisco Estévez fueron cumplidores del testamento de Matías Caamaño (confianza media). La portada sugiere que volvió a casarse (lectura dudosa).",
       "events": [],
       "migrations": [],
       "source": "pares",
@@ -6368,7 +6376,7 @@
       "gender": "male",
       "birthDate": "~1750",
       "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
-      "notes": "FUENTE PRIMARIA: PARES id 228333. Hijo de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807 por herencia paterna. Vecino de Fefiñanes.",
+      "notes": "FUENTE PRIMARIA: PARES id 228333. Hijo de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807 por herencia paterna. Vecino de Fefiñanes. v40 (pedimento de 1805, img 6-7): licenciado, abogado de la Real Audiencia de Galicia, vecino de Fefiñanes.",
       "events": [],
       "migrations": [],
       "source": "pares",
@@ -6377,12 +6385,12 @@
     },
     {
       "id": "pa029",
-      "firstName": "Isabel",
+      "firstName": "María Isabel",
       "lastName": "Caamaño y Estévez",
       "gender": "female",
       "birthDate": "~1755",
       "birthPlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España",
-      "notes": "FUENTE PRIMARIA: PARES id 228333. Hija de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807. Hermana de José Manuel (pa028).",
+      "notes": "FUENTE PRIMARIA: PARES id 228333. Hija de Matías Caamaño (pa026) + Rosa Estévez (pa027). Parte del pleito 1773-1807. Hermana de José Manuel (pa028). v40 (portada del pleito, img 2): su nombre completo es María Isabel; casada con Pedro González de Groba, administrador de la renta del tabaco en Puentedeume.",
       "events": [],
       "migrations": [],
       "source": "pares",
@@ -6407,6 +6415,131 @@
       "source": "pares",
       "certainty": "proven",
       "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)"
+    },
+    {
+      "id": "pa031",
+      "firstName": "María",
+      "lastName": "Fernández de Orxas",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "deathDate": "<1776",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835). Casó el 27-I-1697 en San Pedro de Muros con Jacobo Luaces de Caamaño (pa021). Hija de Pedro de Orxas (pa032) y María Fernández de Baños (pa033). Viuda en noviembre de 1727; declarada heredera única de su hijo Ignacio (pa022) en 1728. Muerta antes de 1776. Grafías: Orxas / Orjas / Orgas.",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa032",
+      "firstName": "Pedro",
+      "lastName": "de Orxas",
+      "gender": "male",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), partida de matrimonio de su hija (1697). Padre de María Fernández de Orxas (pa031), casado con María Fernández de Baños (pa033).",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa033",
+      "firstName": "María",
+      "lastName": "Fernández de Baños",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), partida de matrimonio de su hija (1697). Esposa de Pedro de Orxas (pa032). Hipótesis sin probar: posible parentesco con Felipe de Baños de Muros (marido de pa025, 1709).",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa034",
+      "firstName": "Josefa",
+      "lastName": "Luaces de Orxas",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), informe del juez de Muros (VII-1776, img 31-32): hijo/a de Jacobo Luaces de Caamaño (pa021) y María Fernández de Orxas (pa031), hermano/a de Ignacio (pa022). Única superviviente en 1776: soltera, pobre, no sabía firmar; dio poder el 7-VII-1776 para cobrar 467 reales que quedaban de su hermano. Firmó por ella D. Bartolomé Patiño y Caamaño, procurador general de Muros.",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa035",
+      "firstName": "Antonio",
+      "lastName": "Luaces de Orxas",
+      "gender": "male",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "deathDate": "<1776",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), informe del juez de Muros (VII-1776, img 31-32): hijo/a de Jacobo Luaces de Caamaño (pa021) y María Fernández de Orxas (pa031), hermano/a de Ignacio (pa022). Muerto/a antes de 1776. Apellido materno inferido del de su hermana Josefa; el informe solo da el nombre de pila.",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa036",
+      "firstName": "Simón",
+      "lastName": "Luaces de Orxas",
+      "gender": "male",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "deathDate": "<1776",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), informe del juez de Muros (VII-1776, img 31-32): hijo/a de Jacobo Luaces de Caamaño (pa021) y María Fernández de Orxas (pa031), hermano/a de Ignacio (pa022). Muerto/a antes de 1776. Apellido materno inferido del de su hermana Josefa; el informe solo da el nombre de pila.",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "pa037",
+      "firstName": "Juana",
+      "lastName": "Luaces de Orxas",
+      "gender": "female",
+      "birthPlace": "Muros, A Coruña, Galicia, España",
+      "deathDate": "<1776",
+      "notes": "FUENTE PRIMARIA: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), informe del juez de Muros (VII-1776, img 31-32): hijo/a de Jacobo Luaces de Caamaño (pa021) y María Fernández de Orxas (pa031), hermano/a de Ignacio (pa022). Muerto/a antes de 1776. Apellido materno inferido del de su hermana Josefa; el informe solo da el nombre de pila.",
+      "source": "pares",
+      "certainty": "proven",
+      "certaintyReason": "PARES primary archival signature (AGI/AHN/ARG/ARChV)",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "col001",
+      "firstName": "Ignacio",
+      "lastName": "Caamaño",
+      "gender": "male",
+      "birthDate": "<1780",
+      "deathDate": "~1842",
+      "deathPlace": "Estancia a cuatro leguas de Mompós, orillas del Magdalena",
+      "notes": "FUENTE: Semanario de la Provincia de Cartagena n.° 28, 22-I-1843, 'Administración de Justicia' (Biblioteca Virtual Banrep p17054coll26/8092, https://babel.banrepcultural.org/digital/collection/p17054coll26/id/8092). Sentencia del Tribunal de Cartagena (19-XII-1842) en la causa contra su criado José Antonio Linares, juzgado 2.° del circuito de Mompós. 'Hombre honrado i de una edad avanzada', vivía en su estancia a cuatro leguas de Mompós a orillas del Magdalena. Asesinado la noche del 20 de enero, hallado muerto el 21 y enterrado el 22 en la parroquia de San Fernando. El OCR daña el año; lo más probable es 1842. Abuelo de Buenaventura Caamaño (col002). SIN RELACIÓN DOCUMENTADA con Trinidad Caamaño ni con p001. Es el Caamaño más antiguo encontrado en el distrito de Mompós. Siguiente paso: entierros de San Fernando 1841-42 en FamilySearch.",
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "Published 1843 court ruling (newspaper); no documented link to our line",
+      "events": [],
+      "migrations": []
+    },
+    {
+      "id": "col002",
+      "firstName": "Buenaventura",
+      "lastName": "Caamaño",
+      "gender": "female",
+      "birthDate": "~1833",
+      "deathDate": "~1842",
+      "deathPlace": "Río Magdalena, cerca de Mompós",
+      "notes": "FUENTE: Semanario de la Provincia de Cartagena n.° 28, 22-I-1843, 'Administración de Justicia' (Biblioteca Virtual Banrep p17054coll26/8092, https://babel.banrepcultural.org/digital/collection/p17054coll26/id/8092). Nieta de Ignacio Caamaño (col001), de nueve años; la habían llevado desde la ladera de Ancón a la estancia de su abuelo, donde fue asesinada en enero (probablemente 1842). El periódico no nombra a sus padres. Siguiente paso: bautismos de Mompós ~1830-1835.",
+      "source": "historical",
+      "certainty": "circumstantial",
+      "certaintyReason": "Published 1843 court ruling (newspaper); parents unnamed",
+      "events": [],
+      "migrations": []
     }
   ],
   "families": [
@@ -7183,9 +7316,11 @@
     },
     {
       "id": "paf05",
-      "parents": ["pa021"],
-      "children": ["pa022"],
-      "marriagePlace": "Muros, A Coruña, Galicia, España"
+      "parents": ["pa021", "pa031"],
+      "children": ["pa022", "pa034", "pa035", "pa036", "pa037"],
+      "marriagePlace": "San Pedro de Muros, A Coruña, Galicia, España",
+      "marriageDate": "1697-01-27",
+      "notes": "Boda en San Pedro de Muros el 27-I-1697. Fuente: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), img 15-16."
     },
     {
       "id": "paf06",
@@ -7198,16 +7333,23 @@
       "parents": ["pa026", "pa027"],
       "children": ["pa028", "pa029"],
       "marriagePlace": "Fefiñanes, Cambados, Pontevedra, Galicia, España"
+    },
+    {
+      "id": "paf08",
+      "parents": ["pa032", "pa033"],
+      "children": ["pa031"],
+      "marriagePlace": "Muros, A Coruña, Galicia, España",
+      "notes": "Fuente: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), partida de matrimonio de su hija (1697)."
     }
   ],
   "meta": {
-    "lastUpdated": "2026-04-14",
-    "version": 39,
+    "lastUpdated": "2026-10-14",
+    "version": 40,
     "certaintyAudit": {
       "date": "2026-04-13",
       "stats": {
-        "proven": 50,
-        "circumstantial": 312,
+        "proven": 57,
+        "circumstantial": 314,
         "hypothetical": 61
       },
       "version": 39
