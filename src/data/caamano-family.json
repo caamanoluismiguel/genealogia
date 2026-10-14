@@ -5338,9 +5338,9 @@
       "firstName": "Trinidad",
       "lastName": "Caamaño",
       "gender": "male",
-      "birthDate": "~1830",
+      "birthDate": "<1830",
       "birthPlace": "Rioviejo, Morales, Bolívar, Colombia",
-      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción de su esposa Damiana Soto 16-mayo-1883 Rioviejo, que lo confirma aún vivo en esa fecha, natural y vecino de Rioviejo (agregación de San Sebastián mártir de Morales, Bolívar). FUENTE SECUNDARIA: FS ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto el viudo (fs026) que lo lista como padre. Esposa: Damiana Soto (fs023, †1883). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815 Porto do Son → Colombia). Generación calculada ~1820-1840 para ser padre de hombre ya dos veces viudo en 1891 y consorte de mujer fallecida en 1883.",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción de su esposa Damiana Soto 16-mayo-1883 Rioviejo, que lo confirma aún vivo en esa fecha, natural y vecino de Rioviejo (agregación de San Sebastián mártir de Morales, Bolívar). FUENTE SECUNDARIA: FS ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto el viudo (fs026) que lo lista como padre. Esposa: Damiana Soto (fs023, †1883). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815 Porto do Son → Colombia). Generación calculada ~1820-1840 para ser padre de hombre ya dos veces viudo en 1891 y consorte de mujer fallecida en 1883. v42: padre de Matías Caamaño (fs071, n. ~1849, †1897 Rioviejo), según su partida de entierro leída en imagen.",
       "events": [],
       "migrations": [],
       "source": "familysearch",
@@ -6574,6 +6574,22 @@
       ],
       "migrations": [],
       "notes": "PADRE DOCUMENTADO DE BENJAMÍN (p013). Fuentes leídas en imagen el 2026-10-14: (1) matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'Benjamín A. Caamaño, hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero'. (2) matrimonio in artículo mortis de Manuel Camaño y Faustina Reales, El Banco, 3-X-1869, film 004001320 elem. 14 img 38-39 (https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZR-F97B-D): 'casé in artículo mortis a Manuel Camaño natural de Rioviejo con Faustina Reales natural y vecina de esta'. (3) entierro de Manuel Camaño, El Banco, [8?]-X-1869, Defunciones 1843-1916 img 82/145 (https://www.familysearch.org/ark:/61903/3:1:3QS7-L9ZR-F9Q5-R): 'Manuel Camaño adulto casado natural de Rioviejo y vecino de esta'. Nació en Rioviejo, el mismo pueblo de Trinidad Caamaño (fs022) y Damiana Soto. Probable pariente cercano de Trinidad (hijo o hermano), SIN PROBAR: ninguna de las tres partidas nombra a sus padres. Nacimiento antes de 1845 estimado por su hija Felicia (1864). Ver docs/BRECHA-COLOMBIA-2026-10.md."
+    },
+    {
+      "id": "fs071",
+      "firstName": "Matías",
+      "lastName": "Caamaño Soto",
+      "gender": "male",
+      "birthDate": "~1849",
+      "birthPlace": "Rioviejo, Bolívar, Colombia",
+      "deathDate": "1897-12-24",
+      "deathPlace": "Rioviejo, Bolívar, Colombia",
+      "source": "familysearch",
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)",
+      "events": [],
+      "migrations": [],
+      "notes": "Entierro, partida 243, libro 'Defunciones parroquiales 1876-1898' de San Sebastián de Las Palmas (Morales), img 141-142/165 (https://www.familysearch.org/ark:/61903/3:1:3QS7-89GZ-C3Z3, índice 1:1:XS6X-W4T5): 'En la agregación de Rioviejo a los veinte y cinco días del mes de Diciembre del año de mil ochocientos noventa y siete… falleció en esta agregación el Señor Matías Caamaño el día veinte y cuatro… el finado era natural y vecino de esta agregación, casado con la Señora Inés Aistán, que era de cuarenta y ocho años de edad, é hijo legítimo de Trinidad Caamaño y Damiana Soto.' Imagen leída el 2026-10-14. El índice dice 'Trinidad Cacamano' y 'Damiana Toto'. Prueba que Trinidad y Damiana tenían hijos hacia 1849."
     }
   ],
   "families": [
@@ -7255,7 +7271,7 @@
     {
       "id": "fsf07",
       "parents": ["fs022", "fs023"],
-      "children": ["fs026"],
+      "children": ["fs026", "fs071"],
       "marriagePlace": "Rioviejo, Bolívar, Colombia (antes de 1850)"
     },
     {
@@ -7377,7 +7393,7 @@
     "certaintyAudit": {
       "date": "2026-04-13",
       "stats": {
-        "proven": 63,
+        "proven": 64,
         "circumstantial": 308,
         "hypothetical": 60
       },

@@ -26,6 +26,13 @@ Búsqueda en FamilySearch con la sesión de LM en Chrome. Cada hallazgo se leyó
 - Otros Camaño en El Banco: **Joaquín Camaño × Felicia Rocha**, hija Benedicta, bautizada el 27-II-1866 (img 128). Estevana Josefa Salas (16-VIII-1865, img 121), madre "Nicolasa Ca[rre?/ma?]ño", lectura dudosa. Falsos positivos descartados: img 82 (madrina Reales), img 171 ("de Caamal" = error del índice).
 - Familia Reales en El Banco: Cupertina Reales × Blas Cerpa/Carpas (hijos 1864, 1866, 1868); Santos Reales × Francisca Valle (hijo Luis José, 26-X-1869). Posibles parientes de Faustina.
 
+## Búsqueda del bautismo de Manuel (Morales, Rioviejo, Mompós)
+- **FamilySearch no tiene libros de Morales anteriores a 1868** (catálogo olib:2374281, primer volumen de bautismos 1868-1873) **ni de Rioviejo anteriores a 1883** (olib:2374280). Morales fue cabecera de Arenal, Rioviejo, Norosí y Simití. El bautismo de Manuel (hacia 1830-1845) no está en estos fondos digitalizados.
+- Mompós (Santa Cruz, olib:2246435) sí tiene libros desde 1732. El índice de Caamaño/Camaño en Mompós 1780-1870 no trae a Manuel ni a Trinidad. Falta recorrerlo a ojo.
+- **Matías Caamaño (ALTA):** entierro partida 243, 'Defunciones parroquiales 1876-1898' de San Sebastián de Las Palmas (Morales), img 141-142 de 165, ark `3:1:3QS7-89GZ-C3Z3`. "En la agregación de Rioviejo a los veinte y cinco días del mes de Diciembre del año de mil ochocientos noventa y siete… falleció… el Señor Matías Caamaño el día veinte y cuatro… natural y vecino de esta agregación, casado con la Señora Inés Aistán, que era de cuarenta y ocho años de edad, é hijo legítimo de Trinidad Caamaño y Damiana Soto." Trinidad y Damiana ya tenían hijos hacia 1849. Agregado al árbol como fs071.
+- Felipa Caamaño, entierro en Rioviejo el 1-I-1898 (partida 244, img 142), casada con Ventura Otálvares, natural de la agregación. Padres no nombrados. No agregada.
+- El expediente de 'información' matrimonial de Benjamín (1889) se envió a otra parroquia. No está indexado. Podría contener su partida de bautismo.
+
 ## Índice (sin imagen leída todavía)
 - Felicia Eleutina Camaño, bautismo 17-IV-1864, hija de Manuel Camaño y Faustina Reales (`1:1:F2JM-THS`).
 - Rudesinda Rangel, casada con "Miguel Caamaño Soto"; un registro indexa entre sus parientes a Damiana Soto (`1:1:XS6D-S1S5`, `1:1:66S5-914B`, `1:1:66SN-CXZX`). Posible hermano de José Tomás Caamaño Soto, hijo de Trinidad y Damiana.
