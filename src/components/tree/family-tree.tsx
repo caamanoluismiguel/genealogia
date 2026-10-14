@@ -28,7 +28,7 @@ import {
   addFamily,
   addChildToFamily,
 } from "@/lib/genealogy/mutations";
-import { exportData } from "@/lib/data/persistence";
+import { exportData, exportGedcom } from "@/lib/data/persistence";
 import {
   filterIndexBySources,
   filterIndexByCountry,
@@ -288,6 +288,10 @@ export function FamilyTree() {
     exportData(data);
   }, [data]);
 
+  const handleExportGedcom = useCallback(() => {
+    exportGedcom(data);
+  }, [data]);
+
   const handleSelectPerson = useCallback(
     (id: string) => {
       if (compareMode) {
@@ -489,6 +493,7 @@ export function FamilyTree() {
         onFitAll={handleFitAll}
         zoomLevel={transform.k}
         onExport={handleExport}
+        onExportGedcom={handleExportGedcom}
         onCompare={enterCompareMode}
         compareActive={compareMode}
         visibleSources={visibleSources}

@@ -14,6 +14,8 @@ interface TreeControlsProps {
   onFitAll: () => void;
   zoomLevel: number;
   onExport?: () => void;
+  /** Download the current tree as GEDCOM 5.5.1 */
+  onExportGedcom?: () => void;
   onCompare?: () => void;
   compareActive?: boolean;
   activeCountry?: string | null;
@@ -288,6 +290,7 @@ export function TreeControls({
   onFitAll,
   zoomLevel,
   onExport,
+  onExportGedcom,
   onCompare,
   compareActive = false,
   visibleSources,
@@ -398,9 +401,22 @@ export function TreeControls({
             className={btnClass}
           >
             <IconDownload />
-            <span className={btnLabelClass}>Exportar</span>
+            <span className={btnLabelClass}>JSON</span>
           </button>
         </>
+      )}
+
+      {onExportGedcom && (
+        <button
+          type="button"
+          onClick={onExportGedcom}
+          aria-label="Descargar árbol en formato GEDCOM"
+          title="Descargar GEDCOM (para Ancestry, FamilySearch, MyHeritage, Gramps)"
+          className={btnClass}
+        >
+          <IconDownload />
+          <span className={btnLabelClass}>GEDCOM</span>
+        </button>
       )}
 
       {/* NOVA: Collapsible filter panel — source toggles + country filter live here.
