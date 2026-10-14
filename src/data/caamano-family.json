@@ -193,7 +193,7 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida. v40: un 'B. A. Caamaño' vendía en El Banco, Magdalena, en noviembre de 1898 (El Autonomista n.° 47-55, Banrep). Identidad con Benjamín sin probar.",
+      "notes": "Hijo de José Tomás Caamaño Soto y Faustina Reales. Casado con Dominga Castro. Residencia en El Banco, Magdalena confirmada por registros de bautismo de sus hijos: Emilio (1891), Justina Lucía (1893), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Film #004001320. Fecha de nacimiento desconocida. v40: un 'B. A. Caamaño' vendía en El Banco, Magdalena, en noviembre de 1898 (El Autonomista n.° 47-55, Banrep). Identidad con Benjamín sin probar. v41: las partidas de bautismo de sus hijos Benjamín (1896), Camilo Antonio (1898) y Néstor Daniel (1901) lo llaman siempre 'Benjamín A. Caamaño'. Eso hace muy probable, sin probarlo, que sea el 'B. A. Caamaño' de 1898.",
       "certainty": "proven",
       "certaintyReason": "Modern family with primary document citation"
     },
@@ -215,12 +215,27 @@
       "firstName": "Benjamin",
       "lastName": "Caamaño Castro",
       "gender": "male",
-      "birthPlace": "Colombia",
-      "events": [],
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "events": [
+        {
+          "type": "baptism",
+          "date": "1896-05-06",
+          "place": "Santa Iglesia del Banco, El Banco, Magdalena, Colombia",
+          "description": "Partida 424, p. 124. Padrinos: Dr. Wenceslao Valle y Emilia A. Villarreal."
+        },
+        {
+          "type": "marriage",
+          "date": "1958-01-05",
+          "place": "San Martín, Meta, Colombia",
+          "description": "Con María Inés [?] Molano (nota marginal, lectura media-baja)"
+        }
+      ],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)",
+      "birthDate": "1896-02-17",
+      "notes": "Partida de bautismo 424, Santa Iglesia del Banco, 6-V-1896: nació el 17-II-1896, hijo legítimo de Benjamín A. Caamaño y Dominga Castro (https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZR-F9S6-S). Nota marginal: casó en San Martín (Meta) el 5-I-1958 con María Inés [?] Molano (lectura insegura)."
     },
     {
       "id": "p016",
@@ -286,31 +301,6 @@
       "certaintyReason": "Modern family oral history w/ coherent dates"
     },
     {
-      "id": "p021",
-      "firstName": "Camilo",
-      "lastName": "Caamaño Castro",
-      "gender": "male",
-      "birthPlace": "Colombia",
-      "events": [],
-      "migrations": [],
-      "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
-    },
-    {
-      "id": "p022",
-      "firstName": "Maria Luisa",
-      "lastName": "Villalobos",
-      "gender": "female",
-      "birthPlace": "Colombia",
-      "notes": "Esposa de Camilo Caamaño Castro.",
-      "events": [],
-      "migrations": [],
-      "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
-    },
-    {
       "id": "p023",
       "firstName": "Néstor Daniel",
       "lastName": "Caamaño Castro",
@@ -319,30 +309,30 @@
       "events": [
         {
           "type": "baptism",
-          "place": "Santa Iglesia del Carmen, El Banco, Magdalena, Colombia",
-          "date": "1901",
-          "description": "Partida de bautismo #1055. Padrinos registrados."
+          "date": "1901-07-16",
+          "place": "Santa Iglesia del Banco, El Banco, Magdalena, Colombia",
+          "description": "Partida 1.055, libro de bautismos p. 282. Padrinos: Luis Díaz Granados y Socorro María Martínez. Pbro. Noé Cañizares."
         }
       ],
       "migrations": [],
       "source": "modern",
-      "birthDate": "1901-01-02",
-      "notes": "Néstor Daniel Caamaño Castro. Bautizado en Santa Iglesia del Carmen, El Banco, Magdalena. Partida #1055 (1901). Hijo de Benjamín Caamaño y Dominga Castro. Casado con Manuela Sarmiento de la Cruz. DAS Civil Registration confirma: padre de Luís Alberto Caamaño Ganizabal. FamilySearch Film #004001320.",
+      "birthDate": "1901-01-03",
+      "notes": "Néstor Daniel Caamaño Castro. Partida de bautismo 1.055 (p. 282), Santa Iglesia del Banco, 16-VII-1901: 'nació el tres de enero último, hijo legítimo de Benjamín A Camaño y Dominga Castro' (imagen leída 2026-10-14, https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZR-F99B-D). v41 corrige el nacimiento (antes 1901-01-02) y el nombre de la iglesia. Nota marginal: casó en Guamal el 16-VI-1952 con Expectación Garizábal. Tuvo además otra unión con Manuela Sarmiento de la Cruz (confirmado por la familia, 2026-10-14). DAS Civil Registration confirma: padre de Luís Alberto Caamaño Ganizabal. FamilySearch Film #004001320.",
       "certainty": "proven",
       "certaintyReason": "Modern family with primary document citation"
     },
     {
       "id": "p024",
-      "firstName": "Exceptación",
-      "lastName": "Garizabal",
+      "firstName": "Expectación",
+      "lastName": "Garizábal",
       "gender": "female",
       "birthPlace": "Colombia",
-      "notes": "Esposa de Nestor Caamaño Castro.",
+      "notes": "Esposa de Néstor Caamaño Castro (p023). Boda en Guamal (Magdalena) el 16-VI-1952, según la nota marginal de la partida de bautismo 1.055 de Néstor (https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZR-F99B-D). Antes registrada como 'Exceptación Garizabal'.",
       "events": [],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)"
     },
     {
       "id": "p025",
@@ -3142,10 +3132,16 @@
       "firstName": "Camilo Antonio",
       "lastName": "Caamaño Castro",
       "gender": "male",
-      "birthDate": "1898",
+      "birthDate": "1898-07-18",
       "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Hijo de Benjamín y Dominga. Matrimonio 23 feb 1930 con María Luisa Villalobos. Entierro en Bogotá. Su hijo José Tomás Caamaño Nieto lleva el nombre del patriarca. FamilySearch.",
+      "notes": "Partida de bautismo 878, Santa Iglesia del Banco, 24-XII-1898: nació el 18-VII-1898, hijo legítimo de Benjamín A. Caamaño y Dominga Castro (https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZR-F13M). La nota marginal confirma la boda con Luisa Villalobos en El Banco el 23-II-1930. Entierro en Bogotá. Su hijo José Tomás Caamaño Nieto lleva el nombre del patriarca. v41: fusionado con el duplicado p021.",
       "events": [
+        {
+          "type": "baptism",
+          "date": "1898-12-24",
+          "place": "Santa Iglesia del Banco, El Banco, Magdalena, Colombia",
+          "description": "Partida 878, p. 238. Padrinos: Pedro Salcedo Ramón y Petrona Regino [?]."
+        },
         {
           "type": "marriage",
           "date": "1930-02-23",
@@ -3154,8 +3150,8 @@
         }
       ],
       "migrations": [],
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)"
     },
     {
       "id": "p163",
@@ -3197,7 +3193,7 @@
       "lastName": "Villalobos",
       "gender": "female",
       "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Esposa de Camilo Caamaño. Matrimonio 1930. Entierro en Bogotá.",
+      "notes": "Esposa de Camilo Caamaño. Matrimonio 1930. Entierro en Bogotá. Boda confirmada por la nota marginal de la partida 878 de su esposo. v41: fusionada con el duplicado p022.",
       "events": [],
       "migrations": [],
       "certainty": "circumstantial",
@@ -4906,7 +4902,7 @@
       "birthDate": "~1766",
       "birthPlace": "Tlaxcala, Tlaxcala, México",
       "deathPlace": "Sagrario de Puebla, Puebla, México",
-      "notes": "⭐ FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha verificada 2026-04-13). **Hijo de gn056 Domingo Antonio Caamaño (†<1815) + gn057 Ana Micaela Conde (†<1815)**. Casado 1815 en Puebla (Sagrario) con gn058 Ana Josefa González Mata (~1788). Padre de gn059 José Luis Caamaño González (~1822 Puebla) + otros hijos documentados en el árbol. Rama colonial mexicana establecida por su padre Domingo Antonio (probable emigrante gallego del XVIII). FamilySearch source: https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB (imagen de acta). Árbol complementario: 'sanchiz'.",
+      "notes": "⭐ FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha verificada 2026-04-13). **Hijo de gn056 Domingo Antonio Caamaño (†<1815) + gn057 Ana Micaela Conde (†<1815)**. Casado 1815 en Puebla (Sagrario) con gn058 Ana Josefa González Mata (~1788). Padre de gn059 José Luis Caamaño González (~1822 Puebla) + otros hijos documentados en el árbol. Rama colonial mexicana establecida por su padre Domingo Antonio (probable emigrante gallego del XVIII). Árbol complementario: 'sanchiz'. v41: se quitó la cita a 939V-5K9D-PB, que no es su boda de 1815 sino un despacho matrimonial de 1872 de su bisnieta. Sin imagen primaria leída.",
       "events": [
         {
           "type": "marriage",
@@ -4916,8 +4912,8 @@
         }
       ],
       "migrations": [],
-      "certainty": "proven",
-      "certaintyReason": "Geneanet w/ primary citation"
+      "certainty": "circumstantial",
+      "certaintyReason": "Geneanet tree; cited image turned out to be a different record"
     },
     {
       "id": "gn044",
@@ -4945,7 +4941,7 @@
       "deathDate": "1858",
       "birthPlace": "San Juan, Puerto Rico, Provincia de España",
       "deathPlace": "Barrio Dominguito, Arecibo, Puerto Rico",
-      "notes": "⭐⭐⭐ FICHA COMPLETA (Geneanet árbol panchovilla2018 'LA FAMILIA MARXUACH', verificada 2026-04-13). **Nacido VIERNES 15-mar-1811** San Juan, Puerto Rico (Provincia de España). **Bautizado LUNES 25-mar-1811** en la Iglesia Catedral San Juan Bautista, San Juan. **Casado LUNES 30-ene-1832** en Arecibo con Juana Petrona del Carmen de Federico Santa (gn052, 1815-1890). Falleció 1858 en Barrio Dominguito, Arecibo, a los 47 años. **Fuente primaria:** FamilySearch Family Tree, PersonID **9Z6C-LBK** (https://familysearch.org/ark:/61903/4:1:9Z6C-LBK). Puerto Rico Registro Civil 1805-2001 múltiples entradas. ⚠ **NO hay padres documentados en el árbol de panchovilla2018** — la línea termina en él. Tuvo al menos 3 hijos: gn053 Pablo Coamaño Federico (docs 1916 Hatillo PR), gn054 Dolores Caamaño Federico (doc 1892 San Juan), gn055 Isolina Camaño Federico (doc 1927 Arecibo). **HIPÓTESIS FUERTE:** Tomás PR (1811) y p001 José Tomás CO (~1815) podrían ser PRIMOS HERMANOS — compartirían abuelos gallegos del XVIII. El padre de Tomás sería un emigrante gallego ya en PR antes de 1811. Buscar FamilySearch PID 9Z6C-LBK para ver si otros contribuidores han añadido padres.",
+      "notes": "⭐⭐⭐ FICHA COMPLETA (Geneanet árbol panchovilla2018 'LA FAMILIA MARXUACH', verificada 2026-04-13). **Nacido VIERNES 15-mar-1811** San Juan, Puerto Rico (Provincia de España). **Bautizado LUNES 25-mar-1811** en la Iglesia Catedral San Juan Bautista, San Juan. **Casado LUNES 30-ene-1832** en Arecibo con Juana Petrona del Carmen de Federico Santa (gn052, 1815-1890). Falleció 1858 en Barrio Dominguito, Arecibo, a los 47 años. **Fuente primaria:** FamilySearch Family Tree, PersonID **9Z6C-LBK** (https://familysearch.org/ark:/61903/4:1:9Z6C-LBK). Puerto Rico Registro Civil 1805-2001 múltiples entradas. ⚠ **NO hay padres documentados en el árbol de panchovilla2018** — la línea termina en él. Tuvo al menos 3 hijos: gn053 Pablo Coamaño Federico (docs 1916 Hatillo PR), gn054 Dolores Caamaño Federico (doc 1892 San Juan), gn055 Isolina Camaño Federico (doc 1927 Arecibo). **HIPÓTESIS FUERTE:** Tomás PR (1811) y p001 José Tomás CO (~1815) podrían ser PRIMOS HERMANOS — compartirían abuelos gallegos del XVIII. El padre de Tomás sería un emigrante gallego ya en PR antes de 1811. Buscar FamilySearch PID 9Z6C-LBK para ver si otros contribuidores han añadido padres. v41: otra familia Caamaño en el barrio Dominguito de Arecibo: José Caamaño (n. ~1890), hijo natural de Feliciana Caamaño y nieto de Pilar Caamaño. Vínculo no probado. FamilySearch 004494392, img 1217.",
       "events": [
         {
           "type": "birth",
@@ -5197,7 +5193,7 @@
       "gender": "male",
       "birthDate": "~1822",
       "birthPlace": "Puebla, Puebla, México",
-      "notes": "⭐ FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha completa verificada 2026-04-13). **COMERCIANTE** en Puebla. Casado 23-sept-1848 en el Sagrario de Puebla con gn060 Florencia Antonia Machado Vidal (1820-<1872). Hijo de gn043 José Mariano Caamaño Conde + gn058 Ana Josefa González Mata. Padre de gn061 María Luisa Antonia Caamaño y Machado (1849). **Fue residente por algún tiempo de Acatlán** (nota personal del árbol). Fuente primaria: FamilySearch https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB (imagen de acta matrimonial i=398).",
+      "notes": "⭐ FUENTE: Geneanet árbol 'gilbertodelatorrem' (ficha completa verificada 2026-04-13). **COMERCIANTE** en Puebla. Casado 23-sept-1848 en el Sagrario de Puebla con gn060 Florencia Antonia Machado Vidal (1820-<1872). Hijo de gn043 José Mariano Caamaño Conde + gn058 Ana Josefa González Mata. Padre de gn061 María Luisa Antonia Caamaño y Machado (1849). **Fue residente por algún tiempo de Acatlán** (nota personal del árbol). v41: la boda de 1848 sigue sin imagen leída (la cita a PB era errónea), pero el despacho matrimonial de su hija Luisa (Sagrario de Puebla, 20-VI-1872, https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB) lo nombra como 'D. Luis Caamaño', padre, con Dª Florencia Machado ya difunta.",
       "events": [
         {
           "type": "marriage",
@@ -5208,7 +5204,7 @@
       ],
       "migrations": [],
       "certainty": "proven",
-      "certaintyReason": "Geneanet w/ primary citation"
+      "certaintyReason": "Named as father in 1872 primary record (FamilySearch image read)"
     },
     {
       "id": "gn060",
@@ -5220,7 +5216,7 @@
       "birthDate": "1820",
       "deathDate": "<1872",
       "birthPlace": "Puebla, Puebla, México",
-      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn059 José Luis Caamaño González desde 23-sept-1848 en Sagrario de Puebla. Madre de gn061 María Luisa Antonia Caamaño y Machado (1849). Muerta antes de 1872.",
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Esposa de gn059 José Luis Caamaño González desde 23-sept-1848 en Sagrario de Puebla. Madre de gn061 María Luisa Antonia Caamaño y Machado (1849). Muerta antes de 1872. v41: el despacho matrimonial de su hija del 20-VI-1872 (https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB) la menciona como difunta.",
       "events": [
         {
           "type": "marriage",
@@ -5229,8 +5225,8 @@
         }
       ],
       "migrations": [],
-      "certainty": "hypothetical",
-      "certaintyReason": "Geneanet user tree (uncorroborated)"
+      "certainty": "proven",
+      "certaintyReason": "Named as deceased mother in 1872 primary record"
     },
     {
       "id": "gn061",
@@ -5240,11 +5236,18 @@
       "gender": "female",
       "birthDate": "1849",
       "birthPlace": "Puebla, Puebla, México",
-      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Hija de gn059 José Luis Caamaño González + gn060 Florencia Antonia Machado Vidal. Nieta de Domingo Antonio Caamaño (gn056, emigrante gallego). Bisnieta del ancestro gallego no identificado (padre de gn056). 4ª generación mexicana del linaje Caamaño.",
-      "events": [],
+      "notes": "FUENTE: Geneanet árbol 'gilbertodelatorrem'. Hija de gn059 José Luis Caamaño González + gn060 Florencia Antonia Machado Vidal. Bisnieta de Domingo Antonio Caamaño (gn056, emigrante gallego). 4ª generación mexicana del linaje Caamaño. v41: despacho matrimonial del Sagrario de Puebla, 20-VI-1872 (https://www.familysearch.org/ark:/61903/3:1:939V-5K9D-PB): Dª Luisa Caamaño, 22 años, hija de D. Luis Caamaño y de Dª Florencia Machado (difunta), para casar con José María Aguilar. La partida de la boda está en la imagen siguiente, aún no leída.",
+      "events": [
+        {
+          "type": "marriage",
+          "date": "1872",
+          "place": "Sagrario de Puebla, Puebla, México",
+          "description": "Con José María Aguilar (diligencias aprobadas 20-VI-1872)"
+        }
+      ],
       "migrations": [],
-      "certainty": "hypothetical",
-      "certaintyReason": "Geneanet user tree (uncorroborated)"
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)"
     },
     {
       "id": "fs017",
@@ -6590,7 +6593,6 @@
         "p017",
         "p018",
         "p019",
-        "p021",
         "p023",
         "p025",
         "p100",
@@ -6620,18 +6622,12 @@
       "notes": "Manuel Felipe Caamaño Castro + Antíope Bustamante."
     },
     {
-      "id": "f010",
-      "parents": ["p021", "p022"],
-      "children": ["p031", "p032", "p033", "p034"],
-      "marriagePlace": "Colombia",
-      "notes": "Camilo Caamaño Castro + Maria Luisa Villalobos."
-    },
-    {
       "id": "f011",
       "parents": ["p023", "p024"],
       "children": ["p035", "p036", "p037"],
-      "marriagePlace": "Colombia",
-      "notes": "Nestor Caamaño Castro + Exceptación Garizabal."
+      "marriagePlace": "Guamal, Magdalena, Colombia",
+      "notes": "Néstor Caamaño Castro + Expectación Garizábal. Boda en Guamal el 16-VI-1952 (nota marginal, partida 1.055 de El Banco).",
+      "marriageDate": "1952-06-16"
     },
     {
       "id": "f012",
@@ -7004,9 +7000,10 @@
     {
       "id": "f161",
       "parents": ["p162", "p165"],
-      "children": [],
+      "children": ["p031", "p032", "p033", "p034"],
       "marriageDate": "1930-02-23",
-      "marriagePlace": "El Banco, Magdalena, Colombia"
+      "marriagePlace": "El Banco, Magdalena, Colombia",
+      "notes": "Camilo Antonio Caamaño Castro + María Luisa Villalobos, El Banco 23-II-1930 (nota marginal, partida 878)."
     },
     {
       "id": "f162",
@@ -7344,13 +7341,13 @@
   ],
   "meta": {
     "lastUpdated": "2026-10-14",
-    "version": 40,
+    "version": 41,
     "certaintyAudit": {
       "date": "2026-04-13",
       "stats": {
-        "proven": 57,
-        "circumstantial": 314,
-        "hypothetical": 61
+        "proven": 61,
+        "circumstantial": 310,
+        "hypothetical": 59
       },
       "version": 39
     }

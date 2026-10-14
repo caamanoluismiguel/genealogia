@@ -513,3 +513,36 @@ _End of Session 2026-04-13._
 5. Search Google Books by hand (Restrepo Sáenz, Flórez de Ocáriz); still pending.
 
 _End of Session 2026-10-14._
+
+---
+
+## Section: Session 2026-10-14 (b): Transcription of downloaded FamilySearch images
+
+**Full report:** `docs/FAMILYSEARCH-SCANS-TRANSCRIPTIONS-2026-10.md`. **Images:** `~/Downloads/Organized/Images/genealogy-scans/` (22 files) and `JPGs/3QS7-*` (2 files). They were read in place and not copied into the repo. After md5 deduplication there are 15 distinct images plus 1 screenshot, which is a FamilySearch "Error 15" page with no content. **No changes were made to `src/data/caamano-family.json`.**
+
+### Results
+
+- **El Banco, film 004001320 (3QS7-…), confidence HIGH:** these are the baptisms of three children of "**Benjamín A. Caamaño**" and Dominga Castro.
+  - Benjamín: born 17-II-1896, baptized 6-V-1896, partida 424. A margin note records his marriage in San Martín (Meta) on 5-I-1958 to Mª Inés [?] Molano.
+  - Camilo Antonio: born 18-VII-1898, baptized 24-XII-1898, partida 878. A margin note records his marriage to Luisa Villalobos in El Banco on 23-II-1930.
+  - Néstor Daniel: **born 3-I-1901 (the tree has 2-I)**, baptized 16-VII-1901, partida 1055. A margin note records his **marriage in Guamal on 16-VI-1952 to Expectación Garizábal** (p024).
+  - The initial "A." strengthens, but does not prove, the identification of p013 with "B. A. Caamaño" (El Banco, 1898).
+- **Puebla (939V-5K9D-PB), confidence HIGH:** this image is **not** the 1815 or 1848 marriage record that gn043 and gn059 cite. It is the **marriage dispensation of 20-VI-1872 for Dª Luisa Caamaño** (22 years old), daughter of D. Luis Caamaño and Dª Florencia Machado (already dead), with José María Aguilar. It concerns gn061, gn059 and gn060. The images PG, PN, BT and L4 are neighbouring pages and contain no Caamaño. The wedding itself is on the image after PB, which was not downloaded.
+- **Arecibo PR (004494392 img 1217):** birth act no. 983 of José Caamaño, born 15-X-[1890?] in **barrio Dominguito**. His mother was Feliciana Caamaño, unmarried; his maternal grandmother was Pilar Caamaño. He died in Utuado. **Not in the tree.** The only connection is circumstantial: gn045 died in the same barrio in 1858.
+- **Pontevedra, notarial protocols (3Q9M-CSL3-…, film 1649987, roll 353):** the images are the roll cards (vol. 2316 for 1774, vol. 3957 for 1825), a sale from 1766, a certification from 1774, and the 1825 index of escribano Lorenzo Antonio de Fornos y Gómez. **No Caamaño appears.**
+
+### Proposed changes (NOT applied)
+
+1. p023: change birthDate to 1901-01-03 and set the baptism date to 1901-07-16.
+2. Add the marriage of 1952-06-16 in Guamal to f011 / p024.
+3. Add birth, baptism and the 1958 marriage to p015.
+4. Add birth and baptism to p162, then merge p021 into p162 and p022 into p165.
+5. Remove the "acta 1815/1848" citation from gn043 and gn059, and review whether "proven" still holds for them.
+6. Add the 1872 marriage with José María Aguilar to gn061, and change "nieta" to "bisnieta" of gn056.
+7. Add to gn060: "difunta" by 20-VI-1872.
+
+### Epistemic state
+
+Nothing here touches p001, Trinidad, or Brecha 1 or Brecha 2. The El Banco records only refine dates in a generation that was already proven.
+
+_End of Session 2026-10-14 (b)._

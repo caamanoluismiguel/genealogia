@@ -27,6 +27,21 @@ interface ChangeEntry {
 // Each entry is a research milestone, not a software release.
 const CHANGELOG: ChangeEntry[] = [
   {
+    version: 41,
+    date: "2026-10-14",
+    title: "Partidas de El Banco leídas: la fecha real de Néstor",
+    type: "corrección",
+    persons: 430,
+    families: 115,
+    highlights: [
+      "Néstor Daniel Caamaño Castro nació el 3 de enero de 1901, no el 2 (partida 1.055 de la Santa Iglesia del Banco). La nota marginal registra su boda con Expectación Garizábal en Guamal, el 16 de junio de 1952.",
+      "Bautismos de Benjamín (1896) y Camilo Antonio (1898) Caamaño Castro leídos en el original. Su padre aparece siempre como 'Benjamín A. Caamaño'.",
+      "Camilo y María Luisa Villalobos estaban duplicados en el árbol. Ya son una sola pareja.",
+      "Puebla: la imagen citada para las bodas de 1815 y 1848 resultó ser el despacho matrimonial de Luisa Caamaño y Machado con José María Aguilar (1872). Citas corregidas.",
+    ],
+    source: "FamilySearch film 004001320 (El Banco) · 939V-5K9D-PB (Puebla)",
+  },
+  {
     version: 40,
     date: "2026-10-14",
     title: "Partidas de Muros leídas en el original + un Caamaño en Mompós",
