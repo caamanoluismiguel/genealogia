@@ -21,6 +21,7 @@ import { ReferenceChip } from "./reference-chip";
 import { WelcomeModal } from "./welcome-modal";
 import { PathFinderBanner } from "./path-finder-banner";
 import { BranchIndex } from "./branch-index";
+import { OnThisDay } from "./on-this-day";
 import { PersonDetailSidebar } from "@/components/person/person-detail-sidebar";
 import {
   updatePerson,
@@ -458,6 +459,14 @@ export function FamilyTree() {
       <TreeSearch persons={data.persons} onSelect={handleSearchSelect} />
 
       <BranchIndex onJumpToPerson={handleSearchSelect} />
+
+      {!compareMode && (
+        <OnThisDay
+          persons={data.persons}
+          families={data.families}
+          onSelectPerson={handleSearchSelect}
+        />
+      )}
 
       {referencePersonId && (
         <ReferenceChip
