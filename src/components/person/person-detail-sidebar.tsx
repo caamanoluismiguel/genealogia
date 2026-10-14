@@ -5,7 +5,7 @@
  */
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import type { Person } from "@/lib/genealogy/types";
 import { getResearchLinks } from "@/lib/genealogy/research-links";
 
@@ -533,12 +533,15 @@ export function PersonDetailSidebar({
   const [showAddChild, setShowAddChild] = useState(false);
 
   // Reset forms when person changes or sidebar closes
+  // (adjust state during render instead of an effect, per React guidance)
   const personId = person?.id ?? null;
-  useEffect(() => {
+  const [prevPersonId, setPrevPersonId] = useState(personId);
+  if (personId !== prevPersonId) {
+    setPrevPersonId(personId);
     setShowEdit(false);
     setShowAddSpouse(false);
     setShowAddChild(false);
-  }, [personId]);
+  }
 
   return (
     <div

@@ -21,6 +21,7 @@ import { ReferenceChip } from "./reference-chip";
 import { WelcomeModal } from "./welcome-modal";
 import { PathFinderBanner } from "./path-finder-banner";
 import { BranchIndex } from "./branch-index";
+import { OnThisDay } from "./on-this-day";
 import { PersonDetailSidebar } from "@/components/person/person-detail-sidebar";
 import {
   updatePerson,
@@ -28,7 +29,7 @@ import {
   addFamily,
   addChildToFamily,
 } from "@/lib/genealogy/mutations";
-import { exportData } from "@/lib/data/persistence";
+import { exportData, exportGedcom } from "@/lib/data/persistence";
 import {
   filterIndexBySources,
   filterIndexByCountry,
@@ -288,6 +289,10 @@ export function FamilyTree() {
     exportData(data);
   }, [data]);
 
+  const handleExportGedcom = useCallback(() => {
+    exportGedcom(data);
+  }, [data]);
+
   const handleSelectPerson = useCallback(
     (id: string) => {
       if (compareMode) {
@@ -455,6 +460,14 @@ export function FamilyTree() {
 
       <BranchIndex onJumpToPerson={handleSearchSelect} />
 
+      {!compareMode && (
+        <OnThisDay
+          persons={data.persons}
+          families={data.families}
+          onSelectPerson={handleSearchSelect}
+        />
+      )}
+
       {referencePersonId && (
         <ReferenceChip
           persons={data.persons}
@@ -489,6 +502,7 @@ export function FamilyTree() {
         onFitAll={handleFitAll}
         zoomLevel={transform.k}
         onExport={handleExport}
+        onExportGedcom={handleExportGedcom}
         onCompare={enterCompareMode}
         compareActive={compareMode}
         visibleSources={visibleSources}
