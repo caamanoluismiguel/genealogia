@@ -279,7 +279,7 @@ export function buildTimeline(data: GenealogyData): TimelineEvent[] {
   // These are hardcoded — they are not in the JSON as dated events.
   // Each carries its specific source attribution.
 
-  interface MilestoneInput extends Omit<TimelineEvent, "id"> {}
+  type MilestoneInput = Omit<TimelineEvent, "id">;
 
   const milestones: MilestoneInput[] = [
     {
