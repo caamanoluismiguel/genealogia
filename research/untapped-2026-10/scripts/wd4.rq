@@ -1,0 +1,10 @@
+SELECT DISTINCT ?p ?pLabel ?birth ?death ?bplaceLabel ?bcLabel ?dplaceLabel ?pDescription WHERE {
+  VALUES ?term { "Caamaño" "Caamano" "Camaño" }
+  SERVICE wikibase:mwapi { bd:serviceParam wikibase:endpoint "www.wikidata.org"; wikibase:api "Search"; mwapi:srsearch ?term ; mwapi:srlimit "max". ?p wikibase:apiOutputItem mwapi:title . }
+  ?p wdt:P31 wd:Q5 .
+  OPTIONAL { ?p wdt:P569 ?birth }
+  OPTIONAL { ?p wdt:P570 ?death }
+  OPTIONAL { ?p wdt:P19 ?bplace . OPTIONAL { ?bplace wdt:P17 ?bc } }
+  OPTIONAL { ?p wdt:P20 ?dplace }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "es,en,gl". }
+}

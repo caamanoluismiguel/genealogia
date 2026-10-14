@@ -49,3 +49,7 @@ research/depo-familia-caamano/*.tsv
 research/depo-familia-caamano/*.json
 research/depo-familia-caamano/*.pdf
 
+research/pares-transcriptions-2026-10/*/
+research/untapped-2026-10/*
+!research/untapped-2026-10/scripts/
+.claude/worktrees/

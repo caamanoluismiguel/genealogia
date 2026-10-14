@@ -1,0 +1,9 @@
+SELECT ?p ?pLabel ?sur ?birth ?death ?bplaceLabel ?bcLabel ?dplaceLabel ?pDescription WHERE {
+  VALUES ?sur { wd:Q42591785 wd:Q37444084 wd:Q50128810 wd:Q36920167 }
+  { ?p wdt:P734 ?sur } 
+  OPTIONAL { ?p wdt:P569 ?birth }
+  OPTIONAL { ?p wdt:P570 ?death }
+  OPTIONAL { ?p wdt:P19 ?bplace . OPTIONAL { ?bplace wdt:P17 ?bc } }
+  OPTIONAL { ?p wdt:P20 ?dplace }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "es,en,gl". }
+}

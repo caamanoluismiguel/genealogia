@@ -463,3 +463,53 @@ If `/tmp/` is purged before the next session, the scrapers in this list can be r
 ---
 
 _End of Session 2026-04-13._
+
+---
+
+## Section: Session 2026-10-14 — PARES page images read (4 docs previously cited from catalog only)
+
+**Full report:** `docs/PARES-TRANSCRIPTIONS-2026-10.md` · **Images:** `research/pares-transcriptions-2026-10/` · **Script:** `research/pares-transcriptions-2026-10/download.sh <nid> <dir>` (curl, no auth, 0.5 s throttle; image→dbCode map parsed from `clickThumbnail()`, NOT sequential). PARES did not block.
+
+- **AGI CONTRATACION,5590,N.6** (nid 99835, 46 img, all read): certified copies of Ignacio's **baptism 6‑VII‑1700, San Pedro de Muros** and parents' **marriage 27‑I‑1697** (Jacob Luazes de Caamaño, s/o Simón de Luazes y Caamaño + María de Solís × María Fernández de Orxas, d/o Pedro de Orxas + María Fernández de Baños). Ship chaplain certifies Ignacio **drowned in the Río de la Plata 12‑II‑1727** (not Nueva España). 1776: only surviving sibling Josefa Luaces de Orxas (célibe, poor); Ignacio, Antonio, Simón, Juana dead. Muros officials: Romero de Caamaño (1727), Bartolomé Patiño y Caamaño (1776). No Caamaño‑parish / Colombia / p001 link.
+- **AGI CONTRATACION,5459,N.9** (nid 155486, 8 img): José Varela Camaño, 22 in 1699 (b. ~1677), Pernes (Bergantiños), factor to Nueva España. Unrelated to Muros.
+- **AGI CONTRATACION,5465,N.1,R.9** (nid 156354, 12 img): Felipe de Baños (~16 in 1709), Muros, son of Felipe de Baños + "María Iansa/Ieanza [?] de Camaño" — catalog "Jiansa y Caamaño" uncertain. Destination Trinidad y Guayana.
+- **ARChV PL CIVILES PÉREZ ALONSO (F) 3703,1** (nid 228333): digitized, **1588 img**; sampled only (cover + 1805 pedimento). José Manuel Caamaño = licenciado, abogado Real Audiencia de Galicia; María Isabel Caamaño y Estévez × Pedro González de Groba.
+- **Proposed (NOT applied) corrections:** pa022 birth→1700‑07‑06, death→1727‑02‑12 Río de la Plata; pa021 birth ~1690→~1665–75 (married 1697); pa020 ~1660→~1630–50; "Orgás"→"Orxas"; pa025 reading flagged; pa024 birth ~1677.
+
+---
+
+## Section: Session 2026-10-14 — Untapped sources sweep (AGN, BNC, Banrep, Wikidata, Google Books)
+
+**Full report:** `docs/UNTAPPED-SOURCES-RESULTS-2026-10.md`. **Raw data and scripts:** `research/untapped-2026-10/`. No changes were made to `src/data/caamano-family.json`.
+
+### Access status (as of 2026-10-14)
+
+- **AGN Colombia:** `consulta.archivogeneral.gov.co` (ArchiDoc) no longer exists in DNS. Its replacement is **DATAVIVA** (`dataviva.archivogeneral.gov.co`), which has an open JSON API (`POST /api/search/public`, root `66acc915a58c7bfd59b83353`). This WORKS. The digitized subset at `datavivadigital.archivogeneral.gov.co` also works but has 0 Caamaño hits.
+- **Biblioteca Nacional de Colombia:** `bibliotecadigital.` does not resolve. `catalogoenlinea.` returns a 403 bot challenge. BLOCKED, not evaded.
+- **Banrep Biblioteca Virtual (babel.banrepcultural.org):** the CONTENTdm `dmQuery` and `dmGetItemInfo` calls return full-text OCR. This WORKS and was the best source this session.
+- **Wikidata SPARQL:** works, but heavy queries time out. Searching by surname item (P734) works.
+- **Google Books:** the API returned "quota exceeded" and the HTML search is gated behind JavaScript. **HathiTrust:** Cloudflare. Both BLOCKED. Substitute: **Internet Archive full-text search** (the `fts` backend), which WORKS.
+
+### Results (hits / classification)
+
+- **AGN:** "Caamaño" 9 hits, "Camaño" 8, "Rioviejo" 5. Nothing for our line. The only Caribbean item is **Gabriel de Caamaño/Camaño, corregidor**, at San Benito Abad and Sampués in 1742 (`ADUANAS-CARTAS.SC.3,10,D.181`; `REAL-HACIENDA-CARTAS.SC.52,7,D.84`), with possible 1736 and 1763 entries. CIRCUMSTANTIAL.
+- **Banrep, the key find:** *Semanario de la Provincia de Cartagena* n.° 28, 22 Jan 1843 (item p17054coll26/8092). The Tribunal de Cartagena (19 Dec 1842) confirms the death sentence on José Antonio Linares for murdering **Ignacio Caamaño**, an elderly man on his estancia four leagues from Mompós on the Magdalena (killed 20 Jan, buried 22 Jan at the **parroquia de San Fernando**). Linares also killed Ignacio's **granddaughter Buenaventura Caamaño, aged 9**. CIRCUMSTANTIAL: it proves a Caamaño family in the Mompós district around 1842 but gives no link to Trinidad or p001.
+- **Banrep:** **B. A. Caamaño, El Banco (Magdalena), 1898** (*El Autonomista* nos. 47-55). CIRCUMSTANTIAL; may be Benjamín (p013), unproven. **Justo J. Caamaño, Ciénaga, 1852** (*Gaceta Oficial* 1401). **Dr. Manuel F. Caamaño**, lawyer and judge in Santa Marta (1913), governor of Magdalena (1939). CIRCUMSTANTIAL; possibly p019, unproven.
+- **Banrep secondary source:** Barreto & Caamaño, *El Banco: ayer, hoy y siempre* (Pro Gama, Santa Marta, 2001). A local history of El Banco; get a copy.
+- **Wikidata:** 50 people via P734 and 180 via full-text search; **0 Colombian**. NOISE.
+- **Internet Archive:** "José Tomás Caamaño" 0, "Caamaño Reales" 0, "Trinidad Caamaño" 2 (Ecuador). "Caamaño Soto" points to Costa Rica. NOISE.
+
+### Epistemic state after the session
+
+- **Brecha 2 is still NOT CLOSED.** No document names p001 or the parents of Trinidad.
+- This is the first evidence of a **Caamaño household in the Mompós district before Trinidad (born ~1830)**: Ignacio, with descendants by about 1833. It moves the "Colombian silence" from 1713-1830 to 1713-~1842, but only for the surname, not our line.
+
+### Next actions opened
+
+1. FamilySearch, Colombia parish records: burials at **San Fernando (Bolívar), Jan 1841-42**, to find Ignacio Caamaño's origin, age and spouse. Then baptisms of **Buenaventura Caamaño** around 1833 in Mompós or Ancón.
+2. Archivo Histórico de Cartagena / Mompós: the causa criminal against José Antonio Linares, 1842 (Juzgado 2.° Circuito de Mompós, then Tribunal de Cartagena).
+3. Get *El Banco: ayer, hoy y siempre* (2001) and contact co-author Miguel Caamaño.
+4. Search the BNC Prensa XIX by hand in a browser (automated access is blocked).
+5. Search Google Books by hand (Restrepo Sáenz, Flórez de Ocáriz); still pending.
+
+_End of Session 2026-10-14._
