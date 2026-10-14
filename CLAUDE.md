@@ -405,7 +405,12 @@ npx tsc --noEmit     # Type check
 | SVG foreignObject   | HTML-styled person cards inside SVG tree layout.                   |
 | Immutable mutations | Pure functions. Easy to test, undo-friendly.                       |
 
-## Current State (v40, 2026-10-14)
+## Current State (v41, 2026-10-14)
+
+- **v41:** 430 personas, 115 familias. 15 imágenes FamilySearch de `~/Downloads/Organized/Images/genealogy-scans` transcritas en `docs/FAMILYSEARCH-SCANS-TRANSCRIPTIONS-2026-10.md`. Néstor (p023) nació el 1901-01-03 (partida 1.055); boda con Expectación Garizábal en Guamal 1952-06-16. Manuela Sarmiento de la Cruz = otra unión de Néstor (confirmado por LM; hijos desconocidos). Duplicados fusionados p021→p162, p022→p165. 939V-5K9D-PB es el despacho matrimonial de 1872 de gn061, no las bodas de 1815/1848.
+- **OCR:** no hay MCP útil para letra procesal del XVIII; Transkribus (sin MCP, API de pago) solo vale para el pleito ARChV de 1.588 img. Hasta ahora se transcribe leyendo las imágenes con agentes.
+
+## v40 (2026-10-14)
 
 - **Data:** 432 personas, 116 familias, versión 40. Certeza: 57 proven / 314 circumstantial / 61 hypothetical.
 - **PARES leído en imagen** (antes solo catálogo), ver `docs/PARES-TRANSCRIPTIONS-2026-10.md`: AGI 5590 N.6 trae copia certificada de la boda de Jacobo Luaces de Caamaño × María Fernández de Orxas (27-I-1697) y del bautismo de Ignacio (6-VII-1700), San Pedro de Muros. Ignacio murió ahogado en el Río de la Plata (12-II-1727), no en Nueva España. +7 personas (pa031-pa037, familia paf08). pa025 corregido a "Iansa de Camaño" (lectura dudosa), pa029 = María Isabel. ARChV 3703,1 (1.588 img) solo muestreado.
