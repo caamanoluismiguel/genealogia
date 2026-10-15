@@ -192,10 +192,10 @@
       ],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "FamilySearch index; baptism image not yet read",
-      "notes": "Bautizada el 17-IV-1864 en El Banco, hija de Manuel Camaño y Faustina Reales (film 004001320, bautismos 1858-1886, img 105-106 del rollo; índice https://www.familysearch.org/ark:/61903/1:1:F2JM-THS). v42: coheredera con Benjamín de la casa que les donó su padre en agosto de 1869 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). v42: fusionada con el duplicado p167.",
-      "birthDate": "1864"
+      "certainty": "proven",
+      "certaintyReason": "Primary record image read (FamilySearch)",
+      "notes": "Bautizada el 17-IV-1864 en El Banco, hija de Manuel Camaño y Faustina Reales (film 004001320, bautismos 1858-1886, img 105-106 del rollo; índice https://www.familysearch.org/ark:/61903/1:1:F2JM-THS). v42: coheredera con Benjamín de la casa que les donó su padre en agosto de 1869 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). v42: fusionada con el duplicado p167. v42: partida leída en imagen (film 004001320, img 105-106): nació el 20-II-1864, bautizada el 17-IV-1864 como 'hija natural de Manuel Camaño y de Faustina Reales', madrina Eduvijes León. Al margen figura como 'Felicia Eleutina Reales'.",
+      "birthDate": "1864-02-20"
     },
     {
       "id": "p013",
@@ -7344,8 +7344,8 @@
     "certaintyAudit": {
       "date": "2026-10-14",
       "stats": {
-        "proven": 64,
-        "circumstantial": 304,
+        "proven": 65,
+        "circumstantial": 303,
         "hypothetical": 62
       },
       "version": 42

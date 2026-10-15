@@ -100,3 +100,15 @@ Transcripción automática; cada cita se leyó en el panel de transcripción, no
 - Certeza: p012, p160, p161 y p046 bajan a circumstantial (solo índice u OCR); p010 y p011 bajan a hypothetical (solo tradición).
 - Manuel y Trinidad: "posible pariente", sin el argumento de los nombres (dependía de personas sin documento).
 - Agregada p206, madre de Luis Miguel (solo nombre, por privacidad).
+
+## Revisión a ojo de los bautismos de El Banco 1858-1869 (rollo 004001320, img 4-171), 2026-10-14
+- **Felicia Eleutina, leída en imagen (img 105-106):** nació el 20-II-1864, bautizada el 17-IV-1864, "hija natural de Manuel Camaño y de Faustina Reales", madrina Eduvijes León. Al margen "Felicia Eleutina Reales" (apellido materno, como se anotaba a los hijos naturales). Vuelve a proven.
+- **Nicolasa Camaño × Juan Salas** (nueva familia Camaño en El Banco, contemporánea de Manuel):
+  - Juana Josefa, nació 10-IV-1860, bautizada 10-V-1860 (img 56-57).
+  - Petrona de los Ángeles, bautizada 26-V-1862, "hija legítima de Juan Salas y de Nicolasa Camaño" (img 80).
+  - Estevana Josefa, bautizada 16-VIII-1865 (img 121-122).
+  - Nicolasa Camaño madrina de Pío, El Banco, septiembre de 1867 (img 158).
+  Posible hermana o prima de Manuel; sin documento que lo diga. No agregada al árbol.
+- **Benjamín no aparece** en 1860-1867 (img 43-160), leídas a ojo página por página. Varios "Camargo" del índice descartados.
+- **1868-1869 (img 161-203) no se pudieron leer con seguridad:** las páginas tienen la tinta pasada del otro lado y algunas imágenes no cargan en alta resolución. Benjamín podría estar ahí, o haber nacido antes de 1858, o en otra parroquia. Si nació en 1868-1869, su partida también podría estar anotada como "Benjamín Reales".
+- 1858-1859 (img 4-42) solo quedaron revisadas por índice.
