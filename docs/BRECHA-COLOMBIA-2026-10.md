@@ -33,6 +33,17 @@ Búsqueda en FamilySearch con la sesión de LM en Chrome. Cada hallazgo se leyó
 - Felipa Caamaño, entierro en Rioviejo el 1-I-1898 (partida 244, img 142), casada con Ventura Otálvares, natural de la agregación. Padres no nombrados. No agregada.
 - El expediente de 'información' matrimonial de Benjamín (1889) se envió a otra parroquia. No está indexado. Podría contener su partida de bautismo.
 
+## Expediente matrimonial de Benjamín (1889)
+- Relectura de la partida de 1889: "cuyos documentos se remitieron al Cura de la parroquia de **Aguachica**, a quien pertenece la susodicha agregación" (la Estación Santander).
+- Aguachica, San Roque (catálogo koha:402776, DGS 7501390): bautismos desde 1870 e informaciones matrimoniales solo desde 1910. **El expediente de 1889 no está filmado.**
+
+## Mompós, parroquia Santa Cruz: barrido con el índice automático
+- La lista de libros del visor muestra lo que el catálogo no: bautismos 1732-1778, 1793-1827, 1836-1857 (falta 1828-1835 y 1858-1863), defunciones 1782-1848, índice de matrimonios 1820-1942. Varios libros están mal rotulados (ej. "Matrimonios 1964-1976, vol 1" trae bodas de 1850; "Bautismos 1838-1843" mezcla 1820 a 1900).
+- Revisados completos, sin ningún Caamaño/Camaño de Rioviejo: **Bautismos 1836-1844** (346 img), **Bautismos 1838-1843** (397 img), **Bautismos 1844-1847** (291 img). Limitación: el índice omite partidas que pasan de una página a otra.
+- Única aparición: Bautismos 1844-1847, img 145 (ark `3:1:3QS7-L9JC-T7LV`). Mompós, 8-II-1846: María Polonia, nacida el 4, "hija legítima de **Félix Ca[maño?]** i Petrona Díaz; abuelos paternos **Emeteria Camaño**, maternos Lorenzo Díaz i Leocadia Silguero; madrina Andrea Patiño". Apellido del padre de lectura MEDIA (el índice dice "Castaño"). Otra familia Camaño en Mompós; sin relación probada con Rioviejo. Coincidencia a vigilar: la madre de Damiana Soto también se llamaba Emeteria (Emeteria Soto).
+- **Bautismos 1844-1857, vol 4** (559 img), revisado completo: solo Mompós 14-X-1844, img 12 (ark `3:1:3QSQ-G9JC-G9MG-5`): "fueron sus padrinos Bonifacio Albino y **Socorro Camaño**". Otra Camaño de Mompós, sin vínculo con Rioviejo.
+- **Índice de matrimonios 1820-1942** (195 img): ordenado por nombre de pila del novio. Sección T (img 180, años 1817-1873) leída: **no hay ningún Trinidad**. Trinidad y Damiana no se casaron en Mompós.
+
 ## Índice (sin imagen leída todavía)
 - Felicia Eleutina Camaño, bautismo 17-IV-1864, hija de Manuel Camaño y Faustina Reales (`1:1:F2JM-THS`).
 - Rudesinda Rangel, casada con "Miguel Caamaño Soto"; un registro indexa entre sus parientes a Damiana Soto (`1:1:XS6D-S1S5`, `1:1:66S5-914B`, `1:1:66SN-CXZX`). Posible hermano de José Tomás Caamaño Soto, hijo de Trinidad y Damiana.
@@ -45,3 +56,28 @@ Manuel E. Caamaño (natural de Rioviejo, nacido hacia 1835-1845) podría ser hij
 1. Entierro de Manuel Camaño, El Banco, octubre-noviembre de 1869 (film 004001320, defunciones 1843-1916).
 2. Bautismo de Benjamín en El Banco, 1858-1869, quizá como hijo natural de Faustina Reales.
 3. Bautismos de Morales/Rioviejo hacia 1830-1850 (Archivo Diocesano de Magangué) para Manuel y Trinidad.
+
+## Mompós, Bautismos 1821-1827 (463 img), revisado completo
+- Sin ningún Caamaño de Rioviejo. El índice marca tres entradas de Mompós: img 92 "Toribia Josefa Caman", img 236 "Toribia Josefa Camango" (no vistas a ojo) e img 230, donde Juliana Pastora Camaño es madrina en un bautismo de 1824 (vista). Misma familia Camaño de Mompós; sin vínculo con Rioviejo.
+
+## Búsqueda de texto completo de FamilySearch (Full Text), 2026-10-14
+Transcripción automática; cada cita se leyó en el panel de transcripción, no en la imagen. Confianza MEDIA salvo que se diga otra cosa.
+- **Bautismo de Benjamín hijo** (El Banco, 6-V-1896, rollo 004001320 item 5, ark `3:1:3QS7-89ZR-F9S6-S`): "bauticé solemnemente a Benjamín, que nació el diez y siete de Febrero último hijo legítimo de Benjamín A. Caamaño y Dominga Castro". Coincide con p015.
+- **Colegio Mayor de Nuestra Señora del Rosario, Bogotá** (School Records), cuatro hijos de Benjamín matriculados:
+  - Manuel Felipe Caamaño, 19 años, "natural de El Banco hijo de El Benjamín Caamaño", acudiente Rafael C. del Valle (colección 1896-1906, año leído "1965" por el OCR, probablemente 1905). Ark `3:1:3Q9M-CSDW-KQBF-C`. Daría nacimiento hacia 1886, antes del matrimonio de 1889: año por confirmar en la imagen.
+  - Emilio Camaño, 19 años, "natural de El Banco hijo del Sr. Benjamín Caamaño", Bogotá 7-II-1910. Ark `3:1:3Q9M-CSDW-FQD5-2`.
+  - Benjamín Caamaño, 19 años, Bogotá 11-II-1915, firma "Benj Caamaño Castro" (el OCR da "natural de Pauca"). Ark `3:1:3Q9M-CSDW-N7TS-F`.
+  - Camilo Caamaño, 23 años, "natural de El Banco hijo del Sr. Benjamín Caamaño", 1922, acudiente firma "Benjamín Caamaño y Castro". Ark `3:1:3Q9M-CSDW-N7JL-Y`.
+- **Plantación de cacao**: índice de la notaría de El Banco (Miscellaneous 1854-1940, ark `3:1:3Q9M-CSW9-MSK3-Y`, año probable 1895): "Basilia Hernández vende a Benjamín Caamaño una plantación de cacao y plátano con rastrojos y rancho pajizo", heredada de Silverio Hernández, en el sitio de "Las Bonitas" en el río Lebrija (Santander), por $540.
+- **Emilio Caamaño Castro**, Bucaramanga, escritura de transacción de agosto de 1921 (ark `3:1:3Q9M-CSDW-Q9LB-M`): vecino de Bocas del Rosario, apoderado de Esteban Cantillo de El Banco; firma "Emilio Caamaño C.".
+- Pistas sin abrir: Benjamín Caamaño padrino en Puerto Wilches (1891) y testigo de boda en San Martín de Loba (1910-1919); "Nestor Caamaño C." testigo en una escritura de Santa Marta 1923-1924; "Emilio Caamaño Castro" en una escritura de Barranquilla 1928.
+- Nota de nombres: Benjamín llamó Trinidad a una hija (p018), y Manuel y Faustina tuvieron un hijo José Tomás (p011). Son los mismos nombres de la familia de Trinidad Caamaño de Rioviejo. Indicio débil de parentesco, no prueba.
+- Datos del árbol a revisar: Emilio está dos veces (p025 y p160).
+
+## Búsqueda de registros "Benjamín Caamaño × Dominga Castro" (índice, sin imagen)
+- Benjamín Caamaño Castro, permiso de inhumación en Bogotá, 21-I-1972, 78 años (`1:1:4DT7-PZW2`).
+- Camilo Caamaño Castro, permiso de inhumación en Bogotá, 17-VIII-1980, 82 años (`1:1:W1LT-68ZM`).
+- Manuel J. Caamaño casó en El Banco el 9-I-1920 con Andrea Bustamante, hija de Guillermo Bustamante y Atala Samudio (`1:1:F2RV-VBX`).
+- Emilio Caamaño casó en El Banco el 4-VIII-1928 con Emma Luino, hija de Domingo Luino y Emigdia Navarro (`1:1:F2RV-GJF`).
+- Camilo Caamaño casó en El Banco el 23-II-1930 con María Luisa Villalobos, hija de Augusto Villalobos y Acasia Bustamante (`1:1:F2RV-PX6`).
+- En el Árbol Familiar de FamilySearch Benjamín está duplicado: P78W-NTC ("Benjamin Caamaño Real") y GR4Q-7SL.
