@@ -6,12 +6,12 @@
       "lastName": "Caamaño",
       "gender": "male",
       "birthPlace": "Caamaño, A Coruña, España",
-      "notes": "Patriarca. Nacido ~1815 (estimado por generaciones: nieto Néstor nacido 1901). Lugar de nacimiento según tradición oral familiar: parroquia de Sta María de Caamaño, Porto do Son. Sin partida de bautismo encontrada. Emigró a Colombia. Esposa de apellido Soto (nombre de pila desconocido). v42: la línea documentada ya no pasa por aquí. El padre de Benjamín es Manuel E. Caamaño, natural de Rioviejo (col003). La pareja 'José Tomás + Soto' coincide con Trinidad Caamaño + Damiana Soto de Rioviejo (fs022/fs023), hipótesis sin probar.",
+      "notes": "Patriarca. Nacido ~1815 según tradición, sin base documental. Lugar de nacimiento según tradición oral familiar: parroquia de Sta María de Caamaño, Porto do Son. Sin partida de bautismo encontrada. Emigró a Colombia. Esposa de apellido Soto (nombre de pila desconocido). v42: la línea documentada ya no pasa por aquí. El padre de Benjamín es Manuel E. Caamaño, natural de Rioviejo (col003). La pareja 'José Tomás + Soto' coincide con Trinidad Caamaño + Damiana Soto de Rioviejo (fs022/fs023), hipótesis sin probar.",
       "events": [],
       "migrations": [
         {
           "from": "Caamaño, A Coruña, España (tradición oral)",
-          "to": "El Banco, Magdalena, Colombia (confirmado por registros de hijos)",
+          "to": "El Banco, Magdalena, Colombia (tradición oral, sin registro)",
           "reason": "Emigración familiar (tradición oral)"
         }
       ],
@@ -120,33 +120,35 @@
       "migrations": [],
       "source": "modern",
       "certainty": "proven",
-      "certaintyReason": "Modern family with primary document citation"
+      "certaintyReason": "Modern family with primary document citation",
+      "birthDate": "<1845"
     },
     {
       "id": "p008",
       "firstName": "Miguel",
       "lastName": "Caamaño Soto",
       "gender": "male",
-      "birthPlace": "Colombia",
+      "birthPlace": "Rioviejo, Bolívar, Colombia",
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": " [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.] v42: un registro indexado de Rudesinda Rangel la casa con 'Miguel Caamaño Soto' y menciona a Damiana Soto: Miguel sería hijo de Trinidad Caamaño y Damiana Soto (fs022/fs023). Sin imagen leída.",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "notes": "Matrimonio en Morales hacia 1873-1874 (libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894', img 29-30/199, https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C95F): 'Miguel Caamaño Soto, soltero, natural i domiciliario de la misma agregación [Rioviejo]… hijo legítimo de los señores Trinidad Caamaño i Damiana Soto, con Rudesinda Ranjel natural de la parroquia del Banco… hija legítima de los señores Pedro Pablo Ranjel, difunto, i Faustina Reales'. La partida siguiente es de febrero de 1874. Hermano de Matías y de José Tomás Caamaño Soto. Su suegra Faustina Reales es la misma de Manuel E. Caamaño (col003): su esposa Rudesinda era media hermana de Benjamín. v42: fusionado con fs072 (el registro nuevo). Antes colgaba de p001 José Tomás (tradición); la partida de boda lo hace hijo de Trinidad y Damiana.  [MERGE 2026-04-13: unified with duplicate p176 from bridging analysis. Original notes from p176: Padre de Jacob Caamaño. Casado con Rudecinda Rangel. FamilySearch.] v42: un registro indexado de Rudesinda Rangel la casa con 'Miguel Caamaño Soto' y menciona a Damiana Soto: Miguel sería hijo de Trinidad Caamaño y Damiana Soto (fs022/fs023). Sin imagen leída.",
+      "certainty": "proven",
+      "certaintyReason": "Primary record (FamilySearch full-text transcript + image)",
+      "birthDate": "~1850"
     },
     {
       "id": "p009",
-      "firstName": "Ruthesinda",
-      "lastName": "Rangel",
+      "firstName": "Rudesinda",
+      "lastName": "Rangel Reales",
       "gender": "female",
-      "birthPlace": "Colombia",
-      "notes": "Esposa de Miguel Caamaño Soto. [MERGE 2026-04-13: unified with duplicate p177 from bridging analysis. Original notes from p177: Esposa de Miguel Caamaño. Madre de Jacob. FamilySearch.]",
+      "birthPlace": "El Banco, Magdalena, Colombia",
+      "notes": "Hija legítima de Pedro Pablo Rangel (difunto hacia 1874) y Faustina Reales, natural de El Banco. Casó con Miguel Caamaño Soto en Morales hacia 1873-1874 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C95F). Probable media hermana de Benjamín A. Caamaño y de Felicia Eleutina por parte de madre. Variantes del nombre: Ruthesinda, Rudecinda, Ranjel. v42: fusionada con col004. Esposa de Miguel Caamaño Soto. [MERGE 2026-04-13: unified with duplicate p177 from bridging analysis. Original notes from p177: Esposa de Miguel Caamaño. Madre de Jacob. FamilySearch.]",
       "events": [],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certainty": "proven",
+      "certaintyReason": "Primary record (FamilySearch full-text transcript + image)"
     },
     {
       "id": "p010",
@@ -157,8 +159,8 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates",
+      "certainty": "hypothetical",
+      "certaintyReason": "Family oral tradition only; no document",
       "notes": "v42: la donación de Manuel de agosto de 1869 solo nombra como hijos menores a Benjamín y Felicia. Si existió, era mayor de edad o nació de otra unión; sin documento."
     },
     {
@@ -170,8 +172,8 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates",
+      "certainty": "hypothetical",
+      "certaintyReason": "Family oral tradition only; no document",
       "notes": "v42: la donación de Manuel de agosto de 1869 solo nombra como hijos menores a Benjamín y Felicia. Si existió, era mayor de edad o nació de otra unión; sin documento."
     },
     {
@@ -190,9 +192,10 @@
       ],
       "migrations": [],
       "source": "modern",
-      "certainty": "proven",
-      "certaintyReason": "Primary record image read (FamilySearch)",
-      "notes": "Bautizada el 17-IV-1864 en El Banco, hija de Manuel Camaño y Faustina Reales (film 004001320, bautismos 1858-1886, img 105-106 del rollo; índice https://www.familysearch.org/ark:/61903/1:1:F2JM-THS). v42: coheredera con Benjamín de la casa que les donó su padre en agosto de 1869 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N)."
+      "certainty": "circumstantial",
+      "certaintyReason": "FamilySearch index; baptism image not yet read",
+      "notes": "Bautizada el 17-IV-1864 en El Banco, hija de Manuel Camaño y Faustina Reales (film 004001320, bautismos 1858-1886, img 105-106 del rollo; índice https://www.familysearch.org/ark:/61903/1:1:F2JM-THS). v42: coheredera con Benjamín de la casa que les donó su padre en agosto de 1869 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). v42: fusionada con el duplicado p167.",
+      "birthDate": "1864"
     },
     {
       "id": "p013",
@@ -203,9 +206,10 @@
       "events": [],
       "migrations": [],
       "source": "modern",
-      "notes": "Benjamín A. Caamaño. matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero', casado con Dominga Castro, hija de Antonino Castro y Emilia Erazo. v42: su padre es Manuel E. Caamaño (col003), NO José Tomás Caamaño Soto como decía la tradición oral. Hijos bautizados en El Banco: Emilio (1891), Justina Lucía (1893), Benjamín (1896), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Un 'B. A. Caamaño' vendía en El Banco en 1898 (El Autonomista n.° 47-55). Nacimiento sin documentar (antes de 1869; su bautismo no aparece en el índice de El Banco 1858-1869). v42: índice de la notaría de El Banco (hacia 1895): 'Basilia Hernández vende a Benjamín Caamaño una plantación de cacao y plátano con rastrojos y rancho pajizo', heredada de Silverio Hernández, en el sitio de 'Las Bonitas' en el río Lebrija (Santander), por $540 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSK3-Y). Cuatro de sus hijos estudiaron en el Colegio del Rosario de Bogotá (Manuel Felipe, Emilio, Benjamín y Camilo). Pistas sin abrir: padrino en Puerto Wilches (1891) y testigo de boda en San Martín de Loba (1910-1919). v42: en agosto de 1869 su padre le donó una casa en El Banco a él y a Felicia, 'hijos naturales menores' (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). Su media hermana Rudesinda Rangel se casó con Miguel Caamaño Soto, hijo de Trinidad.",
+      "notes": "Benjamín A. Caamaño. matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero', casado con Dominga Castro, hija de Antonino Castro y Emilia Erazo. v42: su padre es Manuel E. Caamaño (col003), NO José Tomás Caamaño Soto como decía la tradición oral. Hijos bautizados en El Banco: Emilio (1891), Justina Lucía (1893), Benjamín (1896), Camilo Antonio (1898), Néstor Daniel (1901), Manuel J. Un 'B. A. Caamaño' vendía en El Banco en 1898 (El Autonomista n.° 47-55). Nacimiento sin documentar (antes de 1869; su bautismo no aparece en el índice de El Banco 1858-1869). v42: índice de la notaría de El Banco (hacia 1895): 'Basilia Hernández vende a Benjamín Caamaño una plantación de cacao y plátano con rastrojos y rancho pajizo', heredada de Silverio Hernández, en el sitio de 'Las Bonitas' en el río Lebrija (Santander), por $540 (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSK3-Y). Cuatro de sus hijos estudiaron en el Colegio del Rosario de Bogotá (Manuel Felipe, Emilio, Benjamín y Camilo). Pistas sin abrir: padrino en Puerto Wilches (1891) y testigo de boda en San Martín de Loba (1910-1919). v42: en agosto de 1869 su padre le donó una casa en El Banco a él y a Felicia, 'hijos naturales menores' (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). Su media hermana Rudesinda Rangel se casó con Miguel Caamaño Soto, hijo de Trinidad. v42: ningún documento da su lugar de nacimiento; El Banco es probable, no probado.",
       "certainty": "proven",
-      "certaintyReason": "Primary record images read (FamilySearch)"
+      "certaintyReason": "Primary record images read (FamilySearch)",
+      "birthDate": "<1870"
     },
     {
       "id": "p014",
@@ -213,7 +217,7 @@
       "lastName": "Castro",
       "gender": "female",
       "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Esposa de Benjamín Caamaño. Confirmada en múltiples registros: bautismos de Emilio (1891), Justina Lucia (1893), Camilo Antonio (1898), Néstor Daniel (1901). Matrimonios de Manuel J. (1920), Emilio (1928), Camilo (1930). FamilySearch Film #004001320.",
+      "notes": "Esposa de Benjamín Caamaño. Confirmada en múltiples registros: bautismos de Emilio (1891), Justina Lucia (1893), Camilo Antonio (1898), Néstor Daniel (1901). Matrimonios de Manuel J. (1920), Emilio (1928), Camilo (1930). FamilySearch Film #004001320. v42: ningún documento da su lugar de nacimiento; El Banco es probable, no probado.",
       "events": [],
       "migrations": [],
       "source": "modern",
@@ -245,8 +249,8 @@
       "certainty": "proven",
       "certaintyReason": "Primary record image read (FamilySearch)",
       "birthDate": "1896-02-17",
-      "notes": "Partida de bautismo 424, Santa Iglesia del Banco, 6-V-1896: nació el 17-II-1896, hijo legítimo de Benjamín A. Caamaño y Dominga Castro (https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZR-F9S6-S). Nota marginal: casó en San Martín (Meta) el 5-I-1958 con María Inés [?] Molano (lectura insegura). Matrícula en el Colegio del Rosario, Bogotá, 11-II-1915, 19 años, firma 'Benj Caamaño Castro' (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSDW-N7TS-F). Permiso de inhumación en Bogotá, 21-I-1972, 78 años, hijo de Benjamín Caamaño y Dominga Castro (1:1:4DT7-PZW2, índice).",
-      "deathDate": "1972-01-21",
+      "notes": "Partida de bautismo 424, Santa Iglesia del Banco, 6-V-1896: nació el 17-II-1896, hijo legítimo de Benjamín A. Caamaño y Dominga Castro (https://www.familysearch.org/ark:/61903/3:1:3QS7-89ZR-F9S6-S). Nota marginal: casó en San Martín (Meta) el 5-I-1958 con María Inés [?] Molano (lectura insegura). Matrícula en el Colegio del Rosario, Bogotá, 11-II-1915, 19 años, firma 'Benj Caamaño Castro' (https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSDW-N7TS-F). Permiso de inhumación en Bogotá, 21-I-1972, 78 años, hijo de Benjamín Caamaño y Dominga Castro (1:1:4DT7-PZW2, índice). v42: la fecha 21-I-1972 es la del permiso de inhumación; el índice le da 78 años, pero según su bautismo tenía 75.",
+      "deathDate": "1972-01",
       "deathPlace": "Bogotá, Cundinamarca, Colombia"
     },
     {
@@ -477,9 +481,9 @@
       "migrations": [],
       "source": "modern",
       "birthDate": "1949",
-      "notes": "Luis Alberto Caamaño Garizabal. Hijo de Néstor Caamaño Castro. Confirmado en DAS Civil Registration. Lugar de nacimiento no verificado — \"Colombia\" mantenido hasta obtener documento.",
+      "notes": "Luis Alberto Caamaño Garizabal. Hijo de Néstor Caamaño Castro. Confirmado en DAS Civil Registration. Lugar de nacimiento no verificado — \"Colombia\" mantenido hasta obtener documento. Nombre completo Luis Alberto Caamaño Garizábal. v42: el vínculo con Néstor se apoya en el apellido materno, la boda de Néstor con Expectación Garizábal (1952, nota marginal) y una tarjeta DAS sin cita; falta su registro civil o bautismo.",
       "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certaintyReason": "Maternal surname + 1952 marginal note + uncited DAS card"
     },
     {
       "id": "p038",
@@ -568,16 +572,17 @@
     },
     {
       "id": "p046",
-      "firstName": "Licerio",
+      "firstName": "José Licerio",
       "lastName": "Caamaño Rangel",
       "gender": "male",
-      "birthPlace": "Colombia",
-      "notes": "Hijo de Miguel Caamaño Soto y Ruthesinda Rangel. [MERGE 2026-04-13: unified with duplicate p171 from bridging analysis. Original notes from p171: Cabeza de rama importante en El Banco. Padres: Caamaño + Rangel (según registro de Jacob). Casado con Ana María Benavides. Hijos: Emilio, Tito, Néstor, Aida, Elisa, otros. FamilySearch.]",
+      "birthPlace": "Rioviejo, Bolívar, Colombia",
+      "notes": "Bautizado en Morales el 20-X-1877, 'hijo legítimo de los Señores Miguel Caamaño Soto y Rudesinda Rangel… Abuelos paternos los Señores Trinidad Caamaño y Damiana Soto: abuelos maternos Pedro Pablo Rangel, ya difunto y Faustina Reales' (https://www.familysearch.org/ark:/61903/3:1:3QS7-89GZ-CHM8, transcripción automática). v42: fusionado con fs073. Hijo de Miguel Caamaño Soto y Ruthesinda Rangel. [MERGE 2026-04-13: unified with duplicate p171 from bridging analysis. Original notes from p171: Cabeza de rama importante en El Banco. Padres: Caamaño + Rangel (según registro de Jacob). Casado con Ana María Benavides. Hijos: Emilio, Tito, Néstor, Aida, Elisa, otros. FamilySearch.]",
       "events": [],
       "migrations": [],
       "source": "modern",
       "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
+      "certaintyReason": "FamilySearch full-text transcript (image not read)",
+      "birthDate": "1877-08-27"
     },
     {
       "id": "p047",
@@ -3084,8 +3089,8 @@
         }
       ],
       "migrations": [],
-      "certainty": "proven",
-      "certaintyReason": "Modern family with primary document citation"
+      "certainty": "circumstantial",
+      "certaintyReason": "FamilySearch index and full-text transcripts; images not read"
     },
     {
       "id": "p161",
@@ -3098,8 +3103,8 @@
       "notes": "Hija de Benjamín Caamaño y Dominga Castro. Bautismo 1894. FamilySearch Film #004001320.",
       "events": [],
       "migrations": [],
-      "certainty": "proven",
-      "certaintyReason": "Modern family with primary document citation"
+      "certainty": "circumstantial",
+      "certaintyReason": "FamilySearch index; baptism image not yet read"
     },
     {
       "id": "p162",
@@ -3184,33 +3189,6 @@
       "gender": "female",
       "birthPlace": "El Banco, Magdalena, Colombia",
       "notes": "Esposa de Manuel J. Caamaño. Matrimonio 1920. Hija de Guillermo Bustamante y Atala Samudio según el índice de la boda (1:1:F2RV-VBX).",
-      "events": [],
-      "migrations": [],
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
-    },
-    {
-      "id": "p167",
-      "source": "modern",
-      "firstName": "Felicia Eleutina",
-      "lastName": "Camaño Reales",
-      "gender": "female",
-      "birthDate": "1864",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Hija de Manuel Camaño y Faustina Reales. Bautismo 1864. \"Reales\" = apellido materno confirmado en esta generación. FamilySearch.",
-      "events": [],
-      "migrations": [],
-      "certainty": "circumstantial",
-      "certaintyReason": "Modern family oral history w/ coherent dates"
-    },
-    {
-      "id": "p168",
-      "source": "modern",
-      "firstName": "Glicerio",
-      "lastName": "Caamaño Benavidez",
-      "gender": "male",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "notes": "Hijo de José Tomás Camaño y Virginia Benavidez. Casado con Matilde Fambrano. Un José Tomás en El Banco — ¿el patriarca con segunda esposa? FamilySearch.",
       "events": [],
       "migrations": [],
       "certainty": "circumstantial",
@@ -5261,7 +5239,7 @@
       "gender": "male",
       "birthDate": "~1920",
       "birthPlace": "Margarita, Bolívar, Colombia",
-      "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955. Hijo de José Tomás Caamaño (fs017) + Virginia Benavides (fs018). Padre de Glicerio Caamaño Fambrant Jr. (fs020) con Matilde Fambrant en unión natural (no casados). Generación calculada ~1915-1925.",
+      "notes": "FUENTE: FamilySearch 3QSQ-G9FL-C8C5 img 285/354 — partida N°955. Hijo de José Tomás Caamaño (fs017) + Virginia Benavides (fs018). Padre de Glicerio Caamaño Fambrant Jr. (fs020) con Matilde Fambrant en unión natural (no casados). Generación calculada ~1915-1925. v42: fusionado con el duplicado p168 ('Glicerio Caamaño Benavidez', casado con Matilde Fambrano).",
       "events": [],
       "migrations": [],
       "source": "familysearch",
@@ -5309,7 +5287,7 @@
       "gender": "male",
       "birthDate": "<1830",
       "birthPlace": "Rioviejo, Morales, Bolívar, Colombia",
-      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción de su esposa Damiana Soto 16-mayo-1883 Rioviejo, que lo confirma aún vivo en esa fecha, natural y vecino de Rioviejo (agregación de San Sebastián mártir de Morales, Bolívar). FUENTE SECUNDARIA: FS ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto el viudo (fs026) que lo lista como padre. Esposa: Damiana Soto (fs023, †1883). Probable HIJO DIRECTO de p001 José Tomás Caamaño Sr. (~1815 Porto do Son → Colombia). Generación calculada ~1820-1840 para ser padre de hombre ya dos veces viudo en 1891 y consorte de mujer fallecida en 1883. v42: padre de Matías Caamaño (fs071, n. ~1849, †1897 Rioviejo), según su partida de entierro leída en imagen.",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QS7-89GZ-C3HK img 49/165 — partida defunción de su esposa Damiana Soto 16-mayo-1883 Rioviejo, que lo confirma aún vivo en esa fecha, natural y vecino de Rioviejo (agregación de San Sebastián mártir de Morales, Bolívar). FUENTE SECUNDARIA: FS ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 — matrimonio in articulo mortis 22-nov-1891 de su hijo José Tomás Caamaño Soto el viudo (fs026) que lo lista como padre. Esposa: Damiana Soto (fs023, †1883). Hipótesis sin evidencia documental: hijo de p001 José Tomás Caamaño Sr. (tradición oral). Generación calculada ~1820-1840 para ser padre de hombre ya dos veces viudo en 1891 y consorte de mujer fallecida en 1883. v42: padre de Matías Caamaño (fs071, n. ~1849, †1897 Rioviejo), según su partida de entierro leída en imagen.",
       "events": [],
       "migrations": [],
       "source": "familysearch",
@@ -5388,7 +5366,7 @@
       "birthPlace": "Rioviejo, Bolívar, Colombia",
       "deathDate": "~1891",
       "deathPlace": "Rioviejo, Bolívar, Colombia",
-      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 (Archivo Diocesano Magangué, Image Group 100743845) — partida matrimonio N°128 folio 142, asentada por el Pbro. Bernabé Trespalacios, Cura rector interino de San Sebastián mártir de Morales. Casado EN ARTÍCULO MORTIS el 22-noviembre-1891 en la agregación de Rioviejo con Suzana Muñoz (fs028). Era viudo en primeras nupcias de Dolores Castañeda (fs027). HIJO LEGÍTIMO de Trinidad Caamaño (fs022) y Damiana Soto difunta (fs023). Natural y vecino de Rioviejo. Católico apostólico romano. Falleció probablemente poco después del matrimonio (artículo mortis = al borde de la muerte). POSIBLE NIETO DIRECTO de p001 José Tomás Caamaño Sr. via Trinidad Caamaño. NOTA: el índice automatizado FS ark 1:1:XS68-BK5D confundió datos y fechas — este es el registro real. FS Tree PID P96P-C6R listado como José Tomás Caamaño Soto confirma el apellido materno Soto (no Muñoz).",
+      "notes": "FUENTE PRIMARIA: FamilySearch ark 3:1:3QSQ-G9GZ-C9Y5 img 150/199 (Archivo Diocesano Magangué, Image Group 100743845) — partida matrimonio N°128 folio 142, asentada por el Pbro. Bernabé Trespalacios, Cura rector interino de San Sebastián mártir de Morales. Casado EN ARTÍCULO MORTIS el 22-noviembre-1891 en la agregación de Rioviejo con Suzana Muñoz (fs028). Era viudo en primeras nupcias de Dolores Castañeda (fs027). HIJO LEGÍTIMO de Trinidad Caamaño (fs022) y Damiana Soto difunta (fs023). Natural y vecino de Rioviejo. Católico apostólico romano. Falleció probablemente poco después del matrimonio (artículo mortis = al borde de la muerte). Hipótesis sin documento: nieto de p001 José Tomás Caamaño Sr. via Trinidad Caamaño. NOTA: el índice automatizado FS ark 1:1:XS68-BK5D confundió datos y fechas — este es el registro real. FS Tree PID P96P-C6R listado como José Tomás Caamaño Soto repite el apellido (árbol derivado, no es prueba) materno Soto (no Muñoz).",
       "events": [
         {
           "type": "marriage",
@@ -6542,7 +6520,7 @@
         }
       ],
       "migrations": [],
-      "notes": "PADRE DOCUMENTADO DE BENJAMÍN (p013). Fuentes leídas en imagen el 2026-10-14: (1) matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'Benjamín A. Caamaño, hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero'. (2) matrimonio in artículo mortis de Manuel Camaño y Faustina Reales, El Banco, 3-X-1869, film 004001320 elem. 14 img 38-39 (https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZR-F97B-D): 'casé in artículo mortis a Manuel Camaño natural de Rioviejo con Faustina Reales natural y vecina de esta'. (3) entierro de Manuel Camaño, El Banco, [8?]-X-1869, Defunciones 1843-1916 img 82/145 (https://www.familysearch.org/ark:/61903/3:1:3QS7-L9ZR-F9Q5-R): 'Manuel Camaño adulto casado natural de Rioviejo y vecino de esta'. Nació en Rioviejo, el mismo pueblo de Trinidad Caamaño (fs022) y Damiana Soto. Probable pariente cercano de Trinidad (hijo o hermano), SIN PROBAR: ninguna de las tres partidas nombra a sus padres. Nacimiento antes de 1845 estimado por su hija Felicia (1864). Ver docs/BRECHA-COLOMBIA-2026-10.md. v42: Benjamín llamó Trinidad a una hija (p018) y Manuel tuvo un hijo José Tomás (p011), los mismos nombres de la familia de Trinidad Caamaño de Rioviejo. Indicio débil de parentesco, no prueba. v42: el 30-VIII-1869, en la notaría de El Banco, 'Manuel Camaño hace donación de una casa a sus hijos naturales menores Benjamín i Felicia habidos en Faustina Reales' (índice de la notaría, https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). Un mes después se casó in artículo mortis."
+      "notes": "PADRE DOCUMENTADO DE BENJAMÍN (p013). Fuentes leídas en imagen el 2026-10-14: (1) matrimonio de Benjamín A. Caamaño y Dominga Castro, Estación Santander (parroquia de Morales), 4-X-1889, libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894' img 110/199 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C9BK): 'Benjamín A. Caamaño, hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero'. (2) matrimonio in artículo mortis de Manuel Camaño y Faustina Reales, El Banco, 3-X-1869, film 004001320 elem. 14 img 38-39 (https://www.familysearch.org/ark:/61903/3:1:3QS7-99ZR-F97B-D): 'casé in artículo mortis a Manuel Camaño natural de Rioviejo con Faustina Reales natural y vecina de esta'. (3) entierro de Manuel Camaño, El Banco, [8?]-X-1869, Defunciones 1843-1916 img 82/145 (https://www.familysearch.org/ark:/61903/3:1:3QS7-L9ZR-F9Q5-R): 'Manuel Camaño adulto casado natural de Rioviejo y vecino de esta'. Nació en Rioviejo, el mismo pueblo de Trinidad Caamaño (fs022) y Damiana Soto. Posible pariente de Trinidad (hijo, hermano, sobrino o primo), SIN PROBAR: ninguna de las tres partidas nombra a sus padres. Nacimiento antes de 1845 estimado por su hija Felicia (1864). Ver docs/BRECHA-COLOMBIA-2026-10.md. v42: el 30-VIII-1869, en la notaría de El Banco, 'Manuel Camaño hace donación de una casa a sus hijos naturales menores Benjamín i Felicia habidos en Faustina Reales' (índice de la notaría, https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSW9-MSLC-N). Un mes después se casó in artículo mortis. Con la boda in artículo mortis Benjamín y Felicia quedaron legitimados (legitimatio per subsequens matrimonium), lo que supone que Pedro Pablo Rangel, primer esposo de Faustina, ya había muerto cuando ellos nacieron. Su nieto Manuel Felipe (p019, documentado en el Rosario) lleva su nombre."
     },
     {
       "id": "fs071",
@@ -6564,53 +6542,13 @@
       "events": [],
       "migrations": [],
       "source": "familysearch",
-      "id": "fs072",
-      "firstName": "Miguel",
-      "lastName": "Caamaño Soto",
-      "gender": "male",
-      "birthPlace": "Rioviejo, Bolívar, Colombia",
-      "certainty": "proven",
-      "certaintyReason": "Primary record (FamilySearch full-text transcript + image)",
-      "notes": "Matrimonio en Morales hacia 1873-1874 (libro 'Matrimonios: San Sebastián de Las Palmas 1868-1894', img 29-30/199, https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C95F): 'Miguel Caamaño Soto, soltero, natural i domiciliario de la misma agregación [Rioviejo]… hijo legítimo de los señores Trinidad Caamaño i Damiana Soto, con Rudesinda Ranjel natural de la parroquia del Banco… hija legítima de los señores Pedro Pablo Ranjel, difunto, i Faustina Reales'. La partida siguiente es de febrero de 1874. Hermano de Matías y de José Tomás Caamaño Soto. Su suegra Faustina Reales es la misma de Manuel E. Caamaño (col003): su esposa Rudesinda era media hermana de Benjamín."
-    },
-    {
-      "events": [],
-      "migrations": [],
-      "source": "familysearch",
-      "id": "col004",
-      "firstName": "Rudesinda",
-      "lastName": "Rangel Reales",
-      "gender": "female",
-      "birthPlace": "El Banco, Magdalena, Colombia",
-      "certainty": "proven",
-      "certaintyReason": "Primary record (FamilySearch full-text transcript + image)",
-      "notes": "Hija legítima de Pedro Pablo Rangel (difunto hacia 1874) y Faustina Reales, natural de El Banco. Casó con Miguel Caamaño Soto en Morales hacia 1873-1874 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C95F). Media hermana de Benjamín A. Caamaño y de Felicia Eleutina por parte de madre."
-    },
-    {
-      "events": [],
-      "migrations": [],
-      "source": "familysearch",
       "id": "col005",
       "firstName": "Pedro Pablo",
       "lastName": "Rangel",
       "gender": "male",
       "certainty": "proven",
-      "certaintyReason": "Primary record (FamilySearch full-text transcript)",
+      "certaintyReason": "Primary record (FamilySearch full-text transcript + image)",
       "notes": "Primer esposo de Faustina Reales y padre de Rudesinda Rangel. Ya difunto en la boda de su hija, hacia 1873-1874 (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-C95F)."
-    },
-    {
-      "events": [],
-      "migrations": [],
-      "source": "familysearch",
-      "id": "fs073",
-      "firstName": "José Licerio",
-      "lastName": "Caamaño Rangel",
-      "gender": "male",
-      "birthDate": "1877-08-27",
-      "birthPlace": "Rioviejo, Bolívar, Colombia",
-      "certainty": "proven",
-      "certaintyReason": "Primary record (FamilySearch full-text transcript)",
-      "notes": "Bautizado en Morales el 20-X-1877, 'hijo legítimo de los Señores Miguel Caamaño Soto y Rudesinda Rangel… Abuelos paternos los Señores Trinidad Caamaño y Damiana Soto: abuelos maternos Pedro Pablo Rangel, ya difunto y Faustina Reales' (https://www.familysearch.org/ark:/61903/3:1:3QS7-89GZ-CHM8, transcripción automática)."
     },
     {
       "events": [],
@@ -6625,13 +6563,26 @@
       "certainty": "circumstantial",
       "certaintyReason": "FamilySearch full-text transcript, name partly cut",
       "notes": "Bautismo en Morales, libro 1879-1883: nació un 22 de diciembre, 'hija legítima de Miguel Caamano Soto y Rudesinda Rangel', abuelos Trinidad Caamaño y Damiana Soto, Pedro Pablo Rangel y Faustina Reales (https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9GZ-CRS). El comienzo del nombre está cortado en la transcripción; falta leer la imagen."
+    },
+    {
+      "id": "p206",
+      "firstName": "María Cristina",
+      "lastName": "Morales Riveros",
+      "gender": "female",
+      "birthPlace": "Colombia",
+      "events": [],
+      "migrations": [],
+      "source": "modern",
+      "certainty": "circumstantial",
+      "certaintyReason": "Modern family, stated by Luis Miguel",
+      "notes": "Madre de Luis Miguel Caamaño Morales (dato de Luis Miguel, 2026-10-14)."
     }
   ],
   "families": [
     {
       "id": "f001",
       "parents": ["p001", "p002"],
-      "children": ["p006", "p008"],
+      "children": ["p006"],
       "marriagePlace": "Colombia",
       "notes": "José Tomás Caamaño + Desconocida Soto. Rama principal colombiana."
     },
@@ -6664,9 +6615,10 @@
     {
       "id": "f006",
       "parents": ["p008", "p009"],
-      "children": ["p045", "p046", "p047"],
-      "marriagePlace": "Colombia",
-      "notes": "Miguel Caamaño Soto + Ruthesinda Rangel."
+      "children": ["p045", "p046", "p047", "fs074"],
+      "marriagePlace": "San Sebastián de Las Palmas, Morales, Bolívar, Colombia",
+      "notes": "Miguel Caamaño Soto + Rudesinda Rangel, Morales hacia 1873-1874. v42: fusionada con fsf21 y f172.",
+      "marriageDate": "~1874"
     },
     {
       "id": "f007",
@@ -6677,10 +6629,6 @@
         "p018",
         "p019",
         "p023",
-        "p100",
-        "p101",
-        "p102",
-        "p103",
         "p160",
         "p161",
         "p162",
@@ -6721,8 +6669,9 @@
       "id": "f014",
       "parents": ["p047", "p048"],
       "children": ["p049", "p050", "p052", "p053", "p054"],
-      "marriagePlace": "Colombia",
-      "notes": "Jacob Caamaño Rangel + Salvadora Blanquicet."
+      "marriagePlace": "El Banco, Magdalena, Colombia",
+      "notes": "Jacob Caamaño Rangel + Salvadora Blanquicet.",
+      "marriageDate": "1909-04-28"
     },
     {
       "id": "f015",
@@ -6918,9 +6867,9 @@
     },
     {
       "id": "f040",
-      "parents": ["p037"],
+      "parents": ["p037", "p206"],
       "children": ["p151"],
-      "notes": "Luis Caamaño Garizabal. Madre desconocida."
+      "notes": "Luis Alberto Caamaño Garizábal + María Cristina Morales Riveros."
     },
     {
       "id": "f041",
@@ -7045,27 +6994,6 @@
       "children": ["cm006", "cm007"]
     },
     {
-      "id": "f100",
-      "parents": ["p100", "p104"],
-      "children": [],
-      "marriageDate": "1928-08-04",
-      "marriagePlace": "El Banco, Magdalena, Colombia"
-    },
-    {
-      "id": "f101",
-      "parents": ["p102", "p105"],
-      "children": [],
-      "marriageDate": "1930-02-23",
-      "marriagePlace": "El Banco, Magdalena, Colombia"
-    },
-    {
-      "id": "f102",
-      "parents": ["p103", "p106"],
-      "children": [],
-      "marriageDate": "1920-01-09",
-      "marriagePlace": "El Banco, Magdalena, Colombia"
-    },
-    {
       "id": "f160",
       "parents": ["p160", "p164"],
       "children": ["p038", "p039", "p040", "p041", "p042", "p043", "p170"],
@@ -7092,18 +7020,6 @@
       "id": "f171",
       "parents": ["p046", "p172"],
       "children": ["p173", "p174", "p175"]
-    },
-    {
-      "id": "f172",
-      "parents": ["p008", "p009"],
-      "children": ["p047"]
-    },
-    {
-      "id": "f173",
-      "parents": ["p047", "p048"],
-      "children": [],
-      "marriageDate": "1909-04-28",
-      "marriagePlace": "El Banco, Magdalena"
     },
     {
       "id": "f174",
@@ -7299,7 +7215,7 @@
     {
       "id": "fsf07",
       "parents": ["fs022", "fs023"],
-      "children": ["fs026", "fs071", "fs072"],
+      "children": ["fs026", "fs071", "p008"],
       "marriagePlace": "Rioviejo, Bolívar, Colombia (antes de 1850)"
     },
     {
@@ -7415,16 +7331,9 @@
       "notes": "Fuente: AGI ES.41091.AGI//CONTRATACION,5590,N.6 (PARES 99835), partida de matrimonio de su hija (1697)."
     },
     {
-      "id": "fsf21",
-      "parents": ["fs072", "col004"],
-      "children": ["fs073", "fs074"],
-      "marriagePlace": "San Sebastián de Las Palmas, Morales, Bolívar, Colombia",
-      "notes": "Miguel Caamaño Soto + Rudesinda Rangel, Morales hacia 1873-1874."
-    },
-    {
       "id": "f042",
       "parents": ["col005", "p007"],
-      "children": ["col004"],
+      "children": ["p009"],
       "marriagePlace": "El Banco, Magdalena, Colombia",
       "notes": "Pedro Pablo Rangel + Faustina Reales. Primer matrimonio de Faustina, antes de su unión con Manuel E. Caamaño."
     }
@@ -7433,13 +7342,13 @@
     "lastUpdated": "2026-10-14",
     "version": 42,
     "certaintyAudit": {
-      "date": "2026-04-13",
+      "date": "2026-10-14",
       "stats": {
-        "proven": 68,
-        "circumstantial": 306,
-        "hypothetical": 60
+        "proven": 64,
+        "circumstantial": 304,
+        "hypothetical": 62
       },
-      "version": 39
+      "version": 42
     }
   }
 }

@@ -1,12 +1,12 @@
 # Brecha colombiana: quién fue el padre de Benjamín (sesión 2026-10-14)
 
-Búsqueda en FamilySearch con la sesión de LM en Chrome. Cada hallazgo se leyó en la imagen original, no solo en el índice.
+Búsqueda en FamilySearch con la sesión de LM en Chrome. Las secciones "Hallazgos en imagen original" se leyeron en la imagen; las de índice y de texto completo dicen su nivel de confianza.
 
 ## Hallazgos en imagen original
 
 ### 1. Matrimonio de Benjamín A. Caamaño y Dominga Castro, 4-X-1889 (ALTA)
 - Imagen: libro "Matrimonios: San Sebastián de Las Palmas, mayo 1868 – mayo 1894", img 110 de 199, f. 117, partida 5ª. Image group 100743845 (Archivo Diocesano de Magangué), ark de la imagen `3:1:3QSQ-G9GZ-C9BK`. Índice: `1:1:XS6D-QPZP` (indexado por computadora como "J. Caamaño").
-- Texto (lectura propia, puntos dudosos con [?]): "En la Estación Santander, a los cuatro días del mes de octubre del año de mil ochocientos ochenta i nueve, Yo, el Presbítero Bernabé Trespalacios, Cura de la parroquia de Morales i sus agregaciones, con delegación del Ilustrísimo Señor Obispo de la Diócesis Doctor José Romero, Diócesis de Santa Marta, previa la información correspondiente de soltería, cristiandad i habilidad canónica, cuyos documentos se remitieron al Cura de la parroquia de [Chimichagua?], a quien pertenece la susodicha agregación, desposé [por motivo de conciencia?] al Señor **Benjamín A. Caamaño, hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero**, con Dominga Castro, hija legítima de Antonino Castro i Emilia Erazo, difuntos ambos, hallándose esta última con su salud delicada a consecuencias de un aborto; cuyo matrimonio fué presenciado por los Señores Julián Esparragoza i Doña Antonia López de [Trellez?]…"
+- Texto (lectura propia, puntos dudosos con [?]): "En la Estación Santander, a los cuatro días del mes de octubre del año de mil ochocientos ochenta i nueve, Yo, el Presbítero Bernabé Trespalacios, Cura de la parroquia de Morales i sus agregaciones, con delegación del Ilustrísimo Señor Obispo de la Diócesis Doctor José Romero, Diócesis de Santa Marta, previa la información correspondiente de soltería, cristiandad i habilidad canónica, cuyos documentos se remitieron al Cura de la parroquia de Aguachica (relectura), a quien pertenece la susodicha agregación, desposé [por motivo de conciencia?] al Señor **Benjamín A. Caamaño, hijo legítimo de Manuel E. Caamaño i Faustina J. Reales, difunto el primero**, con Dominga Castro, hija legítima de Antonino Castro i Emilia Erazo, difuntos ambos, hallándose esta última con su salud delicada a consecuencias de un aborto; cuyo matrimonio fué presenciado por los Señores Julián Esparragoza i Doña Antonia López de [Trellez?]…"
 - **Consecuencia:** el padre de Benjamín (p013) es **Manuel E. Caamaño**, muerto antes de 1889, no "José Tomás Caamaño Soto" (p006, tradición oral). El cura es el mismo Bernabé Trespalacios que casó en 1891 a José Tomás Caamaño Soto (fs026, hijo de Trinidad) en Rioviejo.
 
 ### 2. Matrimonio de Manuel Camaño y Faustina Reales, 3-X-1869, El Banco (ALTA)
@@ -52,10 +52,14 @@ Búsqueda en FamilySearch con la sesión de LM en Chrome. Cada hallazgo se leyó
 ## Hipótesis a probar (NO aplicada al árbol)
 Manuel E. Caamaño (natural de Rioviejo, nacido hacia 1835-1845) podría ser hijo o hermano de Trinidad Caamaño. Falta el documento que lo diga: bautismo de Manuel en Morales/Rioviejo, o su entierro (El Banco, octubre de 1869).
 
-## Siguientes pasos
-1. Entierro de Manuel Camaño, El Banco, octubre-noviembre de 1869 (film 004001320, defunciones 1843-1916).
-2. Bautismo de Benjamín en El Banco, 1858-1869, quizá como hijo natural de Faustina Reales.
-3. Bautismos de Morales/Rioviejo hacia 1830-1850 (Archivo Diocesano de Magangué) para Manuel y Trinidad.
+## Siguientes pasos (actualizados tras la revisión de expertos)
+1. Escritura completa de la donación de 1869 (fol. 14v) y protocolos de septiembre a octubre de 1869 de la notaría de El Banco, buscando un testamento de Manuel.
+2. Bautismo de Felicia (img 105-106) en imagen y revisión a ojo de los bautismos de El Banco 1848-1869 buscando a Benjamín.
+3. Entierro o testamento de Trinidad Caamaño y todas las partidas Caamaño de Morales 1868-1898.
+4. Registro civil o bautismo de Luis Alberto (1949) y la tarjeta DAS citada.
+5. Expediente matrimonial de 1889 (San Roque de Aguachica, diócesis de Ocaña, y archivo diocesano de Santa Marta).
+6. Libros de Morales y Rioviejo anteriores a 1868 (Magangué o Cartagena).
+7. Pendientes de imagen: Manuel Felipe en el Rosario, posible identidad Manuel Felipe = Manuel J. (p019/p163), Brígida p109 frente a Eduvigis p183.
 
 ## Mompós, Bautismos 1821-1827 (463 img), revisado completo
 - Sin ningún Caamaño de Rioviejo. El índice marca tres entradas de Mompós: img 92 "Toribia Josefa Caman", img 236 "Toribia Josefa Camango" (no vistas a ojo) e img 230, donde Juliana Pastora Camaño es madrina en un bautismo de 1824 (vista). Misma familia Camaño de Mompós; sin vínculo con Rioviejo.
@@ -89,3 +93,10 @@ Transcripción automática; cada cita se leyó en el panel de transcripción, no
 - Hijos: José Licerio (n. 27-VIII-1877, bautizado en Morales el 20-X-1877, ark `3:1:3QS7-89GZ-CHM8`) y "[…]sa Victoria" (n. un 22 de diciembre, libro 1879-1883, ark `3:1:3QSQ-G9GZ-CRS`).
 - Faustina fue madrina en Morales en 1874 y 1877 (`3:1:3QS7-89GZ-C4X2`, `3:1:3QS7-89GZ-C4KN`).
 - **Consecuencia:** la familia de Trinidad y la de Faustina estaban unidas por matrimonio: Rudesinda, media hermana de Benjamín, era nuera de Trinidad. Sigue sin probarse que Manuel fuera hijo de Trinidad.
+
+## Revisión de tres expertos (2026-10-14) y cambios aplicados
+- Fusionados: fs072→p008 (Miguel), col004→p009 (Rudesinda), fs073→p046 (José Licerio), p167→p012, p168→fs019; familias fsf21 y f172→f006, f173→f014. Miguel ahora cuelga de Trinidad y Damiana (fsf07), no de p001.
+- Borradas las familias corruptas f100, f101 y f102, y quitados p100-p103 de los hijos de Benjamín.
+- Certeza: p012, p160, p161 y p046 bajan a circumstantial (solo índice u OCR); p010 y p011 bajan a hypothetical (solo tradición).
+- Manuel y Trinidad: "posible pariente", sin el argumento de los nombres (dependía de personas sin documento).
+- Agregada p206, madre de Luis Miguel (solo nombre, por privacidad).

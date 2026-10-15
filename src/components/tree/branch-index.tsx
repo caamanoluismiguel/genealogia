@@ -59,14 +59,14 @@ const BRANCHES: Branch[] = [
     id: "licerio",
     label: "Rama Licerio",
     flag: "🇨🇴",
-    personId: "p171",
-    description: "Licerio Caamaño Rangel + Ana María Benavides. El Banco.",
+    personId: "p046",
+    description: "José Licerio Caamaño Rangel (1877), hijo de Miguel Caamaño Soto. El Banco.",
   },
   {
     id: "jacob",
     label: "Rama Jacob",
     flag: "🇨🇴",
-    personId: "p178",
+    personId: "p047",
     description: "Miguel → Jacob Caamaño + Salvadora Blanquicet. El Banco.",
   },
 ];
