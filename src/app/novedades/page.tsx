@@ -31,9 +31,11 @@ const CHANGELOG: ChangeEntry[] = [
     date: "2026-10-14",
     title: "El padre de Benjamín era Manuel, de Rioviejo",
     type: "descubrimiento",
-    persons: 429,
-    families: 114,
+    persons: 434,
+    families: 116,
     highlights: [
+      "Faustina Reales estuvo casada antes con Pedro Pablo Rangel. Su hija Rudesinda Rangel, media hermana de Benjamín, se casó hacia 1874 con Miguel Caamaño Soto, hijo de Trinidad. Las dos familias estaban unidas.",
+      "En agosto de 1869 Manuel le donó una casa en El Banco a sus hijos Benjamín y Felicia, un mes antes de casarse en su lecho de muerte.",
       "Cuatro hijos de Benjamín (Manuel Felipe, Emilio, Benjamín y Camilo) se matricularon en el Colegio Mayor del Rosario, en Bogotá. Benjamín hijo murió en Bogotá en 1972 y Camilo en 1980.",
       "Hacia 1895 Benjamín compró una plantación de cacao y plátano en el sitio de Las Bonitas, sobre el río Lebrija, por 540 pesos.",
       "Emilio y su esposa Emma Laino estaban repetidos en el árbol. Ahora es una sola familia con sus siete hijos.",

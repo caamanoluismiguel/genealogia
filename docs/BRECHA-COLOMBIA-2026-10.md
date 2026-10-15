@@ -81,3 +81,11 @@ Transcripción automática; cada cita se leyó en el panel de transcripción, no
 - Emilio Caamaño casó en El Banco el 4-VIII-1928 con Emma Luino, hija de Domingo Luino y Emigdia Navarro (`1:1:F2RV-GJF`).
 - Camilo Caamaño casó en El Banco el 23-II-1930 con María Luisa Villalobos, hija de Augusto Villalobos y Acasia Bustamante (`1:1:F2RV-PX6`).
 - En el Árbol Familiar de FamilySearch Benjamín está duplicado: P78W-NTC ("Benjamin Caamaño Real") y GR4Q-7SL.
+
+## Faustina Reales en el texto completo (2026-10-14)
+- **Donación de 1869** (índice de la notaría de El Banco, ark `3:1:3Q9M-CSW9-MSLC-N`): "30 de agosto de 1869, fol. 14 v. Manuel Camaño hace donación de una casa a sus hijos naturales menores Benjamín i Felicia habidos en Faustina Reales". Solo nombra a esos dos hijos.
+- **Primer matrimonio de Faustina**: tuvo a Rudesinda Rangel con Pedro Pablo Rangel (difunto hacia 1874).
+- **Miguel Caamaño Soto × Rudesinda Rangel**, Morales hacia 1873-1874 (libro de matrimonios 1868-1894, img 29-30, ark `3:1:3QSQ-G9GZ-C95F`, transcripción + imagen): Miguel "hijo legítimo de los señores Trinidad Caamaño i Damiana Soto"; Rudesinda "natural de la parroquia del Banco… hija legítima de los señores Pedro Pablo Ranjel, difunto, i Faustina Reales". La partida siguiente es de febrero de 1874. Confirma el índice que antes no habíamos visto.
+- Hijos: José Licerio (n. 27-VIII-1877, bautizado en Morales el 20-X-1877, ark `3:1:3QS7-89GZ-CHM8`) y "[…]sa Victoria" (n. un 22 de diciembre, libro 1879-1883, ark `3:1:3QSQ-G9GZ-CRS`).
+- Faustina fue madrina en Morales en 1874 y 1877 (`3:1:3QS7-89GZ-C4X2`, `3:1:3QS7-89GZ-C4KN`).
+- **Consecuencia:** la familia de Trinidad y la de Faustina estaban unidas por matrimonio: Rudesinda, media hermana de Benjamín, era nuera de Trinidad. Sigue sin probarse que Manuel fuera hijo de Trinidad.
